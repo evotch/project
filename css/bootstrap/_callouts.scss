@@ -1,0 +1,97 @@
+//
+// callouts
+// --------------------------------------------------
+
+
+// Base styles
+// -------------------------
+
+.callout {
+  padding: $callout-padding;
+  margin-bottom: $line-height-computed;
+  border: 1px solid  transparent;
+  border-left: 8px solid transparent;
+  border-radius: $callout-border-radius;
+
+  // Headings for larger callouts
+  h4 {
+    margin-top: 0;
+    // Specified for the h4 to prevent conflicts of changing $headings-color
+    color: inherit;
+  }
+  // Provide class for links that match callouts
+  .callout-link {
+    font-weight: $callout-link-font-weight;
+  }
+
+  // Improve alignment and spacing of inner content
+  > p,
+  > ul {
+    margin-bottom: 0;
+  }
+  > p + p {
+    margin-top: 5px;
+  }
+}
+
+// Dismissible callouts
+//
+// Expand the right padding and account for the close button's positioning.
+
+.callout-dismissable, // The misspelled .callout-dismissable was deprecated in 3.2.0.
+.callout-dismissible {
+  padding-right: ($callout-padding + 20);
+
+  // Adjust close link position
+  .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+  }
+}
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the callout.
+
+.callout-navy {
+  border-color: $gray-lighter;
+  border-left-color: $navy;
+}
+.callout-teal {
+  border-color: $gray-lighter;
+  border-left-color: $teal;
+}
+.callout-success, .callout-green {
+  border-color: $gray-lighter;
+  border-left-color: $green;
+}
+.callout-brown {
+  border-color: $gray-lighter;
+  border-left-color: $brown;
+}
+.callout-orange {
+  border-color: $gray-lighter;
+  border-left-color: $orange;
+}
+.callout-gold {
+  border-color: $gray-lighter;
+  border-left-color: $gold;
+}
+.callout-blue {
+  border-color: $gray-lighter;
+  border-left-color: $blue;
+}
+.callout-pink {
+  border-color: $gray-lighter;
+  border-left-color: $pink;
+}
+.callout-plum {
+  border-color: $gray-lighter;
+  border-left-color: $plum;
+}
+.callout-info, .callout-aqua {
+  border-color: $gray-lighter;
+  border-left-color: $aqua;
+}

@@ -1,0 +1,44 @@
+/* Flight Formlet  This SCSS needs to be rewritten */
+
+
+@media (min-width: 600px) {
+	  .sales-offer {
+		padding: 0em 0px 0px 8em;	
+		display: block;
+	}
+}
+
+@media (max-width: 600px) {
+	  .sales-offer {display: inline;padding: 0;}
+}
+
+.sales-offer h1, .sales-offer.h1 {
+font-size: 50px;
+line-height: 1.25em;
+}
+.sales-offer h1, .sales-offer .h1 { margin: 3px 0; font-weight: bold; color:$navy }
+.sales-offer h3, .sales-offer .h3 { margin: 3px 0; font-size: 14px; text-transform: uppercase; color:$navy }
+
+
+.sales-offer .btn {
+margin: 10px 0;
+}
+
+.sales-offer .price {
+font-size: 96px;
+font-weight: bold;
+color: $white;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.18);
+line-height: .95em;
+}
+.sales-offer .price sup {
+font-weight: normal;
+font-size: .6em;
+top: -.4em;
+}
+
+.sales-offer .price sub {
+bottom: 0;
+font-weight: normal;
+font-size: 14px;
+}

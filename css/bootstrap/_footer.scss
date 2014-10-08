@@ -1,0 +1,15 @@
+//
+// Custom partial for the footer
+
+
+
+footer {background-color: $navy; padding: 40px 0;border-top: 1px solid $tan; margin-top: 40px; color: $white}
+
+.footer-headlines {color: $white}
+
+footer h1, footer .h1 {@extend .footer-headlines;}
+footer h2, footer .h2 {@extend .footer-headlines;}
+footer h3, footer .h3 {@extend .footer-headlines;}
+footer h4, footer .h4 {@extend .footer-headlines;}
+footer h5, footer .h5 {@extend .footer-headlines;}
+footer h6, footer .h6 {@extend .footer-headlines;}

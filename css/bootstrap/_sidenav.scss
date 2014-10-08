@@ -1,0 +1,27 @@
+/*sidenav*/
+
+
+	@media (min-width: 992px) {
+
+	/*Makes the side nav fixed*/
+	    .affix {
+	    position: fixed;
+	    top: 20px;
+	    }
+
+
+		.sidenav.affix-top {
+		position: relative;
+		top: 13px;
+		}
+	}
+	.sidenav li .nav {
+	display: none;
+	}		
+	.sidenav li.active .nav {
+	display: block;
+	}
+	.sidenav .active .nav>li>a {
+	padding: 3px 0 3px 20px;
+	color: $gray;
+	}

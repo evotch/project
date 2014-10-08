@@ -1,0 +1,52 @@
+//Changes the colors of the dropdown menu
+.bookingForms select.form-control {
+	color: $navy;
+}
+
+.bookingForms  {
+	@extend .panel-white;
+}
+
+.bookingForms>.nav-justified {
+	padding: 0 1em;
+	}
+
+
+.bookingForms .nav-tabs>li {
+	border-radius: $border-radius-base;
+	padding-right: 2px;
+}
+
+.bookingForms .nav-tabs {
+	border:0px;
+}
+
+//makes the booking hover color
+.bookingForms .nav-tabs>li.active a:hover {
+	background-color: $green;
+	border-radius: $border-radius-base;
+}
+.bookingForms>.nav-tabs li a {
+	border:0px;
+}
+.bookingForms>.nav-tabs li.active:hover a {
+	border:0px;
+}
+
+.bookingForms .nav-tabs>li.active a {
+	background-color: $green;
+	border-radius: $border-radius-base;
+	color: $white;
+	border: 0px; //removes default border
+}
+
+.bookingForms .nav-tabs>li a:hover {
+	background-color: $green;
+	color: $white;
+	border-radius: $border-radius-base;
+}
+.flightSearch .radio label, .flightSearch .checkbox label {
+	padding-right: 20px
+}
+
+
