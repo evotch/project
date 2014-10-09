@@ -77,6 +77,38 @@
 .btn-danger {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
+// Navy Ghost Btn
+.btn-ghost-navy {
+  @include button-variant($navy, $btn-ghost-bg, $navy);
+}
+// Blue Ghost Btn
+.btn-ghost-blue {
+  @include button-variant($blue, $btn-ghost-bg, $blue);
+}
+// Green Ghost Btn
+.btn-ghost-green {
+  @include button-variant($green, $btn-ghost-bg, $green);
+}
+// Teal Ghost Btn
+.btn-ghost-teal {
+  @include button-variant($teal, $btn-ghost-bg, $teal);
+}
+// Pink Ghost Btn
+.btn-ghost-pink {
+  @include button-variant($pink, $btn-ghost-bg, $pink);
+}
+// Plum Ghost Btn
+.btn-ghost-plum {
+  @include button-variant($plum, $btn-ghost-bg, $plum);
+}
+// Brown Ghost Btn
+.btn-ghost-brown {
+  @include button-variant($brown, $btn-ghost-bg, $brown);
+}
+// Gold Ghost Btn
+.btn-ghost-gold {
+  @include button-variant($gold, $btn-ghost-bg, $gold);
+}
 
 
 // Link buttons
