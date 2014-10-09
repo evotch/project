@@ -25,14 +25,15 @@ $plum: #522a3a; /*darker*/
 $pink: #922a49;
 $blue: #00567e;
 $orange: #e37d38;
+$black: #000;
 
 
 //## Gray and brand colors for use across Bootstrap.
-$gray-darker:            lighten(#000, 13.5%) !default; // #222
-$gray-dark:              lighten(#000, 20%) !default;   // #333
-$gray:                   lighten(#000, 40%) !default;   // #666
-$gray-light:             lighten(#000, 46.7%) !default; // #777
-$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+$gray-darker:            lighten($black, 13.5%) !default; // #222
+$gray-dark:              lighten($black, 20%) !default;   // #333
+$gray:                   lighten($black, 40%) !default;   // #666
+$gray-light:             lighten($black, 46.7%) !default; // #777
+$gray-lighter:           lighten($black, 93.5%) !default; // #eee
 
 $brand-primary:         $navy !default;
 $brand-success:         $green !default;
@@ -194,6 +195,7 @@ $btn-link-disabled-color:        $gray-light !default;
 
 $btn-ghost-bg:					 transparent !default;
 $btn-ghost-bg-hover:			 transparentize($white, .9);
+$btn-ghost-navy-bg-hover:		 transparentize($navy, .9);
 
 
 //== Forms
@@ -265,7 +267,7 @@ $dropdown-link-disabled-color:   $gray-light !default;
 $dropdown-header-color:          $gray-light !default;
 
 //** Deprecated `$dropdown-caret-color` as of v3.1.0
-$dropdown-caret-color:           #000 !default;
+$dropdown-caret-color:           $black !default;
 
 
 //-- Z-index master list
@@ -554,7 +556,7 @@ $tooltip-max-width:           200px !default;
 //** Tooltip text color
 $tooltip-color:               #fff !default;
 //** Tooltip background color
-$tooltip-bg:                  #000 !default;
+$tooltip-bg:                  $black !default;
 $tooltip-opacity:             .9 !default;
 
 //** Tooltip arrow width
@@ -635,7 +637,7 @@ $modal-content-border-color:                   rgba(0,0,0,.2) !default;
 $modal-content-fallback-border-color:          #999 !default;
 
 //** Modal backdrop background color
-$modal-backdrop-bg:           #000 !default;
+$modal-backdrop-bg:           $black !default;
 //** Modal backdrop opacity
 $modal-backdrop-opacity:      .5 !default;
 //** Modal header border color
@@ -851,7 +853,7 @@ $carousel-caption-color:                      #fff !default;
 //##
 
 $close-font-weight:           bold !default;
-$close-color:                 #000 !default;
+$close-color:                 $black !default;
 $close-text-shadow:           0 1px 0 #fff !default;
 
 

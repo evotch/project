@@ -81,6 +81,9 @@
 .btn-ghost-navy {
   @include button-variant($navy, $btn-ghost-bg, $navy);
 }
+.btn-ghost-navy:hover {
+  @include button-variant($white, $blue, $btn-primary-border);
+}
 // Blue Ghost Btn
 .btn-ghost-blue {
   @include button-variant($blue, $btn-ghost-bg, $blue);
