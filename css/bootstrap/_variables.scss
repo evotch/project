@@ -193,6 +193,7 @@ $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
 $btn-link-disabled-color:        $gray-light !default;
 
 $btn-ghost-bg:					 transparent !default;
+$btn-ghost-bg-hover:			 transparentize($white, .9);
 
 
 //== Forms

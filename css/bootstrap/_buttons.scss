@@ -109,6 +109,14 @@
 .btn-ghost-gold {
   @include button-variant($gold, $btn-ghost-bg, $gold);
 }
+// White Ghost Btn
+.btn-ghost-white {
+  @include button-variant($white, $btn-ghost-bg, $white);
+}
+// White Ghost Btn
+.btn-ghost-white:hover {
+  @include button-variant($white, $btn-ghost-bg-hover, $white);
+}
 
 
 // Link buttons

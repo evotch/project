@@ -8,7 +8,7 @@
                     <p>At Alaska Airlines we are a company of pioneers, genuinely curious with a taste for adventure. We propel the industry with technological innovation and the highest standards of customer satisfaction. Enjoy a flight that mirrors life here in the Northwest &mdash; comfortable, efficient, and forward thinking.</p>
                     <p>Most importantly, we bring our own love of travel and exploration on board with us, so that we can share it with you.</p>
                 </div>
-                <a class="btn btn-ghost-gold" href="#">Explore More</a>
+                <a class="btn btn-ghost-white" href="#">Explore More</a>
             </div>
             <div class="col-sm-3">
                 <h5><i class="fa fa-user"></i>Custom Support</h5>
