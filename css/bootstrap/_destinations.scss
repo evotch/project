@@ -1,0 +1,240 @@
+.module-Picturecontainer {
+height: 200px;
+}
+
+.module-content {padding-bottom: 40px;}
+
+a.destinations .headlines {
+	color: $white;
+}
+@media all and (max-width: 48em) {
+
+	a.destinations .headlines {
+		font-size: 1.5em;
+	}
+}
+@media all and (max-width: 48em) {
+
+	a.destinations h2 {
+		font-size: 1.65em;
+	}
+}
+a.destinations {
+	color: $white;
+	text-decoration: none;
+}
+
+.destinations div.module-blueContainer {
+	min-height: 15.5em;
+}
+
+#emsl1 {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/kauai.ashx);
+	background-position: right center;
+	background-size: 200%;
+	background-repeat: no-repeat;
+}
+#emsl2 {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/kauai.ashx);
+	background-position: left center;
+	background-size: 230%;
+	background-repeat: no-repeat;
+}
+
+#emsl3 {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/kauai.ashx);
+	background-position: left center;
+	background-size: 300%;
+	background-repeat: no-repeat;
+}
+
+#emsl4 {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/kauai.ashx);
+	background-position: left center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+/*Kauai*/
+.destination-kauai {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/kauai.ashx);
+	background-position: left center;
+	background-size: 105%;
+	background-repeat: no-repeat;
+}
+@media all and (min-width: 48em) and (max-width: 62em)  {
+	.destination-kauai {
+		background-size: initial;
+	}
+}
+@media all and (max-width: 32em) {
+	.destination-kauai {
+		background-size: initial;
+	}
+}
+
+/*Puerto Vallarta*/
+.destination-puertovallarta {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/puertovallarta.ashx);
+	background-position: left center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+@media all and (max-width: 32em) {
+	.destination-puertovallarta {
+		background-size: initial;
+	}
+}
+
+/*New Orleans*/
+.destination-neworleans {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/neworleans.ashx);
+	background-position: right center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*New York*/
+.destination-newyork {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/newyork.ashx);
+	background-position: left center;
+	background-size: 140%;
+	background-repeat: no-repeat;
+}
+@media all and (max-width: 40em) {
+	.destination-newyork {
+		background-size: 200%;
+	}
+}
+@media all and (max-width: 24em) {
+	.destination-newyork {
+		background-size: initial;
+	}
+}
+
+
+/*San Diego*/
+.destination-sandiego {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/sandiego.ashx);
+	background-position: left center;
+	background-size: 107%;
+	background-repeat: no-repeat;
+}
+
+@media all and (max-width: 30em) {
+	.destination-sandiego {
+		background-size: initial;
+	}
+}
+.destination-sandiego .module-blueContainer {
+	background-color: rgba( $navy, .1 );
+}
+.destination-sandiego .module-blueContainer:hover {
+	background-color: rgba( $navy, .3 );
+}
+
+
+
+
+
+#emsl5 h2 {line-height: 7em}
+
+#pic1, .destination-chicago {
+	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/3814934-u4415-fr.jpg);
+	background-position: center;
+	background-size: 101%;
+	background-repeat: no-repeat;
+}
+
+.destination-orlando {
+	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/BLP0106233.JPG);
+	background-position: center;
+	background-size: 101%;
+	background-repeat: no-repeat;
+}
+.destination-orlando div.module-blueContainer {
+	background-color: rgba( $navy, .75 );
+}
+
+.destination-rome {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/rome.ashx);
+	background-position: center;
+	background-size: 101%;
+	background-repeat: no-repeat;
+}
+
+.destination-rome {
+	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/3654241-u5666-fr.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 13.95em;
+	color: $white;
+}
+
+
+.destination-rome div.module-blueContainer {
+	background-color: rgba( $navy, .01 );
+}
+
+@media all and (max-width: 26.7em) {
+	.destination-rome {
+	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/3654241-u5666-fr.png);
+	background-position: center;
+	background-size: 142%;
+}
+}
+
+
+
+#pic2 {
+	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/6241955-u4414-fr.jpg);
+	background-position: center;
+	background-size: 101%;
+	background-repeat: no-repeat;
+}
+.destination-vegas {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/lasvegas.ashx);
+	background-position: center;
+	background-size: 101%;
+	background-repeat: no-repeat;
+}
+#pic3 {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/kauai.ashx);
+	background-position: center;
+	background-size: 101%;
+	background-repeat: no-repeat;
+}
+#pic4 {
+	background-image: url(http://www.alaskaair.com/~/media/Images/destinations/kauai.ashx);
+	background-position: center;
+	background-size: 101%;
+	background-repeat: no-repeat;
+}
+
+
+.grid-3x4 .module-Picturecontainer, .grid-3x4-nomargin .module-Picturecontainer {min-height: 9em;}
+
+.module-carouselImages img {width: 11.1em;height: auto;margin-right: .5em;}
+.module-carouselImages {min-height: 147px;}
+
+
+.module-textareaWhite {
+	font-size: 2em;
+	float: right;
+	color: $white;
+	padding: 3em 2em;
+	text-align: center;
+}
+.module-textareaWhite .headlines {
+	color: $white;
+}
+
+/*Force text on hero a little further down*/
+div.layout-40.module-textareaWhite {
+position: relative;
+top: 25px;
+}
+
+

@@ -33,6 +33,7 @@ $gray-darker:            lighten($black, 13.5%) !default; // #222
 $gray-dark:              lighten($black, 20%) !default;   // #333
 $gray:                   lighten($black, 40%) !default;   // #666
 $gray-light:             lighten($black, 46.7%) !default; // #777
+$gray-disabled:          lighten($black, 85.5%) !default; // #eee
 $gray-lighter:           lighten($black, 93.5%) !default; // #eee
 
 $brand-primary:         $navy !default;

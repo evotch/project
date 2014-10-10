@@ -21,6 +21,25 @@
         "outputStyle": "compressed",
         "autoprefixer": false
       }
+    },
+    "cc55d583": {
+      "id": "cc55d583",
+      "pid": "f28e1b0b",
+      "name": "destinations.scss",
+      "input": "css\\bootstrap\\destinations.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "compressed",
+        "autoprefixer": false
+      }
     }
   },
   "imports": {},

@@ -1,4 +1,4 @@
-          <div class="homelet"><!-- The Homelet -->
+          <div class="homelet hidden-xs hidden-sm hidden-md"><!-- The Homelet -->
             <!-- Nav tabs -->
             <ul class="nav nav-tabs nav-justified" role="tablist">
               <li class="active"><a href="#booking" role="tab" data-toggle="tab">Book</a></li>

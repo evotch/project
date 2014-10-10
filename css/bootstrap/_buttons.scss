@@ -77,6 +77,15 @@
 .btn-danger {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
+// Disabled Button
+.btn-disabled {
+  background-color: $gray-lighter;
+  color: $gray-disabled;
+}
+.btn-disabled:hover {
+  @extend .btn-disabled;
+  cursor: auto;
+}
 // Navy Ghost Btn
 .btn-ghost-navy {
   @include button-variant($navy, $btn-ghost-bg, $navy);

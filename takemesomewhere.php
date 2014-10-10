@@ -1,19 +1,14 @@
 <?php include ("header.php"); ?>
-<div class="jumbotron hero">
+<div class="jumbotron">
   <div class="container">
-    <div class="col-sm-6">
-      <?php include ("forms/homelet.php"); ?>
+    <div class="col-sm-8">
+      	<?php include ("sections/map.php"); ?>
       </div><!-- end column-->
-      <div class="col-sm-6">
-        <div class="sales-offer">
-          <h1>Flight Deals</h1>
-          <h3>Low Fares Starting at</h3>
-          <div class="price"><sup>$</sup>79<sub>one way</sub></div>
-          <button type="button" class="btn btn-lg btn-default">View Offers</button><br>
-          <small>Available for a Limited Time</small>
-        </div>
-      </div>
+      <div class="col-sm-4">
+      	<?php include ("sections/map.php"); ?>
+      </div><!-- end column-->
     </div>
+
   </div>
   <div class="container">
     <div class="alert alert-warning" role="alert">
@@ -35,8 +30,6 @@
         </div>
       </div>
     </div>
-    <hr>
   </div>
-
     <?php include ("sections/destinations.php"); ?>
     <?php include ("footer.php"); ?>
