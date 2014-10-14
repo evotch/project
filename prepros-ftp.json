@@ -1,7 +1,7 @@
 {
   ".git/config": {
     "size": 306,
-    "date": "2014-10-10T17:57:49.784Z"
+    "date": "2014-10-10T18:32:15.724Z"
   },
   ".git/description": {
     "size": 73,
@@ -9,7 +9,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 101,
-    "date": "2014-10-10T17:57:50.322Z"
+    "date": "2014-10-10T18:32:16.085Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -20,24 +20,24 @@
     "date": "2014-10-10T17:57:50.993Z"
   },
   ".git/index": {
-    "size": 10488,
-    "date": "2014-10-10T17:57:51.496Z"
+    "size": 11104,
+    "date": "2014-10-10T18:32:16.430Z"
   },
   ".git/info/exclude": {
     "size": 113,
     "date": "2014-10-10T17:57:51.805Z"
   },
   ".git/logs/HEAD": {
-    "size": 1026,
-    "date": "2014-10-10T17:57:52.193Z"
+    "size": 1208,
+    "date": "2014-10-10T18:32:16.725Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 1026,
-    "date": "2014-10-10T17:57:52.633Z"
+    "size": 1208,
+    "date": "2014-10-10T18:32:16.935Z"
   },
   ".git/logs/refs/remotes/origin/master": {
-    "size": 876,
-    "date": "2014-10-10T17:57:53.070Z"
+    "size": 1022,
+    "date": "2014-10-10T18:32:17.250Z"
   },
   ".git/objects/00/386a2881ebc178e81dc7453f39970b4a1e9b32": {
     "size": 1779,
@@ -737,19 +737,19 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2014-10-10T17:58:54.704Z"
+    "date": "2014-10-10T18:32:17.587Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
-    "date": "2014-10-10T17:58:55.077Z"
+    "date": "2014-10-10T18:32:18.623Z"
   },
   ".gitattributes": {
     "size": 505,
     "date": "2014-10-10T17:58:55.428Z"
   },
   "css/styles.css": {
-    "size": 134122,
-    "date": "2014-10-10T17:58:56.048Z"
+    "size": 134383,
+    "date": "2014-10-10T21:34:10.861Z"
   },
   "css/_bootstrap-variables.sass.erb": {
     "size": 244,
@@ -808,20 +808,20 @@
     "date": "2014-10-10T17:59:02.069Z"
   },
   "forms/signIn.php": {
-    "size": 2489,
-    "date": "2014-10-10T17:59:02.423Z"
+    "size": 2500,
+    "date": "2014-10-10T18:36:46.231Z"
   },
   "header.php": {
-    "size": 5149,
-    "date": "2014-10-10T17:59:02.910Z"
+    "size": 5126,
+    "date": "2014-10-10T18:33:15.834Z"
   },
   "homepage.html": {
     "size": 21326,
     "date": "2014-10-10T17:59:03.428Z"
   },
   "homepage.php": {
-    "size": 1442,
-    "date": "2014-10-10T17:59:03.709Z"
+    "size": 1471,
+    "date": "2014-10-10T21:35:21.092Z"
   },
   "index.html": {
     "size": 43960,
@@ -844,16 +844,16 @@
     "date": "2014-10-10T17:59:05.820Z"
   },
   "myaccount/mvpgold.php": {
-    "size": 889,
-    "date": "2014-10-10T17:59:06.081Z"
+    "size": 1352,
+    "date": "2014-10-10T21:34:11.424Z"
   },
   "pages/takemesomewhere.php": {
     "size": 843,
-    "date": "2014-10-10T17:59:06.469Z"
+    "date": "2014-10-10T21:34:11.766Z"
   },
   "prepros-ftp.json": {
-    "size": 24941,
-    "date": "2014-10-10T17:59:07.087Z"
+    "size": 29273,
+    "date": "2014-10-10T21:35:21.453Z"
   },
   "prepros.json": {
     "size": 2192,
@@ -886,5 +886,121 @@
   "voice.php": {
     "size": 12580,
     "date": "2014-10-10T17:59:10.486Z"
+  },
+  ".git/objects/15/24059ddf507ee84b5ddc3e279fb867aba1fcb0": {
+    "size": 179,
+    "date": "2014-10-10T18:32:05.605Z"
+  },
+  ".git/objects/1a/8f57767f84c65955d21e0b123e1d23b0148798": {
+    "size": 445,
+    "date": "2014-10-10T18:32:05.936Z"
+  },
+  ".git/objects/24/59c9a80e410338c4e3499dc7685462304657ff": {
+    "size": 469,
+    "date": "2014-10-10T18:32:06.250Z"
+  },
+  ".git/objects/28/c2631b7730611e6e32924b9b392f71f987a023": {
+    "size": 1502,
+    "date": "2014-10-10T18:32:06.550Z"
+  },
+  ".git/objects/37/17986ee8fd23010194693d1bc4981e2e42386d": {
+    "size": 428,
+    "date": "2014-10-10T18:32:06.793Z"
+  },
+  ".git/objects/48/23e675de547ea84438801ac477484c5d18455d": {
+    "size": 181,
+    "date": "2014-10-10T18:32:07.067Z"
+  },
+  ".git/objects/5c/b8cd27d1c06a5a314a02e1b7f7cc451991d54d": {
+    "size": 1326,
+    "date": "2014-10-10T18:32:07.359Z"
+  },
+  ".git/objects/66/be7d1b009dc597066ef153cec50754f8286925": {
+    "size": 80,
+    "date": "2014-10-10T18:32:07.557Z"
+  },
+  ".git/objects/6e/af60c1eba6a64de43b36dca3f3442d953a381a": {
+    "size": 1169,
+    "date": "2014-10-10T18:32:07.936Z"
+  },
+  ".git/objects/74/344ae2879f1bf6c5a1bc90ef918aaccca01c57": {
+    "size": 7614,
+    "date": "2014-10-10T18:32:08.325Z"
+  },
+  ".git/objects/75/58c67ee7c5e7781ea0a615b802bcd48debbbcc": {
+    "size": 579,
+    "date": "2014-10-10T18:32:08.741Z"
+  },
+  ".git/objects/77/9c309ff62bdea926d3729964cc0c587d8f5ec3": {
+    "size": 680,
+    "date": "2014-10-10T18:32:09.087Z"
+  },
+  ".git/objects/7a/5cc6908aa5d9590a1500a5a8b497100e3cda63": {
+    "size": 206,
+    "date": "2014-10-10T18:32:09.400Z"
+  },
+  ".git/objects/96/0375cd248fcb486ee10d5f59b8ac87eb70b732": {
+    "size": 337,
+    "date": "2014-10-10T18:32:09.630Z"
+  },
+  ".git/objects/a1/6d6f9a2631c9b0f6bd97c0eb57a574ccaf9472": {
+    "size": 589,
+    "date": "2014-10-10T18:32:09.917Z"
+  },
+  ".git/objects/a7/61e33936ea7da46532b22b922f481937159147": {
+    "size": 27330,
+    "date": "2014-10-10T18:32:10.338Z"
+  },
+  ".git/objects/a8/47d56baa94cad12134d05ccc17032a791a4272": {
+    "size": 86569,
+    "date": "2014-10-10T18:32:11.017Z"
+  },
+  ".git/objects/b5/83e32e26f57545bbcf25c68203b463aeb090ee": {
+    "size": 607,
+    "date": "2014-10-10T18:32:11.300Z"
+  },
+  ".git/objects/ba/96095cc3b1e78fa83bca801b1cc330f335fdeb": {
+    "size": 31,
+    "date": "2014-10-10T18:32:11.608Z"
+  },
+  ".git/objects/bf/88017700d16c82a79120ff26d81f9efcb59b45": {
+    "size": 64,
+    "date": "2014-10-10T18:32:12.001Z"
+  },
+  ".git/objects/c7/c023ca55f54c1835e600abc05f965f864d4ee7": {
+    "size": 130,
+    "date": "2014-10-10T18:32:12.351Z"
+  },
+  ".git/objects/c9/9a3a56784a4cd16deb4c1832a4150494ed6103": {
+    "size": 1475,
+    "date": "2014-10-10T18:32:12.812Z"
+  },
+  ".git/objects/cc/fc097a882ce6de68c91fb877e650127caa12a2": {
+    "size": 292,
+    "date": "2014-10-10T18:32:13.161Z"
+  },
+  ".git/objects/d0/d34e8e41e199b602b0fb6262772b3957d748b5": {
+    "size": 769,
+    "date": "2014-10-10T18:32:13.538Z"
+  },
+  ".git/objects/d2/065e724aa955d82e4b080d25aeb8fc10162738": {
+    "size": 1508,
+    "date": "2014-10-10T18:32:13.994Z"
+  },
+  ".git/objects/e3/c72284bc8d747627765dcc70300e669d763f1c": {
+    "size": 8267,
+    "date": "2014-10-10T18:32:14.458Z"
+  },
+  ".git/objects/f0/8fb6e0a0c964a63e2da07e2755a58ee65ce14e": {
+    "size": 432,
+    "date": "2014-10-10T18:32:14.803Z"
+  },
+  ".git/objects/fc/56eebbbce51eecfd178b133727c7d824a13fd8": {
+    "size": 337,
+    "date": "2014-10-10T18:32:15.107Z"
+  },
+  "img/logo.png": {
+    "size": 11379,
+    "date": "2014-10-10T18:32:15.521Z"
   }
 }

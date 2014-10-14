@@ -20,19 +20,19 @@
                   <!-- Tab panes -->
                   <div class="tab-content">
                     <div class="tab-pane active flightSearch" id="flights">
-                      <?php include ("forms/flight.php"); ?>
+                      <?php include ("flight.php"); ?>
                     </div>
                     <!-- Hotels-->
                     <div class="tab-pane" id="hotels">
-                      <?php include ("forms/hotel.php"); ?>
+                      <?php include ("hotel.php"); ?>
                     </div>
                     <!-- Cars -->
                     <div class="tab-pane" id="cars">
-                      <?php include ("forms/car.php"); ?>
+                      <?php include ("car.php"); ?>
                     </div>
                     <!-- Packages -->
                     <div class="tab-pane" id="packages">
-                      <?php include ("forms/package.php"); ?>
+                      <?php include ("package.php"); ?>
                     </div> 
                   </div><!-- End Tab panes -->  
                 </div><!-- End Booking Forms -->
@@ -40,15 +40,15 @@
               </div>
               <!-- checkin-->
               <div class="tab-pane" id="checkin">
-                <?php include ("forms/flight.php"); ?>
+                <?php include ("flight.php"); ?>
               </div>
               <!-- Manage -->
               <div class="tab-pane" id="manage">
-                <?php include ("forms/package.php"); ?>
+                <?php include ("package.php"); ?>
               </div>
               <!-- Packages -->
               <div class="tab-pane" id="status">
-                <?php include ("forms/package.php"); ?>
+                <?php include ("package.php"); ?>
               </div> 
             </div><!-- End Tab panes -->  
           </div><!-- End Booking Forms -->

@@ -8,7 +8,7 @@
   <title>Alaska Airlines Style Guide</title>
   <!-- Bootstrap core CSS -->
   
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="../css/styles.css" rel="stylesheet">
   <link href='//www.alaskaair.com/content/~/media/Files/fonts/atlas/atlas.css' rel='stylesheet' type='text/css'>
   <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">
   <script src="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.js"></script>
@@ -25,9 +25,9 @@
   <!-- NAVBAR
   ================================================== -->
   <body>
-  <div class="container" style="padding:20px 0 75px">
+  <div class="container" style="padding:20px 0 50px">
       <div class="col-md-3">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" height="50"></a>
+        <a class="navbar-brand" href="#"><img src="../img/logo.png" height="60"></a>
       </div>
       <div class="col-md-9">
         
@@ -51,7 +51,7 @@
             <ul class="nav navbar-nav">
               <li><a href="homepage.php">Home</a></li>
               <li class="dropdown">
-                <a href="index.php" class="dropdown-toggle" data-toggle="dropdown">Style Guide <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style Guide <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="index.php#colors">Brand Colors</a></li>
                   <li><a href="index.php#buttons">Buttons</a></li>                  
@@ -78,7 +78,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="pages/takemesomewhere.php#">Take Me Somewhere</a></li>
+                  <li><a href="takemesomewhere.php#">Take Me Somewhere</a></li>
                   <li><a href="#">Another action</a></li>
                   <li><a href="#">Something else here</a></li>
                   <li class="divider"></li>

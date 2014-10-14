@@ -1,98 +1,5 @@
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="../../favicon.ico">
-  <title>Alaska Airlines Style Guide</title>
-  <!-- Bootstrap core CSS -->
-  
-  <link href="css\styles.css" rel="stylesheet">
-  <link href='//www.alaskaair.com/content/~/media/Files/fonts/atlas/atlas.css' rel='stylesheet' type='text/css'>
-    <!--<link http://www.newrepublic.com/sites/all/themes/tnr/assets/fonts/Atlas%20Grotesk%20Web-Regular.woff>-->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <style id="holderjs-style" type="text/css"></style>
-    <style type="text/css">    .col-md-3.toc > ul > li {
-padding-left: 0;
-border-left: 6px solid #eee;
-}</style>
-
-  </head>
-  <!-- NAVBAR
-  ================================================== -->
-  <body>
-    <div class="container" style="padding:20px 0 75px">
-      <div class="col-xl-3">
-        <a class="navbar-brand" href="#"><img src="http://localhost:8002/img/logo.png" height="80"></a>
-      </div>
-      <div class="col-xl-9">
-        
-      </div>
-    </div>
-    <div class="navbar-wrapper">
-      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="homepage.html">Home</a></li>
-              <li><a href="index.html">Style Guide</a></li>
-              <li><a href="#colors">Brand Colors</a></li>
-              <li><a href="#buttons">Buttons</a></li>
-              <li><a href="voice.html">Voice</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Stuff <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <?php include ("../sections/header.php"); ?>
+   
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -229,9 +136,9 @@ border-left: 6px solid #eee;
             <button type="button" class="btn btn-default">Default</button>
             <button type="button" class="btn btn-primary">Primary</button>
             <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-ghost-green">Green</button>
+            <button type="button" class="btn btn-ghost-navy">Navy</button>
+            <button type="button" class="btn btn-ghost-blue">Blue</button>
             <button type="button" class="btn btn-link">Link</button>
             </p>
         <pre><code class="html">
@@ -317,7 +224,7 @@ border-left: 6px solid #eee;
                     <td class="type-info">Bold 12px</td>
                   </tr>
                   <tr>
-                    <td><h3 class="secondary">secondary h4. heading</h4></td>
+                    <td><h3 class="secondary">secondary h4. heading</h3></td>
                     <td class="type-info">Normal 18px</td>
                   </tr>
                   <tr>
@@ -479,7 +386,7 @@ border-left: 6px solid #eee;
 
         <div class="col-md-3 toc" role="main">
           <div class="page-header">
-            <h3>Table of Contents</h1>
+            <h3>Table of Contents</h3>
           </div>
           <ul class="nav bs-docs-sidenav">
             <li><a href="#current">Done So Far</a>
@@ -629,20 +536,5 @@ border-left: 6px solid #eee;
     </div>
     <hr>
     <!-- /END THE FEATURETTES -->
-    <!-- FOOTER -->
-    <footer>
-      <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>© 2014 Alaska Airlines. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
-    </div><!-- /.container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-    
-    
-    <div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1411401643585">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1411401643585" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div><span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; opacity: 0.9; cursor: pointer; top: 2144.5px; left: 694.5px; background-image: url(chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@1x.png); background-size: 100px 25px;"></span></body></html>
+    </div>
+    <?php include ("../sections/footer.php"); ?>

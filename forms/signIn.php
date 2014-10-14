@@ -1,4 +1,4 @@
-<div class="module-MyAccountSignUp"> <a id="signUpLink" class="subdued" title="Sign Up" tabindex="8" href="https://www.alaskaair.com/www2/ssl/myalaskaair/myalaskaair.aspx?CurrentForm=UCMyAccountCreate&amp;lid=MyAccount:Sign Up">Join MileagePlan™</a> </div>
+<div class="module-MyAccountSignUp"> <a id="signUpLink" class="subdued pull-right" title="Sign Up" tabindex="8" href="https://www.alaskaair.com/www2/ssl/myalaskaair/myalaskaair.aspx?CurrentForm=UCMyAccountCreate&amp;lid=MyAccount:Sign Up">Join MileagePlan™</a> </div>
 <h3>Sign In</h3>
 <form action="https://www.alaskaair.com/www2/ssl/myalaskaair/myalaskaair.aspx?CurrentForm=UCSignInStart" method="post" role="form">
 	<div class="module-MyAccountUserID">

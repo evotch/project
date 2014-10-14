@@ -1,4 +1,4 @@
-  <?php include ("header.php"); ?>
+  <?php include ("../sections/header.php"); ?>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -181,4 +181,4 @@
         </div><!--end col3-->
       </div><!--end row-->
     </div><!--end container-->
-    <?php include ("footer.php"); ?>
+    <?php include ("../sections/footer.php"); ?>

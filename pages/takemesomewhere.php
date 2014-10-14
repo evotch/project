@@ -1,4 +1,4 @@
-<?php include ("../header.php"); ?>
+<?php include ("../sections/header.php"); ?>
 <div class="jumbotron1">
   <div class="container">
     <div class="col-sm-7">
@@ -26,4 +26,4 @@
     </div>
   </div>
     <?php include ("../sections/destinations.php"); ?>
-    <?php include ("../footer.php"); ?>
+    <?php include ("../sections/footer.php"); ?>

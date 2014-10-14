@@ -1,8 +1,10 @@
-<?php include ("header.php"); ?>
+<?php include ("../sections/header.php"); ?>
 <div class="jumbotron hero">
+
   <div class="container">
+  <div class="row">
     <div class="col-sm-6">
-      <?php include ("forms/homelet.php"); ?>
+      <?php include ("../forms/homelet.php"); ?>
       </div><!-- end column-->
       <div class="col-sm-6">
         <div class="sales-offer">
@@ -15,7 +17,9 @@
       </div>
     </div>
   </div>
+  </div>
   <div class="container">
+
     <div class="alert alert-warning" role="alert">
       <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span>
       <span class="sr-only">Close</span></button>
@@ -24,19 +28,20 @@
   </div>
   <div class="container">
     <div class="row">
+    	<div class="col-sm-8">
+	        <div class="panel-white">
+	          <?php include ("../myaccount/mvpgold.php"); ?>
+	        </div>
+      	</div>
       <div class="col-sm-4">
-        <div class="signIn panel-white">
-          <?php include ("forms/signIn.php"); ?>
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <div class="panel-white">
-          <?php include ("myaccount/mvpgold.php"); ?>
-        </div>
-      </div>
+          <div class="destination-rome module-Picturecontainer" style="height:310px">FPO</div>
+          
+         
+          </div>
+      </div><hr>
     </div>
-    <hr>
   </div>
 
-    <?php include ("sections/destinations.php"); ?>
-    <?php include ("footer.php"); ?>
+
+    <?php include ("../sections/destinations.php"); ?>
+    <?php include ("../sections/footer.php"); ?>
