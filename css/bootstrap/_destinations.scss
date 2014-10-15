@@ -1,8 +1,17 @@
 .module-Picturecontainer {
 height: 200px;
+max-height: 180px;
 }
 
 .module-content {padding-bottom: 40px;}
+
+.module-Picturecontainer-text {
+	@extend .module-Picturecontainer;
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
 
 a.destinations .headlines {
 	color: $white;

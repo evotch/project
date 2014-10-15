@@ -5,8 +5,8 @@
             <div class="col-sm-6">
                 <h5><i class="fa fa-plane"></i>About Us</h5>
                 <div class="textBox">
-                    <p>At Alaska Airlines we are a company of pioneers, genuinely curious with a taste for adventure. We propel the industry with technological innovation and the highest standards of customer satisfaction. Enjoy a flight that mirrors life here in the Northwest &mdash; comfortable, efficient, and forward thinking.</p>
-                    <p>Most importantly, we bring our own love of travel and exploration on board with us, so that we can share it with you.</p>
+                    <p>At Alaska Airlines we are a company of pioneers. Genuinely curious with a taste for adventure, we take full advantage of our many opportunities to see the world. You will find a passion for discovery in everything we do, from the food we serve to the destinations we visit.</p>
+                    <p>Most importantly, we bring that love of travel and exploration on board with us, so that we can share it with you.</p>
                 </div>
                 <a class="btn btn-success" href="#">Explore More</a>
             </div>
@@ -50,7 +50,23 @@
             </div>
         </div>
     </div>
-</footer><!--
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 social">
+            <span class="h6">Connect with us </span><a href="#"><i class="icon-google-plus"></i></a> <a href="#"><i class="icon-facebook"></i></a>  <a href="#"><i class="icon-twitter"></i></a> <a href="#"><i class="icon-github"></i></a> <a href="#"><i class="icon-pinterest"></i></a>
+        </div>
+        <div class="col-sm-6">
+            Copyright &copy; 1995 - 2014 Alaska Air Group, Inc. All Rights Reserved</a>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+
+
+<!--
 <div class="subfooter">
     <div class="container">
         <div class="row">

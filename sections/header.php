@@ -78,8 +78,8 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="takemesomewhere.php#">Take Me Somewhere</a></li>
-                  <li><a href="#">Another action</a></li>
+                  <li><a href="takemesomewhere.php">Take Me Somewhere</a></li>
+                  <li><a href="landing-page.php">Landing Page</a></li>
                   <li><a href="#">Something else here</a></li>
                   <li class="divider"></li>
                   <li class="dropdown-header">Nav header</li>
