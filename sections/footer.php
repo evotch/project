@@ -53,6 +53,7 @@
 <hr>
 <div class="container">
     <div class="row">
+    
         <div class="col-sm-6 social">
             <span class="h6">Connect with us </span><a href="#"><i class="icon-google-plus"></i></a> <a href="#"><i class="icon-facebook"></i></a>  <a href="#"><i class="icon-twitter"></i></a> <a href="#"><i class="icon-github"></i></a> <a href="#"><i class="icon-pinterest"></i></a>
         </div>

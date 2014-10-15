@@ -80,7 +80,7 @@
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="takemesomewhere.php">Take Me Somewhere</a></li>
                   <li><a href="landing-page.php">Landing Page</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a href="google-maps.php">Google Maps <span class="label label-success">New</span></a></li>
                   <li class="divider"></li>
                   <li class="dropdown-header">Nav header</li>
                   <li><a href="#">Separated link</a></li>
