@@ -16,7 +16,7 @@ $white: #FFF;
 $navy: #0e2b51;
 $teal: #004f51;
 $brown: #4d3524;
-$green: #358f43;
+$green: #4d803b;// old green #358f43;
 $tan: #b7af9b;
 $cream: #e9e5dd;
 $aqua: #9ed0c9;
@@ -333,7 +333,7 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 //** Number of columns in the grid.
 $grid-columns:              12 !default;
 //** Padding between columns. Gets divided in half for the left and right.
-$grid-gutter-width:         30px !default;
+$grid-gutter-width:         30px !default;//We may want to change this from 30px to 40px
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 $grid-float-breakpoint:     $screen-sm-min !default;

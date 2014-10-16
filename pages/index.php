@@ -28,10 +28,10 @@
               <strong>SASS:</strong> $teal
             </div>
             <div class="col-sm-3 panel-green well-lg">
-              <strong>PMS:</strong> 7740 C<br>
-              <strong>CMYK:</strong> 80, 20, 100, 5<br>
-              <strong>RGB:</strong> 53, 144, 68<br>
-              <strong>HEX:</strong> #358f43<br>
+              <strong>PMS:</strong> 2278 C<br>
+              <strong>CMYK:</strong> 73, 28, 100, 14<br>
+              <strong>RGB:</strong> 78, 129, 59<br>
+              <strong>HEX:</strong> #4d803b<br>
               <strong>Uncoated PMS:</strong> 362 U<br>
               <strong>SASS:</strong> $green
             </div>
