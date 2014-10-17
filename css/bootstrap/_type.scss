@@ -25,7 +25,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: $line-height-computed;
-  margin-bottom: ($line-height-computed / 2);
+  margin-bottom: ($line-height-computed / 2);// look into why this is half
 
   small,
   .small {
@@ -53,7 +53,6 @@ h6, .h6 { font-size: $font-size-h6; }
 
 
   .secondary {
-    color: $teal;
     font-weight: normal;
   }
 

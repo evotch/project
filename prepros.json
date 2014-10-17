@@ -24,7 +24,18 @@
     }
   },
   "imports": {},
-  "images": {},
+  "images": {
+    "fd7675f3": {
+      "id": "fd7675f3",
+      "pid": "f28e1b0b",
+      "path": "img\\logo.png",
+      "size": 11379,
+      "name": "logo.png",
+      "type": "Png",
+      "initialSize": 11379,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
   "config": {
     "watch": true,
     "liveRefresh": true,

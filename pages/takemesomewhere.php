@@ -11,19 +11,12 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="signIn panel-white">
-          <?php include ("../forms/signIn.php"); ?>
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <div class="panel-white">
-          <?php include ("../myaccount/mvpgold.php"); ?>
-        </div>
-      </div>
-    </div>
-  </div>
-    <?php include ("../sections/destinations.php"); ?>
+<div class="container">
+<div class="row">
+<div class="col-sm-12"><hr>
+<h1 class="text-center">Discover</h1>
+</div>
+</div>
+</div>
+<?php include ("../sections/destinations_1x4.php"); ?>
     <?php include ("../sections/footer.php"); ?>
