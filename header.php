@@ -25,28 +25,23 @@
   <!-- NAVBAR
   ================================================== -->
   <body>
-  <div class="container" style="padding:20px 0 75px">
-      <div class="col-md-3">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" height="50"></a>
-      </div>
-      <div class="col-md-9">
-        
-      </div>
-    </div>
     <div class="navbar-wrapper">
-      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="navbar navbar-static-top" role="navigation">
         <div class="container">
-
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+    <div class="col-md-3">
+        <a href="#"><img src="img/logo.png" height="50"></a>
+    </div>
+    <div class="col-md-9">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
             
-          </div>
-          <div class="navbar-collapse collapse">
+        </div>
+        <div class="navbar-collapse collapse">
 
             <ul class="nav navbar-nav">
               <li><a href="homepage.php">Home</a></li>
@@ -101,18 +96,12 @@
               </li>
             </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-          <li>
-          <form class="navbar-form navbar-left" role="search">
-	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
-	        </div>
-      	  </form>
-      	  </li>
-          </ul>
+         
           
 
 
       </div>
+      </div>
+ 
       </div>
       </div>

@@ -4,7 +4,7 @@
 </style>
 
 <div class="signin-club49">
-<h3>Welcome, Superlongaccountholdername</h3>
+<h3>Welcome, John</h3>
 <div class="row">
 	<div class="col-md-4">
 		<div class="progress">

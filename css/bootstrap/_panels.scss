@@ -244,16 +244,7 @@
 }
 
 //Panel Images
-.panel-image {
-min-height: 180px;
-}
-.panel-image-featured {
-min-height: 500px;
-margin-top: -$panel-body-padding;
-margin-bottom: -$panel-body-padding;
-margin-right:-$panel-body-padding;
-margin-left:-$panel-body-padding / 2;
-}
+
 
 //Custom Ones I'm adding to match our brand colors
 .panel-navy {
@@ -308,12 +299,48 @@ margin-left:-$panel-body-padding / 2;
   color:$white;
   background-color:$blue;
 }
+$luis-padding: $panel-body-padding * 1.333333333334;
+
+.panel-image {
+min-height: 180px;
+}
+.panel-image-featured {
+min-height: 500px;
+margin-top: -$luis-padding;
+margin-bottom: -$luis-padding;
+margin-right:-$luis-padding;
+margin-left:-$luis-padding;
+}
+
 //Custom Ones from Luis' collection
-.panel-luis1 h3{
+
+.panel-luis1 {
+  .panel-image {
+min-height: 180px;
+}
+.panel-image-featured {
+min-height: 500px;
+margin-top: -$luis-padding;
+margin-bottom: -$luis-padding;
+margin-right:-$luis-padding;
+margin-left:-$luis-padding;
+}
+.panel-video-featured {
+margin-top: -$luis-padding;
+margin-bottom: -$luis-padding;
+margin-right:-$luis-padding;
+margin-left:-$luis-padding;
+}
+
+  .panel-body{
+padding: $luis-padding;
+}
+.panel-heading{
+padding: $luis-padding;
+}
+h3{
   text-transform: uppercase;
 }
-.panel-luis1 {
-
     h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: ($line-height-computed / 4);
   margin-bottom: ($line-height-computed / 4);

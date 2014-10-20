@@ -4,7 +4,7 @@
 
     <h2 class="text-center">Entertainment</h2>
     <div class="col-sm-4">
-      <div class="destination-vegas module-Picturecontainer"></div>
+      <div class="destination-lasvegas module-Picturecontainer"></div>
       <div class="module-headlines">
         <h3>Las Vegas</h3>
         <h4 class="secondary">A few nights of decadence</h4>

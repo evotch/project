@@ -7,18 +7,18 @@ background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframew
 background-size: 220%;
 background-repeat: no-repeat;
 background-position: right 25%;
-margin: -2em 0 1em 0;
+margin: 0px;
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.hero {
-	min-height: 38em;
+	min-height: 37.35em;
 	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/hawaii.jpg);
 	background-size: 102%;
 	background-repeat: no-repeat;
 	background-position: 50% 42%;
-	margin: -1.7em 0 1em 0;
+
 	}
 }
 

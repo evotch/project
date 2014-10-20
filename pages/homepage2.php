@@ -10,12 +10,12 @@
   </div>
   <div class="container">
     <div class="row">
-    	<div class="col-md-8">
+    	<div class="col-sm-8">
 	        <div class="panel-white">
 	          <?php include ("../myaccount/mvpgold.php"); ?>
 	        </div>
       	</div>
-      <div class="col-md-4 hidden-xs hidden-sm">
+      <div class="col-sm-4">
           <div class="destination-rome module-Picturecontainer" style="height:310px">FPO</div>
           
          
@@ -25,5 +25,5 @@
   </div>
 
 
-    <?php include ("../sections/destinations-carousel.php"); ?>
+    <?php include ("../sections/destinations_1x4.php"); ?>
     <?php include ("../sections/footer.php"); ?>

@@ -241,3 +241,6 @@
     bottom: 20px;
   }
 }
+
+//removes the nav margin-bottom when carousels should be flush against the nav
+.carousel-nav {margin-top: -$navbar-margin-bottom;margin-bottom: $navbar-margin-bottom}
