@@ -15,15 +15,17 @@
 	          <?php include ("../myaccount/mvpgold.php"); ?>
 	        </div>
       	</div>
-      <div class="col-md-4 hidden-xs hidden-sm">
-          <div class="destination-rome module-Picturecontainer" style="height:310px">FPO</div>
-          
-         
-          </div>
-      </div><hr>
+        <div class="col-md-4 hidden-xs hidden-sm">
+            <div class="destination-rome module-Picturecontainer">
+              <div class="bluetint"><span>FPO</span>
+              </div>
+            </div>
+        </div>
+      </div>
+      <hr>
     </div>
   </div>
 
-
+<br><br>
     <?php include ("../sections/destinations-carousel.php"); ?>
     <?php include ("../sections/footer.php"); ?>

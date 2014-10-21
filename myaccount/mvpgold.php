@@ -19,7 +19,7 @@
 </div>
 <span class="pull-right" style="padding:10px 0;">Guest Upgrades <button type="button" class="btn btn-xs btn-success">4</button> | Companion Fare <button type="button" class="btn btn-xs btn-success">1</button></span>
 
-<h4>Upcoming Trips</h4>
+<h5 class="secondary">Upcoming Trips</h5>
 <table class="table table-striped">
   <tr>
 	<td>Puerto Vallarta</td><td>Tue, Oct 14</td><td>ABCDEF</td><td><button type="button" class="btn btn-sm btn-default">Check In</button></td>
@@ -29,7 +29,6 @@
   </tr>
   </tr>
 </table>
-<span class="pull-right"><button type="button" class="btn btn-sm btn-ghost-navy">My Account</button></span>
 <a href="#">Renew Board Room Membership</a> | <a href="#">Renew Club 49</a>
 </div>
 

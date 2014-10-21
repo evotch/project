@@ -25,7 +25,7 @@
       <div class="panel-body">
       
       <h6 class="plum">Wine</h6>
-      <h3>Sonamo</h3>
+      <h3>Sonoma</h3>
       <br>
       Augue auctor quis, aliquam dolor fringilla pretium consectetur adipiscing elit. Nam faucibus nisl eget tempus rhoncus. Nulla a nisl varius, convallis magna suscipit, eleifend nibh.
       </div><div class="panel-heading"><a class="orange" href="#">Learn More</a></div>

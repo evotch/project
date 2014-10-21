@@ -6,9 +6,9 @@
     <div class="container marketing">
       <div class="row">
         <div class="col-md-9">
-          <div class="bs-docs-section">
+          <div id="colors" class="bs-docs-section">
             <div class="page-header">
-              <h1 id="colors">Brand Colors</h1>
+              <h1>Brand Colors</h1>
               <h4 class="secondary">Primary & Secondary Colors</h4>
             </div>
             <div class="col-sm-3 panel-navy well-lg">
@@ -129,8 +129,8 @@
           </div>
           <div class="clearfix"></div>
           <!-- TESTING FETAURES OF BOOTSTRAP -->
-          <div class="bs-docs-section">
-            <h1 id="buttons" class="page-header">Buttons</h1>
+          <div id="buttons" class="bs-docs-section">
+            <h1 class="page-header">Buttons</h1>
             <p>There are 3 sizes of buttons available to use.  We'll use the top 3 as our primary buttons along with a deemphasized button.  Below are examples of medium and small buttons along with info, warning, and danger buttons.</p>
             <p>
             <button type="button" class="btn btn-default">Default</button>
@@ -188,8 +188,8 @@
 <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default btn-sm"</span><span class="nt">&gt;</span>Small button<span class="nt">&lt;/button&gt;</span></code></pre>
             </div>
           </div>
-          <div class="bs-docs-section">
-            <h1 id="typography" class="page-header">Typography</h1>
+          <div id="typography" class="bs-docs-section">
+            <h1 class="page-header">Typography</h1>
             <p>Our brand font is called <strong>Atlas</strong>. It is an elegant, modern typeface that signals professionalism and yet retains an approachable and friendly personality. This is our main typeface and should be used in all communications materials. For the web their are 2 treatments available to use, <strong>Atlas Bold</strong>, and Atlas Regular.</p>
             <h6><strong>Note: Do not substitute any other typeface for our brand font.</strong></h6>
             <!-- Headings -->
@@ -239,8 +239,8 @@
               </table>
             </div>
             </div>
-            <div class="bs-docs-section">
-              <h1 id="callouts" class="page-header">Callouts</h1>
+            <div id="callouts" class="bs-docs-section">
+              <h1 class="page-header">Callouts</h1>
               <p>There will be times when you wish to call out certain important sections of text.  With the <code>.callout</code> you can add a border around a block of text. You can add this class to any block element like a <code>div</code>, <code>p</code>, <code>h1</code>.  There are 10 types of callouts <code>.callout-navy</code> <code>.callout-teal</code> <code>.callout-green</code> <code>.callout-brown</code> <code>.callout-orange</code> <code>.callout-gold</code> <code>.callout-plum</code> <code>.callout-pink</code> <code>.callout-blue</code></p>
 <pre><code class="html">&lt;div class="callout callout-info"&gt;
 &lt;h4&gt;Some Heading&lt;/h4&gt;

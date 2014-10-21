@@ -783,10 +783,6 @@
     "size": 23320,
     "date": "2014-10-10T17:58:59.990Z"
   },
-  "footer.php": {
-    "size": 5337,
-    "date": "2014-10-10T17:59:00.477Z"
-  },
   "forms/car.php": {
     "size": 939,
     "date": "2014-10-10T17:59:00.800Z"
@@ -818,14 +814,6 @@
   "homepage.html": {
     "size": 21326,
     "date": "2014-10-10T17:59:03.428Z"
-  },
-  "homepage.php": {
-    "size": 1471,
-    "date": "2014-10-10T21:35:21.092Z"
-  },
-  "index.html": {
-    "size": 43960,
-    "date": "2014-10-10T17:59:04.379Z"
   },
   "index.php": {
     "size": 37045,
@@ -882,10 +870,6 @@
   "voice.html~RF8e5c62a.TMP": {
     "size": 12672,
     "date": "2014-10-10T17:59:10.096Z"
-  },
-  "voice.php": {
-    "size": 12580,
-    "date": "2014-10-10T17:59:10.486Z"
   },
   ".git/objects/15/24059ddf507ee84b5ddc3e279fb867aba1fcb0": {
     "size": 179,
