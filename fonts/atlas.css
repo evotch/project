@@ -27,7 +27,7 @@
          url('atlas/AtlasGrotesk-Light-Web.woff') format('woff'),
          url('atlas/AtlasGrotesk-Light-Web.ttf') format('truetype'),
          url('atlas/AtlasGrotesk-Light-Web.svg') format('svg');
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
 }
 @font-face {
@@ -37,7 +37,7 @@
          url('atlas/AtlasGrotesk-Thin-Web.woff') format('woff'),
          url('atlas/AtlasGrotesk-Thin-Web.ttf') format('truetype'),
          url('atlas/AtlasGrotesk-Thin-Web.svg') format('svg');
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
 }
 @font-face {
