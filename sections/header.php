@@ -9,7 +9,7 @@
   <!-- Bootstrap core CSS -->
   
   <link href="../css/styles.css" rel="stylesheet">
-  <link href='//www.alaskaair.com/content/~/media/Files/fonts/atlas/atlas.css' rel='stylesheet' type='text/css'>
+  <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
   <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">
   <script src="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.js"></script>
     <!--<link http://www.newrepublic.com/sites/all/themes/tnr/assets/fonts/Atlas%20Grotesk%20Web-Regular.woff>-->

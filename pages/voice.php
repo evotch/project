@@ -1,4 +1,14 @@
   <?php include ("../sections/header.php"); ?>
+  <style>
+  .sidenav .active .nav>li>a {
+    padding: 1px 0 1px 20px;
+    font-size: .9em;
+  }
+  .sidenav .nav>li>a {
+    padding: 1px 15px;
+    font-size: .9em;
+  }
+  </style>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -7,28 +17,40 @@
         <div class="col-md-9">
           <div class="docs-section">
             <div class="page-header">
-              <h1 id="colors">When and how do I use this style guide?</h1>
+              <h3>When and how do I use this style guide?</h3>
             </div>
             <p>This portion of the Digital Style Guide. It used as an asset when creating written content across all digital channels. Please refer to this guide when determining how to treat terms and style on alaskaair.com. This document also speaks to the treatment of titles, headers, and sub headers; the use of text over imagery; and buttons/CTAs.
             For all grammatical questions, please refer to the Chicago Manual of Style. 
             </p>
+          </div>
+          <div id="A" class="docs-section"> 
+          <div class="page-header">
+              <h3>Tone of Voice for all digital channels</h3>
+            </div>
+            <p>The Alaska brand voice leans heavily towards a conversational tone with the feeling of a one-to-one conversation. With a voice that is knowledgeable, helpful, inspiring, and full of curiosity we express something about how people want to feel.</p>
+            <p>Our focus has moved away from describing the products and services that we offer. We now articulate the human benefits that those services provide.</p>
+            <p>We are speaking directly to our customers without the use of industry specific language, to tell the story of living a richer life through travel.</p>
+
+          </div>          
+
+            <div id="A" class="docs-section">   
             <div class="page-header">
-              <h1 id="colors">Terms</h1>
-              <h4 id="A">A</h4>               
+              <h3>Terms</h3>
+              <h4>A</h4>               
             </div>
             <h4 id="ampm">am/pm</h4> 
             <p>To express the time of day in regular text, use the following guidelines:</p>
             <div class="callout callout-teal">
                 <h4>Example</h4>
                   <p>10:00 am (space after number, lowercase letters, no periods)<br>
-              11:00 pm (space after number, lowercase letters, no periods)</p>
+             :00 pm (space after number, lowercase letters, no periods)</p>
               </div>
               
             <h4 id="abbreviations">Abbreviations, monetary</h4> 
             <p>Use the following guidelines when it comes to standard monetary abbreviations on alaskaair.com. Do not use "15K" or "$15k" to abbreviate thousands in distances or dollars. However, it may be used when speaking of Mileage Plan miles. </p>
             <div class="callout callout-teal">
                 <h4>Example</h4>
-                  <p>15,000 miles - $15,000 (USD) - 15K Mileage Plan miles</p>
+                  <p>15,000 miles - $15,000 (USD) -K Mileage Plan miles</p>
             </div>
             <h4 id="account">Account</h4> 
             <p>The feature called My Account encompasses a traveler’s personalized information at alaskaair.com, including their Mileage Plan information. In text, it is acceptable to refer to a traveler’s My Account as their My Account profile. See About My Account link for more background.</p>
@@ -42,7 +64,7 @@
             <p>When noting a person’s age with "years old" in text, use the following formats for different parts of speech:</p>
             <div class="callout callout-teal">
                 <h4>Correct</h4>
-                  <p>Adjective: A 14-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through 12 years old.</p>
+                  <p>Adjective: A-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through years old.</p>
             </div> 
             <h4 id="airfare">Airfare</h4> 
             <p>Always use the term “airfare” as a single word.</p>
@@ -50,23 +72,24 @@
             <p>The website is referred to as alaskaair.com. Use this format when referring to the website in print or Web text.</p>
             <h4 id="asqx">Alaska Airlines and Horizon Air</h4> 
             <p>Alaska Airlines and Horizon Air display a registered trademark &reg; in the lower right-hand area of the logo. As long as the logo appears with the correct &reg; symbol, it is not necessary to use the symbol in body copy.</p>            
-                      
+            </div>
+            <div id="B" class="docs-section">                    
             <div class="page-header">
-              <h4 id="B">B</h4>               
+              <h4>B</h4>               
             </div>
             <h4 id="ampm">am/pm</h4> 
             <p>To express the time of day in regular text, use the following guidelines:</p>
             <div class="callout callout-teal">
                 <h4>Example</h4>
                   <p>10:00 am (space after number, lowercase letters, no periods)<br>
-              11:00 pm (space after number, lowercase letters, no periods)</p>
+             :00 pm (space after number, lowercase letters, no periods)</p>
               </div>
               
             <h4 id="abbreviations">Abbreviations, monetary</h4> 
             <p>Use the following guidelines when it comes to standard monetary abbreviations on alaskaair.com. Do not use "15K" or "$15k" to abbreviate thousands in distances or dollars. However, it may be used when speaking of Mileage Plan miles. </p>
             <div class="callout callout-teal">
                 <h4>Example</h4>
-                  <p>15,000 miles - $15,000 (USD) - 15K Mileage Plan miles</p>
+                  <p>15,000 miles - $15,000 (USD) -K Mileage Plan miles</p>
             </div>
             <h4 id="account">Account</h4> 
             <p>The feature called My Account encompasses a traveler’s personalized information at alaskaair.com, including their Mileage Plan information. In text, it is acceptable to refer to a traveler’s My Account as their My Account profile. See About My Account link for more background.</p>
@@ -80,7 +103,7 @@
             <p>When noting a person’s age with "years old" in text, use the following formats for different parts of speech:</p>
             <div class="callout callout-teal">
                 <h4>Correct</h4>
-                  <p>Adjective: A 14-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through 12 years old.</p>
+                  <p>Adjective: A-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through years old.</p>
             </div> 
             <h4 id="airfare">Airfare</h4> 
             <p>Always use the term “airfare” as a single word.</p>
@@ -88,23 +111,24 @@
             <p>The website is referred to as alaskaair.com. Use this format when referring to the website in print or Web text.</p>
             <h4 id="asqx">Alaska Airlines and Horizon Air</h4> 
             <p>Alaska Airlines and Horizon Air display a registered trademark &reg; in the lower right-hand area of the logo. As long as the logo appears with the correct &reg; symbol, it is not necessary to use the symbol in body copy.</p>            
- 
+            </div>
+            <div id="C" class="docs-section">   
             <div class="page-header">
-              <h4 id="C">C</h4>               
+              <h4>C</h4>               
             </div>
             <h4 id="ampm">am/pm</h4> 
             <p>To express the time of day in regular text, use the following guidelines:</p>
             <div class="callout callout-teal">
                 <h4>Example</h4>
                   <p>10:00 am (space after number, lowercase letters, no periods)<br>
-              11:00 pm (space after number, lowercase letters, no periods)</p>
+             :00 pm (space after number, lowercase letters, no periods)</p>
               </div>
               
             <h4 id="abbreviations">Abbreviations, monetary</h4> 
             <p>Use the following guidelines when it comes to standard monetary abbreviations on alaskaair.com. Do not use "15K" or "$15k" to abbreviate thousands in distances or dollars. However, it may be used when speaking of Mileage Plan miles. </p>
             <div class="callout callout-teal">
                 <h4>Example</h4>
-                  <p>15,000 miles - $15,000 (USD) - 15K Mileage Plan miles</p>
+                  <p>15,000 miles - $15,000 (USD) -K Mileage Plan miles</p>
             </div>
             <h4 id="account">Account</h4> 
             <p>The feature called My Account encompasses a traveler’s personalized information at alaskaair.com, including their Mileage Plan information. In text, it is acceptable to refer to a traveler’s My Account as their My Account profile. See About My Account link for more background.</p>
@@ -118,7 +142,7 @@
             <p>When noting a person’s age with "years old" in text, use the following formats for different parts of speech:</p>
             <div class="callout callout-teal">
                 <h4>Correct</h4>
-                  <p>Adjective: A 14-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through 12 years old.</p>
+                  <p>Adjective: A-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through years old.</p>
             </div> 
             <h4 id="airfare">Airfare</h4> 
             <p>Always use the term “airfare” as a single word.</p>
@@ -128,6 +152,7 @@
             <p>Alaska Airlines and Horizon Air display a registered trademark &reg; in the lower right-hand area of the logo. As long as the logo appears with the correct &reg; symbol, it is not necessary to use the symbol in body copy.</p>            
  
           </div>
+
         </div>  
         <div class="col-md-3">
           
@@ -152,31 +177,230 @@
               </li>
               <li><a href="#B">B</a>
                 <ul class="nav">
-                    <li><a href="#_Toc400023004">am/pm</a></li>
-                    <li><a href="#_Toc400023005">Abbreviations, monetary</a></li>
-                    <li><a href="#_Toc400023006">Account</a></li>
-                    <li><a href="#_Toc400023007">Affect vs. effect</a></li>
-                    <li><a href="#_Toc400023008">Age</a></li>
-                    <li><a href="#_Toc400023009">Airfare</a></li>
-                    <li><a href="#_Toc400023010">Alaskaair.com</a></li>
-                    <li><a href="#_Toc400023011">Alaska Airlines and Horizon Air</a></li>
-                    <li><a href="#_Toc400023012">AS</a></li>
+                    <li><a href="#">Blackout</a></li>
+                    <li><a href="#">Bold</a></li>
+                    <li><a href="#">Book</a></li>
+                    <li><a href="#">Bonus Travel Certificate (BTC)</a></li>
+                    <li><a href="#">Bring vs. take</a></li>
                 </ul>
               </li>
               <li><a href="#C">C</a>
                 <ul class="nav">
-                    <li><a href="#_Toc400023004">am/pm</a></li>
-                    <li><a href="#_Toc400023005">Abbreviations, monetary</a></li>
-                    <li><a href="#_Toc400023006">Account</a></li>
-                    <li><a href="#_Toc400023007">Affect vs. effect</a></li>
-                    <li><a href="#_Toc400023008">Age</a></li>
-                    <li><a href="#_Toc400023009">Airfare</a></li>
-                    <li><a href="#_Toc400023010">Alaskaair.com</a></li>
-                    <li><a href="#_Toc400023011">Alaska Airlines and Horizon Air</a></li>
-                    <li><a href="#_Toc400023012">AS</a></li>
+                    <li><a href="#">Can vs. may</a></li>
+                    <li><a href="#">Canceled/canceling/cancellation</a></li>
+                    <li><a href="#">Capitalization</a></li>
+                    <li><a href="#">Carry on vs. carry-on</a></li>
+                    <li><a href="#">Check box</a></li>
+                    <li><a href="#">Check in/check-in/checked in</a></li>
+                    <li><a href="#">Check out/checkout/checked out</a></li>
+                    <li><a href="#">Checkpoint</a></li>
+                    <li><a href="#">Choose</a></li>
+                    <li><a href="#">City codes</a></li>
+                    <li><a href="#">City Guides</a></li>
+                    <li><a href="#">Class of service </a></li>
+                    <li><a href="#">Clear vs. uncheck</a></li>
+                    <li><a href="#">Click</a></li>
+                    <li><a href="#">Coach Class</a></li>
+                    <li><a href="#">Commas</a></li>
+                    <li><a href="#">Companion Fare Discount Code </a></li>
+                    <li><a href="#">Confirmation code</a></li>  
+                    <li><a href="#">Connection</a></li>  
+                    <li><a href="#">Currency</a></li>  
+                    <li><a href="#">Customer Care</a></li> 
+                    <li><a href="#">Customer or traveler vs. passenger</a></li> 
                 </ul>
               </li>
-          </ul>
+              <li><a href="#D">D</a>
+                <ul class="nav">
+                    <li><a href="#">Dashes</a></li>
+                    <li><a href="#">Do NOT use spaces on either side of the em dash, or en dash</a></li>
+                    <li><a href="#">Dates</a></li>
+                    <li><a href="#">Dates, abbreviating a series</a></li>
+                    <li><a href="#">Delta Air Lines</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Discount Code</a></li>
+                    <li><a href="#">Double spacing</a></li>
+                </ul>
+              </li>   
+              <li><a href="#E">E</a>
+                <ul class="nav">
+                    <li><a href="#">EasyBiz</a></li>
+                    <li><a href="#">E-mail</a></li>
+                    <li><a href="#">E-Statements</a></li>
+                    <li><a href="#">E-ticket</a></li>
+                    <li><a href="#">Effect vs. affect</a></li>
+                    <li><a href="#">e.g. vs. i.e.</a></li>
+                    <li><a href="#">Electronic ticket</a></li>
+                    <li><a href="#">Ellipsis</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Error messages</a></li>
+                    <li><a href="#">Exchange</a></li>
+                    <li><a href="#">Exclamation points</a></li>
+                </ul>
+              </li>  
+              <li><a href="#F">F</a>
+                <ul class="nav">
+                    <li><a href="#">FAA</a></li>
+                    <li><a href="#">Federal Aviation Administration</a></li>
+                    <li><a href="#">Fewer vs. less</a></li>
+                    <li><a href="#">First Class</a></li>
+                    <li><a href="#">Footnotes</a></li>
+                    <li><a href="#">Free</a></li>
+                    <li><a href="#">Frequent flyer</a></li>
+                </ul>
+              </li> 
+              <li><a href="#G">G</a>
+                <ul class="nav">
+                    <li><a href="#">GDS</a></li>
+                    <li><a href="#">Gift certificate</a></li>
+                </ul>
+              </li> 
+              <li><a href="#H">H</a>
+                <ul class="nav">
+                    <li><a href="#">Hawaii</a></li>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">Horizon Air</a></li>
+                    <li><a href="#">Hyphens</a></li>
+                </ul>
+              </li> 
+              <li><a href="#I">I</a>
+                <ul class="nav">
+                    <li><a href="#">Identification/ID</a></li>
+                    <li><a href="#">i.e. vs. e.g</a></li>
+                    <li><a href="#">IMAGE</a></li>
+                    <li><a href="#">Inflight</a></li>
+                    <li><a href="#">Internet</a></li>
+                    <li><a href="#">Intranet</a></li>
+                    <li><a href="#">ITA</a></li>
+                    <li><a href="#">Italics</a></li>
+                    <li><a href="#">Its vs. it’s</a></li>
+                </ul>
+              </li> 
+              <li><a href="#I">J</a>
+              </li> 
+              <li><a href="#K">K</a>
+              </li>
+              <li><a href="#L">L</a>
+                <ul class="nav">
+                    <li><a href="#">Lay/lie</a></li>
+                    <li><a href="#">Less vs. fewer</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Login vs. sign in</a></li>
+                    <li><a href="#">Low Fare Calendar</a></li>
+                </ul>
+              </li>
+              <li><a href="#M">M</a>
+                <ul class="nav">
+                    <li><a href="#">May vs. can</a></li>
+                    <li><a href="#">Mileage Plan&trade;</a></li>
+                    <li><a href="#">Money &amp; Miles</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">MVP&reg;, MVP&reg; Gold, and Gold 75k</a></li>
+                </ul>
+              </li>
+              <li><a href="#M">N</a>
+                <ul class="nav">
+                    <li><a href="#">Nonrefundable</a></li>
+                    <li><a href="#">Nontransferable</a></li>
+                    <li><a href="#">Nonstop</a></li>
+                </ul>
+              </li>
+              <li><a href="#O">O</a>
+                <ul class="nav">
+                    <li><a href="#">Offline</a></li>
+                    <li><a href="#">Onboard</a></li>
+                    <li><a href="#">One way</a></li>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">Open jaw</a></li>
+                    <li><a href="#">Outbound/inbound</a></li>
+                </ul>
+              </li>
+              <li><a href="#P">P</a>
+                <ul class="nav">
+                    <li><a href="#">Partner</a></li>
+                    <li><a href="#">Partner airline</a></li>
+                    <li><a href="#">Passenger vs. traveler</a></li>
+                    <li><a href="#">Periods</a></li>
+                    <li><a href="#">Phone numbers</a></li>
+                    <li><a href="#">Province/state names</a></li>
+                    <li><a href="#">Punctuation</a></li>
+                </ul>
+              </li>
+              <li><a href="#Q">Q</a>
+                <ul class="nav">
+                    <li><a href="#">Quotation marks</a></li>
+                </ul>
+              </li>
+              <li><a href="#R">R</a>
+                <ul class="nav">
+                    <li><a href="#">Radio button</a></li>
+                    <li><a href="#">Reaccomodate</a></li>
+                    <li><a href="#">Record locator (reloc or PNR)</a></li>
+                    <li><a href="#">Registered trademark</a></li>
+                    <li><a href="#">Reenter</a></li>
+                    <li><a href="#">Reissue</a></li>
+                    <li><a href="#">Reprotect</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">Round trip</a></li>
+                </ul>
+              </li>
+              <li><a href="#S">S</a>
+                <ul class="nav">
+                    <li><a href="#">Sabre</a></li>
+                    <li><a href="#">Sea-Tac</a></li>
+                    <li><a href="#">Security checkpoint</a></li>
+                    <li><a href="#">Segment</a></li>
+                    <li><a href="#">Select</a></li>
+                    <li><a href="#">Self-service kiosk</a></li>
+                    <li><a href="#">Sign in vs. login</a></li>
+                    <li><a href="#">Sign out</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Spacing</a></li>
+                    <li><a href="#">SSR</a></li>
+                    <li><a href="#">Standby</a></li>
+                    <li><a href="#">Sign out</a></li>
+                    <li><a href="#">State/province names</a></li>
+                    <li><a href="#">Sub and super scripting</a></li>
+                    <li><a href="#">Systemwide</a></li>
+                </ul>
+              </li>
+              <li><a href="#T">T</a>
+                <ul class="nav">
+                    <li><a href="#">Time of day</a></li>
+                    <li><a href="#">Time zones</a></li>
+                    <li><a href="#">Tone/voice</a></li>
+                    <li><a href="#">Trademark</a></li>
+                    <li><a href="#">Trademarked item list</a></li>
+                    <li><a href="#">Transfer/transferable/transferred/transferring</a></li>
+                    <li><a href="#">Traveler vs. passenger</a></li>
+                </ul>
+              </li>
+              <li><a href="#U">U</a>
+                <ul class="nav">
+                    <li><a href="#">UMNR</a></li>
+                    <li><a href="#">Uncheck vs. clear</a></li>
+                    <li><a href="#">Underline</a></li>
+                    <li><a href="#">URL</a></li>
+                    <li><a href="#">User ID</a></li>
+                    <li><a href="#">User interface documentation wiki</a></li>
+                </ul>
+              </li>
+              <li><a href="#V">V</a>
+                <ul class="nav">
+                    <li><a href="#">Vacations</a></li>
+                    <li><a href="#">Vacation Packages</a></li>
+                    <li><a href="#">Voice/tone</a></li>
+                </ul>
+              </li>
+              <li><a href="#W">W</a>
+                <ul class="nav">
+                    <li><a href="#">Washington, D.C., airports</a></li>
+                    <li><a href="#">Web addresses</a></li>
+                    <li><a href="#">Web Bag Drop</a></li>
+                    <li><a href="#">Website</a></li>
+                </ul>
+              </li>
+            </ul>
           </div><!--end sidenav holder-->
         </div><!--end col3-->
       </div><!--end row-->
