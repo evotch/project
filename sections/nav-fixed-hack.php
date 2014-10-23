@@ -29,15 +29,14 @@
                 <li><a href="honeymoon.php">Florida</a></li>
                 <li><a href="honeymoon.php">Mexico</a></li> 
               </ul>
-            </li>   
-            <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Graduation</a>
             </li> 
-            <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday</a>
-            </li> 
-            <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Family Reunions</a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Ideas<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="honeymoon.php">Graduation</a></li>
+                <li><a href="honeymoon.php">Birthday</a></li>                  
+                <li><a href="honeymoon.php">Family Reunions</a></li>
+              </ul>
             </li> 
           </ul>
           <ul class="nav navbar-nav navbar-right">
