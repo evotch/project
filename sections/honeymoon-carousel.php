@@ -19,7 +19,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img src="http://unsplash.imgix.net/39/yvDPJ8ZSmSVob7pRxIvU_IMG_40322.jpg?fit=crop&fm=jpg&h=400&q=75&w=1400" class="img-responsive">
+      <img src="../img/hero.jpg" class="img-responsive">
       <div class="container">
         <div class="carousel-caption" style="top:50px">
           <h2 class="white" style="margin-bottom:-20px; font-size:4.3em">Seth and Jamie's</h2>
