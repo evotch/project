@@ -29,7 +29,16 @@
                 <li><a href="honeymoon.php">Florida</a></li>
                 <li><a href="honeymoon.php">Mexico</a></li> 
               </ul>
-            </li>            
+            </li>   
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Graduation</a>
+            </li> 
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Birthday</a>
+            </li> 
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Family Reunions</a>
+            </li> 
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="my-profile.php">My Account</a></li>

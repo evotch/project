@@ -2,10 +2,10 @@
 <?php include ("../sections/honeymoon-carousel.php"); ?>
 <div class="jumbotron1">
   <div class="container">
-    <div class="col-sm-7">
+    <div class="col-sm-8">
       <?php include ("../sections/google-weather.php"); ?>
       </div><!-- end column-->
-      <div class="col-sm-5">
+      <div class="col-sm-4">
       <?php include ("../sections/honeymoon.php"); ?>
       </div><!-- end column-->
     </div>
@@ -13,7 +13,10 @@
 
 <div class="container">
 <div class="row">
-<div class="col-sm-12"><hr>
+<div class="col-sm-8">
+<iframe src="//player.vimeo.com/video/106976563" width="100%" height="309" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<div class="col-sm-4">
 
 </div>
 </div>

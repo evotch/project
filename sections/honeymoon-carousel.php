@@ -19,7 +19,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img src="http://unsplash.imgix.net/46/yzS7SdLJRRWKRPmVD0La_creditcard.jpg?fit=crop&fm=jpg&h=595&q=75&w=1400" class="img-responsive">
+      <img src="http://unsplash.imgix.net/46/yzS7SdLJRRWKRPmVD0La_creditcard.jpg?fit=crop&fm=jpg&h=400&q=75&w=1400" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
           <h1 class="white">We want to swim</h1>
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/2500X740/004f51/004f51" class="img-responsive">
+      <img src="http://unsplash.imgix.net/45/YzgdnQ4TTumS8xR9YRKJ_IMG_2761%20(1).jpg?fit=crop&fm=jpg&h=400&q=75&w=1400" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
           <h1 class="white">#iflyalaska</h1>
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/2500X740/522a3a/522a3a" class="img-responsive">
+      <img src="http://unsplash.imgix.net/44/00aJ68yTtSFz9gcuHBcR_render0004.jpg?fit=crop&fm=jpg&h=400&q=75&w=1400" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
           <h1 class="white">#iflyalaska</h1>
@@ -50,7 +50,7 @@
     </div> 
     <div class="item">
       <img src="http://placehold.it/2500X740/e37d38/e37d38" class="img-responsive">
-      <div class="container">
+      <div class="container">      
         <div class="carousel-caption">
           <h1 class="white">#iflyalaska</h1>
           <p>I can throw an orange like a baseball, but I can’t eat a baseball like an orange. Let that be a life lesson for you.</p>
@@ -59,7 +59,7 @@
       </div>
     </div> 
     <div class="item">
-      <img src="http://placehold.it/2500X740/00567e/00567e" class="img-responsive">
+      <img src="http://unsplash.imgix.net/39/yvDPJ8ZSmSVob7pRxIvU_IMG_40322.jpg?fit=crop&fm=jpg&h=400&q=75&w=1400" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
           <h1 class="white">#iflyalaska</h1>
