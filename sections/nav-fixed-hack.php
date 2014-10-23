@@ -31,7 +31,7 @@
               </ul>
             </li> 
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Ideas<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="honeymoon.php">Graduation</a></li>
                 <li><a href="honeymoon.php">Birthday</a></li>                  
@@ -41,7 +41,6 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="my-profile.php">My Account</a></li>
-
           </ul>
         </div><!--/.nav-collapse -->
       </div>

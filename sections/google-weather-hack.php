@@ -16,7 +16,7 @@
 function initialize() {
   var mapOptions = {
     zoom: 6,
-    center: new google.maps.LatLng(47.6097, -122.3331)
+    center: new google.maps.LatLng(20.8000, 156.3333)
   };
 
   var map = new google.maps.Map(document.getElementById('map-canvas'),
@@ -34,4 +34,5 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
+    <div id="map-canvas"></div>
     

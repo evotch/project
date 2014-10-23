@@ -107,6 +107,33 @@ max-height: 180px;
 	color: $white;
 }
 
+.destination-hula {
+	background-image: url(../../img/hula.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 110%;
+	min-height: 13.95em;
+	color: $white;
+}
+
+.destination-kaanapali {
+	background-image: url(../../img/1386094.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 110%;
+	min-height: 13.95em;
+	color: $white;
+}
+
+.destination-hike {
+	background-image: url(../../img/hike.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 110%;
+	min-height: 13.95em;
+	color: $white;
+}
+
 
 .destination-rome div.module-blueContainer {
 	background-color: rgba( $navy, .01 );
