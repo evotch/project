@@ -16,143 +16,53 @@
       <div class="row">
         <div class="col-md-9">
           <div class="docs-section">
-            <div class="page-header">
-              <h3>When and how do I use this style guide?</h3>
-            </div>
-            <p>This portion of the Digital Style Guide. It used as an asset when creating written content across all digital channels. Please refer to this guide when determining how to treat terms and style on alaskaair.com. This document also speaks to the treatment of titles, headers, and sub headers; the use of text over imagery; and buttons/CTAs.
-            For all grammatical questions, please refer to the Chicago Manual of Style. 
-            </p>
+            <?php include ("../voice/intro.php"); ?>
           </div>
-          <div id="A" class="docs-section"> 
-          <div class="page-header">
-              <h3>Tone of Voice for all digital channels</h3>
-            </div>
-            <p>The Alaska brand voice leans heavily towards a conversational tone with the feeling of a one-to-one conversation. With a voice that is knowledgeable, helpful, inspiring, and full of curiosity we express something about how people want to feel.</p>
-            <p>Our focus has moved away from describing the products and services that we offer. We now articulate the human benefits that those services provide.</p>
-            <p>We are speaking directly to our customers without the use of industry specific language, to tell the story of living a richer life through travel.</p>
-
+          <div class="docs-section"> 
+            <?php include ("../voice/tone.php"); ?>
           </div>          
-
-            <div id="A" class="docs-section">   
+          <div id="A" class="docs-section">   
             <div class="page-header">
               <h3>Terms</h3>
               <h4>A</h4>               
             </div>
-            <h4 id="ampm">am/pm</h4> 
-            <p>To express the time of day in regular text, use the following guidelines:</p>
-            <div class="callout callout-teal">
-                <h4>Example</h4>
-                  <p>10:00 am (space after number, lowercase letters, no periods)<br>
-             :00 pm (space after number, lowercase letters, no periods)</p>
-              </div>
-              
-            <h4 id="abbreviations">Abbreviations, monetary</h4> 
-            <p>Use the following guidelines when it comes to standard monetary abbreviations on alaskaair.com. Do not use "15K" or "$15k" to abbreviate thousands in distances or dollars. However, it may be used when speaking of Mileage Plan miles. </p>
-            <div class="callout callout-teal">
-                <h4>Example</h4>
-                  <p>15,000 miles - $15,000 (USD) -K Mileage Plan miles</p>
-            </div>
-            <h4 id="account">Account</h4> 
-            <p>The feature called My Account encompasses a traveler’s personalized information at alaskaair.com, including their Mileage Plan information. In text, it is acceptable to refer to a traveler’s My Account as their My Account profile. See About My Account link for more background.</p>
-            <h4 id="affect">Affect vs. effect</h4> 
-            <p>Affect is a word meaning "to influence." Effect is a word meaning "a result." Just remember: you affect the effect.</p>
-            <div class="callout callout-teal">
-                <h4>Correct</h4>
-                  <p>The effect of the new schedule will not be known until after the March 1 launch. We created the new schedule to positively affect the customer experience.</p>
-            </div>             
-            <h4 id="age">Age</h4> 
-            <p>When noting a person’s age with "years old" in text, use the following formats for different parts of speech:</p>
-            <div class="callout callout-teal">
-                <h4>Correct</h4>
-                  <p>Adjective: A-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through years old.</p>
-            </div> 
-            <h4 id="airfare">Airfare</h4> 
-            <p>Always use the term “airfare” as a single word.</p>
-            <h4 id="alaskaair">Alaskaair.com</h4> 
-            <p>The website is referred to as alaskaair.com. Use this format when referring to the website in print or Web text.</p>
-            <h4 id="asqx">Alaska Airlines and Horizon Air</h4> 
-            <p>Alaska Airlines and Horizon Air display a registered trademark &reg; in the lower right-hand area of the logo. As long as the logo appears with the correct &reg; symbol, it is not necessary to use the symbol in body copy.</p>            
-            </div>
-            <div id="B" class="docs-section">                    
+            <?php include ("../voice/ampm.php"); ?>
+            <?php include ("../voice/abbreviations.php"); ?> 
+            <?php include ("../voice/account.php"); ?>  
+            <?php include ("../voice/affect.php"); ?> 
+            <?php include ("../voice/age.php"); ?>  
+            <?php include ("../voice/airfare.php"); ?>
+            <?php include ("../voice/alaskaair.php"); ?>
+            <?php include ("../voice/asqx.php"); ?>
+          </div>
+          <div id="B" class="docs-section">                    
             <div class="page-header">
               <h4>B</h4>               
             </div>
-            <h4 id="ampm">am/pm</h4> 
-            <p>To express the time of day in regular text, use the following guidelines:</p>
-            <div class="callout callout-teal">
-                <h4>Example</h4>
-                  <p>10:00 am (space after number, lowercase letters, no periods)<br>
-             :00 pm (space after number, lowercase letters, no periods)</p>
-              </div>
-              
-            <h4 id="abbreviations">Abbreviations, monetary</h4> 
-            <p>Use the following guidelines when it comes to standard monetary abbreviations on alaskaair.com. Do not use "15K" or "$15k" to abbreviate thousands in distances or dollars. However, it may be used when speaking of Mileage Plan miles. </p>
-            <div class="callout callout-teal">
-                <h4>Example</h4>
-                  <p>15,000 miles - $15,000 (USD) -K Mileage Plan miles</p>
-            </div>
-            <h4 id="account">Account</h4> 
-            <p>The feature called My Account encompasses a traveler’s personalized information at alaskaair.com, including their Mileage Plan information. In text, it is acceptable to refer to a traveler’s My Account as their My Account profile. See About My Account link for more background.</p>
-            <h4 id="affect">Affect vs. effect</h4> 
-            <p>Affect is a word meaning "to influence." Effect is a word meaning "a result." Just remember: you affect the effect.</p>
-            <div class="callout callout-teal">
-                <h4>Correct</h4>
-                  <p>The effect of the new schedule will not be known until after the March 1 launch. We created the new schedule to positively affect the customer experience.</p>
-            </div>             
-            <h4 id="age">Age</h4> 
-            <p>When noting a person’s age with "years old" in text, use the following formats for different parts of speech:</p>
-            <div class="callout callout-teal">
-                <h4>Correct</h4>
-                  <p>Adjective: A-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through years old.</p>
-            </div> 
-            <h4 id="airfare">Airfare</h4> 
-            <p>Always use the term “airfare” as a single word.</p>
-            <h4 id="alaskaair">Alaskaair.com</h4> 
-            <p>The website is referred to as alaskaair.com. Use this format when referring to the website in print or Web text.</p>
-            <h4 id="asqx">Alaska Airlines and Horizon Air</h4> 
-            <p>Alaska Airlines and Horizon Air display a registered trademark &reg; in the lower right-hand area of the logo. As long as the logo appears with the correct &reg; symbol, it is not necessary to use the symbol in body copy.</p>            
-            </div>
-            <div id="C" class="docs-section">   
+            <?php include ("../voice/blackout.php"); ?>
+            <?php include ("../voice/bold.php"); ?> 
+            <?php include ("../voice/bonus-travel.php"); ?>  
+            <?php include ("../voice/bring-vs-take.php"); ?> 
+          </div>
+          <div id="C" class="docs-section">   
             <div class="page-header">
               <h4>C</h4>               
             </div>
-            <h4 id="ampm">am/pm</h4> 
-            <p>To express the time of day in regular text, use the following guidelines:</p>
-            <div class="callout callout-teal">
-                <h4>Example</h4>
-                  <p>10:00 am (space after number, lowercase letters, no periods)<br>
-             :00 pm (space after number, lowercase letters, no periods)</p>
-              </div>
-              
-            <h4 id="abbreviations">Abbreviations, monetary</h4> 
-            <p>Use the following guidelines when it comes to standard monetary abbreviations on alaskaair.com. Do not use "15K" or "$15k" to abbreviate thousands in distances or dollars. However, it may be used when speaking of Mileage Plan miles. </p>
-            <div class="callout callout-teal">
-                <h4>Example</h4>
-                  <p>15,000 miles - $15,000 (USD) -K Mileage Plan miles</p>
-            </div>
-            <h4 id="account">Account</h4> 
-            <p>The feature called My Account encompasses a traveler’s personalized information at alaskaair.com, including their Mileage Plan information. In text, it is acceptable to refer to a traveler’s My Account as their My Account profile. See About My Account link for more background.</p>
-            <h4 id="affect">Affect vs. effect</h4> 
-            <p>Affect is a word meaning "to influence." Effect is a word meaning "a result." Just remember: you affect the effect.</p>
-            <div class="callout callout-teal">
-                <h4>Correct</h4>
-                  <p>The effect of the new schedule will not be known until after the March 1 launch. We created the new schedule to positively affect the customer experience.</p>
-            </div>             
-            <h4 id="age">Age</h4> 
-            <p>When noting a person’s age with "years old" in text, use the following formats for different parts of speech:</p>
-            <div class="callout callout-teal">
-                <h4>Correct</h4>
-                  <p>Adjective: A-year-old passenger can fly unaccompanied. Noun: Service fees are required for passengers ages 8 through years old.</p>
-            </div> 
-            <h4 id="airfare">Airfare</h4> 
-            <p>Always use the term “airfare” as a single word.</p>
-            <h4 id="alaskaair">Alaskaair.com</h4> 
-            <p>The website is referred to as alaskaair.com. Use this format when referring to the website in print or Web text.</p>
-            <h4 id="asqx">Alaska Airlines and Horizon Air</h4> 
-            <p>Alaska Airlines and Horizon Air display a registered trademark &reg; in the lower right-hand area of the logo. As long as the logo appears with the correct &reg; symbol, it is not necessary to use the symbol in body copy.</p>            
- 
-          </div>
+            <?php include ("../voice/cancel.php"); ?>
+            <?php include ("../voice/capitalization.php"); ?>
+            <?php include ("../voice/carry-on.php"); ?>
+            <?php include ("../voice/certificate.php"); ?> 
+            <?php include ("../voice/check-box.php"); ?>             
+            <?php include ("../voice/check-in.php"); ?> 
+            <?php include ("../voice/check-out.php"); ?> 
+            <?php include ("../voice/checkpoint.php"); ?>
+            <?php include ("../voice/choose.php"); ?>
+            <?php include ("../voice/city-codes.php"); ?>
+            <?php include ("../voice/city-guides.php"); ?>
+            <?php include ("../voice/class-of-service.php"); ?>
+            <?php include ("../voice/clear-vs-uncheck.php"); ?>
 
+          </div>
         </div>  
         <div class="col-md-3">
           

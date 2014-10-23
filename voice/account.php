@@ -1,0 +1,2 @@
+<h4 id="account">Account</h4> 
+<p>The feature called My Account encompasses a traveler’s personalized information at alaskaair.com, including their Mileage Plan information. In text, it is acceptable to refer to a traveler’s My Account as their My Account profile. See About My Account link for more background.</p>

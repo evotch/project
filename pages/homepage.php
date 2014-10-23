@@ -16,7 +16,7 @@
 	        </div>
       	</div>
         <div class="col-md-4 hidden-xs hidden-sm">
-            <div class="destination-rome module-Picturecontainer">
+            <div class="random-image module-Picturecontainer">
               <div class="bluetint"><span>FPO</span>
               </div>
             </div>

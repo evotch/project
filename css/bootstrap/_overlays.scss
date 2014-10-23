@@ -1,3 +1,4 @@
+//these allow us to have background images and text ads that are easily readable
 .tint {
   display: block;
   height: 100%;
@@ -6,6 +7,7 @@
     position: relative;
     top: 28%;
     font-size: 5em;
+    color: $white;
   }
 }
 
@@ -39,7 +41,11 @@
   background-color: rgba($brown, .85);
 }
 
-.destination-rome {
-background-size: 135%;
-min-height: 20.95em;
+//this adds a random background image when needed from unsplash.com via unsplash.it
+.random-image {
+  background-image: url(https://unsplash.it/200/300/?random);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 20.95em;
 }
