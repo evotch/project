@@ -6,7 +6,7 @@
       <?php include ("../sections/google-weather.php"); ?>
       </div><!-- end column-->
       <div class="col-sm-4">
-      <?php include ("../sections/honeymoon.php"); ?>
+      
       </div><!-- end column-->
     </div>
   </div>
@@ -21,6 +21,12 @@
 </div>
 </div>
 </div>
+
+<!-- Action Button -->
+ <?php include ("../sections/gift-button.php"); ?>
+ 
+ <!-- Progress Meter -->
+ <?php include ("../sections/progress-meter.php"); ?>
 
     <?php include ("../sections/footer.php"); ?>
 
