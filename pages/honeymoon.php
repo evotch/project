@@ -36,10 +36,6 @@
 <div class="container">
   
 </div>
-<!-- Action Button -->
-<?php include ("../sections/gift-button.php"); ?>
-<!-- Progress Meter -->
-<?php include ("../sections/progress-meter.php"); ?>
 
 <?php include ("../sections/destinations-hack.php"); ?>
 
