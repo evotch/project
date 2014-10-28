@@ -39,6 +39,7 @@
                 <li><a href="takemesomewhere.php">Take Me Somewhere</a></li>
                 <li><a href="elements.php">List of Elements</a></li>
                 <li><a href="fyi.php">FYI - Tips and Tricks</a></li>
+                <li><a href="honeymoon.php">Travel FUNd <span class="label label-warning">Hackathon</span></a></li>                
                 <li class="divider"></li>
                 <li class="dropdown-header">Google Maps API</li>
                 <li><a href="google-maps.php">Basic <span class="label label-success">New</span></a></li>

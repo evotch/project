@@ -40,7 +40,7 @@
             </li> 
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="my-profile.php">My Account</a></li>
+            <li><a href="index.php">Back to Digital Style Guide</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

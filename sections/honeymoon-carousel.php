@@ -1,5 +1,6 @@
 <style>
 .destinations-carousel .carousel-control{background-image: none}
+.item img {width: 100%}
 </style>
 
 <div class="container-fluid">

@@ -1,0 +1,2 @@
+<h4 id="class-of-service">Class of service</h4>
+<p>Also called "fare bucket" or "inventory." It's the first letter on the fare basis code used by Yield Management to control what price is being sold on each flight. Class of service creates the tiers in our fare structure. The best way to explain it is like a ladder where the lowest rung is a sale fare (and therefore the least expensive and the most restrictive) and the highest rung is like a First Class fare (the most expensive but the least restrictive).</p>

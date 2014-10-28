@@ -61,8 +61,116 @@
             <?php include ("../voice/city-guides.php"); ?>
             <?php include ("../voice/class-of-service.php"); ?>
             <?php include ("../voice/clear-vs-uncheck.php"); ?>
-
+            <?php include ("../voice/click.php"); ?>
+            <?php include ("../voice/coach-class.php"); ?>
+            <?php include ("../voice/codeshare.php"); ?>
+            <?php include ("../voice/commas.php"); ?>
+            <?php include ("../voice/companion-fare-discount-code.php"); ?>
+            <?php include ("../voice/confirmation-code.php"); ?>
+            <?php include ("../voice/connection.php"); ?>
+            <?php include ("../voice/currency.php"); ?>
+            <?php include ("../voice/customer-traveler.php"); ?>
           </div>
+          <div id="D" class="docs-section">   
+            <div class="page-header">
+              <h4>D</h4>               
+            </div>
+            <?php include ("../voice/dashes.php"); ?>
+            <?php include ("../voice/dates.php"); ?>
+            <?php include ("../voice/delta.php"); ?>
+            <?php include ("../voice/destinations.php"); ?>
+            <?php include ("../voice/discount-code.php"); ?>
+            <?php include ("../voice/double-spacing.php"); ?>
+          </div>
+          <div id="E" class="docs-section">   
+            <div class="page-header">
+              <h4>E</h4>               
+            </div>
+            <?php include ("../voice/easybiz.php"); ?>
+            <?php include ("../voice/e-mail.php"); ?>
+            <?php include ("../voice/e-statements.php"); ?>
+            <?php include ("../voice/e-ticket.php"); ?>
+            <?php include ("../voice/effect.php"); ?>
+            <?php include ("../voice/e-g-i-e.php"); ?>
+            <?php include ("../voice/electronic-ticket.php"); ?>
+            <?php include ("../voice/ellipsis.php"); ?>
+            <?php include ("../voice/email.php"); ?>
+            <?php include ("../voice/error-messages.php"); ?>
+            <?php include ("../voice/exchange.php"); ?>
+            <?php include ("../voice/exclamation-points.php"); ?>
+          </div>   
+          <div id="F" class="docs-section">   
+            <div class="page-header">
+              <h4>F</h4>               
+            </div>
+            <?php include ("../voice/faa.php"); ?>
+            <?php include ("../voice/federal-aviation-administration.php"); ?>
+            <?php include ("../voice/fewer-vs-less.php"); ?>
+            <?php include ("../voice/first-class.php"); ?>
+            <?php include ("../voice/footnotes.php"); ?>
+            <?php include ("../voice/free.php"); ?>
+            <?php include ("../voice/frequent-flyer.php"); ?>
+          </div> 
+          <div id="G" class="docs-section">   
+            <div class="page-header">
+              <h4>G</h4>               
+            </div>
+            <?php include ("../voice/gds.php"); ?>
+            <?php include ("../voice/gift-certificate.php"); ?>
+          </div> 
+          <div id="H" class="docs-section">   
+            <div class="page-header">
+              <h4>H</h4>               
+            </div>
+            <?php include ("../voice/hawaii.php"); ?>
+            <?php include ("../voice/homepage.php"); ?>
+            <?php include ("../voice/horizon-air.php"); ?>
+            <?php include ("../voice/hyphens.php"); ?>
+          </div> 
+          <div id="I" class="docs-section">   
+            <div class="page-header">
+              <h4>I</h4>               
+            </div>
+            <?php include ("../voice/id.php"); ?>
+            <?php include ("../voice/ie-eg.php"); ?>
+            <?php include ("../voice/image.php"); ?>
+            <?php include ("../voice/inflight.php"); ?>
+            <?php include ("../voice/internet.php"); ?>
+            <?php include ("../voice/intranet.php"); ?>
+            <?php include ("../voice/ita.php"); ?>
+            <?php include ("../voice/italics.php"); ?>
+            <?php include ("../voice/its-vs-its.php"); ?>
+          </div> 
+          <div id="J" class="docs-section">   
+            <div class="page-header">
+              <h4>J</h4>               
+            </div>
+          </div> 
+          <div id="K" class="docs-section">   
+            <div class="page-header">
+              <h4>K</h4>               
+            </div>
+          </div>
+          <div id="L" class="docs-section">   
+            <div class="page-header">
+              <h4>L</h4>               
+            </div>
+            <?php include ("../voice/lay-lie.php"); ?>
+            <?php include ("../voice/less-vs-fewer.php"); ?>
+            <?php include ("../voice/links.php"); ?>
+            <?php include ("../voice/login-vs-sign-in.php"); ?>
+            <?php include ("../voice/low-fare-calendar.php"); ?>
+          </div> 
+          <div id="M" class="docs-section">   
+            <div class="page-header">
+              <h4>M</h4>               
+            </div>
+            <?php include ("../voice/lay-lie.php"); ?>
+            <?php include ("../voice/less-vs-fewer.php"); ?>
+            <?php include ("../voice/links.php"); ?>
+            <?php include ("../voice/login-vs-sign-in.php"); ?>
+            <?php include ("../voice/low-fare-calendar.php"); ?>
+          </div> 
         </div>  
         <div class="col-md-3">
           

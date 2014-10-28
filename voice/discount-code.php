@@ -1,0 +1,2 @@
+<h4 id="discount-code">Discount Code</h4>
+<p>Use when the code is a reduction of the fare, such as Companion Fare, service recovery, Insider discount, etc. (entered on booking form). Both words should be capitalized.</p>

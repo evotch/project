@@ -1,0 +1,2 @@
+<h4 id="easybiz">EasyBiz</h4>
+<p>Cap E, cap B, one word. A company that spends $5,000 or more on Alaska Airlines/Horizon Air travel in a 15-month period qualifies for EasyBiz, our corporate online booking program. Companies earn Mileage Plan miles in a special Alaska Airlines Mileage Plan account for purchasing online through their secure EasyBiz site. In addition, each traveler continues to earn regular flight miles in their individual Mileage Plan accounts.</p>

@@ -1,0 +1,2 @@
+<h4 id="electronic-ticket">Electronic ticket</h4>
+<p>Both "e-ticket" and "electronic ticket" are acceptable terms to refer to all non-paper tickets at Alaska Airlines. "e-ticket" may be preferred when there are space restrictions.</p>
