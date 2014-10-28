@@ -1,0 +1,2 @@
+<h4 id="less-vs-fewer">Less vs. fewer</h4>
+<p>Use the term <i>less</i> to describe distances, amounts, and quantities. Use the term fewer to describe countable items such as words, people, or places.</p>
