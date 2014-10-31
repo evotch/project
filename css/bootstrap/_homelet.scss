@@ -52,3 +52,8 @@ padding: 1.2em;
 .homelet>.nav-tabs>li.active a:hover {
 	border-radius: 0px;
 }
+
+// this is to reduce the padding on the input buttons on the homelet in the interim homepage
+.hero-home .homelet .form-control {
+padding: 10px 5px;
+}

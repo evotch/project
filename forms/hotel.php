@@ -36,7 +36,7 @@
     <div class="form-group">
       <input type="date" class="form-control" id="hotelDestinationOutDate" placeholder="Check Out">
     </div>
-    <button type="submit" class="btn btn-default form-control">Find Hotels</button>
+    <button type="submit" class="btn btn-default btn-block">Find Hotels</button>
   </div>
 </form>
 <div class="row">

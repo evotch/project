@@ -25,12 +25,23 @@
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
+  <div class="col-md-6">
+    <h4>Change text color depending on BG colors with SASS</h4>
+    <blockquote class="twitter-tweet" lang="en"><p>Change text color based on the bg&#10;<a href="http://t.co/Hgj8CwCfCF">http://t.co/Hgj8CwCfCF</a></p>&mdash; Brandon Shields (@Braven112) <a href="https://twitter.com/Braven112/status/527966204502093824">October 30, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  <div class="col-md-6">
+    <h4>Here are a couple ways to change text color based on bg image</h4>
+    <a href="http://www.jqueryscript.net/demo/jQuery-Plugin-To-Change-Text-Color-Based-On-Background-Image-invertImgText-js/">http://www.jqueryscript.net/demo/jQuery-Plugin-To-Change-Text-Color-Based-On-Background-Image-invertImgText-js/</a><br><br>
+    <a href="http://www.kennethcachia.com/background-check/">http://www.kennethcachia.com/background-check/</a>
+    </div>    
+  </div>
 </div>
 <!-- /Main -->
 <br><br><br><br><br>
 
 
-
+http://www.jqueryscript.net/demo/jQuery-Plugin-To-Change-Text-Color-Based-On-Background-Image-invertImgText-js/
 
 
 

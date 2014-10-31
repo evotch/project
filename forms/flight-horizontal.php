@@ -51,7 +51,7 @@
           </div>
           <div class="col-md-2">
           <label>&nbsp;</label>
-            <button type="submit" class="btn btn-default form-control">Find Flights</button>
+            <button type="submit" class="btn btn-default btn-block">Find Flights</button>
           </div>
           <div class="col-md-2">
             <a href="#" class="">Advanced Search </a>

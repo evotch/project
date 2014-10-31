@@ -15,7 +15,7 @@
     <div class="form-group">
       <input type="date" class="form-control" id="carRentalDropOffDate" placeholder="Check Out">
     </div>
-    <button type="submit" class="btn btn-default form-control">Find Cars</button>
+    <button type="submit" class="btn btn-default btn-block">Find Cars</button>
   </div>
 </form>
 <div class="row">

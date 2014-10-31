@@ -36,7 +36,7 @@
     <div class="form-group">
       <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Check Out">
     </div>
-    <button type="submit" class="btn btn-default form-control">Find Packages</button>
+    <button type="submit" class="btn btn-default btn-block">Find Packages</button>
   </div>
 </form>
 <div class="row">
