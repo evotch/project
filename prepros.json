@@ -21,6 +21,25 @@
         "outputStyle": "compressed",
         "autoprefixer": false
       }
+    },
+    "7e49fbd6": {
+      "id": "7e49fbd6",
+      "pid": "f28e1b0b",
+      "name": "styles-cyber.sass",
+      "input": "css\\styles-cyber.sass",
+      "customOutput": false,
+      "type": "Sass",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
     }
   },
   "imports": {},

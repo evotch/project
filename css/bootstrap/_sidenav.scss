@@ -1,27 +1,36 @@
-/*sidenav*/
+/*voice-menu*/
 
 
 	@media (min-width: 992px) {
 
 	/*Makes the side nav fixed*/
-	    .affix {
+	    .voice-menu.affix {
 	    position: fixed;
-	    top: 20px;
+	    top: 50px;
 	    }
 
+.voice-menu.affix {
+position: fixed;
+top: -1px;
+z-index: 99999;
+margin-left: 100px;
+}
+.affix-top .is-affixed {display: none}
+.voice-menu.affix .navbar-default {border-right-color: transparent;}
 
-		.sidenav.affix-top {
-		position: relative;
-		top: 13px;
-		}
 	}
-	.sidenav li .nav {
+	.voice-menu li .nav {
 	display: none;
 	}		
-	.sidenav li.active .nav {
+	.voice-menu li.active .nav {
 	display: block;
 	}
-	.sidenav .active .nav>li>a {
+	.voice-menu .active .nav>li>a {
 	padding: 3px 0 3px 20px;
 	color: $gray;
 	}
+
+	    .voice-menu .navbar-nav>li>a {
+padding: 13px 13px;
+}
+    .voice-menu .navbar {min-height: 0; border-radius:0px;}

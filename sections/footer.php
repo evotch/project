@@ -100,16 +100,9 @@
         IE10 viewport hack for Surface/desktop Windows 8 bug
         <script src="js/ie10-viewport-bug-workaround.js"></script>-->
         <script type="text/javascript">
-        $('body').scrollspy({target:".sidenav"})
+        $('body').scrollspy({target:".voice-menu"})
         //this sticks the side nav to the top of the page
-        $('.sidenav').affix({
-        offset: {
-        top: 203
-        , bottom: function () {
-        return (this.bottom = $('.footer').outerHeight(true))
-        }
-        }
-        })
+        
         </script>
         
     </body>
