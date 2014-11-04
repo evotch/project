@@ -9,62 +9,65 @@
               <table class="table">
                 <tbody>
                   <tr>
-                    <td><h1>.h1 heading</h1></td>
+                    <td width="63%"><h1>Explore More. Spend Less.&trade;</h1></td>
                     <td><code>.h1 or &lt;h1&gt;</code></td>
-                    <td class="type-info">Medium 32px</td>
+                    <td class="fine-print">Medium 32px</td>
                   </tr>
                   <tr>
-                    <td><h2>.h2 heading</h2></td>
+                    <td><h1 class="secondary">Designed to Explore.&trade;</h1></td>
+                    <td><code>.h1.secondary or <br>&lt;h1 class="secondary"&gt;</code></td>
+                    <td class="fine-print">Light 32px</td>
+                  </tr>
+                  <tr>
+                    <td><h2>Explore More. Spend Less.&trade;</h2></td>
                     <td><code>.h2 or &lt;h2&gt;</code></td>
-                    <td class="type-info">Medium 28px</td>
+                    <td class="fine-print">Medium 28px</td>
                   </tr>
                   <tr>
-                    <td><h3>.h3 heading</h3></td>
+                    <td><h2 class="secondary">Designed to Explore.&trade;</h2></td>
+                    <td><code>.h2.secondary or <br>&lt;h2 class="secondary"&gt;</code></td>
+                    <td class="fine-print">Light 28px</td>
+                  </tr>
+                  <tr>
+                    <td><h3>Explore More. Spend Less.&trade;</h3></td>
                     <td><code>.h3 or &lt;h3&gt;</code></td>
-                    <td class="type-info">Medium 24px</td>
+                    <td class="fine-print">Medium 24px</td>
                   </tr>
                   <tr>
-                    <td><h4>.h4 heading</h4></td>
+                    <td><h3 class="secondary">Designed to Explore.&trade;</h3></td>
+                    <td><code>.h3.secondary or <br>&lt;h3 class="secondary"&gt;</code></td>
+                    <td class="fine-print">Light 24px</td>
+                  </tr>
+                  <tr>
+                    <td><h4>Explore More. Spend Less.&trade;</h4></td>
                     <td><code>.h4 or &lt;h4&gt;</code></td>
-                    <td class="type-info">Medium 18px</td>
+                    <td class="fine-print">Medium 18px</td>
                   </tr>
                   <tr>
-                    <td><h5>.h5 heading</h5></td>
+                    <td><h4 class="secondary">Designed to Explore.&trade;</h4></td>
+                    <td><code>.h4.secondary or <br>&lt;h4 class="secondary"&gt;</code></td>
+                    <td class="fine-print">Light 18px</td>
+                  </tr>
+                  <tr>
+                    <td><h5>Explore More. Spend Less.&trade;</h5></td>
                     <td><code>.h5 or &lt;h5&gt;</code></td>
-                    <td class="type-info">Medium 14px</td>
+                    <td class="fine-print">Medium 14px</td>
                   </tr>
                   <tr>
-                    <td><h6>.h6 heading</h6></td>
+                    <td><h5 class="secondary">Designed to Explore.&trade;</h5></td>
+                    <td><code>.h5.secondary or <br>&lt;h5 class="secondary"&gt;</code></td>
+                    <td class="fine-print">Light 14px</td>
+                  </tr>
+                  <tr>
+                  <tr>
+                    <td><h6>Explore More. Spend Less.&trade;</h6></td>
                     <td><code>.h6 or &lt;h6&gt;</code></td>
-                    <td class="type-info">Medium 12px</td>
-                  </tr>
-                </tbody>
-              </table>
-              <table class="table">
-                  <tbody>
-                  <tr>
-                    <td><h1 class="secondary">.h1 .secondary</h1></td>
-                    <td class="type-info">Light 32px</td>
+                    <td class="fine-print">Medium 12px</td>
                   </tr>
                   <tr>
-                    <td><h2 class="secondary">.h2 .secondary</h2></td>
-                    <td class="type-info">Light 28px</td>
-                  </tr>
-                  <tr>
-                    <td><h3 class="secondary">.h3 .secondary</h3></td>
-                    <td class="type-info">Light 24px</td>
-                  </tr>
-                  <tr>
-                    <td><h4 class="secondary">.h4 .secondary</h4></td>
-                    <td class="type-info">Light 18px</td>
-                  </tr>
-                  <tr>
-                    <td><h5 class="secondary">.h5 .secondary</h5></td>
-                    <td class="type-info">Light 14px</td>
-                  </tr>
-                  <tr>
-                    <td><h6 class="secondary">.h6 .secondary</h6></td>
-                    <td class="type-info">Light 12px</td>
+                    <td><h6 class="secondary">Designed to Explore.&trade;</h6></td>
+                     <td><code>.h6.secondary or <br>&lt;h6 class="secondary"&gt;</code></td>
+                    <td class="fine-print">Light 12px</td>
                   </tr>
                 </tbody>
               </table>
