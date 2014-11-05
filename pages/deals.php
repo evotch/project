@@ -1,6 +1,6 @@
 <?php include ("../sections/header.php"); ?>
 
-  <?php include ("../sections/deals-carousel.php"); ?>
+  <?php include ("../carousels/deals-carousel.php"); ?>
   <br><br>
   <div class="container">
     <div class="row">
@@ -14,7 +14,7 @@
           <?php include ("../sections/deals.php"); ?>
           <?php include ("../sections/deals.php"); ?>
           <?php include ("../sections/deals.php"); ?>
-          <?php include ("../sections/deals.php"); ?>
+          <?php include ("../sections/tandc-example.php"); ?>
         </div>
       </div>
       <div class="col-sm-4">
@@ -22,8 +22,9 @@
       </div>
     </div>
   </div>
+  <?php include ("../sections/destinations.php"); ?>
     <div class="container">
     <?php include ("../forms/flight-horizontal.php"); ?>
   </div>
-<?php include ("../sections/destinations.php"); ?>
+
 <?php include ("../sections/footer.php"); ?>

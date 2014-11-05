@@ -1,12 +1,22 @@
 
 @font-face {
     font-family: 'Atlas';
+    src: url('atlas/AtlasGrotesk-Black-Web.eot');
+    src: url('atlas/AtlasGrotesk-Black-Web.eot?#iefix') format('embedded-opentype'),
+         url('atlas/AtlasGrotesk-Black-Web.woff') format('woff'),
+         url('atlas/AtlasGrotesk-Black-Web.ttf') format('truetype'),
+         url('atlas/AtlasGrotesk-Black-Web.svg') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Atlas';
     src: url('atlas/AtlasGrotesk-Bold-Web.eot');
     src: url('atlas/AtlasGrotesk-Bold-Web.eot#iefix') format('embedded-opentype'),
          url('atlas/AtlasGrotesk-Bold-Web.woff') format('woff'),
          url('atlas/AtlasGrotesk-Bold-Web.ttf') format('truetype'),
          url('atlas/AtlasGrotesk-Bold-Web.svg') format('svg');
-    font-weight: bold;
+    font-weight: 800;
     font-style: normal;
 }
 @font-face {
@@ -16,18 +26,7 @@
          url('atlas/AtlasGrotesk-Regular-Web.woff') format('woff'),
          url('atlas/AtlasGrotesk-Regular-Web.ttf') format('truetype'),
          url('atlas/AtlasGrotesk-Regular-Web.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Atlas';
-    src: url('atlas/AtlasGrotesk-Light-Web.eot');
-    src: url('atlas/AtlasGrotesk-Light-Web.eot?#iefix') format('embedded-opentype'),
-         url('atlas/AtlasGrotesk-Light-Web.woff') format('woff'),
-         url('atlas/AtlasGrotesk-Light-Web.ttf') format('truetype'),
-         url('atlas/AtlasGrotesk-Light-Web.svg') format('svg');
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
@@ -40,6 +39,17 @@
     font-weight: 200;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Atlas';
+    src: url('atlas/AtlasGrotesk-Light-Web.eot');
+    src: url('atlas/AtlasGrotesk-Light-Web.eot?#iefix') format('embedded-opentype'),
+         url('atlas/AtlasGrotesk-Light-Web.woff') format('woff'),
+         url('atlas/AtlasGrotesk-Light-Web.ttf') format('truetype'),
+         url('atlas/AtlasGrotesk-Light-Web.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Atlas';
     src: url('atlas/AtlasGrotesk-Medium-Web.eot');
@@ -47,16 +57,6 @@
          url('atlas/AtlasGrotesk-Medium-Web.woff') format('woff'),
          url('atlas/AtlasGrotesk-Medium-Web.ttf') format('truetype'),
          url('atlas/AtlasGrotesk-Medium-Web.svg') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Atlas';
-    src: url('atlas/AtlasGrotesk-Black-Web.eot');
-    src: url('atlas/AtlasGrotesk-Black-Web.eot?#iefix') format('embedded-opentype'),
-         url('atlas/AtlasGrotesk-Black-Web.woff') format('woff'),
-         url('atlas/AtlasGrotesk-Black-Web.ttf') format('truetype'),
-         url('atlas/AtlasGrotesk-Black-Web.svg') format('svg');
-    font-weight: 900;
+    font-weight: bold;
     font-style: normal;
 }

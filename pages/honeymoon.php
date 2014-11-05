@@ -1,5 +1,5 @@
 <?php include ("../sections/header-hack.php"); ?>
-<?php include ("../sections/honeymoon-carousel.php"); ?>
+<?php include ("../carousel/honeymoon-carousel.php"); ?>
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
