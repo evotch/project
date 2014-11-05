@@ -1,8 +1,32 @@
+            <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="secondary green">Voice Guidelines</h4>
+      </div>
+      <div class="modal-body">
+        <div class="item"><?php include ("../voice/capitalization-headings.php"); ?></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
             <h1 class="page-header">Typography</h1>
             <p>Our brand font is called <strong>Atlas</strong>. It is an elegant, modern typeface that signals professionalism and yet retains an approachable and friendly personality. This is our main typeface and should be used in all communications materials. For the web their are 2 treatments available to use, <strong>Atlas Medium</strong>, and Atlas Light.</p>
             <h6><strong>Note: Do not substitute any other typeface for our brand font.</strong></h6>
             <!-- Headings -->
-            <h3 id="type-headings">Headings</h3>
+            
+            <h3 id="type-headings">Headings<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#myModal">
+              Voice Guidelines
+            </button></h3>
+
             <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. <code>.h1</code> through <code>.h6</code> classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.  When two headings are used the second heading can use the light font by adding the class <code>.secondary</code></p>
             
             <div class="bs-example bs-example-type">
@@ -77,7 +101,7 @@
             <pre><code class="html">&lt;p class="fine-print"&gt;...&lt;/p&gt;</code></pre>
             <div class="callout callout-blue">
             <h4>Example</h4>
-            <p class="fine-print"><strong>Terms and Conditions:</strong> Seats are limited and may not be available on all flights or all days. Bag fees apply for checked baggage. An additional VAT fee from $2.15 (CAD) per bag for bags checked in Canada may apply. For travel solely within the state of Alaska, customers may check up to three bags free of charge. Additional fees apply to check more than three bags or overweight or oversized items. These fares are nonrefundable and are only available on Alaska Airlines. A ticket purchased at an Alaska Airlines airport location or through one of our reservation call centers will cost $15.00 more per person than the advertised fare. Applicable fare and tax differences apply to any changes made after ticketing. A $125(USD) change fee per person applies to changes made within 60 days of ticketed travel. The change fee is waived when travel is wholly within the state of Alaska on flights operated by Alaska Airlines. Fares include U.S. government taxes and fees. Canadian and Mexican government taxes and fees that are included in the fares shown are based on the current currency exchange rate and are subject to change. All fares are in U.S. dollars and are subject to change without notice, and other restrictions apply. Some markets may not operate daily service. Some flights may be operated by or in conjunction with Horizon Air, SkyWest, or PenAir.</p>
+            <?php include ("../sections/tandc-example.php"); ?>
             </div>
 
           

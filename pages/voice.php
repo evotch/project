@@ -50,6 +50,9 @@
             </div>
             <div class="item"><?php include ("../voice/cancel.php"); ?></div>
             <div class="item"><?php include ("../voice/capitalization.php"); ?></div>
+            <div class="item"><?php include ("../voice/capitalization-headings.php"); ?></div>
+            <div class="item"><?php include ("../voice/capitalization-hyphen.php"); ?></div>
+            <div class="item"><?php include ("../voice/capitalization-noun.php"); ?></div>
             <div class="item"><?php include ("../voice/carry-on.php"); ?></div>
             <div class="item"><?php include ("../voice/certificate.php"); ?></div> 
             <div class="item"><?php include ("../voice/check-box.php"); ?></div>             

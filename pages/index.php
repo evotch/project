@@ -83,7 +83,7 @@
           </div>
 
         <div class="col-md-3 toc" role="main">
-          <div class="page-header">
+<!--          <div class="page-header">
             <h3>Table of Contents</h3>
           </div>
           <ul class="nav bs-docs-sidenav">
@@ -230,7 +230,7 @@
             </ul>
           </li>
         </ul>
-      </div>
+      </div>-->
     </div>
     <hr>
     <!-- /END THE FEATURETTES -->

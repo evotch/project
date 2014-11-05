@@ -1,5 +1,5 @@
 <?php include ("../sections/header.php"); ?>
-<?php include ("../sections/carousel.php"); ?>
+<?php include ("../carousels/carousel.php"); ?>
   <div class="container">
 
     <div class="alert alert-warning" role="alert">
