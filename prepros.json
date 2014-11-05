@@ -22,11 +22,11 @@
         "autoprefixer": false
       }
     },
-    "7e49fbd6": {
-      "id": "7e49fbd6",
+    "b74d767c": {
+      "id": "b74d767c",
       "pid": "f28e1b0b",
-      "name": "styles-cyber.sass",
-      "input": "css\\styles-cyber.sass",
+      "name": "hp-test-css.sass",
+      "input": "css\\hp-test-css.sass",
       "customOutput": false,
       "type": "Sass",
       "config": {
@@ -35,9 +35,9 @@
         "unixNewlines": false,
         "sourcemaps": false,
         "debug": false,
-        "compass": false,
+        "compass": true,
         "fullCompass": false,
-        "outputStyle": "expanded",
+        "outputStyle": "compressed",
         "autoprefixer": false
       }
     }
