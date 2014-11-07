@@ -15,13 +15,33 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style Guide <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Basics</li>
                 <li><a href="index.php#colors">Brand Colors</a></li>
                 <li><a href="index.php#buttons">Buttons</a></li>                  
+                
+                <li class="divider"></li>
+                <li class="dropdown-header">Voice</li>
+                <li><a href="voice.php">Terms</a></li>
                 <li><a href="index.php#typography">Typography</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="index.php#colors">Element</a></li>
+                <li><a href="index.php#buttons">Element</a></li>                  
+                <li><a href="index.php#typography">Element</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Words</li>
                 <li><a href="voice.php">Voice</a></li>
                 <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Javascript <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="plugins.php#carousel">Carousels</a></li>
+                <li><a href="plugins.php#modals">Modals</a></li>
               </ul>
             </li>
             <li class="dropdown">

@@ -14,7 +14,7 @@
   vertical-align: middle;
   cursor: pointer;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   white-space: nowrap;
   text-transform: uppercase;
   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
@@ -56,25 +56,36 @@
 // --------------------------------------------------
 
 .btn-default {
-  @include button-variant($white, $blue, $blue);
+  @include button-variant($gray-light, $gray-lighter, $gray-lighter);
 }
-.btn-primary {
+.btn-primary, .btn-green {
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
 }
-// Success appears as green
-.btn-success {
+
+// Green Secondary Button
+.btn-success, .btn-green {
   @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
 }
+// Blue Secondary Button
+.btn-blue {
+  @include button-variant($white, $blue, $blue);
+}
+
+// Blue Secondary Button
+.btn-teal {
+  @include button-variant($white, $teal, $teal);
+}
+
 // Info appears as blue-green
 .btn-info {
   @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
 }
 // Warning appears as orange
-.btn-warning {
+.btn-warning, .btn-orange {
   @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
 }
 // Danger and error appear as red
-.btn-danger {
+.btn-danger, .btn-pink {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
 // Disabled Button
@@ -89,6 +100,7 @@
 // Navy Ghost Btn
 .btn-ghost-navy {
   @include button-variant($navy, $btn-ghost-bg, $navy);
+  border: 2px solid;
 }
 .btn-ghost-navy:hover {
   @include button-variant($white, $blue, $btn-primary-border);

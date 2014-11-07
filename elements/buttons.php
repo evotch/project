@@ -1,12 +1,22 @@
             <h1 class="page-header">Buttons</h1>
             <p>There are 3 sizes of buttons available to use.  We'll use the top 3 as our primary buttons along with a deemphasized button.  Below are examples of medium and small buttons along with info, warning, and danger buttons.</p>
             <p>
-            <button type="button" class="btn btn-default">Default</button>
+            <h4 class="page-header secondary">Primary</h4>
+            
+            
             <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-ghost-green">Green</button>
-            <button type="button" class="btn btn-ghost-navy">Navy</button>
-            <button type="button" class="btn btn-ghost-blue">Blue</button>
+            <button type="button" class="btn btn-ghost-green">Primary</button>
+            <div style="width:190px; padding:20px 15px 22px; background-color:#0e2b51; display:inline; margin:4px;"><button type="button" class="btn btn-ghost-white">Primary</button></div>
+            <h4 class="page-header secondary">Secondary</h4>
+
+            
+            <button type="button" class="btn btn-teal">Secondary</button>
+            <button type="button" class="btn btn-ghost-teal">Secondary</button><br><br>
+            <button type="button" class="btn btn-blue">Secondary</button>
+            <button type="button" class="btn btn-ghost-blue">Secondary</button>
+            <button type="button" class="btn btn-ghost-green">Secondary</button><br><br>
+            <button type="button" class="btn btn-default">Default</button>
+
             <button type="button" class="btn btn-link">Link</button>
             </p>
         <pre><code class="html">

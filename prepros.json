@@ -40,6 +40,25 @@
         "outputStyle": "compressed",
         "autoprefixer": false
       }
+    },
+    "a27d7d9a": {
+      "id": "a27d7d9a",
+      "pid": "f28e1b0b",
+      "name": "styles-test.sass",
+      "input": "css\\styles-test.sass",
+      "customOutput": false,
+      "type": "Sass",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": true,
+        "fullCompass": false,
+        "outputStyle": "compressed",
+        "autoprefixer": false
+      }
     }
   },
   "imports": {},

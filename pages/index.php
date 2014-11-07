@@ -82,6 +82,7 @@
 </div>
           </div>
 
+
         <div class="col-md-3 toc" role="main">
 <!--          <div class="page-header">
             <h3>Table of Contents</h3>
@@ -234,5 +235,5 @@
     </div>
     <hr>
     <!-- /END THE FEATURETTES -->
-    </div>
+    </div></div>
     <?php include ("../sections/footer.php"); ?>
