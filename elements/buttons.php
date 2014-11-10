@@ -2,45 +2,67 @@
             <p>There are 3 sizes of buttons available to use.  We'll use the top 3 as our primary buttons along with a deemphasized button.  Below are examples of medium and small buttons along with info, warning, and danger buttons.</p>
             <p>
             <h4 class="page-header secondary">Primary</h4>
-            
-            
             <button type="button" class="btn btn-primary">Primary</button>
             <button type="button" class="btn btn-ghost-green">Primary</button>
             <div style="width:190px; padding:20px 15px 22px; background-color:#0e2b51; display:inline; margin:4px;"><button type="button" class="btn btn-ghost-white">Primary</button></div>
+            </p>
+            <p>
             <h4 class="page-header secondary">Secondary</h4>
-
-            
             <button type="button" class="btn btn-teal">Secondary</button>
             <button type="button" class="btn btn-ghost-teal">Secondary</button><br><br>
             <button type="button" class="btn btn-blue">Secondary</button>
             <button type="button" class="btn btn-ghost-blue">Secondary</button>
-            <button type="button" class="btn btn-ghost-green">Secondary</button><br><br>
+            <br><br>
             <button type="button" class="btn btn-default">Default</button>
-
-            <button type="button" class="btn btn-link">Link</button>
             </p>
-        <pre><code class="html">
-        <span class="c">&lt;!-- Standard button --&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
-        
-        <span class="c">&lt;!-- Provides extra visual weight and identifies the primary action in a set of buttons --&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
-        
-        <span class="c">&lt;!-- Indicates a successful or positive action --&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/button&gt;</span>
-        
-        <span class="c">&lt;!-- Contextual button for informational alert messages --&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/button&gt;</span>
-        
-        <span class="c">&lt;!-- Indicates caution should be taken with this action --&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
-        
-        <span class="c">&lt;!-- Indicates a dangerous or potentially negative action --&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
-        
-        <span class="c">&lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;</span>
-        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/button&gt;</span>
-        </code></pre>
+            <p>
+            <h4 class="page-header secondary">Tertiary</h4>
+            <a href="">Learn More &raquo;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="">Book Now &raquo;</a>
+            <button type="button" class="btn btn-link">Learn More</button>
+            <button type="button" class="btn btn-link">Book Now</button>
+            </p>
+            <p>
+            <h4 class="page-header secondary">Utilitarian</h4>
+            <button type="button" class="btn btn-gray">Utilitarian</button>
+            <button type="button" class="btn btn-ghost-gray">Utilitarian</button>
+            </p>
+             <p>
+            <h4 class="page-header secondary">Accent</h4>
+            <button type="button" class="btn btn-orange">Book Now</button>
+            <button type="button" class="btn btn-ghost-orange">Book Now</button>
+            <button type="button" class="btn btn-pink">Book Now</button>
+            <button type="button" class="btn btn-ghost-pink">Book Now</button><br><br>
+            <button type="button" class="btn btn-brown">Book Now</button>
+            <button type="button" class="btn btn-ghost-brown">Book Now</button>
+            </p>
+            <p>
+            <h4 class="page-header secondary">Disabled</h4>
+            <button type="button" class="btn btn-disabled">Book Now</button>
+            
+            </p>
+            <pre><code class="html">
+            <span class="c">&lt;!-- Standard button --&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+            
+            <span class="c">&lt;!-- Provides extra visual weight and identifies the primary action in a set of buttons --&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
+            
+            <span class="c">&lt;!-- Indicates a successful or positive action --&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/button&gt;</span>
+            
+            <span class="c">&lt;!-- Contextual button for informational alert messages --&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/button&gt;</span>
+            
+            <span class="c">&lt;!-- Indicates caution should be taken with this action --&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
+            
+            <span class="c">&lt;!-- Indicates a dangerous or potentially negative action --&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
+            
+            <span class="c">&lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/button&gt;</span>
+            </code></pre>
             <h3 id="buttons-sizes">Sizes</h3>
             <p>Fancy larger or smaller buttons? Add <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code> for additional sizes.</p>
             <div class="bs-example">
