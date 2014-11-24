@@ -15,7 +15,7 @@
             <button type="button" class="btn btn-ghost-teal">Secondary</button>
             <button type="button" class="btn btn-blue">Secondary</button>
             <button type="button" class="btn btn-ghost-blue">Secondary</button>
-            <h4 class="page-header secondary">Secondary (support)</h4>
+            <h4 class="page-header secondary">Secondary <small>(support)</small></h4>
             <p>Use Gray or Brown secondary buttons primarily to create visual relief in layouts saturated with color and/or
 with a lot of varying content.</p>
             <button type="button" class="btn btn-default">Default</button>
@@ -35,7 +35,7 @@ with a lot of varying content.</p>
             <button type="button" class="btn btn-ghost-gray">Utilitarian</button>
             </p>
              <p>
-            <h4 class="page-header secondary">Accent (emphasizing importance)</h4>
+            <h4 class="page-header secondary">Accent <small>(emphasizing importance)</small></h4>
             <p>Use sparingly and primarily to give more prominence to action in layouts with alot of varying content or to heighten
 an important message in merchandising.</p>
             <button type="button" class="btn btn-orange">Book Now</button>

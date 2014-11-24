@@ -3,25 +3,25 @@
 </p>
 
 <div class="progress">
-  <div class="progress-bar progress-bar-pink" style="width: 4%">
+  <div class="progress-bar progress-bar-pink" style="width: 2%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
     <div class="progress-bar progress-bar-white" style="width: .5%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
-    <div class="progress-bar progress-bar-plum" style="width: 4%">
+    <div class="progress-bar progress-bar-plum" style="width: 2%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
       <div class="progress-bar progress-bar-white" style="width: .5%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
-  <div class="progress-bar progress-bar-gold" style="width: 4%">
+  <div class="progress-bar progress-bar-gold" style="width: 2%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
       <div class="progress-bar progress-bar-white" style="width: .5%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
-  <div class="progress-bar progress-bar-orange" style="width: 4%">
+  <div class="progress-bar progress-bar-orange" style="width: 2%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
       <div class="progress-bar progress-bar-white" style="width: 3%">
@@ -63,19 +63,19 @@
         <div class="progress-bar progress-bar-white" style="width: .5%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
-    <div class="progress-bar progress-bar-green" style="width: 9%">
+    <div class="progress-bar progress-bar-green" style="width: 12%">
     <span class="sr-only">35% Complete (success)</span>
   </div>
         <div class="progress-bar progress-bar-white" style="width: .5%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
-  <div class="progress-bar progress-bar-teal" style="width: 8%">
+  <div class="progress-bar progress-bar-teal" style="width: 12%">
     <span class="sr-only">20% Complete (warning)</span>
   </div>
       <div class="progress-bar progress-bar-white" style="width: .5%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
-      <div class="progress-bar progress-bar-navy" style="width: 17%">
+      <div class="progress-bar progress-bar-navy" style="width: 18%">
     <span class="sr-only">10% Complete (danger)</span>
   </div>
 
