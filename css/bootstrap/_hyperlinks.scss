@@ -1,0 +1,10 @@
+p a, .underline {
+  &,
+  &:hover,
+  &:focus,
+  &:active,
+  &.active, {
+    text-decoration: underline;
+  }
+}
+

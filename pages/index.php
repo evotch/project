@@ -11,8 +11,15 @@
           </div>
           <div class="clearfix"></div>
           <!-- TESTING FETAURES OF BOOTSTRAP -->
+
+          <div id="color-porportions" class="bs-docs-section">
+            <?php include ("../elements/color-proportions.php"); ?>
+          </div>
           <div id="buttons" class="bs-docs-section">
             <?php include ("../elements/buttons.php"); ?>
+          </div>
+          <div id="hyperlinks" class="bs-docs-section">
+            <?php include ("../elements/hyperlinks.php"); ?>
           </div>
           <div id="typography" class="bs-docs-section">
             <?php include ("../elements/typography.php"); ?>
@@ -58,6 +65,7 @@
     <h4>Have tons of labels?</h4>
     <p>Rendering problems can arise when you have dozens of inline labels within a narrow container, each containing its own <code>inline-block</code> element (like an icon). The way around this is setting <code>display: inline-block;</code>. For context and an example, <a href="https://github.com/twbs/bootstrap/issues/13219">see #13219</a>.</p>
   </div>
+
   <div class="panel panel-default">
     <div class="panel-heading"><h4>Progress Bars</h4></div>
     <div class="panel-body">
