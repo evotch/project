@@ -1,5 +1,18 @@
             <!-style used to format buttons on DSG-->
-            <style>.buttons .btn{margin-right: 10px;}span.panel-white.well-sm {width: 300px;display: inline-block;}</style>
+            <style>
+            .buttons .btn{margin: 5px 10px 5px 0;}
+            @media screen and (min-width : 1224px) {
+            span.panel-white.well-sm {width: 300px;display: inline-block;}
+            span.panel-navy.well-lg button {margin-right: 0px;}
+            }
+            @media screen and (max-width : 1224px) {
+            span.panel-white.well-sm {
+                width: 200px;
+                display: inline-block;
+                vertical-align: -20px;
+                }
+            }
+            </style>
             <div class="buttons">
             <h1 class="page-header">Buttons</h1>
             <p>There are 3 sizes of buttons available to use.  We'll use the top 3 as our primary buttons along with a deemphasized button.  Below are examples of medium and small buttons along with info, warning, and danger buttons.</p>
