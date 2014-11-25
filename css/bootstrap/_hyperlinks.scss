@@ -8,3 +8,13 @@ p a, .underline {
   }
 }
 
+p a.btn {
+  &,
+  &:hover,
+  &:focus,
+  &:active,
+  &.active, {
+    text-decoration: none;
+  }
+}
+
