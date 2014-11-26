@@ -11,7 +11,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="homepage.php">Home</a></li>
+            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style Guide <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -25,18 +25,15 @@
                 <li><a href="index.php#typography">Typography</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <!--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="index.php#colors">Element</a></li>
-                <li><a href="index.php#buttons">Element</a></li>                  
-                <li><a href="index.php#typography">Element</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Words</li>
                 <li><a href="voice.php">Voice</a></li>
                 <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
+            </li>-->
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Javascript <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -47,6 +44,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Example Pages <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
+                <li><a href="homepage.php">Home</a></li>
                 <li><a href="my-profile.php">My Profile <span class="label label-success">New</span></a></li>
                 <li><a href="landing-page.php">Landing Page</a></li> 
                 <li><a href="deals.php">Deals</a></li>                  
