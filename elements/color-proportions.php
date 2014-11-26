@@ -1,5 +1,5 @@
 <h1 class="page-header">Color Proportions</h1>
-<p>White is the dominant color in all digital executions with the following complinentary colors...
+<p>White is the dominant color in all digital executions with the following complimentary colors...
 </p>
 <!--
 <div class="progress">
