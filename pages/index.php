@@ -31,9 +31,10 @@
       <div class="row">
         <div class="col-md-4 col-md-offset-4">
           <form action="verify.php" method="post">
-            Access Code<br>
+            User Name:<br>
             <input type="text" name="username"><br><br>
-            <input style="display:none" type="password" placeholder="password" name="password"><br><br>
+            Password:<br>
+            <input type="password" placeholder="password" name="password"><br><br>
             <input type="submit" name="submit" value="Login">
           </form>
         </div>
