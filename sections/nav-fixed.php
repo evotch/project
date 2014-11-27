@@ -39,6 +39,7 @@
               <ul class="dropdown-menu" role="menu">
                 <li><a href="components.php#callouts">Call Outs</a></li>
                 <li><a href="components.php#labels">Labels</a></li>
+                <li><a href="components.php#progress-bars">Progress Bars</a></li>
               </ul>
             </li>
             <li class="dropdown">
