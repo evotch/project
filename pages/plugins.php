@@ -23,7 +23,12 @@ max-height: 85px;
             </div>
             <div class="item"><?php include ("../plugins/modal.php"); ?></div>
           </div>
-
+          <div id="alerts" class="docs-section">
+          <div class="page-header">
+              <h3 class="secondary">Alerts</h3>   
+            </div>
+            <?php include ("../elements/alerts.php"); ?>
+          </div>
         </div>  
         <div class="col-md-3">
           

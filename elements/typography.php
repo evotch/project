@@ -22,6 +22,9 @@
             <p>Our brand font is called <strong>Atlas</strong>. It is an elegant, modern typeface that signals professionalism and yet retains an approachable and friendly personality. This is our main typeface and should be used in all communications materials. For the web their are 2 treatments available to use, <strong>Atlas Medium</strong>, and Atlas Light.</p>
             <h6><strong>Note: Do not substitute any other typeface for our brand font.</strong></h6>
             <!-- Headings -->
+              <div class="highlight"><pre><code class="html"><span class="nt">&lt;link href='/fonts/atlas.css' rel='stylesheet' type='text/css'<span class="nt">&gt;</span></code></pre>
+  </div>
+            <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
             <?php include ("../elements/typography-default.php"); ?>
             <?php include ("../elements/typography-headings.php"); ?>
             <?php include ("../elements/typography-fineprint.php"); ?>

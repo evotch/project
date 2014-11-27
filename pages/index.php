@@ -35,12 +35,6 @@
 </div>
 <p>For access to the digital style guide please go to <a href="http://www.alaskabrandhub.com">AlaskaBrandHub.com</a>.
 </p>
-      </div>
-
-        <div class="col-md-4">
-        <div class="page-header">
-  <h3 class="secondary">Access DSG Here</h3>
-</div>
 <div class="form-group">
   
           <form action="verify.php" method="post">
@@ -48,7 +42,7 @@
       <input class="form-control" type="text" placeholder="Enter Access Code" name="username">
       <input style="display:none;" type="password" value="password" name="password">
       <span class="input-group-btn">
-        <button type="submit" name="submit" value="Login" class="btn btn-block btn-primary">Go!</button>
+        <button type="submit" name="submit" value="Login" class="btn btn-block btn-teal">Go!</button>
       </span>
 
     </div><!-- /input-group -->
@@ -58,6 +52,10 @@
             <input type="submit" name="submit" value="Login">-->
           </form>
           </div>
+      </div>
+
+        <div class="col-md-4">
+        <img class="img-responsive" src="../img/maui.jpg">
         </div>
       </div>
     </div>

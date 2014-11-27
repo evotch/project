@@ -1,4 +1,4 @@
-<h1 class="page-header">Alerts</h1>
+
 <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages. For inline dismissal, use the <a href="../javascript/#alerts">alerts jQuery plugin</a>.</p>
 <h3 id="alerts-examples">Examples</h3>
 <p>Wrap any text and an optional dismiss button in <code>.alert</code> and one of the four contextual classes (e.g., <code>.alert-success</code>) for basic alert messages.</p>
