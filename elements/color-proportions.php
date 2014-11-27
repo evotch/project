@@ -80,7 +80,7 @@
 </div>
 <div class="row hidden-xs colorlabels">
     <div class="col-sm-7">
-        <div class="col-sm-6 panel-white well-lg" style="border:1px solid #e9e5dd; height:341px">
+        <div class="col-sm-6 panel-white well-lg" style="border:1px solid #e9e5dd; height:348px">
             <h3>Dominant Color</h3>
             <h4 class="secondary"><small>Convey the Message</small></h4>
             (white)
