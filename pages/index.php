@@ -27,17 +27,47 @@
     <div class="navbar-wrapper" style="min-height:75px;">
       <?php include ("../sections/nav-fixed.php"); ?>
     </div>
-    <div class="container marketing">
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+      <div class="page-header">
+  <h3 class="secondary">Welcome to the Alaska Airlines Digital Style Guide</h3>
+</div>
+<p>For access to the digital style guide please go to <a href="http://www.alaskabrandhub.com">AlaskaBrandHub.com</a>.
+</p>
+      </div>
+
+        <div class="col-md-4">
+        <div class="page-header">
+  <h3 class="secondary">Access DSG Here</h3>
+</div>
           <form action="verify.php" method="post">
-            User Name:<br>
-            <input type="text" name="username"><br><br>
-            Password:<br>
-            <input type="password" placeholder="password" name="password"><br><br>
+            Access Code<br>
+            <input type="text" value="asdsg" name="username">
+            
+            <input style="visibility:hidden" type="password" value="password" name="password"><br><br>
             <input type="submit" name="submit" value="Login">
           </form>
         </div>
       </div>
     </div>
     <?php include ("../sections/footer.php"); ?>
+
+<!--              <form action="verify.php" method="post">
+            User Name:<br>
+            <input type="text" name="username"><br><br>
+            Password:<br>
+            <input type="password" placeholder="password" name="password"><br><br>
+            <input type="submit" name="submit" value="Login">
+          </form>
+
+
+          <form action="verify.php" method="post">
+            Access Code<br>
+            <input type="text" value="asdsg" name="username">
+            
+            <input style="visibility:hidden" type="password" value="password" name="password"><br><br>
+            <input type="submit" name="submit" value="Login">
+          </form>
+
+          -->
