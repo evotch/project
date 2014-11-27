@@ -41,17 +41,27 @@
         <div class="page-header">
   <h3 class="secondary">Access DSG Here</h3>
 </div>
+<div class="form-group">
+  
           <form action="verify.php" method="post">
-            Access Code<br>
-            <input type="text" value="asdsg" name="username">
-            
-            <input style="visibility:hidden" type="password" value="password" name="password"><br><br>
-            <input type="submit" name="submit" value="Login">
+          <div class="input-group">
+      <input class="form-control" type="text" placeholder="Enter Access Code" name="username">
+      <input style="display:none;" type="password" value="password" name="password">
+      <span class="input-group-btn">
+        <button type="submit" name="submit" value="Login" class="btn btn-block btn-primary">Go!</button>
+      </span>
+
+    </div><!-- /input-group -->
+            <!--<input class="form-control" type="text" placeholder="Enter Access Code" name="username"><br>
+            <input style="display:none;" type="password" value="password" name="password">
+            <button type="submit" name="submit" value="Login" class="btn btn-block btn-primary">Enter</button>
+            <input type="submit" name="submit" value="Login">-->
           </form>
+          </div>
         </div>
       </div>
     </div>
-    <?php include ("../sections/footer.php"); ?>
+    
 
 <!--              <form action="verify.php" method="post">
             User Name:<br>
