@@ -1,3 +1,10 @@
+<?php 
+session_start(); 
+if(!$_SESSION['logged']){ 
+header("Location: index.php"); 
+exit; 
+} 
+?>
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="utf-8">

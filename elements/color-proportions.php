@@ -83,7 +83,7 @@
 
 <div class="row">
 <div class="col-sm-4">
-    <div class="col-sm-12 panel-white well-lg" style="border:1px solid #0e2b51; height:348px">
+    <div class="col-sm-12 panel-white well-lg" style="border:1px solid #0e2b51; height:341px">
     <h3>Dominant Color</h3>
     <h4 class="secondary"><small>Convey the Message</small></h4>
     (white)

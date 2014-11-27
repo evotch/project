@@ -15,7 +15,7 @@
             </style>
             <div class="buttons">
             <h1 class="page-header">Buttons</h1>
-            <p>There are 3 sizes of buttons available to use.  We'll use the top 3 as our primary buttons along with a deemphasized button.  Below are examples of medium and small buttons along with info, warning, and danger buttons.</p>
+            <p>Use these buttons styles.  They are set to be a minimum of 44px tall at the default setting.  In rare cases you may need different sizes.  In those cases, there are 3 size variants available, <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code>.</p>
             <p>
             <h4 class="page-header secondary">Primary</h4>
             <button type="button" class="btn btn-primary">Primary</button>
@@ -84,28 +84,5 @@ an important message in merchandising.</p>
             <span class="c">&lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;</span>
             <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/button&gt;</span>
             </code></pre>
-            <h3 id="buttons-sizes">Sizes</h3>
-            <p>Fancy larger or smaller buttons? Add <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code> for additional sizes.</p>
-            <div class="bs-example">
-              <p>
-              <button type="button" class="btn btn-primary btn-lg">Large button</button>
-              <button type="button" class="btn btn-default btn-lg">Large button</button>
-              </p>
-              <p>
-              <button type="button" class="btn btn-primary">Default button</button>
-              <button type="button" class="btn btn-default">Default button</button>
-              </p>
-              <p>
-              <button type="button" class="btn btn-primary btn-sm">Small button</button>
-              <button type="button" class="btn btn-default btn-sm">Small button</button>
-              </p>
-              <p>
-              <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
-              <button type="button" class="btn btn-default btn-xs">Extra small button</button>
-              </p>
-            </div>
-            <div class="highlight">
-<pre><code class="html"><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-lg"</span><span class="nt">&gt;</span>Large button<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default btn-sm"</span><span class="nt">&gt;</span>Small button<span class="nt">&lt;/button&gt;</span></code></pre>
-            </div>
+            
             </div>
