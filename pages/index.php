@@ -1,3 +1,43 @@
+<?php
+
+/////////////////////////////////////////////////////////////////////
+// This is the only portion of the code you may need to change.
+// Indicate the location of your images 
+$root = $_SERVER['DOCUMENT_ROOT'];
+// use if specifying path from root
+//$root = $_SERVER['DOCUMENT_ROOT'];
+
+$path = '/img/stock/';
+
+// End of user modified section 
+/////////////////////////////////////////////////////////////////////
+ 
+function getImagesFromDir($path) {
+    $images = array();
+    if ( $img_dir = @opendir($path) ) {
+        while ( false !== ($img_file = readdir($img_dir)) ) {
+            // checks for gif, jpg, png
+            if ( preg_match("/(\.gif|\.jpg|\.png)$/", $img_file) ) {
+                $images[] = $img_file;
+            }
+        }
+        closedir($img_dir);
+    }
+    return $images;
+}
+
+function getRandomFromArray($ar) {
+    mt_srand( (double)microtime() * 1000000 ); // php 4.2+ not needed
+    $num = array_rand($ar);
+    return $ar[$num];
+}
+
+
+// Obtain list of images from directory 
+$imgList = getImagesFromDir($root . $path);
+
+$img = getRandomFromArray($imgList);
+?> 
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="utf-8">
@@ -25,11 +65,11 @@
   ================================================== -->
   <body>
     <div class="navbar-wrapper" style="min-height:75px;">
-      <?php include ("../sections/nav-fixed.php"); ?>
+<a class="navbar-brand" href="#"><img src="../img/logo.png" height="50"></a>
     </div>
     <div class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-7">
       <div class="page-header">
   <h3 class="secondary">Welcome to the Alaska Airlines Digital Style Guide</h3>
 </div>
@@ -54,8 +94,8 @@
           </div>
       </div>
 
-        <div class="col-md-4">
-        <img class="img-responsive" src="../img/maui.jpg">
+        <div class="col-md-5">
+        <img class="img-responsive" src="<?php echo $path . $img ?>" alt="" />
         </div>
       </div>
     </div>
