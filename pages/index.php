@@ -89,9 +89,12 @@ $img = getRandomFromArray($imgList);
     </div>
     <div class="container">
     <div class="row">
+        <div class="col-md-5">
+        <img class="img-responsive" src="<?php echo $path . $img ?>" alt="" />
+        </div>
       <div class="col-sm-7">
       <div class="page-header">
-  <h3 class="secondary">Welcome to the Alaska Airlines Digital Style Guide</h3>
+  <h3 class="secondary"><strong>Alaska</strong> <span class="navy">Digital Style Guide</span></h3>
 </div>
 <p>For access to the digital style guide please go to <a href="http://www.alaskabrandhub.com">AlaskaBrandHub.com</a>.
 </p>
@@ -114,9 +117,7 @@ $img = getRandomFromArray($imgList);
           </div>
       </div>
 
-        <div class="col-md-5">
-        <img class="img-responsive" src="<?php echo $path . $img ?>" alt="" />
-        </div>
+
       </div>
     </div>
     

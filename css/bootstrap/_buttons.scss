@@ -75,6 +75,10 @@
 .btn-ghost-white:hover {
   @include button-variant($white, $btn-ghost-bg-hover, $white);
 }
+// White Btn
+.btn-white {
+  @include button-variant($navy, $white, $white);
+}
 
 //////////////////////////////////////// Secondary Buttons /////////////////////////
 
