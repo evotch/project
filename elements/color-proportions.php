@@ -1,26 +1,26 @@
-<h1 class="page-header">Color Proportions</h1>
+<h3 class="page-header secondary">Color Proportions</h3>
 <p>White is the dominant color in all digital executions with the following complimentary colors...
 </p>
 <div class="progress visible-xs-block">
-    <div class="progress-bar progress-bar-pink" style="width: 2%">
-        <span class="sr-only"></span>
-    </div>
-    <div class="progress-bar progress-bar-white" style="width: .5%">
-        <span class="sr-only"></span>
-    </div>
     <div class="progress-bar progress-bar-plum" style="width: 2%">
         <span class="sr-only"></span>
     </div>
     <div class="progress-bar progress-bar-white" style="width: .5%">
         <span class="sr-only"></span>
     </div>
-    <div class="progress-bar progress-bar-gold" style="width: 2%">
+    <div class="progress-bar progress-bar-berry" style="width: 2%">
         <span class="sr-only"></span>
     </div>
     <div class="progress-bar progress-bar-white" style="width: .5%">
         <span class="sr-only"></span>
     </div>
     <div class="progress-bar progress-bar-orange" style="width: 2%">
+        <span class="sr-only"></span>
+    </div>
+    <div class="progress-bar progress-bar-white" style="width: .5%">
+        <span class="sr-only"></span>
+    </div>
+    <div class="progress-bar progress-bar-gold" style="width: 2%">
         <span class="sr-only"></span>
     </div>
     <div class="progress-bar progress-bar-white" style="width: 3%">
@@ -86,13 +86,14 @@
             (white)
         </div>
         <div class="col-sm-6">
-            <div class="col-sm-12 panel-orange well-xs"></div>
-            <div class="col-sm-12 panel-white well-xs"></div>
+            
             <div class="col-sm-12 panel-plum well-xs"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
-            <div class="col-sm-12 panel-gold well-xs"></div>
+            <div class="col-sm-12 panel-berry well-xs"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
-            <div class="col-sm-12 panel-pink well-xs"></div>
+            <div class="col-sm-12 panel-orange well-xs"></div>
+            <div class="col-sm-12 panel-white well-xs"></div>
+            <div class="col-sm-12 panel-gold well-xs"></div>
             <div class="col-sm-12 panel-white well-sm"></div>
             <div class="col-sm-12 panel-aqua well-xs" style="height:20px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
@@ -115,7 +116,7 @@
     </div>
     <div class="col-sm-5">
         <h3>Accents <small>(backgrounds)</small></h3>
-        <h6 class="secondary">Orange, Gold, Plum, Magenta (Pink)</h6>
+        <h6 class="secondary">Orange, Gold, Plum, Berry</h6>
         <h3>Supporting <small>(backgrounds)</small></h3>
         <h6 class="secondary">Tan, Cream, Gray</h6><hr>
         <h3>Subordinate <small>(Reinforce the message)</small></h3>

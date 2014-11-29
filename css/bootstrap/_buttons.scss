@@ -133,12 +133,12 @@
 //////////////////////////////////////// Alternate Accent Buttons //////////////////
 
 // Accent Pink Btn
-.btn-danger, .btn-pink {
-  @include button-variant($white, $pink, $pink);
+.btn-danger, .btn-berry, .btn-pink {
+  @include button-variant($white, $berry, $berry);
 }
 // Accent Pink Ghost Button
-.btn-ghost-pink {
-  @include button-variant($pink, $btn-ghost-bg, $pink);
+.btn-ghost-berry, .btn-ghost-pink {
+  @include button-variant($berry, $btn-ghost-bg, $berry);
 }
 // Plum Ghost Btn
 .btn-plum {

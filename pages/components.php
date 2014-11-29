@@ -11,6 +11,12 @@ max-height: 85px;
       <div class="row">
         <div class="col-md-9">
         <div class="page-header">
+              <h3 class="secondary">Responsive Embeds</h3>   
+            </div>       
+          <div id="callouts" class="docs-section">
+            <?php include ("../elements/embed.php"); ?>
+          </div>
+        <div class="page-header">
               <h3 class="secondary">Call Outs</h3>   
             </div>       
           <div id="callouts" class="docs-section">

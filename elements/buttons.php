@@ -39,9 +39,9 @@ vertical-align: -20px;
       <h4 class="page-header secondary">Secondary <small>(support)</small></h4>
       <p>Use Gray or Brown secondary buttons primarily to create visual relief in layouts saturated with color and/or
       with a lot of varying content.</p>
-      <button type="button" class="btn btn-default">Default</button>
       <button type="button" class="btn btn-brown">Book Now</button>
       <button type="button" class="btn btn-ghost-brown">Book Now</button>
+      <button type="button" class="btn btn-default">Book Now</button>
       </p>
       <p>
       <h4 class="page-header secondary">Tertiary</h4>

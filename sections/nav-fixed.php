@@ -17,9 +17,7 @@
               <ul class="dropdown-menu" role="menu">
                 <li class="dropdown-header">Basics</li>
                 <li><a href="home.php#colors">Brand Colors</a></li>
-                <li><a href="home.php#buttons">Color Proportions</a></li>
-                <li><a href="home.php#buttons">Buttons</a></li>                     
-                <li><a href="home.php#buttons">Hyperlinks</a></li>   
+                <li><a href="home.php#buttons">Buttons</a></li>                       
                 <li><a href="home.php#typography">Typography</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Voice</li>

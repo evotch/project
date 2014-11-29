@@ -99,13 +99,13 @@
   <strong>HEX:</strong> #dfa526<br>
   <strong>SASS:</strong> $gold
 </div>
-<div class="col-sm-4 panel-pink well-lg">
+<div class="col-sm-4 panel-berry well-lg">
   <!--<strong>PMS:</strong> 7641 C<br>
   <strong>CMYK:</strong> 32, 94, 57, 22<br>
   <strong>RGB:</strong> 146, 43, 73<br>
   <strong>Uncoated PMS:</strong> 207 U<br>-->
   <strong>HEX:</strong> #922a49<br>
-  <strong>SASS:</strong> $pink
+  <strong>SASS:</strong> $berry
 </div>
 <div class="col-sm-4 panel-aqua well-lg">
   <!--<strong>PMS:</strong> 7464 C<br>

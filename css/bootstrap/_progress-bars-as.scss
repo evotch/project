@@ -24,8 +24,8 @@
 .progress-bar-orange {
   @include progress-bar-variant($orange);
 }
-.progress-bar-pink {
-  @include progress-bar-variant($pink);
+.progress-bar-berry,.progress-bar-pink {
+  @include progress-bar-variant($berry);
 }
 .progress-bar-plum {
   @include progress-bar-variant($plum);
