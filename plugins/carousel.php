@@ -1,6 +1,6 @@
 <!-- Carousel
 ================================================== -->
-<div data-interval="false" id="carousel" class="carousel slide carousel-nav">
+<div data-interval="false" id="carousel" class="carousel slide">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel" data-slide-to="0" class="active"></li>
