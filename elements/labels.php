@@ -1,7 +1,6 @@
 <div class="page-header">
   <h3 class="secondary">Labels</h3>
 </div>
-<h4>Example</h4>
 <div class="bs-example">
   <h1>Example heading <span class="label label-default">New</span></h1>
   <h2>Example heading <span class="label label-gold">New</span></h2>
