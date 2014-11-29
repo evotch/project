@@ -15,25 +15,25 @@
           <p>When a white background doesn't stand out enough the following colors can be used as background colors.
           </p>
           <div class="progress">
-            <div class="progress-bar progress-bar-pink" style="width: 2%">
-              <span class="sr-only"></span>
-            </div>
-            <div class="progress-bar progress-bar-white" style="width: .5%">
-              <span class="sr-only"></span>
-            </div>
             <div class="progress-bar progress-bar-plum" style="width: 2%">
               <span class="sr-only"></span>
             </div>
             <div class="progress-bar progress-bar-white" style="width: .5%">
               <span class="sr-only"></span>
             </div>
-            <div class="progress-bar progress-bar-gold" style="width: 2%">
+            <div class="progress-bar progress-bar-berry" style="width: 2%">
               <span class="sr-only"></span>
             </div>
             <div class="progress-bar progress-bar-white" style="width: .5%">
               <span class="sr-only"></span>
             </div>
             <div class="progress-bar progress-bar-orange" style="width: 2%">
+              <span class="sr-only"></span>
+            </div>
+            <div class="progress-bar progress-bar-white" style="width: .5%">
+              <span class="sr-only"></span>
+            </div>
+            <div class="progress-bar progress-bar-gold" style="width: 2%">
               <span class="sr-only"></span>
             </div>
             <div class="progress-bar progress-bar-white" style="width: 90.5%">

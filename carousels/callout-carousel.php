@@ -6,7 +6,7 @@
   <div class="row">
     <!-- Carousel
     ================================================== -->
-    <div data-interval="false" id="callout-carousel" class="callout-carousel carousel slide carousel-nav">
+    <div data-interval="false" id="callout-carousel" class="callout-carousel carousel slide">
       <!-- Indicators -->
 
       <div class="carousel-inner">
@@ -81,9 +81,6 @@
         </div>
       </div>
       <!-- Controls -->
-      <a class="left carousel-control" href="#callout-carousel" data-slide="prev">
-        <span class="icon-prev"></span>
-      </a>
       <a class="right carousel-control" href="#callout-carousel" data-slide="next">
         <span class="icon-next"></span>
       </a>

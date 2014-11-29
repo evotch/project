@@ -17,7 +17,7 @@
   </div>
 </div>
             
-            <h3 id="type-headings">Headings<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyHeadings">
+            <h3 id="type-headings" class="secondary">Headings<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyHeadings">
               Voice Guidelines
             </button></h3>
 
