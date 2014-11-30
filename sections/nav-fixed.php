@@ -75,7 +75,7 @@
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="my-profile.php">My Account</a></li>
+            <li><a target="_blank" href="http://www.alaskabrandhub.com">Alaska Brand Hub</a></li>
 
           </ul>
         </div><!--/.nav-collapse -->

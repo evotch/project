@@ -84,7 +84,7 @@ vertical-align: -20px;
       </p>
       <p>
       <h4 class="page-header secondary">Disabled</h4>
-      <button type="button" class="btn btn-disabled">Book Now</button>
+      <button type="button" class="btn btn-disabled">Disabled</button>
             <pre><code class="html"><span class="c">&lt;!-- Disabled button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-disabled"</span><span class="nt">&gt;</span>Disabled<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
       

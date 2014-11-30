@@ -76,12 +76,46 @@ $img = getRandomFromArray($imgList);
           </button>
           <a class="navbar-brand" href="#"><img src="../img/logo.png" height="25"></a>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            
-    
 
-          </ul>
+<ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="cursor:default;"><?php
+
+        print date("l, F j, Y h:m a", strtotime("-8 hours"));
+        ?> 
+        <script>
+        function updateClock ( )
+    {
+    var currentTime = new Date ( );
+    var currentHours = currentTime.getHours ( );
+    var currentMinutes = currentTime.getMinutes ( );
+    var currentSeconds = currentTime.getSeconds ( );
+ 
+    // Pad the minutes and seconds with leading zeros, if required
+    currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;
+    currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;
+ 
+    // Choose either "AM" or "PM" as appropriate
+    var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
+ 
+    // Convert the hours component to 12-hour format if needed
+    currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
+ 
+    // Convert an hours component of "0" to "12"
+    currentHours = ( currentHours == 0 ) ? 12 : currentHours;
+ 
+    // Compose the string for display
+    var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+     
+     
+    $("#clock").html(currentTimeString);
+         
+ }
+ 
+$(document).ready(function()
+{
+   setInterval('updateClock()', 1000);
+});</script></a></li>
+        </ul>
 
         </div><!--/.nav-collapse -->
       </div>
@@ -119,6 +153,16 @@ $img = getRandomFromArray($imgList);
 
 
       </div>
+    </div>
+    <div class="container">
+    <div class="row"><hr>
+        <div class="col-md-4">
+        
+
+</div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+    </div>
     </div>
     
 
