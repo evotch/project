@@ -80,7 +80,7 @@ $img = getRandomFromArray($imgList);
 <ul class="nav navbar-nav navbar-right">
         <li><a href="#" style="cursor:default;"><?php
 
-        print date("l, F j, Y h:m a", strtotime("-8 hours"));
+        print date("l, F j, Y", strtotime("-8 hours"));
         ?> 
         <script>
         function updateClock ( )
@@ -155,15 +155,18 @@ $(document).ready(function()
       </div>
     </div>
     <div class="container">
-    <div class="row"><hr>
-        <div class="col-md-4">
-        
-
-</div>
+    <div class="row">
+    <div class="col-md-12"><hr></div>
+        <div class="col-md-4"></div>
         <div class="col-md-4"></div>
         <div class="col-md-4"></div>
     </div>
     </div>
+    <footer class="asdsg-footer" role="contentinfo">
+  <div class="container">
+    <p></p>    
+  </div>
+</footer>
     
 
 <!--              <form action="verify.php" method="post">

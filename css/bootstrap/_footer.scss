@@ -1,7 +1,7 @@
 //
 // Custom partial for the footer
 
-footer {
+.hp-footer {
 	background-color: $navy;
 	padding: 40px 0;
 	border-top: 1px solid $tan;
@@ -12,36 +12,36 @@ footer {
 	color: $white;
 	text-transform: uppercase;
 }
-footer h1, footer .h1 {
+.hp-footer h1, .hp-footer .h1 {
 	@extend .footer-headlines;
 }
-footer h2, footer .h2 {
+.hp-footer h2, .hp-footer .h2 {
 	@extend .footer-headlines;
 }
-footer h3, footer .h3 {
+.hp-footer h3, .hp-footer .h3 {
 	@extend .footer-headlines;
 }
-footer h4, footer .h4 {
+.hp-footer h4, .hp-footer .h4 {
 	@extend .footer-headlines;
 }
-footer h5, footer .h5 {
+.hp-footer h5, .hp-footer .h5 {
 	@extend .footer-headlines;
 }
-footer h6, footer .h6 {
+.hp-footer h6, .hp-footer .h6 {
 	@extend .footer-headlines;
 }
-footer ul {
+.hp-footer ul {
 	margin-left: 0;
 	padding-left: 0;
 	list-style: none;
 }
-footer a {
+.hp-footer a {
 	color: $white;
 }
-footer a:hover, footer a:focus {
+.hp-footer a:hover, .hp-footer a:focus {
 	color: $tan;
 }
-footer .textBox {
+.hp-footer .textBox {
 	line-height: 1.8em;
 }
 .footerLists li {
@@ -50,7 +50,7 @@ footer .textBox {
 	font-size: 12px;
 }
 
-footer hr {border-color: $blue}
+.hp-footer hr {border-color: $blue}
 .subfooter {
 	background-color: $green
 }
