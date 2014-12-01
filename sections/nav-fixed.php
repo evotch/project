@@ -44,6 +44,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Javascript <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
+                <li><a href="plugins.php#embed">Responsive Embed</a></li>
                 <li><a href="plugins.php#carousel">Carousels</a></li>
                 <li><a href="plugins.php#modals">Modals</a></li>
                 <li><a href="plugins.php#modals">Alerts</a></li>
