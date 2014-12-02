@@ -18,7 +18,7 @@
 </div>
             <h3 id="type-copy" class="secondary">Body Copy<!--<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyFineprint">
               Voice Guidelines
-            </button></h3>-->
+            </button>--></h3>
             <p>Whenever possible wrap body copy in <code><p></code> tags.  Copy will be 14px on desktop and 16px on mobile.</p>
 
 
