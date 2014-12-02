@@ -29,7 +29,8 @@ Voice Guidelines
     <div class="highlight"><pre><code class="html"><span class="nt">font-weight:bold; /*Atlas Medium*/</span>
 <span class="nt">font-weight:normal; /*Atlas Light*/</span></code></pre></div>
   <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
-    <?php include ("../elements/typography-default.php"); ?>
+    
     <?php include ("../elements/typography-copy.php"); ?>    
+    <?php include ("../elements/typography-lead.php"); ?>
     <?php include ("../elements/typography-headings.php"); ?>
     <?php include ("../elements/typography-fineprint.php"); ?>
