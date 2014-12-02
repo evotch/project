@@ -1,7 +1,7 @@
 <?php include ("../sections/header.php"); ?>
 <style>
 pre {
-max-height: 85px;
+max-height: 250px;
 }
 </style>
 <!-- Marketing messaging and featurettes
@@ -10,17 +10,17 @@ max-height: 85px;
 <div class="container">
   <div class="row">
     <div class="col-md-9">
-      <div class="page-header">
-        <h3 class="secondary">Responsive Embeds</h3>
-      </div>
-      <div id="callouts" class="docs-section">
+      <div id="embed" class="docs-section">
         <?php include ("../elements/embed.php"); ?>
       </div>
       <div id="callouts" class="docs-section">
         <?php include ("../elements/call-outs.php"); ?>
       </div>
-      <div id="callouts" class="docs-section">
+      <div id="label" class="docs-section">
         <?php include ("../elements/labels.php"); ?>
+      </div>
+      <div id="progress-bars" class="docs-section">
+        <?php include ("../elements/progress-bars.php"); ?>
       </div>
     </div>
     <div class="col-md-3">

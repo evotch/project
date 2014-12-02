@@ -61,6 +61,6 @@ a.label {
   @include label-variant($label-warning-bg);
 }
 
-.label-danger, .label-pink {
+.label-danger, .label-pink, .label-berry {
   @include label-variant($label-danger-bg);
 }

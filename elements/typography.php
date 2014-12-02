@@ -30,6 +30,6 @@ Voice Guidelines
 <span class="nt">font-weight:normal; /*Atlas Light*/</span></code></pre></div>
   <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
     <?php include ("../elements/typography-default.php"); ?>
-    <?php include ("../elements/typography-headings.php"); ?>
     <?php include ("../elements/typography-copy.php"); ?>    
+    <?php include ("../elements/typography-headings.php"); ?>
     <?php include ("../elements/typography-fineprint.php"); ?>

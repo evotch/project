@@ -1,6 +1,6 @@
 
 <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages. For inline dismissal, use the <a href="../javascript/#alerts">alerts jQuery plugin</a>.</p>
-<h3 id="alerts-examples">Examples</h3>
+<h5 id="alerts-examples">Examples</h5>
 <p>Wrap any text and an optional dismiss button in <code>.alert</code> and one of the four contextual classes (e.g., <code>.alert-success</code>) for basic alert messages.</p>
 <div class="bs-callout bs-callout-info">
   
@@ -28,7 +28,7 @@
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-warning&quot;</span> <span class="na">role=</span><span class="s">&quot;alert&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-danger&quot;</span> <span class="na">role=</span><span class="s">&quot;alert&quot;</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span></code></pre>
 </div>
-<h3 id="alerts-dismissible">Dismissible Alerts</h3>
+<h5 id="alerts-dismissible">Dismissible Alerts</h5>
 <p>Build on any alert by adding an optional <code>.alert-dismissible</code> and close button. Be sure to use the <code>&lt;button&gt;</code> element with the <code>data-dismiss="alert"</code> data attribute to ensure proper behavior across all devices</p>
 <div class="bs-example">
   <div class="alert alert-warning alert-dismissible" role="alert">
@@ -40,7 +40,7 @@
                   <pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-warning alert-dismissible&quot;</span> <span class="na">role=</span><span class="s">&quot;alert&quot;</span><span class="nt">&gt;</span>
 <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;close&quot;</span> <span class="na">data-dismiss=</span><span class="s">&quot;alert&quot;</span><span class="nt">&gt;&lt;span</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;sr-only&quot;</span><span class="nt">&gt;</span>Close<span class="nt">&lt;/span&gt;&lt;/button&gt;</span>...<span class="nt">&lt;/div&gt;</span></code></pre>
 </div>
-<h3 id="alerts-links">Links in Alerts</h3>
+<h5 id="alerts-links">Links in Alerts</h5>
 <p>Use the <code>.alert-link</code> utility class to quickly provide matching colored links within any alert.</p>
 <div class="bs-example">
   <div class="alert alert-success" role="alert">
