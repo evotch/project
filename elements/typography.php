@@ -22,7 +22,7 @@ Voice Guidelines
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;link href='http://www.alaskaair.com/content/~/media/Files/fonts/atlas/atlas' rel='stylesheet' type='text/css'<span class="nt">&gt;</span></code></pre>
 </div>
 <h5>CSS Font Stack</h5>
-<div class="highlight"><pre><code class="html"><span class="nt">font-family:Atlas, Arial, sans-serif;</span></code></pre>
+<div class="highlight"><pre><code class="html"><span class="nt">font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;</span></code></pre>
   <h6 class="secondary green">Note: Do not substitute any other typeface for our brand font. If Atlas is unavailable, arial is the preferred backup font.</h6>
   </div>
   <h5>CSS Font Weight</h5>
@@ -31,4 +31,5 @@ Voice Guidelines
   <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
     <?php include ("../elements/typography-default.php"); ?>
     <?php include ("../elements/typography-headings.php"); ?>
+    <?php include ("../elements/typography-copy.php"); ?>    
     <?php include ("../elements/typography-fineprint.php"); ?>
