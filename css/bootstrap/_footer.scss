@@ -2,14 +2,14 @@
 // Custom partial for the footer
 
 .as-footer {
-	background-color: $cream;
+	background-color: $gray-lightest;
 	padding: 40px 0;
-	border-top: 1px solid $tan;
+	border-top: 1px solid $gray-lighter;
 	margin-top: 40px;
-	color: $brown;
+	color: $gray;
 }
 .footer-headlines {
-	color: $brown;
+	color: $gray;
 	text-transform: uppercase;
 }
 .as-footer h1, .as-footer .h1 {
@@ -36,21 +36,21 @@
 	list-style: none;
 }
 .as-footer a {
-	color: $brown;
+	color: $gray;
 }
 .as-footer a:hover, .as-footer a:focus {
-	color: $tan;
+	color: $gray-light;
 }
 .as-footer .textBox {
 	line-height: 1.8em;
 }
 .footerLists li {
-	border-top: 1px solid $tan;
+	border-top: 1px solid $gray-lighter;
 	line-height: 2.5em;
 	font-size: 12px;
 }
 
-.as-footer hr {border-color: $tan}
+.as-footer hr {border-color: $gray-lighter}
 .subfooter {
 	background-color: $green
 }
