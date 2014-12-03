@@ -16,7 +16,7 @@
     </div>
   </div>
 </div>
-            <h3 id="type-fineprint" class="secondary">Fine Print<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyFineprint">
+            <h3 id="type-fineprint" class="page-header secondary">Fine Print<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyFineprint">
               Voice Guidelines
             </button></h3>
             <p>Use the class <code>.fine-print</code> anytime you need to display terms and conditions, fare rules or any other disclaimer.</p>
