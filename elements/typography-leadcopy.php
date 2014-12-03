@@ -21,6 +21,4 @@
             </button>--></h3>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel enim vulputate, laoreet libero condimentum, blandit felis. </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel enim vulputate, laoreet libero condimentum, blandit felis. Nunc tortor erat, sodales sit amet euismod a, facilisis ut ligula. Vestibulum sit amet ipsum bibendum, fringilla ligula sit amet, efficitur orci. Ut turpis magna, consequat in sem et, pharetra auctor lorem. Nulla sollicitudin sapien orci, ac egestas odio gravida sit amet. Curabitur sagittis est tincidunt, egestas enim sed, maximus lorem. Aliquam lacus dui, congue eu ligula non, placerat tristique dui. Nulla hendrerit nulla sed sollicitudin feugiat. Nullam ut dui vel mauris maximus facilisis ut et sapien.</p>
-
-
-          
+            <pre><code class="html">&lt;p class="lead"&gt;...&lt;/p&gt;</code></pre>
