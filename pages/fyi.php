@@ -3,7 +3,13 @@
 <!-- Main -->
 <div class="container">
 <div class="row">
+<div class="col-sm-12">
+     <div class="page-header">
+        <h3 class="secondary">Tips and Tricks</h3>
+      </div>
+</div>
     <div class="col-md-6">
+   
     <h4>The deferred font loading logic for Smashing Magazine, updated to include IE8 support.</h4>
 <a href="https://gist.github.com/iamdarrenhall/495771696b6e270508be">Example</a>
 <blockquote class="twitter-tweet" lang="en"><p>So I’ve updated <a href="https://twitter.com/hdragomir">@hdragomir</a>’s deferred font loading from <a href="https://twitter.com/smashingmag">@smashingmag</a> to include IE8 support. <a href="https://t.co/6IvPyHU8bk">https://t.co/6IvPyHU8bk</a></p>&mdash; Darren Hall (@iamdarrenhall) <a href="https://twitter.com/iamdarrenhall/status/524574662488252417">October 21, 2014</a></blockquote>
@@ -38,10 +44,10 @@
   </div>
 </div>
 <!-- /Main -->
-<br><br><br><br><br>
 
 
-http://www.jqueryscript.net/demo/jQuery-Plugin-To-Change-Text-Color-Based-On-Background-Image-invertImgText-js/
+
+
 
 
 

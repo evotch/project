@@ -1,5 +1,5 @@
 <!-- FOOTER -->
-<footer class="hp-footer">
+<footer class="as-footer">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -8,7 +8,8 @@
                     <p>At Alaska Airlines we are a company of pioneers. Genuinely curious with a taste for adventure, we take full advantage of our many opportunities to see the world. You will find a passion for discovery in everything we do, from the food we serve to the destinations we visit.</p>
                     <p>Most importantly, we bring that love of travel and exploration on board with us, so that we can share it with you.</p>
                 </div>
-                <a class="btn btn-success" href="#">Explore More</a>
+                <!-- Primary Green button -->
+                <button type="button" class="btn btn-green">Explore More</button>
             </div>
             <div class="col-sm-3">
                 <h5><i class="fa fa-user"></i>Custom Support</h5>
@@ -50,7 +51,7 @@
             </div>
         </div>
     </div>
-<hr>
+<!--<hr>
 <div class="container">
     <div class="row">
     
@@ -61,7 +62,7 @@
             Copyright &copy; 1995 - 2014 Alaska Air Group, Inc. All Rights Reserved</a>
         </div>
     </div>
-</div>
+</div>-->
 </footer>
 
 

@@ -1,5 +1,5 @@
 <?php include ("../header.php"); ?>
-<div class="jumbotron>
+<div class="jumbotron">
   <div class="container">
     <div class="col-sm-12">
       <?php include ("../sections/map.php"); ?>

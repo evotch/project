@@ -33,6 +33,6 @@ exit;
   <!-- NAVBAR
   ================================================== -->
   <body>
-    <div class="navbar-wrapper" style="min-height:75px;">
+    <div class="navbar-wrapper" style="margin-bottom: 30px;">
       <?php include ("../sections/nav-fixed.php"); ?>
 	</div>

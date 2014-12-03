@@ -19,7 +19,8 @@
             <h3 id="type-copy" class="secondary">Lead Copy<!--<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyFineprint">
               Voice Guidelines
             </button>--></h3>
-            <p class="lead">To ensure proper spacing and formating wrap text in a <code>&lt;p&gt;</code> tag.  Copy will be 14px on desktop and 16px on mobile.  The color for all body copy text is a medium gray <code>#666</code></p>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel enim vulputate, laoreet libero condimentum, blandit felis. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel enim vulputate, laoreet libero condimentum, blandit felis. Nunc tortor erat, sodales sit amet euismod a, facilisis ut ligula. Vestibulum sit amet ipsum bibendum, fringilla ligula sit amet, efficitur orci. Ut turpis magna, consequat in sem et, pharetra auctor lorem. Nulla sollicitudin sapien orci, ac egestas odio gravida sit amet. Curabitur sagittis est tincidunt, egestas enim sed, maximus lorem. Aliquam lacus dui, congue eu ligula non, placerat tristique dui. Nulla hendrerit nulla sed sollicitudin feugiat. Nullam ut dui vel mauris maximus facilisis ut et sapien.</p>
 
 
           

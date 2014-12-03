@@ -1,4 +1,11 @@
 <?php include ("../sections/header.php"); ?>
+<div class="container">
+	<div class="col-sm-12">
+		<div class="page-header">
+			<h3 class="secondary">Element Options</h3>
+		</div>
+	</div>
+</div>
 <?php include ("../sections/carousel.php"); ?>
 <br>
 <?php include ("../sections/destinations-1x4.php"); ?>
@@ -16,12 +23,12 @@
 <?php include ("../sections/destinations-6733.php"); ?>
 <br>
 <div class="container">
-    <h2 class="text-center">North America Map</h2>
-    <div class="row">
-        <div class="col-md-12">
-            <?php include ("../sections/map.php"); ?>
-        </div>
-    </div>
+	<h2 class="text-center">North America Map</h2>
+	<div class="row">
+		<div class="col-md-12">
+			<?php include ("../sections/map.php"); ?>
+		</div>
+	</div>
 </div>
 <br>
 <?php include ("../sections/destinations.php"); ?>

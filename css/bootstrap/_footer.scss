@@ -1,56 +1,56 @@
 //
 // Custom partial for the footer
 
-.hp-footer {
-	background-color: $navy;
+.as-footer {
+	background-color: $cream;
 	padding: 40px 0;
 	border-top: 1px solid $tan;
 	margin-top: 40px;
-	color: $white
+	color: $brown;
 }
 .footer-headlines {
-	color: $white;
+	color: $brown;
 	text-transform: uppercase;
 }
-.hp-footer h1, .hp-footer .h1 {
+.as-footer h1, .as-footer .h1 {
 	@extend .footer-headlines;
 }
-.hp-footer h2, .hp-footer .h2 {
+.as-footer h2, .as-footer .h2 {
 	@extend .footer-headlines;
 }
-.hp-footer h3, .hp-footer .h3 {
+.as-footer h3, .as-footer .h3 {
 	@extend .footer-headlines;
 }
-.hp-footer h4, .hp-footer .h4 {
+.as-footer h4, .as-footer .h4 {
 	@extend .footer-headlines;
 }
-.hp-footer h5, .hp-footer .h5 {
+.as-footer h5, .as-footer .h5 {
 	@extend .footer-headlines;
 }
-.hp-footer h6, .hp-footer .h6 {
+.as-footer h6, .as-footer .h6 {
 	@extend .footer-headlines;
 }
-.hp-footer ul {
+.as-footer ul {
 	margin-left: 0;
 	padding-left: 0;
 	list-style: none;
 }
-.hp-footer a {
-	color: $white;
+.as-footer a {
+	color: $brown;
 }
-.hp-footer a:hover, .hp-footer a:focus {
+.as-footer a:hover, .as-footer a:focus {
 	color: $tan;
 }
-.hp-footer .textBox {
+.as-footer .textBox {
 	line-height: 1.8em;
 }
 .footerLists li {
-	border-top: 1px solid $blue;
+	border-top: 1px solid $tan;
 	line-height: 2.5em;
 	font-size: 12px;
 }
 
-.hp-footer hr {border-color: $blue}
+.as-footer hr {border-color: $tan}
 .subfooter {
 	background-color: $green
 }

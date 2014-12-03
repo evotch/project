@@ -31,6 +31,6 @@ Voice Guidelines
   <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
     
     <?php include ("../elements/typography-copy.php"); ?>    
-    <?php include ("../elements/typography-lead.php"); ?>
+    <?php include ("../elements/typography-leadcopy.php"); ?>
     <?php include ("../elements/typography-headings.php"); ?>
     <?php include ("../elements/typography-fineprint.php"); ?>
