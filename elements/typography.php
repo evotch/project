@@ -14,8 +14,7 @@
   </div>
 </div>
 <h1 class="page-header">Typography<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typeGeneral">
-Voice Guidelines
-</button></h1>
+Voice</button></h1>
 <p>Our brand font is called <strong>Atlas</strong>. It is an elegant, modern typeface that signals professionalism and yet retains an approachable and friendly personality. This is our main typeface and should be used in all communications materials. For the web their are 2 treatments available to use, <strong>Atlas Medium</strong>, and Atlas Light.</p>
 <!-- Headings -->
 <h5>Web Font</h5>

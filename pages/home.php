@@ -1,5 +1,5 @@
   <?php include ("../sections/header.php"); ?>
-   
+  <style>.nav-tabs.dsg{margin-bottom: 20px;}</style> 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
