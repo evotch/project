@@ -16,7 +16,7 @@
     </div>
   </div>
 </div>
-            <h3 id="type-copy" class="secondary">Lead Copy<!--<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyFineprint">
+            <h3 id="type-copy" class="page-header secondary">Lead Copy<!--<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typographyFineprint">
               Voice Guidelines
             </button>--></h3>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel enim vulputate, laoreet libero condimentum, blandit felis. </p>
