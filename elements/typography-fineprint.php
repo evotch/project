@@ -13,7 +13,7 @@
     <div role="tabpanel" class="tab-pane active" id="FinePrint-CodeExample">
      <p>Use the class <code>.fine-print</code> anytime you need to display terms and conditions, fare rules or any other disclaimer.</p>
             <pre><code class="html">&lt;p class="fine-print"&gt;...&lt;/p&gt;</code></pre>
-            <div class="callout callout-blue">
+          <div class="callout callout-blue">
             <h4>Example</h4>
             <?php include ("../sections/tandc-example.php"); ?>
             </div></div>
