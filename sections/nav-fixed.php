@@ -50,20 +50,15 @@
                 <li><a href="plugins.php#modals">Modals</a></li>
                 <li><a href="plugins.php#modals">Alerts</a></li>
               </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Example Pages <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="homepage.php">Home</a></li>
-                <li><a href="my-profile.php">My Profile <span class="label label-success">New</span></a></li>
-                <li><a href="landing-page.php">Landing Page</a></li> 
-                <li><a href="deals.php">Deals</a></li>                  
-
-              </ul>
-            </li>            
+            </li>    
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Example Pages</li>
+                <li><a href="homepage2.php">Home</a></li>
+                <li><a href="my-profile.php">My Profile <span class="label label-success">New</span></a></li>
+                <li><a href="landing-page.php">Landing Page</a></li> 
+                <li><a href="deals.php">Deals</a></li>       
                 <li><a href="takemesomewhere.php">Take Me Somewhere</a></li>
                 <li><a href="elements.php">List of Elements</a></li>
                 <li><a href="fyi.php">FYI - Tips and Tricks</a></li>
