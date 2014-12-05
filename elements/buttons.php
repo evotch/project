@@ -18,8 +18,23 @@ vertical-align: -20px;
 }
 }
 </style>
+<h1 class="page-header">Buttons</h1>
+<div role="tabpanel">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs dsg" role="tablist">
+    <li role="presentation" class="active"><a href="#buttons-CodeExample" aria-controls="buttons-CodeExample" role="tab" data-toggle="tab">Code Example</a></li>
+    <li role="presentation"><a href="#buttons-VoiceGuidlines" aria-controls="buttons-VoiceGuidlines" role="tab" data-toggle="tab">Voice Guidlines</a></li>
+    <li role="presentation"><a href="#buttons-SEO" aria-controls="buttons-SEO" role="tab" data-toggle="tab">SEO</a></li>
+    <li role="presentation"><a href="#buttons-Mobile" aria-controls="buttons-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
+    <li role="presentation"><a href="#buttons-Email" aria-controls="buttons-Email" role="tab" data-toggle="tab">Email</a></li>  
+    <li role="presentation"><a href="#buttons-Kiost" aria-controls="buttons-Kiost" role="tab" data-toggle="tab">Kiosk</a></li>    
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="buttons-CodeExample">
+    
 <div class="buttons">
-      <h1 class="page-header">Buttons</h1>
+      
       <p>Use these buttons styles.  They are set to be a minimum of 44px tall at the default setting.  In rare cases you may need different sizes.  In those cases, there are 3 size variants available, <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code>.</p>
       <p>
       <h4 class="page-header secondary">Primary</h4>
@@ -89,3 +104,12 @@ vertical-align: -20px;
       </p>
       
 </div>
+</div>
+    <div role="tabpanel" class="tab-pane" id="buttons-VoiceGuidlines"><div class="item">Coming Soon!</div></div>
+    <div role="tabpanel" class="tab-pane" id="buttons-SEO"><div class="item">Coming Soon!</div></div>
+    <div role="tabpanel" class="tab-pane" id="buttons-Mobile"><div class="item">Coming Soon!</div></div>
+    <div role="tabpanel" class="tab-pane" id="buttons-Email"><div class="item">Coming Soon!</div></div>
+    <div role="tabpanel" class="tab-pane" id="buttons-Kiosk"><div class="item">Coming Soon!</div></div>    
+  </div>
+</div>
+
