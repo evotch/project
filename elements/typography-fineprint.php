@@ -19,9 +19,9 @@
             <?php include ("../sections/tandc-example.php"); ?>
             </div></div>
     <div role="tabpanel" class="tab-pane" id="FinePrint-VoiceGuidlines"><div class="item"><?php include ("../voice/footnotes.php"); ?></div></div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-SEO">...</div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-Mobile">...</div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-Email">...</div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-Kiosk">...</div>    
+    <div role="tabpanel" class="tab-pane" id="buttons-SEO"><div class="item">Coming Soon!</div></div>
+    <div role="tabpanel" class="tab-pane" id="buttons-Mobile"><div class="item">Coming Soon!</div></div>
+    <div role="tabpanel" class="tab-pane" id="buttons-Email"><div class="item">Coming Soon!</div></div>
+    <div role="tabpanel" class="tab-pane" id="buttons-Kiosk"><div class="item">Coming Soon!</div></div>    
   </div>
 </div>
