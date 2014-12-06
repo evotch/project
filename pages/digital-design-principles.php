@@ -86,13 +86,13 @@
 
 
 
-    <h4>Our designs enable Alaska’s business objectives and support demonstrable business value</h4>
-    <h4>Our designs are customer-centered and data-influenced</h4>
-    <h4>Our designs are on-brand and consistent across channels</h4>
-    <h4>Our designs support customers’ journey with Alaska and are sensitive to where customers are on that journey</h4>
-    <h4>Our designs are simple and intuitive; we error on the side of less versus more</h4>
-    <h4>Our designs are accessible to all passengers</h4>
-    <h4>Our designs are based on a common design language supported by the Digital Style Guide</h4>
+    <h4 class="secondary">Our designs enable Alaska’s business objectives and support demonstrable business value</h4>
+    <h4 class="secondary">Our designs are <strong>customer-centered</strong> and data-influenced</h4>
+    <h4 class="secondary">Our designs are on-brand and <strong>consistent across channels</strong></h4>
+    <h4 class="secondary">Our designs <strong>support customers’ journey</strong> with Alaska and are sensitive to where customers are on that journey</h4>
+    <h4 class="secondary">Our designs are <strong>simple and intuitive</strong>; we error on the side of less versus more</h4>
+    <h4 class="secondary">Our designs are <strong>accessible</strong> to all passengers</h4>
+    <h4 class="secondary">Our designs are based on a <strong>common design language</strong> supported by the Digital Style Guide</h4>
 
 
 

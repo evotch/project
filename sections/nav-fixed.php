@@ -15,7 +15,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style Guide <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="digital-design-principles.php">Design Philosopy</a></li>
+                <li><a href="digital-design-principles.php">Design Principles</a></li>
                 <li class="dropdown-header">Basics</li>
                 <li><a href="home.php">Brand Colors</a></li>
                 <li><a href="home.php#buttons">Buttons</a></li>                       
