@@ -17,7 +17,7 @@
               <ul class="dropdown-menu" role="menu">
                 <li><a href="digital-design-principles.php">Design Philosopy</a></li>
                 <li class="dropdown-header">Basics</li>
-                <li><a href="home.php#colors">Brand Colors</a></li>
+                <li><a href="home.php">Brand Colors</a></li>
                 <li><a href="home.php#buttons">Buttons</a></li>                       
                 <li><a href="home.php#typography">Typography</a></li>
                 <li class="divider"></li>
@@ -37,7 +37,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="components.php#embed">Responsive Embed</a></li>
+                <li><a href="components.php">Responsive Embed</a></li>
                 <li><a href="components.php#callouts">Call Outs</a></li>
                 <li><a href="components.php#labels">Labels</a></li>
                 <li><a href="components.php#progress-bars">Progress Bars</a></li>
@@ -46,7 +46,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Javascript <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="plugins.php#carousel">Carousels</a></li>
+                <li><a href="plugins.php">Carousels</a></li>
                 <li><a href="plugins.php#modals">Modals</a></li>
                 <li><a href="plugins.php#modals">Alerts</a></li>
               </ul>
