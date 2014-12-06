@@ -1,4 +1,4 @@
-<h3 id="type-headings" class="page-header secondary">Headings</h3>
+<h3 id="type-headings" class="page-header">Headings</h3>
 
 <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. <code>.h1</code> through <code>.h6</code> classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.  When two headings are used the second heading can use the light font by adding the class <code>.secondary</code></p>
 

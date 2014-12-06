@@ -1,4 +1,4 @@
-<h3 id="type-copy" class="page-header secondary">Lead Copy</h3>
+<h3 id="type-copy" class="page-header">Lead Copy</h3>
 <p>Add the class <code>.lead</code> to any <code>span</code> or <code>&lt;p&gt;</code> to emphasize a sentance or short message. Primarily found in marketing messages, blogs, policy pages, or other copy heavy pages&mdash; used to increase scanability of page.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->

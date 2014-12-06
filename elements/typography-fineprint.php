@@ -1,4 +1,4 @@
-<h3 id="type-fineprint" class="page-header secondary">Fine Print</h3>
+<h3 id="type-fineprint" class="page-header">Fine Print</h3>
 <p>Use the class <code>.fine-print</code> anytime you need to display terms and conditions, fare rules or any other disclaimer.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
