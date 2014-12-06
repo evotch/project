@@ -86,7 +86,7 @@
 
 
 
-    <h4 class="secondary">Our designs enable Alaska’s business objectives and support demonstrable business value</h4>
+    <h4 class="secondary">Our designs enable Alaska’s business objectives and support <strong>demonstrable business value</strong></h4>
     <h4 class="secondary">Our designs are <strong>customer-centered</strong> and data-influenced</h4>
     <h4 class="secondary">Our designs are on-brand and <strong>consistent across channels</strong></h4>
     <h4 class="secondary">Our designs <strong>support customers’ journey</strong> with Alaska and are sensitive to where customers are on that journey</h4>
