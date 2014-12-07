@@ -32,7 +32,7 @@ if(!$_SESSION['logged']){
   </head>
   <!-- NAVBAR
   ================================================== -->
-  <body>
+  <body class="dsg" style="padding-top:30px">
     <div class="navbar-wrapper" style="margin-bottom: 30px;">
       <?php include ("../sections/nav-fixed.php"); ?>
     </div>

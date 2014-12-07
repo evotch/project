@@ -19,6 +19,7 @@ vertical-align: -20px;
 }
 </style>
 <h1 class="page-header">Buttons</h1>
+<p>Use these buttons styles.  They are set to be a minimum of 44px tall at the default setting.  In rare cases you may need different sizes.  In those cases, there are 3 size variants available, <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code>.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs dsg" role="tablist">
@@ -35,7 +36,7 @@ vertical-align: -20px;
     
 <div class="buttons">
       
-      <p>Use these buttons styles.  They are set to be a minimum of 44px tall at the default setting.  In rare cases you may need different sizes.  In those cases, there are 3 size variants available, <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code>.</p>
+      
       <p>
       <h4 class="page-header secondary">Primary</h4>
       <button type="button" class="btn btn-primary">Primary</button>

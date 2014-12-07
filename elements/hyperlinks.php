@@ -1,4 +1,4 @@
-<h3 class="page-header secondary">Hyperlinks</h3>
+<h3 class="page-header">Hyperlinks</h3>
 <p>Anytime you are including a link in a block of text a text underline will be required.  As long as the link is inside a <code>&lt;p&gt;</code> the links will automatcally show with an underline.  If you run into a situation where you need a link, but can't wrap it a <code>&lt;p&gt;</code> and it doesn't make sense to use an arrow to indicate that it is a link&mdash;use the class <code>.underline</code></p>
 <div role="tabpanel">
   <!-- Nav tabs -->

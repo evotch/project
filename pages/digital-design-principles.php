@@ -1,5 +1,5 @@
 <?php include ("../sections/header.php"); ?>
-<style type="text/css">.progress {border-radius: 0;box-shadow: none;background: transparent;position: relative;top: 2px;}.progress-bar{box-shadow: none}</style>
+<style type="text/css">.design-principles h4 {line-height: 1.75em}.progress {border-radius: 0;box-shadow: none;background: transparent;position: relative;top: 2px;}.progress-bar{box-shadow: none}</style>
 <div class="progress">
     <div class="progress-bar progress-bar-plum" style="width: 2%">
         <span class="sr-only"></span>
@@ -85,7 +85,7 @@
     <h1 class="page-header">Digital Design Principles</h1>
 
 
-
+<div class="design-principles">
     <h4 class="secondary">Our designs enable Alaska’s business objectives and support <strong>demonstrable business value</strong></h4>
     <h4 class="secondary">Our designs are <strong>customer-centered</strong> and data-influenced</h4>
     <h4 class="secondary">Our designs are on-brand and <strong>consistent across channels</strong></h4>
@@ -93,12 +93,39 @@
     <h4 class="secondary">Our designs are <strong>simple and intuitive</strong>; we error on the side of less versus more</h4>
     <h4 class="secondary">Our designs are <strong>accessible</strong> to all passengers</h4>
     <h4 class="secondary">Our designs are based on a <strong>common design language</strong> supported by the Digital Style Guide</h4>
-
+</div>
 
 
     <br><br><br><br><br>
 </div>
 <div class="col-md-4">
+<style>
+.circle-berry {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    background-color: 
+    /* width and height can be anything, as long as they're equal */
+}
+.circle-blue {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    /* width and height can be anything, as long as they're equal */
+}
+.circle-aqua {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    /* width and height can be anything, as long as they're equal */
+}
+.circle-teal {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    /* width and height can be anything, as long as they're equal */
+}
+</style>
 </div>
 </div>
 </div>

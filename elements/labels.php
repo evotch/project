@@ -1,4 +1,4 @@
-<div class="page-header">
+<div class="page-header" id="labels">
   <h3 class="secondary">Labels</h3>
 </div>
 <div class="bs-example">

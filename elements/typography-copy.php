@@ -13,7 +13,9 @@
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="body-CodeExample">
       <pre><code class="html">&lt;p&gt;...&lt;/p&gt;</code></pre>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel enim vulputate, laoreet libero condimentum, blandit felis. Nunc tortor erat, sodales sit amet euismod a, facilisis ut ligula. Vestibulum sit amet ipsum bibendum, fringilla ligula sit amet, efficitur orci. Ut turpis magna, consequat in sem et, pharetra auctor lorem. Nulla sollicitudin sapien orci, ac egestas odio gravida sit amet. Curabitur sagittis est tincidunt, egestas enim sed, maximus lorem. Aliquam lacus dui, congue eu ligula non, placerat tristique dui. Nulla hendrerit nulla sed sollicitudin feugiat. Nullam ut dui vel mauris maximus facilisis ut et sapien.</p>
+      <p>At Alaska Airlines we are a company of pioneers. Genuinely curious with a taste for adventure, we take full advantage of our many opportunities to see the world. You will find a passion for discovery in everything we do, from the food we serve to the destinations we visit.
+
+Most importantly, we bring that love of travel and exploration on board with us, so that we can share it with you.</p>
     </div>
     <div role="tabpanel" class="tab-pane" id="body-VoiceGuidlines">Coming Soon!</div>
     <div role="tabpanel" class="tab-pane" id="body-SEO">Coming Soon!.</div>

@@ -1,4 +1,4 @@
-<h3 class="page-header secondary">Color Proportions</h3>
+<h3 class="page-header">Color Proportions</h3>
 <p>White is the dominant color in all digital executions with the following complimentary colors...
 </p>
 <div class="progress visible-xs-block">
@@ -82,8 +82,8 @@
     <div class="col-sm-7">
         <div class="col-sm-6 panel-white well-lg" style="border:1px solid #e9e5dd; height:348px">
             <h3>Dominant Color</h3>
-            <h4 class="secondary"><small>Convey the Message</small></h4>
-            (white)
+            <h4 class="secondary"><small>(Convey the Message)</small></h4>
+            <h6 class="secondary">White</h6>
         </div>
         <div class="col-sm-6">
             
