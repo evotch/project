@@ -104,8 +104,8 @@
     border-radius: 50%;
     width: 200px;
     height: 200px; 
-    background-color: 
-    /* width and height can be anything, as long as they're equal */
+    background-color: ;
+    /* width and height can be anything, as long as they are equal */
 }
 .circle-blue {
     border-radius: 50%;

@@ -1,23 +1,19 @@
-<!-- Button trigger modal -->
-<!-- Modal -->
-<div class="modal fade" id="typeGeneral" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="secondary green">Voice Guidelines</h4>
-      </div>
-      <div class="modal-body">
-        <div class="item"><?php include ("../voice/tone.php"); ?></div>
-      </div>
-    </div>
-  </div>
-</div>
-<h1 class="page-header">Typography<button type="button" class="btn btn-success btn-xs pull-right" data-toggle="modal" data-target="#typeGeneral">
-Voice</button></h1>
+<h1 class="page-header">Typography</h1>
 <p>Our brand font is called <strong>Atlas</strong>. It is an elegant, modern typeface that signals professionalism and yet retains an approachable and friendly personality. This is our main typeface and should be used in all communications materials. For the web their are 2 treatments available to use, <strong>Atlas Medium</strong>, and Atlas Light.</p>
 <!-- Headings -->
-<h5>Web Font</h5>
+<div role="tabpanel">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs dsg" role="tablist">
+    <li role="presentation" class="active"><a href="#type-CodeExample" aria-controls="type-CodeExample" role="tab" data-toggle="tab">Code Example</a></li>
+    <li role="presentation"><a href="#type-VoiceGuidlines" aria-controls="type-VoiceGuidlines" role="tab" data-toggle="tab">Voice Guidlines</a></li>
+    <li role="presentation"><a href="#type-SEO" aria-controls="type-SEO" role="tab" data-toggle="tab">SEO</a></li>
+    <li role="presentation"><a href="#type-Mobile" aria-controls="type-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
+    <li role="presentation"><a href="#type-Email" aria-controls="type-Email" role="tab" data-toggle="tab">Email</a></li>    
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="type-CodeExample">
+      <h5>Web Font</h5>
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;link href='http://www.alaskaair.com/content/~/media/Files/fonts/atlas/atlas' rel='stylesheet' type='text/css'<span class="nt">&gt;</span></code></pre>
 </div>
 <h5>CSS Font Stack</h5>
@@ -27,8 +23,13 @@ Voice</button></h1>
   <h5>CSS Font Weight</h5>
     <div class="highlight"><pre><code class="html"><span class="nt">font-weight:bold; /*Atlas Medium*/</span>
 <span class="nt">font-weight:normal; /*Atlas Light*/</span></code></pre></div>
-  <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
-    
+     </div>
+    <div role="tabpanel" class="tab-pane" id="type-VoiceGuidlines"><?php include ("../voice/tone.php"); ?></div>
+    <div role="tabpanel" class="tab-pane" id="type-SEO">Coming Soon!.</div>
+    <div role="tabpanel" class="tab-pane" id="type-Mobile">Coming Soon!.</div>
+    <div role="tabpanel" class="tab-pane" id="type-Email">Coming Soon!.</div>
+  </div>
+</div>    
     <?php include ("../elements/typography-copy.php"); ?>    
     <?php include ("../elements/typography-leadcopy.php"); ?>
     <?php include ("../elements/typography-headings.php"); ?>
