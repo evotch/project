@@ -1,5 +1,5 @@
 <?php include ("../sections/header.php"); ?>
-<style type="text/css">.design-principles h4 {line-height: 1.75em}.progress {border-radius: 0;box-shadow: none;background: transparent;position: relative;top: 2px;}.progress-bar{box-shadow: none}</style>
+<style type="text/css">.design-principles h4 {line-height: 1.75em}.progress {border-radius: 0;box-shadow: none;background: transparent;position: relative;top: -25px;}.progress-bar{box-shadow: none}</style>
 <div class="progress">
     <div class="progress-bar progress-bar-plum" style="width: 2%">
         <span class="sr-only"></span>
