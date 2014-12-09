@@ -22,6 +22,9 @@ max-height: 250px;
       <div id="progress-bars" class="docs-section">
         <?php include ("../elements/progress-bars.php"); ?>
       </div>
+      <div id="progress-bars" class="docs-section">
+        <?php include ("../elements/forms.php"); ?>
+      </div>
     </div>
     <div class="col-md-3">
       

@@ -34,5 +34,5 @@ if(!$_SESSION['logged']){
   ================================================== -->
   <body class="dsg" style="padding-top:30px">
     <div class="navbar-wrapper" style="margin-bottom: 30px;">
-      <?php include ("../sections/nav-fixed.php"); ?>
+      <?php include ("../navs/nav-dsg.php"); ?>
     </div>
