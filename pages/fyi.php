@@ -40,7 +40,12 @@
     <h4>Here are a couple ways to change text color based on bg image</h4>
     <a href="http://www.jqueryscript.net/demo/jQuery-Plugin-To-Change-Text-Color-Based-On-Background-Image-invertImgText-js/">http://www.jqueryscript.net/demo/jQuery-Plugin-To-Change-Text-Color-Based-On-Background-Image-invertImgText-js/</a><br><br>
     <a href="http://www.kennethcachia.com/background-check/">http://www.kennethcachia.com/background-check/</a>
-    </div>    
+    </div>  
+  <div class="col-md-6">
+    <h4>Offset anchor links with fixed nav</h4>
+    <blockquote class="twitter-tweet" lang="en"><p>This will come in handy I&#39;m sure.&#10;<a href="http://t.co/WUfO8iRnGi">http://t.co/WUfO8iRnGi</a></p>&mdash; Brandon Shields (@Braven112) <a href="https://twitter.com/Braven112/status/542569295683678208">December 10, 2014</a></blockquote>
+	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>  
   </div>
 </div>
 <!-- /Main -->
