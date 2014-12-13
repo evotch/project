@@ -112,7 +112,7 @@ top: -45px;
 .nav.food li {padding: 15px 69px;}
 .nav.entertainment li {padding: 15px 119px;}
 div#nav {
-	background-color: #eee;
+	background-color: $white;
 	display: block;
 	height: 44px;
 	min-width: 972px;
@@ -138,8 +138,8 @@ hr {
 }
 
 
-p a, p a:visited {color:$navy; font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;}
-p a:focus, p a:hover {color:#030810;}
+p a, p a:visited,.col-sm-8 a,.col-sm-8 a:visited {color:$navy; font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+p a:focus, p a:hover,.col-sm-8 a:focus,.col-sm-8 a:hover {color:#030810;}
 
 
 
