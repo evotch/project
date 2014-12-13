@@ -56,8 +56,8 @@
 	}
 	.row p {
 		padding: 0px 50px 0px;
-		font-size: 16px;
 	}
+	
 	.row-alt img {margin-bottom: -7px;}
 	.row-alt .col-sm-8 div {
 float: left;
@@ -76,7 +76,7 @@ padding: 0 15px 0 15px;
 		@extend .headlines;
 	}
 	h4 {margin-bottom:0 }
-	.col-sm-12 h3,.col-sm-12 h2, .col-sm-12 a.btn, .col-sm-12 h1 {text-align: center}
+	.col-sm-12 h3,.col-sm-12 h2, .col-sm-12 a.btn, .col-sm-12 h1, .text-center {text-align: center}
 	a.btn {text-decoration: none; color: $white}
 
 // Perfect circle
@@ -109,6 +109,8 @@ top: -45px;
 //}
 .nav {padding: 0}
 .nav li{float: left; list-style: none; padding: 15px 76px; border-right: 1px solid #ccc;}
+.nav.food li {padding: 15px 69px;}
+.nav.entertainment li {padding: 15px 119px;}
 div#nav {
 	background-color: #eee;
 	display: block;
@@ -141,10 +143,23 @@ p a:focus, p a:hover {color:#030810;}
 
 
 
+.container.menu .col-sm-9 p {padding: 0;}
+.container.menu .col-sm-9 {width:67%}
+.container.menu .col-sm-3 {padding-left: 30px;}
+.container.menu.drinks .col-sm-6 {width: 41%;padding-left: 65px;}
 
+.container.fc-drinks .col-sm-4,.container.horizon .col-sm-4 {
+padding-left: 69px;
+width: 24%;
+}
 
+.container.blockbusters .col-sm-5 {
+width: 41%;
+padding-left: 69px;
+}
 
-
+.pull-left {padding-right: 30px;}
+.container.blockbusters .pull-left {padding-bottom: 190px}
 
 
 }//End Beyond Campaign
