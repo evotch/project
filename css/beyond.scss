@@ -7,6 +7,7 @@
 @import "bootstrap/wells";
 @import "bootstrap/panels";
 @import "bootstrap/utilities";
+@import "bootstrap/fine-print";
 
 
 
@@ -44,6 +45,7 @@
 	font-size: 14px;
 	line-height: 1.72857;
 	color: $gray;
+	padding-bottom: 40px;
 	.col-sm-4 {width:30%}
 	.col-sm-4.last {padding-right: 0;}
 	.container {
@@ -58,10 +60,11 @@
 		padding: 0px 50px 0px;
 	}
 	
+	
 	.row-alt img {margin-bottom: -7px;}
-	.row-alt .col-sm-8 div {
+	.row-alt.circlelinks div {
 float: left;
-padding: 0 15px 0 15px;
+padding: 0 60px;
 }
 	h1, .h1 { font-size: 32px; }
 	h2, .h2 { font-size: 28px; }
@@ -69,7 +72,7 @@ padding: 0 15px 0 15px;
 	h4, .h4 { font-size: 18px; }
 	h5, .h5 { font-size: 14px; }
 	h6, .h6 { font-size: 12px; }
-	p.lead {font-size: 23px;margin-bottom: 1em;}
+	p.lead, span.lead {font-size: 23px;margin-bottom: 1em;}
 	.headlines {color:$navy;font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -87,15 +90,17 @@ img.full-screen {
 	margin-bottom: 40px;
 }
 
-.panel-cream {
+.more-about-us .panel-cream {
 	min-height: 175px;
+}
+.panel-cream {
 	margin-bottom: 70px;
 }
 
 
 .anchor {
 position: relative;
-top: -45px;
+top: -43px;
 }
 
 
@@ -108,9 +113,9 @@ top: -45px;
 //             color: $gray;
 //}
 .nav {padding: 0}
-.nav li{float: left; list-style: none; padding: 15px 76px; border-right: 1px solid #ccc;}
-.nav.food li {padding: 15px 69px;}
-.nav.entertainment li {padding: 15px 119px;}
+.nav li{float: left; list-style: none; padding: 13px 78px; border-right: 1px solid #ccc;}
+.nav.food li {padding: 13px 73px;}
+.nav.entertainment li {padding: 13px 119px;}
 div#nav {
 	background-color: $white;
 	display: block;
@@ -120,9 +125,9 @@ div#nav {
 	margin-bottom: 40px;
 	border-bottom: 1px solid #ccc;
 }
-.nav li a {text-decoration: none; color: $gray;	font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold;text-transform: uppercase;}
+.nav li a {text-decoration: none; color: $gray;	font-size:14px;font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight:bold;}
 
-.nav li a:hover {text-decoration: none; color: $navy;}
+.nav li a:hover {text-decoration: none; color: $navy; }
 .affix {top: 0px;}
 
 .nav li.last {border-right: 0px solid;}
@@ -138,15 +143,16 @@ hr {
 }
 
 
-p a, p a:visited,.col-sm-8 a,.col-sm-8 a:visited {color:$navy; font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;}
-p a:focus, p a:hover,.col-sm-8 a:focus,.col-sm-8 a:hover {color:#030810;}
+p a, p a:visited,.circlelinks a,.circlelinks a:visited {color:$navy; font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;}
+p a:focus, p a:hover,.circlelinks a:focus,.circlelinks a:hover {color:#030810;}
 
 
 
 .container.menu .col-sm-9 p {padding: 0;}
-.container.menu .col-sm-9 {width:67%}
-.container.menu .col-sm-3 {padding-left: 30px;}
+.container.menu .col-sm-9 {width:64%}
+.container.menu .col-sm-3 {padding-left: 40px;}
 .container.menu.drinks .col-sm-6 {width: 41%;padding-left: 65px;}
+.container.menu.drinks .col-sm-6 p {padding:0}
 
 .container.fc-drinks .col-sm-4,.container.horizon .col-sm-4 {
 padding-left: 69px;
@@ -160,8 +166,14 @@ padding-left: 69px;
 
 .pull-left {padding-right: 30px;}
 .container.blockbusters .pull-left {padding-bottom: 190px}
+.container.blockbusters  .row p {
+    padding: 0px 40px 0 0;
+}
+.container.gogo .col-sm-5 {
+    padding-left: 50px;
+}
 
-
+.container.gogo .col-sm-5 p {padding-left:0px}
 }//End Beyond Campaign
 
 
