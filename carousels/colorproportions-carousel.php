@@ -11,7 +11,7 @@
 
       <div class="carousel-inner">
         <div class="item active">
-          <h3 class="page-header secondary">Accent <small>(backgrounds)</small></h3>
+          <h3 class="page-header secondary">Accents <small>(backgrounds)</small></h3>
           <p>When a white background doesn't stand out enough the following colors can be used as background colors.
           </p>
           <div class="progress">
@@ -77,7 +77,7 @@
         </div>
         <div class="item">
           <h3 class="page-header secondary">Subordinate <small>(reinforece the message)</small></h3>
-          <p>Use blue and brown to reinforce the message as needed.
+          <p>Use Ocean and Bark to reinforce the message as needed.
           </p>
           <div class="progress">
             <div class="progress-bar progress-bar-white" style="width: 48%">
@@ -100,7 +100,7 @@
         </div>
         <div class="item">
           <h3 class="page-header secondary">Dominant <small>(convey the message)</small></h3>
-          <p>Green, Marine (teal), Navy are our dominant colors.
+          <p>Leaf, Marine, Navy are our dominant colors.
           </p>
           <div class="progress">
             <div class="progress-bar progress-bar-white" style="width: 57%">

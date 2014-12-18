@@ -107,23 +107,23 @@
             <div class="col-sm-12 panel-white well-xs"></div>
             <div class="col-sm-12 panel-brown well-xs" data-toggle="tooltip" data-placement="right" title="$brown #4d3524" style="height:15px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
-            <div class="col-sm-12 panel-teal well-xs" data-toggle="tooltip" data-placement="right" title="$teal #004f51" data-toggle="tooltip" data-placement="right" title="#e17329" style="height:30px"></div>
-            <div class="col-sm-12 panel-white well-xs"></div>
             <div class="col-sm-12 panel-green well-xs" data-toggle="tooltip" data-placement="right" title="$green #4d803b" style="height:30px"></div>
+            <div class="col-sm-12 panel-white well-xs"></div>
+            <div class="col-sm-12 panel-teal well-xs" data-toggle="tooltip" data-placement="right" title="$teal #004f51" data-toggle="tooltip" data-placement="right" title="#e17329" style="height:30px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
             <div class="col-sm-12 panel-navy well-xs" data-toggle="tooltip" data-placement="right" title="$navy #0e2b51" style="height:60px"></div>
         </div>
     </div>
     <div class="col-sm-5">
         <h3>Accents <small>(backgrounds)</small></h3>
-        <h6 class="secondary">Orange, Gold, Plum, Berry</h6>
+        <h6 class="secondary">Sunset, Wheat, Raisin, Berries</h6>
         <h3>Supporting <small>(backgrounds)</small></h3>
-        <h6 class="secondary">Tan, Cream, Gray</h6><hr>
+        <h6 class="secondary">Stone, White Sand, Gray</h6><hr>
         <h3>Subordinate <small>(Reinforce the message)</small></h3>
-        <h6 class="secondary">Brown & Blue</h6>
+        <h6 class="secondary">Leaf, Bark, & Ocean</h6>
         
-        <h3>Dominate <small>(Convey the message)</small></h3>
-        <h6 class="secondary">Navy, Marine (Teal), Green</h6>
+        <h3>Dominant <small>(Convey the message)</small></h3>
+        <h6 class="secondary">Navy, Marine</h6>
     </div>
 </div>
 <br>

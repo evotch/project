@@ -13,19 +13,32 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 //## AS.com color variables.
 
 $white: #FFF;
+$snow: $white;
 $navy: #0e2b51;
 $teal: #004f51;
+$marine:$teal;
 $brown: #4d3524;
+$bark: $brown;
 $green: #4d803b;// old green #358f43;
+$leaf: $green;
 $tan: #b7af9b;
+$stone:$tan;
 $cream: #e9e5dd;
+$whitesand: $cream;
+$sand: $whitesand;
 $aqua: #9ed0c9;
+$seaglass: $aqua;
 $gold: #dfa526;
+$wheat: $gold;
 $plum: #522a3a; /*darker*/
+$raisin:$plum;
+$wine:$plum;
 $pink: #922a49;
 $berry: $pink;
 $blue: #00567e;
+$ocean:$blue;
 $orange: #E17329;// offical orange is #e37d38 but its not accesible on white
+$sunset: $orange;
 $black: #000;
 
 
