@@ -8,6 +8,7 @@
 @import "bootstrap/panels";
 @import "bootstrap/utilities";
 @import "bootstrap/fine-print";
+@import "bootstrap/back-to-top";
 
 $navheight: 77px;
 
@@ -312,6 +313,7 @@ $navheight: 77px;
     a.btn {
         text-decoration: none;
         color: $white;
+        font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;
     }
     // Perfect circle
     .img-circle {
@@ -380,6 +382,10 @@ $navheight: 77px;
     .affix {
         top: 0px;
     }
+    //This offsets the affixed nav and makes the scrolling smooth when menu is affixed
+    .affix + .affixwrapper {
+    min-height: 135px;
+    }
     .nav li.active a, .nav li a:hover {
         border-bottom: 3px solid $green;
     }
@@ -436,6 +442,7 @@ $navheight: 77px;
     .container.gogo .col-sm-5 p {
         padding-left: 0px;
     }
+
 }
 
 //End Beyond Campaign
