@@ -87,7 +87,7 @@
         </div>
         <div class="col-sm-6">
             
-            <div class="col-sm-12 panel-plum well-xs" data-toggle="tooltip" data-placement="right" title="$plum #522a3a"></div>
+            <div class="col-sm-12 panel-plum well-xs" data-toggle="tooltip" data-placement="right" title="$wine #522a3a"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
             <div class="col-sm-12 panel-berry well-xs" data-toggle="tooltip" data-placement="right" title="$berry #922a49"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
@@ -97,9 +97,9 @@
             <div class="col-sm-12 panel-white well-sm"></div>
             <div class="col-sm-12 panel-aqua well-xs" data-toggle="tooltip" data-placement="right" title="$aqua #9ed0c9" style="height:20px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
-            <div class="col-sm-12 panel-tan well-xs" data-toggle="tooltip" data-placement="right" title="$tan #b7af9b" style="height:20px"></div>
+            <div class="col-sm-12 panel-tan well-xs" data-toggle="tooltip" data-placement="right" title="$stone #b7af9b" style="height:20px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
-            <div class="col-sm-12 panel-cream well-xs" data-toggle="tooltip" data-placement="right" title="$cream #e9e5dd" style="height:40px"></div>
+            <div class="col-sm-12 panel-cream well-xs" data-toggle="tooltip" data-placement="right" title="$sand #e9e5dd" style="height:40px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
             <div class="col-sm-12 panel-gray-light well-xs" data-toggle="tooltip" data-placement="right" title="$gray-light #999"></div>
             <div class="col-sm-12 panel-white well-sm"></div>
@@ -109,7 +109,7 @@
             <div class="col-sm-12 panel-white well-xs"></div>
             <div class="col-sm-12 panel-green well-xs" data-toggle="tooltip" data-placement="right" title="$green #4d803b" style="height:30px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
-            <div class="col-sm-12 panel-teal well-xs" data-toggle="tooltip" data-placement="right" title="$teal #004f51" data-toggle="tooltip" data-placement="right" title="#e17329" style="height:30px"></div>
+            <div class="col-sm-12 panel-teal well-xs" data-toggle="tooltip" data-placement="right" title="$marine #004f51" data-toggle="tooltip" data-placement="right" title="#e17329" style="height:30px"></div>
             <div class="col-sm-12 panel-white well-xs"></div>
             <div class="col-sm-12 panel-navy well-xs" data-toggle="tooltip" data-placement="right" title="$navy #0e2b51" style="height:60px"></div>
         </div>
