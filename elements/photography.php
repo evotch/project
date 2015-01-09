@@ -1,5 +1,5 @@
 <h1 class="page-header">Photography</h1>
-<p>Stay tunded for more details.</p>
+<p>Stay tuned for more details.  In the meantime check out <a href="http://www.smashingmagazine.com/2014/02/03/one-solution-to-responsive-images/">this article</a> on responsive images.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs dsg" role="tablist">

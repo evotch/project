@@ -427,11 +427,14 @@ $navheight: 77px;
         width: 41%;
         padding-left: 69px;
     }
+	.container.blockbusters .col-sm-3 {
+		width:30%
+	}
     .pull-left {
         padding-right: 30px;
     }
     .container.blockbusters .pull-left {
-        padding-bottom: 190px;
+        padding-bottom: 70px;
     }
     .container.blockbusters .row p {
         padding: 0px 40px 0 0;
