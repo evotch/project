@@ -39,6 +39,7 @@ vertical-align: -20px;
       
       <p>
       <h4 class="page-header secondary">Primary</h4>
+      <p>The green button is used when there is one primary action on a page.  If there are multiple "primary" actions on a page then you'll want to use secondary buttons. As a general rule you won't have more than one green button on a page.</p>
       <button type="button" class="btn btn-primary">Primary</button>
       <button type="button" class="btn btn-ghost-green">Primary</button>
        <pre><code class="html"><span class="c">&lt;!-- Primary Green button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-green"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
