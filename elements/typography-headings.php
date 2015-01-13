@@ -21,22 +21,22 @@
           <tr>
             <td style="border:none" width="63%"><h1>Explore More. Spend Less.&trade;</h1></td>
             <td style="border:none" ><code>.h1 or &lt;h1&gt;</code></td>
-            <td style="border:none" class="fine-print">Medium 32px</td>
+            <td style="border:none" class="fine-print">Medium 36px</td>
           </tr>
           <tr>
             <td><h1 class="secondary">Designed to Explore.&trade;</h1></td>
             <td><code>.h1.secondary or <br>&lt;h1 class="secondary"&gt;</code></td>
-            <td class="fine-print">Light 32px</td>
+            <td class="fine-print">Light 36px</td>
           </tr>
           <tr>
             <td><h2>Explore More. Spend Less.&trade;</h2></td>
             <td><code>.h2 or &lt;h2&gt;</code></td>
-            <td class="fine-print">Medium 28px</td>
+            <td class="fine-print">Medium 30px</td>
           </tr>
           <tr>
             <td><h2 class="secondary">Designed to Explore.&trade;</h2></td>
             <td><code>.h2.secondary or <br>&lt;h2 class="secondary"&gt;</code></td>
-            <td class="fine-print">Light 28px</td>
+            <td class="fine-print">Light 30px</td>
           </tr>
           <tr>
             <td><h3>Explore More. Spend Less.&trade;</h3></td>

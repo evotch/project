@@ -1,0 +1,33 @@
+.navbar-wrapper-brand {
+    min-height: 100px;
+    background-color: $white;
+    padding: 20px 0;//using to give some space while creating nav.  Adjust once second user nav is added above.
+  .navbar-brand {
+    margin: 0 50px 0 0;
+    padding:5px;
+      img {
+        height: 40px;
+      }
+  }
+  .nav>li {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .nav>li>a {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $white;
+  }
+  .nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active {
+    color: $green;
+    background-color: transparent;
+    border-bottom: 2px solid $green;
+}
+
+  > .navbar {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+}
