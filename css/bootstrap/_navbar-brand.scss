@@ -1,5 +1,5 @@
 /* Small to Large devices (tablets, 768px and up) */
-@media (min-width: $screen-sm-min) {
+
 
 .navbar-wrapper-brand {
     background-color: $white;
@@ -40,10 +40,5 @@
 
 }
 
-}
-.navbar-brand {
-      img {
-        height: 40px;
-      }
-  }
+
 .navbar-toggle .icon-bar {background-color: $navy;}
