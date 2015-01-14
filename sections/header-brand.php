@@ -25,7 +25,10 @@
   <!-- NAVBAR
   ================================================== -->
   <body>
-    <?php include ("../sections/nav-personalized.php"); ?>
+  <div class="navbar-wrapper-personalized">
+      <?php include ("../sections/nav-personalized.php"); ?>
+    </div>
+    
     <div class="navbar-wrapper-brand">
       <?php include ("../sections/nav-brand-fixed.php"); ?>
 	  </div>

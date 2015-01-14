@@ -1,20 +1,24 @@
 <?php include ("../sections/header-brand.php"); ?>
+<div class="jumbotron hero">
+
   <div class="container">
-  <div class="row hero-home">
+  <div class="row">
     <div class="col-sm-6">
       <?php include ("../forms/homelet.php"); ?>
       </div><!-- end column-->
-      <div class="col-sm-6 sales-offer">
-        
-          <span class="h1">Flight Deals</span><br>
-          <span class="h3">available for a limited time</span><br>
+      <div class="col-sm-6">
+        <div class="sales-offer">
+          <h1>Flight Deals</h1>
+          <h3>Low Fares Starting at</h3>
           <div class="price"><sup>$</sup>79<sub>one way</sub></div>
           <button type="button" class="btn btn-lg btn-default">View Offers</button><br>
           <small>Available for a Limited Time</small>
-        
+        </div>
       </div>
     </div>
   </div>
+  </div>
+
   <div class="container">
 
     <div class="alert alert-warning" role="alert">

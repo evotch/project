@@ -1,7 +1,8 @@
+/* Small to Large devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
 .navbar-wrapper-brand {
-    min-height: 100px;
     background-color: $white;
-    padding: 20px 0;//using to give some space while creating nav.  Adjust once second user nav is added above.
   .navbar-brand {
     margin: 0 50px 0 0;
     padding:5px;
@@ -10,8 +11,8 @@
       }
   }
   .nav>li {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .nav>li>a {
     padding-left: 0px;
@@ -29,5 +30,20 @@
     font-weight: bold;
     font-size: 1.5em;
 }
+.form-control {
+	padding:4px 10px;
+	max-width: 125px;
+	margin-top: 9px;
+	height: auto;
+}
+
 
 }
+
+}
+.navbar-brand {
+      img {
+        height: 40px;
+      }
+  }
+.navbar-toggle .icon-bar {background-color: $navy;}
