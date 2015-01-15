@@ -202,7 +202,7 @@
             </div>
             <div class="item"><?php include ("../voice/offline.php"); ?></div>
             <div class="item"><?php include ("../voice/onboard.php"); ?></div>
-            <div class="item"><?php include ("../voice/oneway.php"); ?></div>
+            <div class="item"><?php include ("../voice/one-way.php"); ?></div>
             <div class="item"><?php include ("../voice/online.php"); ?></div>
             <div class="item"><?php include ("../voice/open-jaw.php"); ?></div>
             <div class="item"><?php include ("../voice/outbound-inbound.php"); ?></div>

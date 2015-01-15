@@ -30,5 +30,5 @@
     </div>
     
     <div class="navbar-wrapper-brand">
-      <?php include ("../sections/nav-brand-fixed.php"); ?>
+      <?php include ("../sections/nav-brand.php"); ?>
 	  </div>

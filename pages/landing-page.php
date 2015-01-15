@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../sections/header-brand.php"); ?>
 <div class="container-full">
 
       <div class="row">
