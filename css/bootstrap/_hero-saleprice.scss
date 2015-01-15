@@ -6,6 +6,7 @@ text-decoration:none;
 font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	padding-right: 3em;
+	text-align: right;
 //visibility: hidden; //remove once site goes live
 
 
@@ -13,7 +14,6 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 .hero-sale--headline {
 font-size: 64px;
 line-height: 1em;
-text-align: right;
 color: $white;
 }
 
@@ -22,14 +22,12 @@ color: $white;
 font-size: 18px;
 line-height: 2em;
 color: $white;
-text-align: right;
 }
 
 .hero-sale-pricing {
 line-height: 6em;
 color: $white;
 padding-top: 20px;
-text-align: right;
 }
 
 .hero-saleprice {
