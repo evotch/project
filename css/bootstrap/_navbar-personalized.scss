@@ -5,4 +5,8 @@
   margin-bottom: 10px;
   text-transform: uppercase;
   }
+  .nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+  color: $green;
+}
 }

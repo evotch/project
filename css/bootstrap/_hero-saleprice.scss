@@ -1,25 +1,63 @@
 /* Flight Formlet  This SCSS needs to be rewritten */
+a#heroLink {
+text-decoration:none;
+}
+.hero-sale {
+font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	padding-right: 3em;
+//visibility: hidden; //remove once site goes live
 
 
-@media (min-width: 600px) {
-	  .sales-offer {
-		padding: 0em 0px 0px 8em;	
-		display: block;
-	}
+
+.hero-sale--headline {
+font-size: 64px;
+line-height: 1em;
+text-align: right;
+color: $white;
 }
 
-@media (max-width: 600px) {
-	  .sales-offer {display: inline;padding: 0;}
+
+.hero-sale--subheadline {
+font-size: 18px;
+line-height: 2em;
+color: $white;
+text-align: right;
 }
 
-.sales-offer h1, .sales-offer.h1 {
-font-size: 50px;
-line-height: 1.25em;
+.hero-sale-pricing {
+line-height: 6em;
+color: $white;
+padding-top: 20px;
+text-align: right;
 }
-.sales-offer h1, .sales-offer .h1 { margin: 3px 0; font-weight: bold; color:$navy }
-.sales-offer h3, .sales-offer .h3 { margin: 5px 0; font-size: 14px;color:$navy }
 
+.hero-saleprice {
+font-size: 80px;
+}
 
+.hero-saledollarsign, .hero-saleasterick {
+font-size: 38px;
+}
+
+.hero-sale-oneway {
+display: inline-block;
+width: 26px;
+line-height: 1;
+}
+
+.hero-sale-from {
+position: relative;
+top: -65px;
+left: 32px;
+}
+
+.btn.btn-white {
+text-shadow: none;
+}
+
+}
+/*
 .sales-offer .btn {
 margin: 10px 0;
 }
@@ -42,3 +80,4 @@ bottom: 0;
 font-weight: normal;
 font-size: 14px;
 }
+*/

@@ -31,7 +31,7 @@ a .boacard {color:white; display:block;}
 		</div>
 		<div class="col-sm-8">
 		<a href="https://www.applyonlinenow.com/USCCapp/Ctl/entry?cid=2110426">
-			<div class="destination-rome destination-md">
+			<div class="destination-alaska destination-md">
 			
 				<div class="boacard">
 					<div class="pull-left">

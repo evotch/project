@@ -2,19 +2,21 @@
 @import "hero-saleprice";
 
 .hero {
-min-height: 23em;
-background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/hawaii.jpg);
-background-size: 220%;
-background-repeat: no-repeat;
-background-position: right 25%;
-margin: -$navbar-margin-bottom 0 0 0;
+	min-height: 23em;
+	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/hawaii.jpg);
+	background-size: 220%;
+	background-repeat: no-repeat;
+	background-position: right 25%;
+	margin: -$navbar-margin-bottom 0 $navbar-margin-bottom * 2 0;
+	background-color: $blue;
+
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.hero {
 	min-height: 37.35em;
-	background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/hawaii.jpg);
+	//background-image: url(http://www.brandonshields.com/alaska-airlines/asgridframework/images/hawaii.jpg);
 	background-size: 102%;
 	background-repeat: no-repeat;
 	background-position: 50% 42%;
@@ -23,7 +25,7 @@ margin: -$navbar-margin-bottom 0 0 0;
 }
 
 .hero-home {
-	background-image: url(https://unsplash.it/1400/800/?random);
+	//background-image: url(https://unsplash.it/1400/800/?random);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: right 25%;

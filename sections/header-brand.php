@@ -25,6 +25,7 @@
   <!-- NAVBAR
   ================================================== -->
   <body>
+  <?php include ("../sections/hp-alert.php"); ?>
   <div class="navbar-wrapper-personalized">
       <?php include ("../sections/nav-personalized.php"); ?>
     </div>
