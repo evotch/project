@@ -103,8 +103,13 @@
         <script type="text/javascript">
         $('body').scrollspy({target:".voice-menu"});
         $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
+        $('[data-toggle="tooltip"]').tooltip()
+        });
+        //Start animate advisory slideup when dismissed script
+        $(".advisory").click(function (e) {
+            $(this).slideUp('slow');
+        });
+     
 
         //smooth scrolling
 //        $('a[href*=#]:not([href=#])').click(function() {
@@ -122,12 +127,6 @@
  //   }
 //});
         //end smooth scrolling
-//Start animate.css script
-
-
-$(".advisory").click(function (e) {
-    $(this).slideUp('slow');
-});
 
 
 </script>
