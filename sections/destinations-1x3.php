@@ -10,7 +10,7 @@
       <h3 class="secondary">Maui</h3>
       <br>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus nisl eget tempus rhoncus. Nulla a nisl varius, convallis magna suscipit, maximus dolor.
-      </div><div class="panel-heading"><a class="orange" href="#">Learn More</a></div>
+      </div><div class="panel-heading"><a class="btn-link" href="#">Learn More &raquo;</a></div>
 
       
   </div>  
@@ -28,7 +28,7 @@
       <h3 class="secondary">Sonamo</h3>
       <br>
       Augue auctor quis, aliquam dolor fringilla pretium consectetur adipiscing elit. Nam faucibus nisl eget tempus rhoncus. Nulla a nisl varius, convallis magna suscipit, eleifend nibh.
-      </div><div class="panel-heading"><a class="orange" href="#">Learn More</a></div>
+      </div><div class="panel-heading"><a class="btn-link" href="#">Learn More &raquo;</a></div>
 
       
   </div> 
@@ -45,7 +45,7 @@
       <br>
        Mauris vel lacinia quam. Aenean metus neque, semper a fermentum sed, finibus nec orci. Nunc sit amet ligula in quam fringilla pharetra non ac orci. In mollis varius vehicula.
 
-      </div><div class="panel-heading"><a class="orange" href="#">Learn More</a></div>
+      </div><div class="panel-heading"><a class="btn-link" href="#">Learn More &raquo;</a></div>
       
   </div> 
   </div> 

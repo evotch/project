@@ -122,7 +122,15 @@
  //   }
 //});
         //end smooth scrolling
-        </script>
+//Start animate.css script
+
+
+$(".advisory").click(function (e) {
+    $(this).slideUp('slow');
+});
+
+
+</script>
         
     </body>
 </html>
