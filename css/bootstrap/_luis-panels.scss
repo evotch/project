@@ -1,0 +1,76 @@
+//Custom Ones from Luis' collection
+
+  .panel-luis1 {
+    .panel-image {
+    min-height: 180px;
+    }
+    .panel-image-featured {
+    min-height: 500px;
+    margin-top: -$luis-padding;
+    margin-bottom: -$luis-padding;
+    margin-right:-$luis-padding;
+    margin-left:-$luis-padding;
+    }
+    .panel-video-featured {
+    margin-top: -$luis-padding;
+    margin-bottom: -$luis-padding;
+    margin-right:-$luis-padding;
+    margin-left:-$luis-padding;
+    }
+
+      .panel-body{
+    padding: $luis-padding;
+    }
+    .panel-heading{
+    padding: $luis-padding;
+    }
+
+        h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+      margin-top: ($line-height-computed / 4);
+      margin-bottom: ($line-height-computed / 4);
+      }
+      .panel-heading{background-color: transparent; border: 0px;}
+      a {font-weight: bold;text-transform: uppercase;}
+
+
+}
+
+//Custom Ones from Luis' collection
+
+  .panel-luis2 {
+    .panel-image {
+    min-height: 180px;
+    }
+    .panel-image-featured {
+    min-height: 500px;
+    margin-top: -$luis-padding * 2;
+    margin-bottom: -$luis-padding * 2;
+    margin-right:-$luis-padding * 2;
+    margin-left:-$luis-padding;
+    }
+    .panel-video-featured {
+    margin-top: -$luis-padding * 2;
+    margin-bottom: -$luis-padding * 2;
+    margin-right:-$luis-padding * 2;
+    margin-left:-$luis-padding * 2;
+    }
+
+      .panel-body{
+    padding: $luis-padding * 2;
+    }
+    .panel-heading{
+    padding: $luis-padding * 2;
+    }
+    h3{
+      text-transform: uppercase;
+    }
+        h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+      margin-top: ($line-height-computed / 4);
+      margin-bottom: ($line-height-computed / 4);
+      }
+      .panel-heading{background-color: transparent; border: 0px;}
+      a {font-weight: bold;text-transform: uppercase;}
+
+
+}
+
