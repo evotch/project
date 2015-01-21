@@ -87,12 +87,13 @@
 
 <div class="design-principles">
     <h4 class="secondary">Our designs enable Alaska’s business objectives and support <strong>demonstrable business value</strong></h4>
-    <h4 class="secondary">Our designs are <strong>customer-centered</strong> and data-influenced</h4>
-    <h4 class="secondary">Our designs are on-brand and <strong>consistent across channels</strong></h4>
-    <h4 class="secondary">Our designs <strong>support customers’ journey</strong> with Alaska and are sensitive to where customers are on that journey</h4>
-    <h4 class="secondary">Our designs are <strong>simple and intuitive</strong>; we error on the side of less versus more</h4>
+    <h4 class="secondary">Our designs are <strong>on-brand</strong> across channels and appear to be from the same company </h4>
+    <h4 class="secondary">Our designs are <strong>optimized for the Everyday Explorer</strong> and informed by data</h4>
+    <h4 class="secondary">Our design work starts with the presumption of <strong>consistency across channels</strong> and differs only when technology or customer needs necessitate</h4>
+    <h4 class="secondary">Our designs <strong>inspire and engage</strong></h4>
+    <h4 class="secondary">Our designs are <strong>simple and intuitive</strong>; we err on the side of less versus more</h4>
     <h4 class="secondary">Our designs are <strong>accessible</strong> to all passengers</h4>
-    <h4 class="secondary">Our designs are based on a <strong>common design language</strong> supported by the Digital Style Guide</h4>
+    <h4 class="secondary">Our designs are based on a <strong>common interaction, voice and visual design language</strong> supported by the Digital Style Guide</h4>
 </div>
 
 
