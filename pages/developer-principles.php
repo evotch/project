@@ -106,7 +106,7 @@
             within our design. Repetition results in less code, easier maintenance, and greater consistency in
             the user experience. These are all wins. Exceptions to the rule can be advantageous but they should
             be justified.</p>
-            <a class="btn btn-green" href="\\seavvfile1\MARKET_VXDigitalMarketing\Brandon">Get SMACSS</a>
+            <a class="btn btn-green" href="../docs/smacss-2012-08-21.pdf">Get SMACSS</a>
             <hr>
             <h3>Working Agreements (First Draft)</h3>
             <div class="developer-principles">
