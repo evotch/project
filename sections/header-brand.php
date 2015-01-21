@@ -11,6 +11,7 @@
   <link href="../css/styles.css" rel="stylesheet">
   <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
   <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.js"></script>
     <!--<link http://www.newrepublic.com/sites/all/themes/tnr/assets/fonts/Atlas%20Grotesk%20Web-Regular.woff>-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

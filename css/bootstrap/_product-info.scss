@@ -1,0 +1,18 @@
+//
+// Custom partial for the footer
+
+.product-info {
+	background-color: $sand;
+	padding: 40px 0;
+	border-top: 1px solid $gray-lighter;
+	margin-top: 40px;
+	margin-bottom:-40px;
+	color: $brown;
+
+	/* floats icons*/
+	.fa {
+	float: right;
+	font-size: 1.2em;
+	}
+}
+

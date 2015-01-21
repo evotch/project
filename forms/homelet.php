@@ -4,7 +4,7 @@
               <li class="active"><a href="#booking" role="tab" data-toggle="tab">Book</a></li>
               <li><a href="#checkin" role="tab" data-toggle="tab">Check In</a></li>
               <li><a href="#manage" role="tab" data-toggle="tab">Manage</a></li>
-              <li><a href="#status" role="tab" data-toggle="tab">Status</a></li>
+              <li class="last"><a href="#status" role="tab" data-toggle="tab">Status</a></li>
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">

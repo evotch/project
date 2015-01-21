@@ -46,7 +46,7 @@
     <div class="form-group">
       <input type="date" class="form-control" id="flightArrivalDate" placeholder="Return Date">
     </div>
-    <button type="submit" class="btn btn-default btn-block">Find Flights</button>
+    <button type="submit" class="btn btn-gray btn-block">Find Flights</button>
   </div>
 </form>
 <div class="row">

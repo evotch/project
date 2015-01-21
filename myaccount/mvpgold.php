@@ -1,6 +1,6 @@
 <!--MVP Gold-->
 <style>
-.signin-club49 {background-image: url(http://www.alaskaair.com/content/deals/club49/~/media/Images/logos/club49_logo.png); background-size:10%;background-position:right top; background-repeat:no-repeat;
+.signin-club49 {background-image: url(http://www.alaskaair.com/content/deals/club49/~/media/Images/logos/club49_logo.png); background-size:10%;background-position:right top; background-repeat:no-repeat;}
 </style>
 
 <div class="signin-club49">
