@@ -120,7 +120,7 @@
                 <h4>Don't use IDs in selectors</h4>
                 <p>IDs shouldn't be used in selectors because these rules are too tightly coupled with the HTML and have no possibility of reuse. It's much preferred to use classes in selectors and then apply a class to an element in the page.  Consitently using classes also helps give us a common naming convention.</p>
                 <h4>Our code should always be reusable.</h4>
-                <p>It doesn't meen we will resue it but why not plan for it.</p>
+                <p>It doesn't mean we will resue it but why not plan for it.</p>
                 <h4>Don’t use !important</h4>
                 <p>Using <code>!important</code> overrides any cascasede rule and leads to specificity wars.  If you think you need to use it, then add a class to the component in html.</p>
             </div>
