@@ -19,7 +19,7 @@
 	  </div>
 
 
-	<?php include ("../sections/quicklinks-advertisement.php"); ?>
+	<?php /* include ("../sections/quicklinks-advertisement.php"); */?>
 	<div class="container destination-tiles">
 		<div class="row">
 			<div class="col-sm-12">
@@ -28,6 +28,6 @@
 		</div>
 	</div>
     <?php include ("../sections/destinations-1x4.php"); ?>
-
+<br><br>
 	<?php include ("../sections/product-info.php"); ?>
     <?php include ("../sections/footer.php"); ?>

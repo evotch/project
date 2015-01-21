@@ -19,63 +19,63 @@
       <table class="table">
         <tbody>
           <tr>
-            <td style="border:none" width="63%"><h1>Explore More. Spend Less.&trade;</h1></td>
+            <td style="border:none" width="63%"><h1>Calling All Explorers&trade;</h1></td>
             <td style="border:none" ><code>.h1 or &lt;h1&gt;</code></td>
             <td style="border:none" class="fine-print">Medium 36px</td>
           </tr>
           <tr>
-            <td><h1 class="secondary">Designed to Explore.&trade;</h1></td>
+            <td><h1 class="secondary">Alaska Beyond&trade;</h1></td>
             <td><code>.h1.secondary or <br>&lt;h1 class="secondary"&gt;</code></td>
             <td class="fine-print">Light 36px</td>
           </tr>
           <tr>
-            <td><h2>Explore More. Spend Less.&trade;</h2></td>
+            <td><h2>Calling All Explorers&trade;</h2></td>
             <td><code>.h2 or &lt;h2&gt;</code></td>
             <td class="fine-print">Medium 30px</td>
           </tr>
           <tr>
-            <td><h2 class="secondary">Designed to Explore.&trade;</h2></td>
+            <td><h2 class="secondary">Alaska Beyond&trade;</h2></td>
             <td><code>.h2.secondary or <br>&lt;h2 class="secondary"&gt;</code></td>
             <td class="fine-print">Light 30px</td>
           </tr>
           <tr>
-            <td><h3>Explore More. Spend Less.&trade;</h3></td>
+            <td><h3>Calling All Explorers&trade;</h3></td>
             <td><code>.h3 or &lt;h3&gt;</code></td>
             <td class="fine-print">Medium 24px</td>
           </tr>
           <tr>
-            <td><h3 class="secondary">Designed to Explore.&trade;</h3></td>
+            <td><h3 class="secondary">Alaska Beyond&trade;</h3></td>
             <td><code>.h3.secondary or <br>&lt;h3 class="secondary"&gt;</code></td>
             <td class="fine-print">Light 24px</td>
           </tr>
           <tr>
-            <td><h4>Explore More. Spend Less.&trade;</h4></td>
+            <td><h4>Calling All Explorers&trade;</h4></td>
             <td><code>.h4 or &lt;h4&gt;</code></td>
             <td class="fine-print">Medium 18px</td>
           </tr>
           <tr>
-            <td><h4 class="secondary">Designed to Explore.&trade;</h4></td>
+            <td><h4 class="secondary">Alaska Beyond&trade;</h4></td>
             <td><code>.h4.secondary or <br>&lt;h4 class="secondary"&gt;</code></td>
             <td class="fine-print">Light 18px</td>
           </tr>
           <tr>
-            <td><h5>Explore More. Spend Less.&trade;</h5></td>
+            <td><h5>Calling All Explorers&trade;</h5></td>
             <td><code>.h5 or &lt;h5&gt;</code></td>
             <td class="fine-print">Medium 14px</td>
           </tr>
           <tr>
-            <td><h5 class="secondary">Designed to Explore.&trade;</h5></td>
+            <td><h5 class="secondary">Alaska Beyond&trade;</h5></td>
             <td><code>.h5.secondary or <br>&lt;h5 class="secondary"&gt;</code></td>
             <td class="fine-print">Light 14px</td>
           </tr>
           <tr>
             <tr>
-              <td><h6>Explore More. Spend Less.&trade;</h6></td>
+              <td><h6>Calling All Explorers&trade;</h6></td>
               <td><code>.h6 or &lt;h6&gt;</code></td>
               <td class="fine-print">Medium 12px</td>
             </tr>
             <tr>
-              <td><h6 class="secondary">Designed to Explore.&trade;</h6></td>
+              <td><h6 class="secondary">Alaska Beyond&trade;</h6></td>
               <td><code>.h6.secondary or <br>&lt;h6 class="secondary"&gt;</code></td>
               <td class="fine-print">Light 12px</td>
             </tr>
