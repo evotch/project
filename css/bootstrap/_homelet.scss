@@ -1,0 +1,57 @@
+/* Flight Formlet  This SCSS needs to be rewritten */
+
+.homelet {@extend .panel-white;}
+
+.homelet>.nav-tabs>li {
+	border-radius: 0px;
+	margin: 0;
+	border-right: 1px solid darken($sand, 5%);
+}
+
+.homelet>.nav-tabs>li.last {
+	border-right: 0px solid darken($sand, 5%);
+}
+
+.homelet>.nav-tabs>li:hover {
+	border-radius: 0px;
+}
+.homelet>.nav-tabs li a {
+	background-color: $sand;
+	color: $gray-light;
+	font-weight: bold;
+}
+
+
+
+.homelet>.nav-tabs>li.active a,.homelet>.nav-tabs>li.active a:focus,.homelet>.nav-tabs>li.active a:visited {
+	background-color: $gray-light;
+	border-radius: 0px;
+	color: $sand;
+	border:0px;
+}
+
+.homelet>.tab-content>.active {
+padding: 1.2em;
+}
+
+
+
+@media (min-width: 768px) {
+	.homelet>.nav-tabs-justified>li>a, .homelet>.nav-tabs.nav-justified>li>a {
+	border-radius: 0;
+	}
+}
+
+
+// this is pretty sucky css maybe we can fine tune this
+//sets the hover effect of unselected tabs
+.homelet>.nav-tabs>li:hover a {background-color: darken( $sand, 5% ); color: $gray-light;}
+//forces the nav to have to border
+.homelet>.nav-tabs li a {border:0px;}
+.homelet>.nav-tabs li.active:hover a {background-color: $gray-light; color: $sand; border:0px;}
+
+//makes the booking hover color
+.homelet>.nav-tabs>li.active a:hover {
+	border-radius: 0px;
+}
+

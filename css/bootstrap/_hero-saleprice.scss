@@ -1,0 +1,81 @@
+/* Flight Formlet  This SCSS needs to be rewritten */
+a#heroLink {
+text-decoration:none;
+}
+.hero-sale {
+font-family: Atlas, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	padding: 5em;
+	text-align: right;
+//visibility: hidden; //remove once site goes live
+
+
+
+.hero-sale--headline {
+font-size: 64px;
+line-height: 1em;
+color: $white;
+}
+
+
+.hero-sale--subheadline {
+font-size: 18px;
+line-height: 2em;
+color: $white;
+}
+
+.hero-sale-pricing {
+line-height: 6em;
+color: $white;
+padding-top: 20px;
+}
+
+.hero-saleprice {
+font-size: 80px;
+}
+
+.hero-saledollarsign, .hero-saleasterick {
+font-size: 38px;
+}
+
+.hero-sale-oneway {
+display: inline-block;
+width: 26px;
+line-height: 1;
+}
+
+.hero-sale-from {
+position: relative;
+top: -65px;
+left: 32px;
+}
+
+.btn.btn-white {
+text-shadow: none;
+}
+
+}
+/*
+.sales-offer .btn {
+margin: 10px 0;
+}
+
+.sales-offer .price {
+font-size: 96px;
+font-weight: bold;
+color: $white;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.18);
+line-height: .95em;
+}
+.sales-offer .price sup {
+font-weight: normal;
+font-size: .6em;
+top: -.4em;
+}
+
+.sales-offer .price sub {
+bottom: 0;
+font-weight: normal;
+font-size: 14px;
+}
+*/
