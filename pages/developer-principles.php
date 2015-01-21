@@ -122,7 +122,7 @@
                 <h4>Our code should always be reusable.</h4>
                 <p>It doesn't mean we will resue it but why not plan for it.</p>
                 <h4>Don’t use !important</h4>
-                <p>Using <code>!important</code> overrides any cascasede rule and leads to specificity wars.  If you think you need to use it, then add a class to the component in html.</p>
+                <p>Using <code>!important</code> overrides any cascasede rule and leads to specificity wars.  If you think you need to use it, then add a class to the component in html. The use of !important should be avoided unless you are using it in conjuction with a "state" change. Only states should have it.</p>
             </div>
             <br><br><br><br><br>
         </div>
