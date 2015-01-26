@@ -28,9 +28,9 @@
   <body>
   <?php include ("../sections/hp-alert.php"); ?>
   <div class="navbar-wrapper-personalized">
-      <?php include ("../sections/nav-personalized.php"); ?>
+      <?php include ("../navs/nav-personalized.php"); ?>
     </div>
     
     <div class="navbar-wrapper-brand">
-      <?php include ("../sections/nav-brand.php"); ?>
+      <?php include ("../navs/nav-brand.php"); ?>
 	  </div>

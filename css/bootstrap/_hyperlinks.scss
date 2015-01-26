@@ -1,4 +1,4 @@
-p a, .underline {
+a, .underline {
   &,
   &:hover,
   &:focus,
@@ -8,7 +8,7 @@ p a, .underline {
   }
 }
 
-p a.btn {
+a.btn, .nav a {
   &,
   &:hover,
   &:focus,

@@ -1,0 +1,11 @@
+.module-fd {padding:1em 0; border-bottom: 1px solid $gray-lightest }
+.module-fd--button {position: relative; top:40px;}
+.module-fd--priceline {vertical-align: top;}
+.module-fd--price {
+	@extend .h1;
+	padding: 0 5px;
+	line-height: 1;
+}
+.module-fd--purchase-by {@extend small;}
+.module-fd--restrictions-apply {@extend small;}
+.module-fd--restrictions {@extend small; display: none}

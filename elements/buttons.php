@@ -88,7 +88,7 @@ vertical-align: -20px;
       </p>
       <p>
       <h4 class="page-header secondary">Accent <small>(emphasizing importance)</small></h4>
-      <p>Use sparingly and primarily to give more prominence to action in layouts with alot of varying content or to heighten
+      <p>Use sparingly and primarily to give more prominence to action in layouts with a lot of varying content or to heighten
       an important message in merchandising.</p>
       <button type="button" class="btn btn-orange">Accent</button>
       <button type="button" class="btn btn-ghost-orange">Accent</button>
