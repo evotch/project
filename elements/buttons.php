@@ -20,6 +20,7 @@ vertical-align: -20px;
 </style>
 <h1 class="page-header">Buttons</h1>
 <p>Use these buttons styles.  They are set to be a minimum of 44px tall at the default setting.  In rare cases you may need different sizes.  In those cases, there are 3 size variants available, <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code>.</p>
+
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs dsg" role="tablist">
@@ -35,7 +36,7 @@ vertical-align: -20px;
     <div role="tabpanel" class="tab-pane active" id="buttons-CodeExample">
     
 <div class="buttons">
-      
+  <h6 class="secondary green">Note: You can use a Button Tag <code>&lt;button&gt;</code>for form elements or an Anchor Tag <code>&lt;a&gt;</code>for standard links utilizing the same css class names.    </h6>
       
       <p>
       <h4 class="page-header secondary">Primary</h4>
@@ -57,7 +58,7 @@ vertical-align: -20px;
       <button type="button" class="btn btn-ghost-teal">Secondary</button>
       <button type="button" class="btn btn-blue">Secondary</button>
       <button type="button" class="btn btn-ghost-blue">Secondary</button>
-      <pre><code class="html"><span class="c">&lt;!-- Secondary Teal button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-teal"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
+      <pre><code class="html"><span class="c">&lt;!-- Secondary Brown button --&gt;</span><span class="nt">&lt;a class="btn btn-teal" href="#"&gt;Book Now&lt;/a&gt;</span><span class="c">
 <span class="c">&lt;!-- Secondary Teal Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-teal"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Secondary Blue button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-blue"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Secondary Blue Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-blue"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
@@ -65,12 +66,11 @@ vertical-align: -20px;
       <h4 class="page-header secondary">Secondary <small>(support)</small></h4>
       <p>Use Gray or Brown secondary buttons primarily to create visual relief in layouts saturated with color and/or
       with a lot of varying content.</p>
+      <button type="button" class="btn btn-default">Secondary</button>
       <button type="button" class="btn btn-brown">Secondary</button>
       <button type="button" class="btn btn-ghost-brown">Secondary</button>
-      <button type="button" class="btn btn-default">Secondary</button>
-      <pre><code class="html"><span class="c">&lt;!-- Secondary Brown button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-brown"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
-<span class="c">&lt;!-- Secondary Brown Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-brown"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
-<span class="c">&lt;!-- Secondary Gray button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
+      <pre><code class="html"><span class="c">&lt;!-- Secondary Gray button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span><span class="c">&lt;!-- Secondary Brown button --&gt;</span><span class="nt">&lt;a class="btn btn-brown" href="#"&gt;Book Now&lt;/a&gt;</span>
+<span class="c">&lt;!-- Secondary Brown Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-brown"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
       </p>
       <p>
       <h4 class="page-header secondary">Tertiary</h4>

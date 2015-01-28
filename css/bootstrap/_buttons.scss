@@ -104,7 +104,7 @@
 
 // light gray Secondary Button
 .btn-lightgray, .btn-default {
-  @include button-variant($gray, $gray-lighter, $gray-lighter);
+  @include button-variant($navy, darken($gray-lightest, 4%), darken($gray-lightest, 4%));
 }
 
 //////////////////////////////////////// Utilitarian Buttons ////////////////////////
@@ -162,7 +162,7 @@
 //////////////////////////////////////// Disabled Buttons /////////////////////////
 .btn-disabled {
   background-color: $gray-lightest;
-  color: $gray-lighter;
+  color: #999;
 }
 .btn-disabled:hover,.btn-disabled:focus {
   @extend .btn-disabled;
@@ -192,6 +192,7 @@
   font-weight: bold;
   cursor: pointer;
   border-radius: 0;
+  text-decoration: none;
 
   &,
   &:active,
