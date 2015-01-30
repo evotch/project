@@ -12,7 +12,16 @@
 	line-height: 1;
 }
 .module-fd--purchase-by {@extend small;}
+@media (min-width: $screen-md-min) { 
+	.module-fd--purchase-by {
+	display: inline-block;
+	float: right;
+	}
+}
+
 .module-fd--restrictions-apply {@extend small;}
 .module-fd--restrictions {@extend small; display: none}
+
+
 
 

@@ -44,7 +44,7 @@
             </ul>
           </li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
+            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="takemesomewhere.php">Take Me Somewhere</a></li>
               
@@ -53,7 +53,7 @@
               <li><a href="google-maps.php">Basic <span class="label label-success">New</span></a></li>
               <li><a href="google-maps-weather.php">Weather <span class="label label-success">New</span></a></li>
             </ul>
-          </li>
+          </li>-->
           <li><a href="elements.php">Elements</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">

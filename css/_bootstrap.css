@@ -7592,6 +7592,12 @@ button.close {
   line-height: 1;
 }
 
+@media (min-width: 992px) {
+  .module-fd--purchase-by {
+    display: inline-block;
+    float: right;
+  }
+}
 .module-fd--restrictions {
   display: none;
 }
@@ -7666,6 +7672,7 @@ button.close {
 
 .as-footer a {
   color: #666666;
+  text-decoration: none;
 }
 
 .as-footer a:hover, .as-footer a:focus {

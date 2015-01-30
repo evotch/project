@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="../img/logo.png" height="25"></a>
+          <a class="navbar-brand" href="home.php"><img src="../img/logo.png" height="25"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -51,7 +51,7 @@
                 <li><a href="plugins.php#modals">Alerts</a></li>
               </ul>
             </li>    
-            <li class="dropdown">
+            <!--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li class="dropdown-header">Example Pages</li>
@@ -69,7 +69,7 @@
                 <li><a href="google-maps.php">Basic</a></li>
                 <li><a href="google-maps-weather.php">Weather</a></li>
               </ul>
-            </li>
+            </li>-->
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
