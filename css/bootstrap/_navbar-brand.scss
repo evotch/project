@@ -5,7 +5,7 @@
     background-color: $white;
     padding-bottom:$navbar-margin-bottom;
     margin-bottom:$navbar-margin-bottom;
-    box-shadow: 0 4px 5px $gray-lighter;
+    box-shadow: 0 4px 5px rgba($black, .1);
   .navbar {
   	margin-bottom:0;
   }
@@ -25,7 +25,10 @@
     padding-right: 0px;
     padding-bottom: 5px;
     border-bottom: 2px solid $white;
+    font-size: .8em;
+
   }
+
   .nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active {
     color: $green;
     background-color: transparent;
@@ -45,6 +48,12 @@
 
 
 }
+
+@media (min-width: $screen-lg-min) { 
+    .navbar-wrapper-brand .nav>li>a {
+      font-size: 1em;
+    }
+  }
 
 
 .navbar-toggle .icon-bar {background-color: $navy;}

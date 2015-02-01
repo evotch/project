@@ -2,51 +2,34 @@
 <footer class="as-footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <h5><i class="fa fa-plane"></i>About Us</h5>
-                <div class="textBox">
-                    <p>At Alaska Airlines we are a company of pioneers. Genuinely curious with a taste for adventure, we take full advantage of our many opportunities to see the world. You will find a passion for discovery in everything we do, from the food we serve to the destinations we visit.</p>
-                    <p>Most importantly, we bring that love of travel and exploration on board with us, so that we can share it with you.</p>
-                </div>
-                <!-- Primary Green button -->
-                <button type="button" class="btn btn-green">Explore More</button>
+            <div class="col-sm-4">
+                <h5><i class="fa fa-user"></i>Basic Style Guide</h5>
+                <ul class="footerLists">
+                    <li><a href="digital-design-principles.php">Design Principles</a></li>
+                    <li><a href="home.php">Brand Colors</a></li>
+                    <li><a href="home.php#buttons">Buttons</a></li>
+                    <li><a href="home.php#typography">Typography</a></li>
+                </ul>
+                
             </div>
-            <div class="col-sm-3">
-                <h5><i class="fa fa-user"></i>Custom Support</h5>
+            <div class="col-sm-4">
+                
+                <h5><i class="fa fa-suitcase"></i>Voice/Terms</h5>
                 <ul class="footerLists">
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">FAQ Help</a></li>
-                    <li><a href="#">Refund</a></li>
+                    <li><a href="voice.php#A">Terms A-D</a></li>
+                    <li><a href="voice.php#E">Terms E-K</a></li>
+                    <li><a href="voice.php#L">Terms L-Q</a></li>
+                    <li><a href="voice.php#R">Terms R-Z</a></li>
                 </ul>
-                <h5><i class="fa fa-suitcase"></i>Services</h5>
-                <ul class="footerLists">
-                    <li><a href="#">Arrival and departure</a></li>
-                    <li><a href="#">Check-in information</a></li>
-                    <li><a href="#">Baggage</a></li>
-                </ul>
-                <h5><i class="fa fa-plane"></i>Mileage Plan<sup>&trade;</sup></h5>
-                <ul class="footerLists">
-                    <li><a href="http://www.alaskaair.com/content/mileage-plan/benefits/about-mileage-plan.aspx">About Mileage Plan<sup>&trade;</sup></a></li>
-                    <li><a href="http://www.alaskaair.com/content/mileage-plan/frequently-asked-questions/faq-companion-discount-code.aspx">Companion Fare FAQ</a></li>
-                    <li><a href="http://www.alaskaair.com/content/mileage-plan/benefits/elite-levels-and-benefits.aspx">Elite Benefits</a></li>
-                    <li><a href="#">Enroll Today</a></li>
-                </ul>
+                
             </div>
-            <div class="col-sm-3">
-                <h5><i class="fa fa-dollar"></i>Specials</h5>
+            <div class="col-sm-4">
+               
+                <h5><i class="fa fa-user"></i>More</h5>
                 <ul class="footerLists">
-                    <li>Sign up for Email Deals</li>
-                    <li><a href="#">Flight Deals</a></li>
-                    <li><a href="#">Hotel Deals</a></li>
-                    <li><a href="#">Car Deals</a></li>
-                </ul>
-                <h5>Information</h5>
-                <ul class="footerLists">
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="https://easybiz.alaskaair.com/ssl/signin/cosignin.aspx?CurrentForm=UCCoSignInStart&lid=footer:easyBiz">EasyBiz</a></li>
-                    <li><a href="http://www.alaskaair.com/content/travel-info/optional-services-fees.aspx?cid=mobsite-optional-services-fees">Optional Services & Fees</a></li>
-                    <li><a href="http://www.alaskaair.com/content/legal/privacy-policy.aspx?cid=mobsite-privacypolicy">Privacy</a></li>
-                    <li><a href="http://www.alaskaair.com/content/travel-info/policies/children-infants-and-children.aspx?lid=home-page:quick-links::infants-children">Infants and Children</a></li>
+                    
+                    <li><a href="http://www.alaskabrandhub.com/">Alaska Brand Hub</a></li>
+                    <li><a href="https://www.yammer.com/alaskaair.com/groups/digitalmarketing/info">Sales Page Parameters</a></li>
                 </ul>
             </div>
         </div>

@@ -1,3 +1,17 @@
+.choosecity{
+  position: relative;
+  top: 32px;
+}
+.choosecity select.selectpicker {
+width: 18px;
+margin: 0 0 0 10px;
+}
+.dealsbg {
+  background-color: $green;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 2em;
+}
 
 .module-fd {padding:1em 0; border-bottom: 1px solid #eee;}
 
@@ -6,21 +20,35 @@
 	text-decoration: none !important;
 }
 .module-fd--priceline {vertical-align: top;}
+@media (min-width: $screen-lg-min) { 
+	.module-fd--priceline {
+	vertical-align: top;
+	position: relative;
+	left: 380px;
+	top: -5px;
+	}
+}
+
 .module-fd--price {
 	@extend .h1;
+	@extend .secondary;
 	padding: 0 5px;
 	line-height: 1;
 }
 .module-fd--purchase-by {@extend small;}
-@media (min-width: $screen-md-min) { 
+
+@media (min-width: $screen-lg-min) { 
 	.module-fd--purchase-by {
-	display: inline-block;
-	float: right;
+		position: relative;
+		top: -40px;
 	}
 }
 
+
+
 .module-fd--restrictions-apply {@extend small;}
 .module-fd--restrictions {@extend small; display: none}
+
 
 
 

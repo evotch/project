@@ -16,13 +16,14 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style Guide <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="digital-design-principles.php">Design Principles</a></li>
+                <li class="divider"></li>
                 <li class="dropdown-header">Basics</li>
                 <li><a href="home.php">Brand Colors</a></li>
                 <li><a href="home.php#buttons">Buttons</a></li>                       
                 <li><a href="home.php#typography">Typography</a></li>
-                <li class="divider"></li>
+                <!--<li class="divider"></li>
                 <li class="dropdown-header">Voice</li>
-                <li><a href="voice.php">Terms</a></li>
+                <li><a href="voice.php">Terms</a></li>-->
               </ul>
             </li>
             <!--<li class="dropdown">
@@ -50,7 +51,13 @@
                 <li><a href="plugins.php#modals">Modals</a></li>
                 <li><a href="plugins.php#modals">Alerts</a></li>
               </ul>
-            </li>    
+            </li> 
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Voice <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="voice.php">Terms</a></li>
+              </ul>
+            </li> 
             <!--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">

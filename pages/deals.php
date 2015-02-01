@@ -1,8 +1,39 @@
-<?php include ("../sections/header.php"); ?>
-<img src="http://placehold.it/2500X740/4d803b/fff" class="img-responsive">
+<?php include ("../sections/header-brand.php"); ?>
+<style>
+.choosecity{
+  position: relative;
+  top: 32px;
+}
+.choosecity select.selectpicker {
+width: 18px;
+margin: 0 0 0 10px;
+}
+.dealsbg {
+  background-color: #b7af9b;
+  height: 400px;
+  width: 100%;
+  margin: -24px 0 2em;
+  position: relative;
+  z-index: -2;
+}
+</style>
+<div class="dealsbg img-responsive"></div>
 <div class="container">
   <div class="row">
+
     <div class="col-xs-12 col-md-8">
+    <div class="choosecity pull-right">
+    <p class="small">View Deals From Other Cities 
+    <select class="selectpicker pull-right">
+        <option>Los Angeles</option>
+        <option>San Francisco</option>
+        <option>Seattle</option>
+        <option>Portland</option>
+      </select></p>
+    
+    </div>
+  <h3 class="page-title">Flights from Seattle <span class="secondary gray">(SEA)</span></h3>
+  <hr>
       <div class="module-fd">
          <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><a href="#" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</a></div>
         <h4 class="module-fd--arrivalcity"><a href="#">To TMP_ARR_CITY <span class="secondary gray">(PDX)</span></a></h4>
@@ -84,10 +115,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12 col-md-3 col-md-offset-1">
     <h4>Search Flights</h4>
-    <iframe scrolling="no" frameborder="0" src="http://www.alaskaair.com/deals/flightformlet?lid=nav:deals-flights" title="Shopping" id="flightsFormletIframe" style="width: 205px; height: 489px;"></iframe>
-    </div>
-  </div>
-</div>
-<?php include ("../sections/footer.php"); ?>
+    <?php include ("../forms/flightform-deals.php"); ?>
+    
