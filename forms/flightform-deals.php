@@ -1,6 +1,9 @@
 <form role="form">
     <div class="checkbox">
       <label>
+        <input type="checkbox" checked=""> Round Trip
+      </label>
+      <label>
         <input type="checkbox"> One Way
       </label>
       <label>
@@ -40,7 +43,7 @@
         <div class="form-group">
     <div class="checkbox">
       <label>
-        <input type="checkbox"> Low Fare Calendar
+        <input type="checkbox" checked> Low Fare Calendar
       </label>
     </div>
     </div>
@@ -82,7 +85,7 @@
 
       </select>
     </div>
-    <button type="submit" class="btn btn-default btn-block">Find Flights</button>
+    <button type="submit" class="btn btn-teal btn-block">Find Flights</button>
 
 </form>
 

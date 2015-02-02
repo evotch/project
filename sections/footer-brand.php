@@ -9,7 +9,7 @@
                     <p>Most importantly, we bring that love of travel and exploration on board with us, so that we can share it with you.</p>
                 </div>
                 <!-- Primary Green button -->
-                <button type="button" class="btn btn-green">Explore More</button>
+                <button type="button" class="btn btn-ghost-teal">Explore More</button>
             </div>
             <div class="col-sm-3">
                 <h5><i class="fa fa-user"></i>Custom Support</h5>
