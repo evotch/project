@@ -17,7 +17,7 @@
     </div>
     <div class="form-group">  
       To 
-      <input type="text" class="form-control" id="flightDepartureAiport" placeholder="Destiation">
+      <input type="text" class="form-control" id="flightDepartureAiport" placeholder="Destination">
     </div>
   <div class="row">
     <div class="col-md-9 form-group">
