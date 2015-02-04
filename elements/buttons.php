@@ -74,7 +74,7 @@ vertical-align: -20px;
       </p>
       <p>
       <h4 class="page-header secondary">Tertiary</h4>
-      <a class="btn-link" href="#">Learn More &raquo;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="btn-link" href="#">Learn More &rsaquo;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <button type="button" class="btn btn-link">Learn More</button>
       <pre><code class="html"><span class="c">&lt;!-- Lowercase Link button --&gt;</span><span class="nt">&lt;a class="btn-link" href="#"&gt;Learn More &amp;raquo;&lt;/a&gt;</span>
 <span class="c">&lt;!-- Uppercase Link button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
