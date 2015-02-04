@@ -85,7 +85,7 @@
 
       </select>
     </div>
-    <button type="submit" class="btn btn-teal btn-block">Find Flights</button>
+    <button type="submit" class="btn btn-ghost-blue btn-block">Find Flights</button>
 
 </form>
 

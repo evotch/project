@@ -12,14 +12,6 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Book <!--<span class="caret"></span>--></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="my-profile.php">My Profile <span class="label label-success">New</span></a></li>
-                <li><a href="landing-page.php">Landing Page</a></li>
-                <li><a href="deals.php">Deals</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore <!--<span class="caret"></span>--></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="my-profile.php">My Profile <span class="label label-success">New</span></a></li>
@@ -28,7 +20,15 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel <!--<span class="caret"></span>--></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Book <!--<span class="caret"></span>--></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="my-profile.php">My Profile <span class="label label-success">New</span></a></li>
+                <li><a href="landing-page.php">Landing Page</a></li>
+                <li><a href="deals.php">Deals</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel Info <!--<span class="caret"></span>--></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="my-profile.php">My Profile <span class="label label-success">New</span></a></li>
                 <li><a href="landing-page.php">Landing Page</a></li>
