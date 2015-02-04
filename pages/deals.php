@@ -1,22 +1,5 @@
 <?php include ("../sections/header-brand.php"); ?>
-<style>
-.choosecity{
-  position: relative;
-  top: 32px;
-}
-.choosecity select.selectpicker {
-width: 18px;
-margin: 0 0 0 10px;
-}
-.dealsbg {
-  background-color: #b7af9b;
-  height: 400px;
-  width: 100%;
-  margin: -24px 0 2em;
-  position: relative;
-  z-index: -2;
-}
-</style>
+
 <div class="dealsbg img-responsive"></div>
 <div class="container">
   <div class="row">
@@ -51,7 +34,7 @@ margin: 0 0 0 10px;
         </div>
       </div>
       <div class="module-fd">
-        <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><button type="button" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</button></div>
+        <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><a href="#" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</a></div>
         <h4>To LA/Ontario <span class="secondary gray">(ONT)</span></h4>
         <div class="module-fd--priceline">
           From $<span class="module-fd--price">129</span> one way
@@ -67,7 +50,7 @@ margin: 0 0 0 10px;
         </div>
       </div>
       <div class="module-fd">
-         <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><button type="button" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</button></div>
+         <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><a href="#" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</a></div>
         <h4>To St. Louis <span class="secondary gray">(STL)</span></h4>
         <div class="module-fd--priceline">
           From $<span class="module-fd--price">159</span> one way
@@ -83,7 +66,7 @@ margin: 0 0 0 10px;
         </div>
       </div>
       <div class="module-fd">
-         <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><button type="button" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</button></div>
+         <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><a href="#" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</a></div>
         <h4>To Baltimore/Washington D.C. <span class="secondary gray">(BWI)</span></h4>
         <div class="module-fd--priceline">
           From $<span class="module-fd--price">179</span> one way
@@ -99,7 +82,7 @@ margin: 0 0 0 10px;
         </div>
       </div>
       <div class="module-fd">
-         <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><button type="button" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</button></div>
+         <div class="module-fd--button"><!-- Secondary Blue button --><a href="#" class="visible-xs-block pull-right">></a><!-- Desktop Blue button --><a href="#" class="btn btn-sm btn-blue pull-right hidden-xs">View Dates</a></div>
         <h4>To Maui <span class="secondary gray">(OGG)</span></h4>
         <div class="module-fd--priceline">
           From $<span class="module-fd--price">289</span> one way

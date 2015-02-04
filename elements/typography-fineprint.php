@@ -1,5 +1,5 @@
 <h3 id="type-fineprint" class="page-header">Fine Print</h3>
-<p>Use the class <code>.fine-print</code> anytime you need to display terms and conditions, fare rules or any other disclaimer.</p>
+<p>Use the class <code>.fine-print</code> anytime you need to display terms and conditions, fare rules or any other disclaimer. Fine print is <code>11px</code> and the hex color is <code>#777</code>.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs dsg" role="tablist">
