@@ -17,4 +17,9 @@ a.btn, .nav a {
     text-decoration: none;
   }
 }
+//Changes Hover to Ocean Blue
+a, .underline {
 
+  &:hover,
+  {color: $blue;}
+}

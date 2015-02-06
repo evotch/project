@@ -127,4 +127,5 @@
     </div>
 </div>
 <br>
-<?php include ("../carousels/colorproportions-carousel.php"); ?>
+            <h3>Gradients</h3>
+            <h4 class="secondary"><small>We'll use a flat palette and won't have any approved gradients.</small></h4>

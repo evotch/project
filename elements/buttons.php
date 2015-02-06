@@ -19,7 +19,7 @@ vertical-align: -20px;
 }
 </style>
 <h1 class="page-header">Buttons</h1>
-<p>Use these buttons styles.  They are set to be a minimum of 44px tall at the default setting.  In rare cases you may need different sizes.  In those cases, there are 3 size variants available, <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code>.</p>
+<p>Use these buttons styles.  They are set to be a minimum of 44px tall at the default setting and should match input height.  Text is all caps.  In rare cases you may need different sizes.  In those cases, there are 3 size variants available, <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code>.</p>
 
 <div role="tabpanel">
   <!-- Nav tabs -->
@@ -40,9 +40,10 @@ vertical-align: -20px;
       
       <p>
       <h4 class="page-header secondary">Primary</h4>
-      <p>The green button is used when there is one primary action on a page.  If there are multiple "primary" actions on a page then you'll want to use secondary buttons. As a general rule you won't have more than one green button on a page.</p>
-      <button type="button" class="btn btn-primary">Primary</button>
-      <button type="button" class="btn btn-ghost-green">Primary</button>
+      <p>The green button is used when there is one primary action on a page.  The green ghost button is used next help emphasize the green primary button on pages with two related options. If there are multiple "primary" actions on a page then you'll want to use secondary buttons. As a general rule you won't have more than one green button on a page.</p>
+      <button type="button" class="btn btn-ghost-green">Skip Seats</button>
+      <button type="button" class="btn btn-primary">Continue</button>
+
        <pre><code class="html"><span class="c">&lt;!-- Primary Green button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-green"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Primary Green Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-green"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
@@ -53,47 +54,49 @@ vertical-align: -20px;
 <span class="c">&lt;!-- Primary White button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-white"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
       <p>
-      <h4 class="page-header secondary">Secondary</h4>
-      <button type="button" class="btn btn-teal">Secondary</button>
-      <button type="button" class="btn btn-ghost-teal">Secondary</button>
-      <button type="button" class="btn btn-blue">Secondary</button>
-      <button type="button" class="btn btn-ghost-blue">Secondary</button>
+      <h4 class="page-header secondary">Pages with multiple actions. <small>(Ex. Deals pages)</small></h4>
+      <p>Ocean or Marine Buttons should be used on pages with many buttons like a deals page.  The ghost button is used on these pages for related but secondary actions.</p>
+      <button type="button" class="btn btn-teal">View Deals</button>
+      <button type="button" class="btn btn-ghost-teal">View Deals</button>
+      <button type="button" class="btn btn-blue">View Deals</button>
+      <button type="button" class="btn btn-ghost-blue">View Deals</button>
       <pre><code class="html"><span class="c">&lt;!-- Secondary Brown button --&gt;</span><span class="nt">&lt;a class="btn btn-teal" href="#"&gt;Book Now&lt;/a&gt;</span><span class="c">
 <span class="c">&lt;!-- Secondary Teal Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-teal"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Secondary Blue button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-blue"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Secondary Blue Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-blue"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
       </p>
-      <h4 class="page-header secondary">Secondary <small>(support)</small></h4>
-      <p>Use Gray or Brown secondary buttons primarily to create visual relief in layouts saturated with color and/or
-      with a lot of varying content.</p>
-      <button type="button" class="btn btn-default">Secondary</button>
-      <button type="button" class="btn btn-brown">Secondary</button>
-      <button type="button" class="btn btn-ghost-brown">Secondary</button>
-      <pre><code class="html"><span class="c">&lt;!-- Secondary Gray button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span><span class="c">&lt;!-- Secondary Brown button --&gt;</span><span class="nt">&lt;a class="btn btn-brown" href="#"&gt;Book Now&lt;/a&gt;</span>
-<span class="c">&lt;!-- Secondary Brown Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-brown"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
-      </p>
       <p>
       <h4 class="page-header secondary">Tertiary</h4>
-      <a class="btn-link" href="#">Learn More &raquo;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="btn-link" href="#">Learn More &rsaquo;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <button type="button" class="btn btn-link">Learn More</button>
       <pre><code class="html"><span class="c">&lt;!-- Lowercase Link button --&gt;</span><span class="nt">&lt;a class="btn-link" href="#"&gt;Learn More &amp;raquo;&lt;/a&gt;</span>
 <span class="c">&lt;!-- Uppercase Link button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
+      <h4 class="page-header secondary">Utilitarian <small>(support)</small></h4>
+      <p>Use a gray buttons in cases where the action is an alternative and shouldn't detract from the pages primary action.</p>
+      <button type="button" class="btn btn-default">Settings</button>
+      
+      <pre><code class="html"><span class="c">&lt;!-- Secondary Gray button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span><span class="c">&lt;!-- Secondary Brown button --&gt;</span><span class="nt">&lt;a class="btn btn-brown" href="#"&gt;Book Now&lt;/a&gt;</span>
+<span class="c">&lt;!-- Secondary Brown Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-brown"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
+      </p>
+      <!--
       <p>
       <h4 class="page-header secondary">Utilitarian</h4>
       <button type="button" class="btn btn-gray">Utilitarian</button>
       <button type="button" class="btn btn-ghost-gray">Utilitarian</button>
       <pre><code class="html"><span class="c">&lt;!-- Utilitarian button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-gray"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Utilitarian Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-gray"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
-      </p>
+      </p>-->
       <p>
-      <h4 class="page-header secondary">Accent <small>(emphasizing importance)</small></h4>
+      <h4 class="page-header secondary">Special Case Buttons <small>(Primarily used in Merchandising Ads)</small></h4>
       <p>Use sparingly and primarily to give more prominence to action in layouts with a lot of varying content or to heighten
       an important message in merchandising.</p>
       <button type="button" class="btn btn-orange">Accent</button>
       <button type="button" class="btn btn-ghost-orange">Accent</button>
       <button type="button" class="btn btn-pink">Accent</button>
       <button type="button" class="btn btn-ghost-pink">Accent</button>
+      <!--<button type="button" class="btn btn-brown">View Deals</button>
+      <button type="button" class="btn btn-ghost-brown">View Deals</button>-->
       <pre><code class="html"><span class="c">&lt;!-- Accent Orange button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-orange"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Accent Orange Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-orange"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Accent Berry button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-berry"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>

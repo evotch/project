@@ -1,58 +1,49 @@
 .choosecity{
-  position: relative;
-  top: 32px;
+position: relative;
+top: 32px;
 }
 .choosecity select.selectpicker {
 width: 18px;
 margin: 0 0 0 10px;
 }
 .dealsbg {
-  background-color: $green;
-  height: 200px;
-  width: 100%;
-  margin-bottom: 2em;
-background-position: center 863px;
-background-size: 100%;
+background-color: $green;
+height: 200px;
+width: 100%;
 background-image:url(https://unsplash.imgix.net/photo-1415033523948-6c31d010530d?q=75&fm=jpg&s=559455b1ad675f8dc95a04528044f870);
+background-position: center 780px;
+background-size: 100%;
+margin: -24px 0 2em;
+position: relative;
+z-index: -2;
 }
-
 .module-fd {padding:1em 0; border-bottom: 1px solid #eee;}
-
 .module-fd--button {position: relative; top:40px;}
 .module-fd--arrivalcity a,.module-fd--arrivalcity a:hover {
-	text-decoration: none !important;
+text-decoration: none !important;
 }
-.module-fd--priceline {vertical-align: top;}
-@media (min-width: $screen-lg-min) { 
-	.module-fd--priceline {
-	vertical-align: top;
-	position: relative;
-	left: 380px;
-	top: -5px;
-	}
+.module-fd--priceline {vertical-align: top;display: table-cell;}
+@media (min-width: $screen-lg-min) {
+.module-fd--priceline {
+vertical-align: top;
+position: relative;
+left: 380px;
+top: -5px;
+display: table-cell;
 }
-
+}
 .module-fd--price {
-	@extend .h1;
-	@extend .secondary;
-	padding: 0 5px;
-	line-height: 1;
+@extend .h1;
+@extend .secondary;
+padding: 0 5px;
+line-height: 1;
 }
 .module-fd--purchase-by {@extend small;}
-
-@media (min-width: $screen-lg-min) { 
-	.module-fd--purchase-by {
-		position: relative;
-		top: -40px;
-	}
+@media (min-width: $screen-lg-min) {
+.module-fd--purchase-by {
+position: relative;
+top: -40px;
 }
-
-
-
+}
 .module-fd--restrictions-apply {@extend small;}
 .module-fd--restrictions {@extend small; display: none}
-
-
-
-
-
