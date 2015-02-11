@@ -130,8 +130,7 @@ $(document).ready(function()
       <div class="page-header">
   <h3 class="secondary"><strong>Alaska</strong> <span class="navy">Digital Style Guide</span></h3>
 </div>
-<p>For access to the digital style guide please go to <a href="http://www.alaskabrandhub.com">AlaskaBrandHub.com</a>.
-</p>
+
 <div class="form-group">
   
           <form action="verify.php" method="post">
@@ -149,6 +148,8 @@ $(document).ready(function()
             <input type="submit" name="submit" value="Login">-->
           </form>
           </div>
+          <p>For access to the digital style guide please log into <a target="_black" href="https://www.alaskabrandhub.com">AlaskaBrandHub.com</a>.</p><p>Once you are logged in you can get the <a href="https://www.alaskabrandhub.com/pages.php?pageId=20397">access code</a>.
+</p>
       </div>
 
 

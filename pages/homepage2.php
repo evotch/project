@@ -29,5 +29,5 @@
 	</div>
     <?php include ("../sections/destinations-1x4.php"); ?>
 <br><br>
-	<?php include ("../sections/product-info.php"); ?>
-    <?php include ("../sections/footer.php"); ?>
+	<?php include ("../footer/footer-products.php"); ?>
+    <?php include ("../footer/footer-brand.php"); ?>

@@ -1,0 +1,42 @@
+//
+// Custom partial for the footer
+
+.footer-products {
+	background-color: lighten($cream, .2);
+	padding: 40px 0;
+	margin-top: 40px;
+	color: $gray;
+	
+	/* floats icons*/
+	.fa {
+	font-size: 3em;
+	margin-right: 10px;
+	color: $gray-light;
+	}
+	.col-sm-3 {
+		padding: 50px;
+	}
+	.container {border-bottom: 1px solid $gray-lighter;}
+}
+.footer-products-headlines {
+	color: $navy;
+
+}
+.footer-products-headlines h1, .footer-products-headlines .h1 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h2, .footer-products-headlines .h2 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h3, .footer-products-headlines .h3 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h4, .footer-products-headlines .h4 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h5, .footer-products-headlines .h5 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h6, .footer-products-headlines .h6 {
+	@extend .footer-products-headlines;
+}

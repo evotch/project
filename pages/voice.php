@@ -32,6 +32,7 @@
             <div class="item"><?php include ("../voice/affect.php"); ?></div> 
             <div class="item"><?php include ("../voice/age.php"); ?></div>  
             <div class="item"><?php include ("../voice/airfare.php"); ?></div>
+            <div class="item"><?php include ("../voice/alaska.php"); ?></div>
             <div class="item"><?php include ("../voice/alaskaair.php"); ?></div>
             <div class="item"><?php include ("../voice/asqx.php"); ?></div>
           </div>

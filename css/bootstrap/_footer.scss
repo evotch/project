@@ -2,20 +2,20 @@
 // Custom partial for the footer
 
 .as-footer {
-	background-color: $gray-lightest;
-	padding: 40px 0;
-	border-top: 1px solid $gray-lighter;
-	margin-top: 40px;
+	background-color: lighten($cream, .2);
+	padding: 20px 0;
+
 	color: $gray;
 	/* floats icons*/
 	.fa {
-	float: right;
-	font-size: 1.2em;
+	font-size: 2em;
+	margin-right: 10px;
+	color: $navy;
 	}
 }
 .footer-headlines {
-	color: $gray;
-	text-transform: uppercase;
+	color: $navy;
+
 }
 .as-footer h1, .as-footer .h1 {
 	@extend .footer-headlines;
@@ -51,17 +51,9 @@
 	line-height: 1.8em;
 }
 .footerLists li {
-	border-top: 1px solid $gray-lighter;
 	line-height: 2.5em;
 	font-size: 12px;
 }
 
 .as-footer hr {border-color: $gray-lighter}
-.subfooter {
-	background-color: $green
-}
 
-
-.social {
-
-}

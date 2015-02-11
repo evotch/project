@@ -36,10 +36,10 @@
               </ul>
             </li>-->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">In Work <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Patterns <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="components.php">Responsive Embed</a></li>
-                <li><a href="components.php#callouts">Call Outs</a></li>
+                <!--<li><a href="components.php#callouts">Call Outs</a></li>-->
                 <li><a href="components.php#labels">Labels</a></li>
                 <li><a href="components.php#progress-bars">Progress Bars</a></li>
               </ul>
@@ -48,7 +48,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Javascript <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="plugins.php">Carousels</a></li>
-                <li><a href="plugins.php#modals">Modals</a></li>
+                <!--<li><a href="plugins.php#modals">Modals</a></li>-->
                 <li><a href="plugins.php#modals">Alerts</a></li>
               </ul>
             </li> 
