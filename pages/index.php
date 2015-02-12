@@ -148,7 +148,13 @@ $(document).ready(function()
             <input type="submit" name="submit" value="Login">-->
           </form>
           </div>
-          <p>For access to the digital style guide please log into <a target="_black" href="https://www.alaskabrandhub.com">AlaskaBrandHub.com</a>.</p><p>Once you are logged in you can get the <a href="https://www.alaskabrandhub.com/pages.php?pageId=20397">access code</a>.
+          <p>If you forgot the current access code or need it for the first time follow these steps.
+          <ol>
+          <li>Please log into <a target="_black" href="https://www.alaskabrandhub.com">AlaskaBrandHub.com</a> if you aren't already. <br><small>(If you don't have an account you'll need to register and request access)</small></li>
+          <li>Navigate to <a href="https://www.alaskabrandhub.com/pages.php?pageId=20397#bodymain">this page</a></li>
+          <li>Copy access code from Alaska Brand Hub site</li>
+          <li>Paste access code into field above.</li>
+          </ol>
 </p>
       </div>
 
