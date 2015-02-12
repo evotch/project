@@ -124,7 +124,7 @@ $(document).ready(function()
     <div class="container">
     <div class="row">
         <div class="col-md-5" style="max-height: 500px; overflow: hidden;">
-        <img class="img-responsive" style="min-width:460px" src="<?php echo $path . $img ?>" alt="" />
+        <img class="img-responsive" src="<?php echo $path . $img ?>" alt="" />
         </div>
       <div class="col-sm-7">
       <div class="page-header">
