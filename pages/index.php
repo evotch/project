@@ -124,14 +124,13 @@ $(document).ready(function()
     <div class="container">
     <div class="row">
         <div class="col-md-5" style="max-height: 500px; overflow: hidden;">
-        <img class="img-responsive" style="min-width:460px" src="<?php echo $path . $img ?>" alt="" />
+        <img class="img-responsive" src="<?php echo $path . $img ?>" alt="" />
         </div>
       <div class="col-sm-7">
       <div class="page-header">
   <h3 class="secondary"><strong>Alaska</strong> <span class="navy">Digital Style Guide</span></h3>
 </div>
-<p>For access to the digital style guide please go to <a href="http://www.alaskabrandhub.com">AlaskaBrandHub.com</a>.
-</p>
+
 <div class="form-group">
   
           <form action="verify.php" method="post">
@@ -149,6 +148,16 @@ $(document).ready(function()
             <input type="submit" name="submit" value="Login">-->
           </form>
           </div>
+
+          <p>If you forgot the current access code or need it for the first time follow these steps.
+          <ol>
+          <li>Please log into <a target="_black" href="https://www.alaskabrandhub.com">AlaskaBrandHub.com</a> if you aren't already. <br><small>(If you don't have an account you'll need to register and request access)</small></li>
+          <li>Navigate to <a href="https://www.alaskabrandhub.com/pages.php?pageId=20397#bodymain">this page</a></li>
+          <li>Copy access code from Alaska Brand Hub site</li>
+          <li>Paste access code into field above.</li>
+          For additional help with the Alaska Digital Style Guide, please send an email to <a href="mailto:michael.galvez@alaskaair.com?Subject=DSG%20Help">michael.galvez@alaskaair.com</a> or <a href="mailto:jerrod.larson@alaskaair.com?Subject=DSG%20Help">jerrod.larson@alaskaair.com</a>
+          </ol>
+</p>
       </div>
 
 

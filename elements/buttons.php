@@ -73,7 +73,7 @@ vertical-align: -20px;
 <span class="c">&lt;!-- Uppercase Link button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
       <h4 class="page-header secondary">Utilitarian <small>(support)</small></h4>
-      <p>Use a gray buttons in cases where the action is an alternative and shouldn't detract from the pages primary action.</p>
+      <p>Use a gray button in cases where the action is an alternative and shouldn't detract from the pages primary action.</p>
       <button type="button" class="btn btn-default">Settings</button>
       
       <pre><code class="html"><span class="c">&lt;!-- Gray button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
