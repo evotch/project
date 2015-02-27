@@ -17,12 +17,12 @@ max-height: 85px;
             <div class="item"><?php include ("../plugins/carousel.php"); ?></div>
           </div>
 
-          <div id="modals" class="docs-section">   
+          <!--<div id="modals" class="docs-section">   
             <div class="page-header">
               <h3 class="secondary">Modals</h3>   
             </div>
-            <div class="item"><?php include ("../plugins/modal.php"); ?></div>
-          </div>
+            <div class="item"><?php /* include ("../plugins/modal.php");*/ ?></div>
+          </div>-->
           <div id="alerts" class="docs-section">
           <div class="page-header">
               <h3 class="secondary">Alerts</h3>   

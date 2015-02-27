@@ -28,4 +28,4 @@
 
 <br><br>
     <?php include ("../sections/destinations-carousel.php"); ?>
-    <?php include ("../sections/footer.php"); ?>
+    <?php include ("../footer/footer-brand.php"); ?>

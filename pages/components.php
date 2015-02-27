@@ -14,7 +14,7 @@ max-height: 250px;
         <?php include ("../elements/embed.php"); ?>
       </div>
       <div id="callouts" class="docs-section">
-        <?php include ("../elements/call-outs.php"); ?>
+        <?/*php include ("../elements/call-outs.php"); */?>
       </div>
       <div id="label" class="docs-section">
         <?php include ("../elements/labels.php"); ?>
