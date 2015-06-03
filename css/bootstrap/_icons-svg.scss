@@ -1,0 +1,7 @@
+/* one rule for svg */
+svg[class^="icon-"], svg[class*=" icon-"] {
+    height: $icon-size;
+    width: $icon-size;
+    display: inline-block;
+    fill: $brand-primary;
+}

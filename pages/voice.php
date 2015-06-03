@@ -9,7 +9,7 @@
     <div class="container">
       <div class="row">
       <div class="col-md-12">
-      <div class="voice-menu" data-spy="affix" data-offset-top="20" data-offset-bottom="200">
+      <div class="voice-menu hidden-xs hidden-sm hidden-md" data-spy="affix" data-offset-top="20" data-offset-bottom="200">
          <?php include ("../sections/terms-menu.php"); ?>
           </div>
           </div>

@@ -5,22 +5,34 @@
 	background-color: $lightersand;
 	padding: 40px 0;
 	margin-top: 40px;
-	color: $gray;
-	
-	/* floats icons*/
+	color: $gray; /* floats icons */
 	.fa {
-	font-size: 3em;
-	margin-right: 10px;
-	color: $gray-light;
+		font-size: 3em;
+		margin-right: 10px;
+		color: $gray-light;
 	}
-	.col-sm-3 {
-		padding: 50px;
+	//targets columns for all breakpoints
+	[class*="col-"] {
+		padding: 30px;
 	}
-	.container {border-bottom: 1px solid $gray-lighter;}
+	.container {
+		border-bottom: 1px solid $hairline;
+
+	}
+	
+	/* one rule for svg */
+	svg[class^="icon-"], svg[class*=" icon-"] {
+		fill: $gray-lighter;
+	}
+	span[class^="icon-"]:before, span[class*=" icon-"]:before {
+		color: $gray-lighter;
+	}
+
 }
+
+
 .footer-products-headlines {
 	color: $navy;
-
 }
 .footer-products-headlines h1, .footer-products-headlines .h1 {
 	@extend .footer-products-headlines;

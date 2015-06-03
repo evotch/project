@@ -1,69 +1,30 @@
-<div class="container">
-<div class="row">
-<div class="col-sm-3">
-
-  <div class="panel panel-default panel-luis1">
-    <div class="destination-sandiego2 panel-image"></div>
-      <div class="panel-body">
-      
-      <h6 class="orange">Beaches</h6>
-      <h3>San Diego</h3>
-      <br>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus nisl eget tempus rhoncus. Nulla a nisl varius, convallis magna suscipit, maximus dolor.
-      </div><div class="panel-heading"><a class="btn-link" href="#">Learn More &raquo;</a></div>
-
-      
-  </div>  
-  
-  
-  
+<div class="container features">
+  <div class="row">
+    <div class="col-xs-12 header"><h2 class="text-center">Featured Deals</h2>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="destination-sandiego panel-image"></div>
+      <h4>Double Your Miles</h4>
+      <h5 class="secondary">Earn More on Popular Routes</h5>
+      <a class="btn-link" href="#">Learn More &rsaquo;</a>  
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="destination-newyork panel-image"></div>
+      <h4>Hotel Deals</h4>
+      <h5 class="secondary">A Great Price When You Arrive.</h5>
+      <a class="btn-link" href="#">Learn More &rsaquo;</a>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="destination-puertovallarta panel-image"></div>
+      <h4>Disney</h4>
+      <h5 class="secondary">Fly to the Magic Kingdom today</h5>
+      <a class="btn-link" href="#">Learn More &rsaquo;</a>  
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="destination-kauai panel-image"></div>
+      <h4>Vacation Deals</h4>
+      <h5 class="secondary">Book Your Savings Now</h5>
+      <a class="btn-link" href="#">Learn More &rsaquo;</a>
+    </div>
+  </div>
 </div>
-<div class="col-sm-3">
-
-  <div class="panel panel-default panel-luis1">
-    <div class="destination-sonoma panel-image"></div>
-      <div class="panel-body">
-      
-      <h6 class="plum">Wine</h6>
-      <h3>Sonoma</h3>
-      <br>
-      Augue auctor quis, aliquam dolor fringilla pretium consectetur adipiscing elit. Nam faucibus nisl eget tempus rhoncus. Nulla a nisl varius, convallis magna suscipit, eleifend nibh.
-      </div><div class="panel-heading"><a class="btn-link" href="#">Learn More &raquo;</a></div>
-
-      
-  </div> 
-  </div> 
-  
-<div class="col-sm-3">
-
-  <div class="panel panel-default panel-luis1">
-    <div class="destination-chicago panel-image"></div>
-      <div class="panel-body">
-      
-      <h6 class="green">Urban</h6>
-      <h3>Chicago</h3>
-      <br>
-      Maecenas efficitur odio ante, vitae commodo turpis pulvinar sed. Nulla nec magna et ipsum congue vestibulum nec quis enim. Ut viverra condimentum ante, sed hendrerit.
-      </div><div class="panel-heading"><a class="btn-link" href="#">Learn More &raquo;</a></div>
-      
-  </div> 
-  </div> 
-  <div class="col-sm-3">
-
-  <div class="panel panel-default panel-luis1">
-    <div class="destination-lasvegas panel-image"></div>
-      <div class="panel-body">
-      
-      <h6 class="aqua">Entertainment</h6>
-      <h3>Las Vegas</h3>
-      <br>
-       Mauris vel lacinia quam. Aenean metus neque, semper a fermentum sed, finibus nec orci. Nunc sit amet ligula in quam fringilla pharetra non ac orci. In mollis varius vehicula.
-
-      </div><div class="panel-heading"><a class="btn-link" href="#">Learn More &raquo;</a></div>
-      
-  </div> 
-  </div> 
-</div>
-</div>
-
-

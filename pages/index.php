@@ -155,7 +155,7 @@ $(document).ready(function()
           <li>Navigate to <a href="https://www.alaskabrandhub.com/pages.php?pageId=20397#bodymain">this page</a></li>
           <li>Copy access code from Alaska Brand Hub site</li>
           <li>Paste access code into field above.</li>
-          For additional help with the Alaska Digital Style Guide, please send an email to <a href="mailto:michael.galvez@alaskaair.com?Subject=DSG%20Help">michael.galvez@alaskaair.com</a> or <a href="mailto:jerrod.larson@alaskaair.com?Subject=DSG%20Help">jerrod.larson@alaskaair.com</a>
+          
           </ol>
 </p>
       </div>
@@ -165,7 +165,7 @@ $(document).ready(function()
     </div>
     <div class="container">
     <div class="row">
-    <div class="col-md-12"><hr></div>
+    <div class="col-md-12"><hr><span class="fine-print">For additional help with the Alaska Digital Style Guide, please send an email to <a href="mailto:michael.galvez@alaskaair.com?Subject=DSG%20Help">michael.galvez@alaskaair.com</a> or <a href="mailto:jerrod.larson@alaskaair.com?Subject=DSG%20Help">jerrod.larson@alaskaair.com</a></span></div>
         <div class="col-md-4"></div>
         <div class="col-md-4"></div>
         <div class="col-md-4"></div>

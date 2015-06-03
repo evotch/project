@@ -1,0 +1,10 @@
+/* Removes Negative Margin so ad border aligns with the rest of content */
+
+.row.panel.panel-default {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-sm-6.panel {
+  padding-top: 30px;
+}
