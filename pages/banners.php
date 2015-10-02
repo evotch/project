@@ -2,34 +2,42 @@
 
 
 <div class="container container-banner show-if-US hide-if-bofa">
+	<a href="#">
 	<div class="row row-banner">
-		<div class="col-sm-12 col-md-6 as-picture panel-image">		
+		<div class="col-sm-12 col-md-5 bank-picture panel-image">
+			
 		</div>
-		<div class="col-sm-12 col-md-6">
+		<div class="col-sm-12 col-md-7">
 			<div class="ad-panel panel-default">
 				<div class="panel-body">
-					<span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
+					<div class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</div>
 				</div>
-				<div id="cc-descritpion" class="panel-footer fine-print">Sign up for the Alaska Airlines Visa Signature&reg; Consumer Card <a class="btn btn-sm btn-ghost-blue pull-right" href="#" aria-describedby="cc-descritpion">Apply Now</a></div>
+				<div id="cc-descritpion" class="panel-footer fine-print">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs">Apply Now</button>
+				<button type="button" class="btn btn-ghost-blue visible-xs">Apply Now</button></div>
 			</div>
 		</div>
 	</div>
+	</a>
 </div>
 <p>The code below includes classes <code>show-if-US</code> <code>hide-if-bofa</code> use these when you need to create multinational ads and need to restrict an offer to the U.S. only.</p>
 <textarea>
-	<div class="container container-banner show-if-US hide-if-bofa">
+<div class="container container-banner show-if-US hide-if-bofa">
+	<a href="#">
 	<div class="row row-banner">
-		<div class="col-sm-12 col-md-6 as-picture panel-image">		
+		<div class="col-sm-12 col-md-5 bank-picture panel-image">
+			
 		</div>
-		<div class="col-sm-12 col-md-6">
+		<div class="col-sm-12 col-md-7">
 			<div class="ad-panel panel-default">
 				<div class="panel-body">
-					<span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
+					<div class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</div>
 				</div>
-				<div id="cc-descritpion" class="panel-footer fine-print">Sign up for the Alaska Airlines Visa Signature&reg; Consumer Card <a class="btn btn-sm btn-ghost-blue pull-right" href="#" aria-describedby="cc-descritpion">Apply Now</a></div>
+				<div id="cc-descritpion" class="panel-footer fine-print">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs">Apply Now</button>
+				<button type="button" class="btn btn-ghost-blue visible-xs">Apply Now</button></div>
 			</div>
 		</div>
 	</div>
+	</a>
 </div>
 </textarea>
  
