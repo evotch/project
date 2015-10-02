@@ -22,7 +22,7 @@
 		<div class="col-sm-12">
 			<h3>Optional Classes</h3>
 			<p>Include classes like <code>show-if-US</code> <code>show-if-ca</code> <code>show-if-bofa</code> <code>hide-if-bofa</code>when you need to create multinational ads and need to restrict an offer to certain groups</p>
-			<textarea>
+			<textarea class="embed-responsive embed-responsive-16by9">
 			<div class="container container-banner show-if-US hide-if-bofa">
 				<a href="#">
 					<div class="row row-banner">
