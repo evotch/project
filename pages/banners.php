@@ -31,8 +31,10 @@
 </div>
 
 <script type="text/javascript">
+
+
+$( "#banner-code-1" ).append( $( "#banner-1" ) );
 	
-$('#banner-code-1').append('#banner-1');
 
 </script>
 <?php include ("../sections/footer.php"); ?>
