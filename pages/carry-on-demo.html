@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+  <title>Alaska Airlines Style Guide</title>
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="../css/styles.css" rel="stylesheet"> -->
+  <link href="https://www.alaskaair.com/stylesheets/brand.css" rel="stylesheet">
+  <!-- <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'> -->
+  <style type="text/css">
+  @font-face {
+  font-family: Circular;
+  src: url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-book.woff2') format('woff2'), url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+  }
+  @font-face {
+  font-family: Circular;
+  src: url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-bold.woff2') format('woff2'), url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-bold.woff') format('woff');
+  font-weight: bold;
+  }
+  body {
+  font-family: Circular, Arial !important
+  }
+  .pure-menu, .pure-g, .pure-g [class*="pure-u"] {
+  font-family: Circular;
+  }
+  textarea.form-control {
+  margin-bottom: 24px;
+  font-size: 11px;
+  line-height: 1;
+  color: #666666;
+  background-color: #FBFBFB;
+  border: 1px solid #ddd;
+  }
+  .hf.hf-f {
+  margin-top: 48px
+  }
+  [id*="featured-"] {
+  min-height: 260px;
+  }
+  </style>
+  <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">
+  <script src="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.js"></script>
+  <!--<link http://www.newrepublic.com/sites/all/themes/tnr/assets/fonts/Atlas%20Grotesk%20Web-Regular.woff>-->
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <style id="holderjs-style" type="text/css"></style>
+</head>
+<!-- NAVBAR
+================================================== -->
+<body class="dsg" style="padding-top:30px">
+  <div class="navbar-wrapper" style="margin-bottom:30px;
+    ">
+    <div class="navbar-default navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.php"><img src="../img/logo.png" height="25"></a>
+        </div>
+        <div class="navbar-collapse collapse visible-md visible-lg">
+          <ul class="nav navbar-nav">
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style Guide <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="digital-design-principles.php">Design Principles</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Basics</li>
+                <li><a href="home.php">Brand Colors</a></li>
+                <li><a href="home.php#buttons">Buttons</a></li>
+                <li><a href="home.php#typography">Typography</a></li>
+                <!--<li class="divider"></li>
+                <li class="dropdown-header">Voice</li>
+                <li><a href="voice.php">Terms</a></li>-->
+              </ul>
+            </li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="divider"></li>
+                <li class="dropdown-header">Words</li>
+                <li><a href="voice.php">Voice</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Patterns <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="components.php">Responsive Embed</a></li>
+                <!--<li><a href="components.php#callouts">Call Outs</a></li>-->
+                <li><a href="components.php#labels">Labels</a></li>
+                <li><a href="components.php#progress-bars">Progress Bars</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Javascript <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="plugins.php">Carousels</a></li>
+                <!--<li><a href="plugins.php#modals">Modals</a></li>-->
+                <li><a href="plugins.php#modals">Alerts</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Voice <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="voice.php">Terms</a></li>
+              </ul>
+            </li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Example Pages</li>
+                <li><a href="homepage2.php">Home</a></li>
+                <li><a href="cabin-seat-backage.php">Baggage Page <span class="label label-success">New</span></a></li>
+                <li><a href="my-profile.php">My Profile</a></li>
+                <li><a href="landing-page.php">Landing Page</a></li>
+                <li><a href="deals.php">Deals</a></li>
+                <li><a href="takemesomewhere.php">Take Me Somewhere</a></li>
+                <li><a href="elements.php">List of Elements</a></li>
+                <li><a href="fyi.php">FYI - Tips and Tricks</a></li>
+                <li><a href="honeymoon.php">Travel FUNd <span class="label label-warning">Hackathon</span></a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Google Maps API</li>
+                <li><a href="google-maps.php">Basic</a></li>
+                <li><a href="google-maps-weather.php">Weather</a></li>
+              </ul>
+            </li>-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a target="_blank" href="http://www.alaskabrandhub.com">Alaska Brand Hub</a></li>
+          </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+
+            <h2>Carry On Baggage</h2>
+            <p class="lead">We're happy to allow you one carry on bag, plus one personal item, such as a purse, briefcase, or laptop computer.</p>
+        </div>
+        </div>
+        <div class="row">
+        <div role="tabpanel">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs nav-tabs-underline" role="tablist">
+            <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a></li>
+            <li role="presentation"><a href="#ala-cart-services" aria-controls="ala cart Services" role="tab" data-toggle="tab">ala cart Service</a></li>
+            <li role="presentation"><a href="#policy" aria-controls="policy" role="tab" data-toggle="tab">Exceptions</a></li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="overview">
+              <div id="featured-1" class="col-xs-6 col-sm-3">
+                <div class="feature-moped panel-image"></div>
+                <code>feature-moped</code>
+              </div>
+              <div id="featured-2" class="col-xs-6 col-sm-3">
+                <div class="feature-selfie panel-image"></div>
+                <code>feature-selfie</code>
+              </div>
+              <div id="featured-3" class="col-xs-6 col-sm-3">
+                <div class="feature-disneyland panel-image"></div>
+                <code>feature-disneyland</code>
+              </div>
+              <div id="featured-4" class="col-xs-6 col-sm-3">
+                <div class="feature-family-beach panel-image"></div>
+                <code>feature-family-beach</code>
+              </div>
+              <div id="featured-5" class="col-xs-6 col-sm-3">
+                <div class="feature-splashing panel-image"></div>
+                <code>feature-splashing</code>
+              </div>
+              <div id="featured-6" class="col-xs-6 col-sm-3">
+                <div class="feature-hotel panel-image"></div>
+                <code>feature-hotel</code>
+              </div>
+              <div id="featured-7" class="col-xs-6 col-sm-3">
+                <div class="feature-have-card panel-image"></div>
+                <code>feature-have-card</code>
+              </div>
+              <div id="featured-8" class="col-xs-6 col-sm-3">
+                <div class="feature-beach2 panel-image"></div>
+                <code>feature-beach2</code>
+              </div>
+              <div id="featured-9" class="col-xs-6 col-sm-3">
+                <div class="feature-beach-chair panel-image"></div>
+                <code>feature-beach-chair</code>
+              </div>
+              <div id="featured-10" class="col-xs-6 col-sm-3">
+                <div class="feature-globe panel-image"></div>
+                <code>feature-globe</code>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="ala-cart-services"><div class="item">
+              
+              <div class="col-sm-12">
+                <div class="page-header">
+                  <h2>Destination Images</h2>
+                  <h4 class="secondary">These images can be found in the Sitecore Media Library under <code>Images/destinations/top-destinations/</code></h4>
+                </div>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-alaska panel-image"></div>
+                <code>destination-alaska</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-anchorage panel-image"></div>
+                <code>destination-anchorage</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-atlanta panel-image"></div>
+                <code>destination-atlanta</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-baltimore panel-image"></div>
+                <code>destination-baltimore</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-boise panel-image"></div>
+                <code>destination-boise</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-boston panel-image"></div>
+                <code>destination-boston</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-burbank panel-image"></div>
+                <code>destination-burbank</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-chicago panel-image"></div>
+                <code>destination-chicago</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-costarica panel-image"></div>
+                <code>destination-costarica</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-denver panel-image"></div>
+                <code>destination-denver</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-dallas panel-image"></div>
+                <code>destination-dallas</code>
+              </div>
+              <div id="featured-11" class="col-xs-6 col-sm-3">
+                <div class="destination-dc1 panel-image"></div>
+                <code>destination-dc1</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-disneyland panel-image"></div>
+                <code>destination-disneyland</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-eugene panel-image"></div>
+                <code>destination-eugene</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-fairbanks panel-image"></div>
+                <code>destination-fairbanks</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-hawaii panel-image"></div>
+                <code>destination-hawaii</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-houston panel-image"></div>
+                <code>destination-houston</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-houston2 panel-image"></div>
+                <code>destination-houston2</code>
+              </div>
+              <div id="featured-12" class="col-xs-6 col-sm-3">
+                <div class="destination-juneau panel-image"></div>
+                <code>destination-juneau</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-lasvegas panel-image"></div>
+                <code>destination-lasvegas</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-lasvegas2 panel-image"></div>
+                <code>destination-lasvegas2</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-lasvegas3 panel-image"></div>
+                <code>destination-lasvegas3</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-lewiston panel-image"></div>
+                <code>destination-lewiston</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-losangeles panel-image"></div>
+                <code>destination-losangeles</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-losangeles2 panel-image"></div>
+                <code>destination-losangeles2</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-losangeles3 panel-image"></div>
+                <code>destination-losangeles3</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-losangeles4 panel-image"></div>
+                <code>destination-losangeles4</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-loscabos panel-image"></div>
+                <code>destination-loscabos</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-loscabos2 panel-image"></div>
+                <code>destination-loscabos2</code>
+              </div>
+              
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-maui panel-image"></div>
+                <code>destination-maui</code>
+              </div>
+              <div id="featured-13" class="col-xs-6 col-sm-3">
+                <div class="destination-neworleans panel-image"></div>
+                <code>destination-neworleans</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-newyork panel-image"></div>
+                <code>destination-newyork</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-newyork2 panel-image"></div>
+                <code>destination-newyork2</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-newyork3 panel-image"></div>
+                <code>destination-newyork3</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-oakland panel-image"></div>
+                <code>destination-oakland</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-outdooradventure panel-image"></div>
+                <code>destination-outdooradventure</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-ontario panel-image"></div>
+                <code>destination-ontario</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-phoenix panel-image"></div>
+                <code>destination-phoenix</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-portland panel-image"></div>
+                <code>destination-portland</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-pullman panel-image"></div>
+                <code>destination-pullman</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-puertovallarta panel-image"></div>
+                <code>destination-puertovallarta</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-puertovallarta2 panel-image"></div>
+                <code>destination-puertovallarta2</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-redmond panel-image"></div>
+                <code>destination-redmond</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-rome panel-image"></div>
+                <code>destination-rome</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-sacramento panel-image"></div>
+                <code>destination-sacramento</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-santaana panel-image"></div>
+                <code>destination-santaana</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-sanfrancisco panel-image"></div>
+                <code>destination-sanfrancisco</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-sanfrancisco2 panel-image"></div>
+                <code>destination-sanfrancisco2</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-saltlakecity panel-image"></div>
+                <code>destination-saltlakecity</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-saltlakecity2 panel-image"></div>
+                <code>destination-saltlakecity2</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-sandiego panel-image"></div>
+                <code>destination-sandiego</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-sandiego2 panel-image"></div>
+                <code>destination-sandiego2</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-sanjose panel-image"></div>
+                <code>destination-sanjose</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-seattle panel-image"></div>
+                <code>destination-seattle</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-skithewest panel-image"></div>
+                <code>destination-skithewest</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-spokane panel-image"></div>
+                <code>destination-spokane</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-tricities panel-image"></div>
+                <code>destination-tricities</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-wallawalla panel-image"></div>
+                <code>destination-wallawalla</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-wenatchee panel-image"></div>
+                <code>destination-wenatchee</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="destination-yakima panel-image"></div>
+                <code>destination-yakima</code>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="policy">
+            <div class="item">
+              <div class="col-sm-12">
+                <div class="page-header">
+                  <h2>Policy Images</h2>
+                  <h4 class="secondary">These images can be found in the Sitecore Media Library under <code>Images/merch/policies/</code></h4>
+                </div>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="p-baggage panel-image"></div>
+                <code>p-baggage</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="p-special-items panel-image"></div>
+                <code>p-special-items</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="p-restricted panel-image"></div>
+                <code>p-restricted</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="p-carryon panel-image"></div>
+                <code>p-carryon</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="p-checked-bags panel-image"></div>
+                <code>p-checked-bags</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="p-kiosk panel-image"></div>
+                <code>p-kiosk</code>
+              </div>
+              
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="temp-campaigns">
+            <div class="item">
+              <div class="col-sm-12">
+                <div class="page-header">
+                  <h2>Temporary Campaign Images</h2>
+                  <h4 class="secondary">These images can be found in the Sitecore Media Library under <code>Images/merch/temp-campaigns/</code></h4>
+                </div>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-1 panel-image"></div>
+                <code>temp-1</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-2 panel-image"></div>
+                <code>temp-2</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-3 panel-image"></div>
+                <code>temp-3</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-4 panel-image"></div>
+                <code>temp-4</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-5 panel-image"></div>
+                <code>temp-5</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-6 panel-image"></div>
+                <code>temp-6</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-7 panel-image"></div>
+                <code>temp-7</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-8 panel-image"></div>
+                <code>temp-8</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-9 panel-image"></div>
+                <code>temp-9</code>
+              </div>
+              <div id="featured-14" class="col-xs-6 col-sm-3">
+                <div class="temp-10 panel-image"></div>
+                <code>temp-10</code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+  footer {
+  display: block
+  }
+  [hidden] {
+  display: none
+  }
+  a {
+  background-color: transparent
+  }
+  a:active, a:hover {
+  outline: 0
+  }
+  b {
+  font-weight: 700
+  }
+  img {
+  border: 0
+  }
+  svg:not(:root) {
+  overflow: hidden
+  }
+  hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0
+  }
+  button, input {
+  color: inherit;
+  font: inherit;
+  margin: 0
+  }
+  button {
+  overflow: visible
+  }
+  button {
+  text-transform: none
+  }
+  button {
+  -webkit-appearance: button;
+  cursor: pointer
+  }
+  button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+  }
+  input {
+  line-height: normal
+  }
+  input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0
+  }
+  .hidden, [hidden] {
+  display: none !important
+  }
+  .pure-g {
+  letter-spacing: -.31em;
+  *letter-spacing: normal;
+  *word-spacing: -.43em;
+  text-rendering: optimizespeed;
+  font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+  -ms-align-content: flex-start;
+  -webkit-align-content: flex-start;
+  align-content: flex-start
+  }
+  .opera-only:-o-prefocus, .pure-g {
+  word-spacing: -.43em
+  }
+  .pure-g [class*="pure-u"] {
+  font-family: sans-serif
+  }
+  .pure-u-1, .pure-u-1-2, .pure-u-1-4 {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto
+  }
+  .pure-u-1-4 {
+  width: 25%;
+  *width: 24.969%
+  }
+  .pure-u-1-2 {
+  width: 50%;
+  *width: 49.969%
+  }
+  .pure-u-1 {
+  width: 100%
+  }
+  .pure-button::-moz-focus-inner {
+  padding: 0;
+  border: 0
+  }
+  .pure-button-hidden {
+  display: none
+  }
+  .pure-button::-moz-focus-inner {
+  padding: 0;
+  border: 0
+  }
+  .pure-menu {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+  }
+  .pure-menu-list, .pure-menu-item {
+  position: relative
+  }
+  .pure-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0
+  }
+  .pure-menu-item {
+  padding: 0;
+  margin: 0;
+  height: 100%
+  }
+  .pure-menu-link {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap
+  }
+  .pure-menu-horizontal {
+  width: 100%;
+  white-space: nowrap
+  }
+  .pure-menu-horizontal .pure-menu-list {
+  display: inline-block
+  }
+  .pure-menu-horizontal .pure-menu-item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle
+  }
+  .pure-menu-item .pure-menu-item {
+  display: block
+  }
+  .pure-menu-children {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 3
+  }
+  .pure-menu-horizontal .pure-menu-children {
+  left: 0;
+  top: auto;
+  width: inherit
+  }
+  .pure-menu-active>.pure-menu-children {
+  display: block;
+  position: absolute
+  }
+  .pure-menu-has-children>.pure-menu-link:after {
+  padding-left: .5em;
+  content: "\25B8";
+  font-size: small
+  }
+  .pure-menu-horizontal .pure-menu-has-children>.pure-menu-link:after {
+  content: "\25BE"
+  }
+  .pure-menu-link {
+  color: #777
+  }
+  .pure-menu-children {
+  background-color: #fff
+  }
+  .pure-menu-link {
+  padding: .5em 1em
+  }
+  .pure-menu-active>.pure-menu-link, .pure-menu-link:hover, .pure-menu-link:focus {
+  background-color: #eee
+  }
+  .pure-menu-selected .pure-menu-link, .pure-menu-selected .pure-menu-link:visited {
+  color: #000
+  }
+  /* !
+  Pure v0.6.0
+  Copyright 2014 Yahoo! Inc. All rights reserved.
+  Licensed under the BSD License.
+  https://github.com/yahoo/pure/blob/master/LICENSE.md */
+  @media screen and (min-width:48em) {
+  .pure-u-md-1-3, .pure-u-md-1-4 {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto
+  }
+  .pure-u-md-1-4 {
+  width: 25%;
+  *width: 24.969%
+  }
+  .pure-u-md-1-3 {
+  width: 33.3333%;
+  *width: 33.3023%
+  }
+  }
+  .cart-count {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #4d803b
+  }
+  #hf-top {
+  position: relative;
+  margin: 0 auto;
+  max-width: 970px;
+  width: 100%;
+  font-size: 14px;
+  height: 65px;
+  padding: 5px 15px 15px 15px
+  }
+  #hf-top .arrow-up {
+  position: absolute;
+  left: 139px;
+  top: -10px;
+  border-bottom: 10px solid #e9e5dd;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent
+  }
+  #hf-top .arrow-up-border {
+  position: absolute;
+  left: 138px;
+  top: -11px;
+  border-bottom: 11px solid #666666;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent
+  }
+  #hf-top>ul {
+  float: right
+  }
+  #hf-top>ul>li {
+  vertical-align: top
+  }
+  #hf-top>ul>li>a {
+  padding: 13px 15px;
+  color: #0e2b51;
+  text-transform: uppercase
+  }
+  #hf-top .pure-menu-link {
+  background-color: transparent
+  }
+  #hf-top .arrow-down {
+  border-top: 7px solid #00567e;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 12px;
+  margin-left: 5px;
+  position: relative
+  }
+  #hf-top .pers-menu {
+  list-style-type: none;
+  padding: 0
+  }
+  #hf-top .pers-menu a {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 2px;
+  margin-top: 1px;
+  padding: 6px 0;
+  width: 100%
+  }
+  #hf-top .navbar-greeting-popup {
+  background-color: #e9e5dd;
+  padding: 20px;
+  border: 1px solid #666666;
+  color: #666666;
+  width: 300px;
+  line-height: 22px;
+  font-size: 14px;
+  left: -150px;
+  margin-left: 50%
+  }
+  #hf-top .navbar-greeting-popup a {
+  color: #666666;
+  text-decoration: underline
+  }
+  #hf-h {
+  border-bottom: 1px solid #d8d8d8
+  }
+  #skip-to-main-content {
+  position: absolute;
+  text-align: center;
+  width: 100%
+  }
+  .header-logo {
+  height: 40px;
+  margin: 0 18px 0 0
+  }
+  .header-logo:hover {
+  background-color: transparent
+  }
+  #hf-h {
+  margin-bottom: 24px
+  }
+  #hf-nav {
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 970px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 75px
+  }
+  #hf-nav .pure-menu-children.pure-g {
+  width: 100%
+  }
+  #hf-nav .pure-menu-item {
+  vertical-align: top
+  }
+  #hf-nav .pure-menu-link {
+  background-color: transparent
+  }
+  #hf-nav>.pure-menu-list {
+  width: 100%;
+  height: 100%
+  }
+  #hf-nav>.pure-menu-list>.pure-menu-item {
+  padding-top: 12px
+  }
+  #hf-nav>.pure-menu-list>.pure-menu-item:first-child {
+  padding-top: 0px
+  }
+  #hf-nav>.pure-menu-list>.pure-menu-item:first-child a {
+  padding-left: 0px
+  }
+  #hf-nav>.pure-menu-list>.pure-menu-item.pure-menu-active>a {
+  color: #4d803b;
+  border-bottom: 8px solid #4d803b
+  }
+  #hf-nav>.pure-menu-list>.pure-menu-item>a {
+  height: 100%;
+  border-bottom: 8px solid transparent;
+  color: #0e2b51;
+  padding: 10px 27px;
+  margin-bottom: 0
+  }
+  #hf-nav>.pure-menu-list>.pure-menu-item>a:hover, #hf-nav>.pure-menu-list>.pure-menu-item>a:focus {
+  color: #4d803b;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border-bottom: 8px solid #4d803b
+  }
+  #hf-nav h4 {
+  font-size: 18px
+  }
+  #hf-nav .pure-menu-link {
+  font-size: 21px;
+  font-weight: bold
+  }
+  #hf-nav .pure-menu-children {
+  position: absolute;
+  margin-top: 1px
+  }
+  #hf-nav .pure-menu-item {
+  position: static
+  }
+  #hf-nav .pure-menu-background {
+  background: #e9e5dd;
+  position: absolute;
+  height: 336px;
+  width: 20000px;
+  top: -1px;
+  left: -10000px;
+  z-index: -1;
+  border: 0px;
+  border-style: none
+  }
+  #hf-nav .pure-menu-top-border {
+  position: absolute;
+  top: 1px;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  background-color: #ccc
+  }
+  #hf-nav .pure-menu-column>.pure-menu-list {
+  width: 85%
+  }
+  #hf-nav .pure-menu-column>.pure-menu-list a {
+  display: block;
+  padding: 7px 15px 7px 0;
+  color: #666666;
+  font-weight: normal
+  }
+  #hf-nav .pure-menu-column h4 {
+  margin: 32px 0 12px 0;
+  color: #0e2b51
+  }
+  #hf-nav .pure-menu-column li {
+  border-bottom: #d8d8d8 solid 1px;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  padding: 0
+  }
+  #hf-nav .pure-menu-column li:first-child {
+  border-top: #d8d8d8 solid 1px
+  }
+  #hf-nav .nav-right {
+  position: absolute;
+  right: 0
+  }
+  #hf-nav .featurette {
+  background-color: #00567e;
+  width: 204px;
+  margin: 0 0 0 auto;
+  height: 335px;
+  position: relative;
+  text-align: center;
+  color: #FFF;
+  white-space: normal
+  }
+  #hf-nav .featurette svg {
+  fill: #FFF;
+  height: 112px;
+  width: 112px
+  }
+  #hf-nav .featurette .featurette-wrapper {
+  padding: 30px 15px
+  }
+  #hf-nav .featurette p {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0
+  }
+  #hf-nav .featurette a {
+  color: #FFF;
+  font-weight: bold
+  }
+  #hf-nav .featurette a:hover {
+  text-decoration: underline;
+  background-color: inherit
+  }
+  #hf-nav .featurette h4, #hf-nav .featurette h5 {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 12px 0px
+  }
+  #hf-nav .featurette hr {
+  margin: 12px -15px;
+  opacity: 0.2
+  }
+  #hf-nav .featurette[onclick] {
+  cursor: pointer
+  }
+  #hf-nav .featurette .secondary {
+  font-weight: normal
+  }
+  body.nav-open {
+  overflow-x: hidden
+  }
+  .hf-signin-form {
+  font-size: 14px
+  }
+  .hf-signin-form .form-group {
+  padding-bottom: 0px;
+  margin-bottom: 0px
+  }
+  .hf-signin-form .form-control {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 1.72857;
+  color: #0e2b51;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+  }
+  .hf-signin-form label {
+  margin-bottom: 5px;
+  display: block
+  }
+  .hf-signin-form .btn {
+  display: block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 8px 40px;
+  font-size: 14px;
+  line-height: 1.72857;
+  border-radius: 2px;
+  text-transform: uppercase;
+  width: 100%
+  }
+  .hf-signin-form .btn[disabled] {
+  opacity: .65
+  }
+  .hf-signin-form .btn-primary, .hf-signin-form .btn-green, .hf-signin-form .btn-success {
+  color: #FFF;
+  background-color: #4d803b;
+  border-color: #4d803b
+  }
+  .hf-signin-form a {
+  float: right;
+  padding: 2px 2px 2px 5px;
+  margin: 1px;
+  font-size: .85em;
+  padding-bottom: 2px;
+  display: block
+  }
+  .hf-signin-form div {
+  overflow: hidden;
+  padding-bottom: 5px
+  }
+  .hf-signin-form .radio {
+  margin: 14px 0;
+  padding-bottom: 0
+  }
+  .hf-signin-form .radio label {
+  display: block;
+  height: 22px;
+  line-height: 17px
+  }
+  .hf-signin-form .radio input {
+  margin-top: 2px
+  }
+  .hf-signin-form .checkbox {
+  margin-bottom: 10px;
+  padding-bottom: 0
+  }
+  .hf-signin-form .checkbox label {
+  margin-bottom: 0;
+  line-height: 17px
+  }
+  .hf-signin-form .checkbox input {
+  margin-bottom: 10px;
+  padding-bottom: 0
+  }
+  .hf-signin-form input {
+  position: relative;
+  display: inline-block;
+  margin-right: 3px
+  }
+  .hf-signin-form .arrow-up-outer {
+  position: absolute;
+  top: -11px;
+  left: 138px
+  }
+  .hf-signin-form .arrow-up-sand {
+  position: absolute;
+  top: -10px;
+  left: 139px
+  }
+  .hf-signin-form label {
+  font-weight: normal
+  }
+  .hf-signin-form a {
+  color: #666666;
+  text-decoration: underline
+  }
+  .hf-nav-mobile {
+  border-bottom: solid 1px #eeeeee;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 55px;
+  z-index: 499;
+  vertical-align: middle;
+  padding: 10px 0;
+  background-color: #FFF;
+  font-size: 14px;
+  color: #666666;
+  line-height: normal
+  }
+  .hf-nav-mobile .svgtext {
+  font-weight: bold;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #0e2b51;
+  position: relative;
+  top: -4px
+  }
+  .hf-nav-mobile button span.svgtext {
+  top: -1px
+  }
+  .hf-nav-mobile .show-if-super-user {
+  margin-right: 10px
+  }
+  .hf-nav-mobile .show-if-super-user .svgtext {
+  left: -5px;
+  letter-spacing: -.4px;
+  top: -3px
+  }
+  .hf-nav-mobile svg.icon-search {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: -2px
+  }
+  .hf-nav-mobile .navMobileCart .svgtext {
+  left: 2px
+  }
+  .hf-nav-mobile .pure-menu-horizontal {
+  display: inline-block;
+  width: auto;
+  float: right
+  }
+  .hf-nav-mobile .hf-nav-top>li {
+  margin-left: 10px
+  }
+  .hf-nav-mobile .mobile-logo {
+  height: 31px;
+  margin: 0 15px
+  }
+  .hf-nav-mobile .cart-count {
+  position: absolute;
+  left: 20px;
+  top: -4px
+  }
+  .hf-nav-mobile .hf-nav-mobile-toggle {
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: -10px
+  }
+  .hf-nav-mobile .hamburger-bar {
+  height: 3px;
+  background-color: #0e2b51;
+  width: 28px;
+  color: #0e2b51;
+  margin: 4px 10px 0 10px;
+  display: block;
+  border-radius: 1px;
+  fill: #0e2b51
+  }
+  .hf-nav-mobile .hamburger-bar:last-of-type {
+  margin-bottom: 4px
+  }
+  .hf-nav-mobile .icon-fallback {
+  display: none
+  }
+  .hf-nav-mobile svg {
+  height: 28px;
+  width: 28px;
+  fill: #0e2b51
+  }
+  .hf-nav-mobile svg:hover {
+  fill: #0e2b51
+  }
+  li.pure-menu-item a:hover {
+  text-decoration: none
+  }
+  .nav-mobile-menu {
+  position: fixed;
+  width: 300px;
+  z-index: 499;
+  top: 55px;
+  right: -300px;
+  font-size: 17.5px;
+  line-height: 1.72857;
+  background-color: #f4f2ef;
+  height: 100%;
+  border-left: 1px solid #d8d8d8;
+  transition: 0.4s;
+  overflow-y: auto
+  }
+  .nav-mobile-menu.open {
+  right: 0
+  }
+  .nav-mobile-menu a:hover, .nav-mobile-menu a:focus {
+  text-decoration: none
+  }
+  .nav-mobile-menu .pure-menu-item {
+  margin-left: 0
+  }
+  .nav-mobile-menu .pure-menu-list>li {
+  background-color: #e9e5dd;
+  border-bottom: 1px solid #d8d8d8
+  }
+  .nav-mobile-menu .pure-menu-list>li>a {
+  display: block;
+  padding: 10px 15px;
+  color: #0e2b51
+  }
+  .nav-mobile-menu .pure-menu-children {
+  left: auto;
+  position: relative
+  }
+  .nav-mobile-menu .pure-menu-children li {
+  list-style-type: none
+  }
+  .nav-mobile-menu .pure-menu-children li>a {
+  padding: 15px;
+  display: block;
+  border-top: 1px solid #d8d8d8;
+  color: #0e2b51;
+  font-size: 14px
+  }
+  .nav-mobile-menu .pure-menu-link:hover, .nav-mobile-menu .pure-menu-link:focus, .nav-mobile-menu .pure-menu-active>.pure-menu-link {
+  background-color: #e9e5dd
+  }
+  .nav-mobile-menu .right-arrow {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  margin-right: 20px
+  }
+  .nav-mobile-menu .navbar-greeting-popup {
+  background-color: #FFF;
+  border: none;
+  padding: 15px
+  }
+  @media (max-width:767px) {
+  #hf-nav {
+  display: none
+  }
+  #hf-nav-mobile {
+  display: block
+  }
+  body {
+  margin-top: 55px
+  }
+  #hf-top {
+  display: none
+  }
+  }
+  @media (max-width:319px) {
+  .hf-nav-mobile {
+  height: 100px
+  }
+  .nav-mobile-menu {
+  top: 100px
+  }
+  body {
+  margin-top: 100px
+  }
+  }
+  @media (min-width:768px) and (max-width:969px) {
+  #hf-nav-mobile {
+  display: none
+  }
+  #hf-nav .featurette {
+  display: none
+  }
+  #hf-nav>.pure-menu-list>.pure-menu-item>a {
+  padding: 10px
+  }
+  }
+  @media (min-width:970px) {
+  #hf-nav-mobile {
+  display: none
+  }
+  .pure-u-1-4 {
+  width: 25%;
+  *width: 24.969%
+  }
+  }
+  .show-if-signed-in-true, .show-if-signed-in-false {
+  display: none
+  }
+  .signed-in-true .show-if-signed-in-true {
+  display: block
+  }
+  .signed-in-false .show-if-signed-in-false {
+  display: block
+  }
+  .signed-in-true .show-if-signed-in-true-inline {
+  display: inline-block
+  }
+  .signed-in-false .show-if-signed-in-false-inline {
+  display: inline-block
+  }
+  .hf-f {
+  background-color: #f4f2ef;
+  color: #666666
+  }
+  .hf-f .icon-fallback {
+  display: none
+  }
+  .hf-f footer {
+  padding: 20px 0
+  }
+  .hf-f .pure-g {
+  max-width: 970px;
+  margin: 0px auto;
+  padding: 0 15px
+  }
+  .hf-f a {
+  color: #666666;
+  font-size: 12px;
+  line-height: 2.5em
+  }
+  .hf-f h5, .hf-f h5 a, .hf-f .navBlog {
+  color: #0e2b51;
+  font-size: 14px;
+  line-height: 15px
+  }
+  .hf-f h5 {
+  margin: 12px 0
+  }
+  .hf-f .social-icons {
+  margin-top: 17px
+  }
+  .hf-f .copyright {
+  font-size: 11px;
+  margin-top: 20px
+  }
+  .hf-f .footerLists {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px
+  }
+  .hf-f [class^=icon-], .hf-f [class*=icon-] {
+  width: 24px;
+  height: 24px;
+  fill: #0e2b51
+  }
+  .hf-f .footer-headlines a {
+  cursor: default;
+  position: relative
+  }
+  .hf-f .footer-headlines a:hover {
+  text-decoration: none
+  }
+  .hf-f .footer-headlines a svg {
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 6px
+  }
+  .hf-f .hf-products {
+  padding-top: 75px
+  }
+  .hf-f .hf-products .text-center {
+  text-align: center
+  }
+  .hf-f .hf-products [class^=icon-], .hf-f .hf-products [class*=icon-] {
+  fill: #a6a6a6;
+  width: 64px;
+  height: 64px
+  }
+  .hf-f .hf-products a:hover {
+  text-decoration: none
+  }
+  .hf-f .hf-products a:hover [class^=icon-], .hf-f .hf-products a:hover [class*=icon-] {
+  fill: #777777
+  }
+  .hf-f .hf-products h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #0e2b51;
+  margin: 0px
+  }
+  .hf-f .hf-products .btn-link {
+  color: #0e2b51;
+  font-size: 14px;
+  font-weight: bold
+  }
+  .hf-f .hf-products .btn-link:hover {
+  text-decoration: underline
+  }
+  .hf-f .hf-products p {
+  font-size: 14px;
+  width: 130px;
+  line-height: 24px;
+  margin: 4px auto
+  }
+  .hf-f .hf-products .pure-g {
+  padding: 0 15px
+  }
+  .hf-f .hf-products .pure-g>div {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d8d8d8
+  }
+  @media (max-width:768px) {
+  .hf-f .hf-products p {
+  width: auto;
+  padding: 0 12px
+  }
+  .hf-f .hf-products .hf-secondrow {
+  margin-top: 80px
+  }
+  .hf-f .hf-products .pure-g {
+  padding-bottom: 24px
+  }
+  .hf-f .hf-products .pure-g>div {
+  padding-bottom: 0px;
+  border-bottom: none
+  }
+  .hf-f .footer-headlines a {
+  cursor: pointer;
+  display: block;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 10px 15px 10px 0
+  }
+  .hf-f .footer-headlines .expanded-hide {
+  display: none
+  }
+  .hf-f .footer-headlines.collapsed .expanded-show {
+  display: none
+  }
+  .hf-f .footer-headlines.collapsed .expanded-hide {
+  display: inline-block
+  }
+  .hf-f .footer-headlines a svg {
+  display: block
+  }
+  .hf-f .panel-collapsable.collapse {
+  display: none
+  }
+  }
+  .hf, .hf * {
+  box-sizing: border-box
+  }
+  .pure-menu, .pure-g, .pure-g [class*="pure-u"] {
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif
+  }
+  .hf a {
+  text-decoration: none
+  }
+  .hf a:hover {
+  text-decoration: underline
+  }
+  .hf .no-hover-underline:hover, .hf .no-hover-underline:focus {
+  border: none !important
+  }
+  .hf .last {
+  padding-right: 0 !important
+  }
+  .hf .pure-menu-horizontal .pure-menu-has-children>.pure-menu-link:after {
+  content: none
+  }
+  .hf .hidden {
+  display: none
+  }
+  .hf .pure-menu-has-children>.pure-menu-link:after {
+  content: none
+  }
+  .hf .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0
+  }
+  .hf .sr-only-focusable:active, .hf .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto
+  }
+  .show-if-super-user {
+  display: none !important
+  }
+  .super-user .show-if-super-user {
+  display: inline-block !important
+  }
+  .is-canada .hide-if-canada, .show-if-canada {
+  display: none !important
+  }
+  .is-canada .show-if-canada {
+  display: inline !important
+  }
+  @media print {
+  #hf-h {
+  border-bottom: none
+  }
+  #hf-top {
+  display: none
+  }
+  #hf-nav .nav-right, #hf-nav .pure-menu-has-children {
+  display: none
+  }
+  #navMobileCart {
+  display: none
+  }
+  .hf-products {
+  display: none
+  }
+  .no-print {
+  display: none
+  }
+  footer .pure-g {
+  display: none
+  }
+  footer .copyright {
+  display: block
+  }
+  }
+  </style>
+  <div class="hf hf-f signed-in-false" no-print-web-checkin="">
+    <div class="hf-products">
+      <div class="pure-g">
+        <div class="pure-u-1-2 pure-u-md-1-4">
+          <a tabindex="-1" href="//www.alaskaair.com/www2/ssl/myalaskaair/myalaskaair.aspx?CurrentForm=UCNewsletterSignupStart&amp;
+            lid=footer: emailDeals&amp;
+            INT-_AS_NAV_-prodID: EmailDeals">
+            <div id="emailDeals" class="text-center">
+              <svg focusable="false" class="icon-email" viewBox="0 0 512 512">
+              <path d="m51 412l410 0 0-291-410 0c0 0 0 291 0 291z m70-30l95-104 18 13 0 1c7 4 14 7 22 7 8 0 16-2 22-7l1-1 17-13 96 103-271 0z m310 0l-9 0 1-1-108-116 116-87 0 204z m-13-232l-157 118c-3 2-7 2-10 0l-157-118z m-337 28l116 87-108 116 1 1-9 0z"></path>
+              </svg>
+              <img class="icon-email icon-fallback" alt="Email Deals" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-email.png">
+              <h4 class="secondary">Email Deals</h4>
+              <p>The best flight deals in your inbox every week</p>
+              <span role="link" tabindex="0" class="btn-link">Sign Up Now ›<span class="sr-only">for email flight deals</span></span>
+            </div>
+          </div>
+          <div class="pure-u-1-2 pure-u-md-1-4">
+            <a tabindex="-1" href="http://survey.alaskalistens.com/#/survey1" data-omniture-tag="footer:alaskaListens">
+              <div id="alaskaListens" class="text-center">
+                <svg focusable="false" class="icon-as-listens" viewBox="0 0 512 512">
+                <path d="m173 115c-79-5-147 40-150 97-5 69 45 114 110 129 4 1 8 3 11 7 7 8 15 26-8 49 69-24 164-62 170-158 5-75-54-119-133-124z m186 63c29 0 56 9 77 25 18 15 29 33 29 52 1 38-19 56-80 72-12 4-27 16-32 22-6 7-10 16-12 25-21-7-41-16-58-27-25-18-39-41-41-72-4-65 53-93 107-96 4 0 7-1 10-1m0-26c-3 0-7 0-11 0-79 6-137 50-132 125 7 96 101 116 169 139-27-21-19-42-11-50 3-4 13-12 17-13 60-16 102-39 100-98-1-55-58-103-132-103z"></path>
+                </svg>
+                <img class="icon-as-listens icon-fallback" alt="Alaska Listens" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-as-listens.png">
+                <h4 class="secondary">Alaska Listens</h4>
+                <p>We want to hear about your recent trip</p>
+                <span role="link" tabindex="0" class="btn-link" data-omniture-tag="footer:alaskaListens">Give Feedback ›<span class="sr-only">about your recent trip</span></span>
+              </div>
+            </div>
+            <div class="pure-u-1-2 pure-u-md-1-4 hf-secondrow">
+              <a tabindex="-1" href="//www.alaskaair.com/content/gifts-and-products/mobile/mobile-site-mobile-apps.aspx?lid=footer:mobile&amp;
+                INT-_AS_NAV_-prodID: Mobile">
+                <div id="mobileApp" class="text-center">
+                  <svg focusable="false" class="icon-mobile" viewBox="0 0 512 512">
+                  <path d="m324 51l-136 0c-27 0-50 23-50 51l0 308c0 28 23 51 50 51l136 0c27 0 50-23 50-51l0-308c0-28-23-51-50-51z m-68 383c-13 0-24-11-24-24 0-14 11-24 24-24 13 0 24 10 24 24 0 13-11 24-24 24z m87-69l-174 0 0-258 174 0c0 0 0 258 0 258z"></path>
+                  </svg>
+                  <img class="icon-mobile icon-fallback" alt="Mobile" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-mobile.png">
+                  <h4 class="secondary">Mobile</h4>
+                  <p>iPhone, Android, and Windows Phone</p>
+                  <span role="link" tabindex="0" class="btn-link">Get the App ›<span class="sr-only">Alaska Airlines mobile app</span></span>
+                </div>
+              </div>
+              <div class="pure-u-1-2 pure-u-md-1-4 hf-secondrow">
+                <!---USA Credit Card Offer-->
+                <a tabindex="-1" data-omniture-tag="footer:creditCard-US" href="http://fiacardservicesgroup.tt.omtrdc.net/m2/fiacardservicesgroup/ubox/page?mbox=adboxRedirector3&amp;
+                  mboxDefault=http%3A//www.applyonlinenow.com/uscc/error.html?error_code=1001&amp;
+                  tagname=Alaska-Footer" class="hide-if-canada">
+                  <div id="footerCreditCard-US" class="text-center">
+                    <svg focusable="false" class="icon-credit" viewBox="0 0 512 512">
+                    <path d="m471 126c-6-7-14-10-24-10l-341 0c-10 0-18 3-24 10-7 6-10 14-10 24l0 259c0 9 3 18 10 24 6 7 14 10 24 10l341 0c10 0 18-3 24-10 7-6 10-15 10-24l0-259c0-10-3-18-10-24z m-17 283c0 2-1 4-2 5-1 1-3 2-5 2l-341 0c-2 0-4-1-5-2-1-1-2-3-2-5l0-130 355 0z m0-212l-355 0 0-47c0-2 1-4 2-5 1-1 3-2 5-2l341 0c2 0 4 1 5 2 1 1 2 3 2 5 0 0 0 47 0 47z m-328 164l55 0 0 28-55 0z m82 0l82 0 0 28-82 0z"></path>
+                    </svg>
+                    <img class="icon-credit icon-fallback" alt="Credit Card" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-credit.png">
+                    <h4 class="secondary">Credit Card</h4>
+                    <p>Earn miles for travel with every purchase</p>
+                    <span role="link" tabindex="0" class="btn-link" data-omniture-tag="footer: creditCard-US">Apply Now ›<span class="sr-only">for an Alaska Airlines credit card</span></span>
+                  </div>
+                  <!---Canada Credit Card Offer-->
+                  <a tabindex="-1" data-omniture-tag="footer:creditCard-CA" href="https://apply.mbna.ca/applicationform/generateApplicationForm.htm?src=DAAB65&amp;
+                    locale=en_CA" class="show-if-canada">
+                    <div id="footerCreditCard-CA" class="text-center">
+                      <svg focusable="false" class="icon-credit" viewBox="0 0 512 512">
+                      <path d="m471 126c-6-7-14-10-24-10l-341 0c-10 0-18 3-24 10-7 6-10 14-10 24l0 259c0 9 3 18 10 24 6 7 14 10 24 10l341 0c10 0 18-3 24-10 7-6 10-15 10-24l0-259c0-10-3-18-10-24z m-17 283c0 2-1 4-2 5-1 1-3 2-5 2l-341 0c-2 0-4-1-5-2-1-1-2-3-2-5l0-130 355 0z m0-212l-355 0 0-47c0-2 1-4 2-5 1-1 3-2 5-2l341 0c2 0 4 1 5 2 1 1 2 3 2 5 0 0 0 47 0 47z m-328 164l55 0 0 28-55 0z m82 0l82 0 0 28-82 0z"></path>
+                      </svg>
+                      <h4 class="secondary">Credit Card</h4>
+                      <p>Earn miles for travel with every purchase</p>
+                      <span role="link" tabindex="0" class="btn-link" data-omniture-tag="footer: creditCard-CA">Learn More ›<span class="sr-only">for an Alaska Airlines credit card</span></span>
+                      <img class="icon-credit icon-fallback" alt="Credit Card" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-credit.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <footer>
+                <div class="pure-g">
+                  <div class="pure-u-1 pure-u-md-1-4">
+                    <h5 class="footer-headlines collapsed">
+                    <a class="hf-collapse" href="#collapseOne">
+                      About Alaska
+                      <svg class="icon-caret-down-two expanded-show static-hide" viewBox="0 0 512 512">
+                      <path d="m402 201c0 5-2 9-5 13l-128 128c-4 4-8 5-13 5c-5 0-9-1-13-5l-128-128c-3-4-5-8-5-13c0-5 2-9 5-13c4-3 8-5 13-5l256 0c5 0 9 2 13 5c3 4 5 8 5 13z" fill="#0e2b51"></path>
+                      </svg>
+                      <svg class="icon-caret-right expanded-hide static-hide" viewBox="0 0 512 512">
+                      <path d="m329 256c0 5-2 9-5 13l-128 128c-4 3-8 5-13 5c-5 0-9-2-13-5c-4-4-5-8-5-13l0-256c0-5 1-9 5-13c4-3 8-5 13-5c5 0 9 2 13 5l128 128c3 4 5 8 5 13z"></path>
+                      </svg>
+                      </h5>
+                      <div id="collapseOne" class="panel-collapsable collapse">
+                        <ul class="footerLists">
+                          <li><a id="navAboutUs" href="//www.alaskaair.com/content/about-us.aspx?lid=footer:about">About Us</a></li>
+                          <li><a id="navCareers" href="//careers.alaskaair.com/Alaska-Main.asp" data-omniture-tag="footer:careers">Careers</a></li>
+                          <li><a id="navCompanyStore" href="//www.kotisdesign.com/estore/landing-asqx.asp?estore=asqxcompanystore" data-omniture-tag="footer:companyStore">Company Store</a></li>
+                          <li><a id="navLegal" href="//www.alaskaair.com/content/legal/consumer-notices.aspx?lid=footer:legal">Legal</a></li>
+                          <li><b><a id="navPrivacyPolicy" href="//www.alaskaair.com/content/legal/privacy-policy.aspx?lid=footer:privacyPolicy">Privacy Notice</a></b></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-4">
+                      <h5 class="footer-headlines collapsed">
+                      <a class="hf-collapse" href="#collapseTwo">
+                        Customer Service
+                        <svg class="icon-caret-down-two expanded-show static-hide" viewBox="0 0 512 512">
+                        <path d="m402 201c0 5-2 9-5 13l-128 128c-4 4-8 5-13 5c-5 0-9-1-13-5l-128-128c-3-4-5-8-5-13c0-5 2-9 5-13c4-3 8-5 13-5l256 0c5 0 9 2 13 5c3 4 5 8 5 13z" fill="#0e2b51"></path>
+                        </svg>
+                        <svg class="icon-caret-right expanded-hide static-hide" viewBox="0 0 512 512">
+                        <path d="m329 256c0 5-2 9-5 13l-128 128c-4 3-8 5-13 5c-5 0-9-2-13-5c-4-4-5-8-5-13l0-256c0-5 1-9 5-13c4-3 8-5 13-5c5 0 9 2 13 5l128 128c3 4 5 8 5 13z"></path>
+                        </svg>
+                        </h5>
+                        <div id="collapseTwo" class="panel-collapsable collapse">
+                          <ul class="footerLists">
+                            <li class="launch-jenn"><a id="navAskJenn" data-omniture-tag="Link to Ask Jenn Footer" data-omniture-include-pagename="true" href="#">Ask Jenn</a></li>
+                            <li><a id="navContactUs" href="//www.alaskaair.com/content/about-us/contact-us/online-help.aspx?lid=footer:contactUs">Contact Us</a></li>
+                            <li><a id="navFeedback" href="//www.alaskaair.com/feedback?lid=footer:feedback">Feedback</a></li>
+                            <li><a id="navTravelAdvisories" href="//www.alaskaair.com/content/travel-info/before-your-trip/travel-tips/travel-advisories.aspx?lid=footer:advisories">Travel Advisories</a></li>
+                            <li><a id="navSiteMap" href="//www.alaskaair.com/content/site-map.aspx?lid=footer:siteMap">Site Map</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="pure-u-1 pure-u-md-1-4">
+                        <h5 class="footer-headlines collapsed">
+                        <a class="hf-collapse" href="#collapseThree">
+                          Products &amp;
+                          Services
+                          <svg class="icon-caret-down-two expanded-show static-hide" viewBox="0 0 512 512">
+                          <path d="m402 201c0 5-2 9-5 13l-128 128c-4 4-8 5-13 5c-5 0-9-1-13-5l-128-128c-3-4-5-8-5-13c0-5 2-9 5-13c4-3 8-5 13-5l256 0c5 0 9 2 13 5c3 4 5 8 5 13z" fill="#0e2b51"></path>
+                          </svg>
+                          <svg class="icon-caret-right expanded-hide static-hide" viewBox="0 0 512 512">
+                          <path d="m329 256c0 5-2 9-5 13l-128 128c-4 3-8 5-13 5c-5 0-9-2-13-5c-4-4-5-8-5-13l0-256c0-5 1-9 5-13c4-3 8-5 13-5c5 0 9 2 13 5l128 128c3 4 5 8 5 13z"></path>
+                          </svg>
+                          </h5>
+                          <div id="collapseThree" class="panel-collapsable collapse">
+                            <ul class="footerLists">
+                              <li><a id="navOptionalServicesFees" href="//www.alaskaair.com/content/travel-info/optional-services-fees.aspx?lid=footer: optionalServices">Optional Services &amp;
+                              Fees</a></li>
+                              <li><a id="navEasyBiz" href="//easybiz.alaskaair.com/ssl/signin/cosignin.aspx?CurrentForm=UCCoSignInStart&amp;
+                                lid=footer: easyBiz&amp;
+                              INT-_AS_NAV_-prodID: EasyBiz">EasyBiz</a></li>
+                              <li><a id="navTravelAgents" href="//www.alaskaair.com/travel-agent/logon?lid=footer:travelAgent">Travel Agents</a></li>
+                              <li><a id="navCargo" href="//www.alaskaair.com/content/cargo/cargo-home.aspx?lid=footer:cargo&amp;
+                              INT-_AS_NAV_-prodID: Cargo">Cargo</a></li>
+                              <li><a id="navGiftCertificates" href="//www.alaskaair.com/content/gifts-and-products/gift-cards-certificates/gift-card-overview.aspx?lid=footer:giftCerts&amp;
+                              INT-_AS_NAV_-prodID: GiftCertificates">Gift Certificates</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="pure-u-1 pure-u-md-1-4">
+                          <h5 class="follow-us-title">Follow Us</h5>
+                          <div class="social-icons">
+                            <a id="navFacebook" href="https://www.facebook.com/alaskaairlines" data-omniture-tag="footer:facebook">
+                              <svg class="icon-facebook" focusable="false" viewBox="0 0 512 512">
+                              <path d="m294 171l0-42c0-6 0-11 1-15 0-3 2-7 4-10 2-4 5-6 10-7 5-1 11-2 19-2l42 0 0-85-68 0c-39 0-67 10-84 28-17 19-26 46-26 82l0 51-51 0 0 85 51 0 0 246 102 0 0-246 68 0 9-85z"></path>
+                              </svg>
+                              <img class="icon-facebook icon-fallback" alt="Follow us on Facebook" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-facebook.png">
+                              <span class="sr-only">Follow us on Facebook</span>
+                              <a id="navTwitter" href="https://twitter.com/alaskaair" data-omniture-tag="footer:twitter">
+                                <svg class="icon-twitter2" focusable="false" viewBox="0 0 512 512">
+                                <path d="m496 112c-19 8-38 13-56 15 21-12 35-30 43-54-20 12-40 20-62 24-20-21-44-31-72-31-27 0-50 10-69 29-19 19-29 42-29 69 0 7 1 15 3 22-40-2-78-12-113-30-35-18-65-42-89-72-9 15-13 32-13 49 0 17 3 33 11 47 8 14 19 26 32 35-16-1-30-5-44-13l0 2c0 23 7 44 22 62 15 18 34 29 56 34-8 2-17 3-25 3-6 0-12 0-19-1 6 19 18 35 35 48 16 13 35 19 57 19-36 28-76 42-122 42-9 0-16 0-23-1 45 29 95 44 150 44 35 0 67-5 98-17 30-11 56-25 78-44 21-18 40-39 56-64 15-24 27-49 35-75 7-26 11-52 11-78 0-6 0-10 0-13 19-14 36-31 49-51z"></path>
+                                </svg>
+                                <img class="icon-twitter2 icon-fallback" alt="Follow us on Twitter" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-twitter2.png">
+                                <span class="sr-only">Follow us on Twitter</span>
+                                <a id="navGooglePlus" href="https://plus.google.com/+AlaskaAirlines" data-omniture-tag="footer:google">
+                                  <svg class="icon-google-plus-1" focusable="false" viewBox="0 0 512 512">
+                                  <path d="m328 343c-4-5-9-11-15-16-5-5-10-9-15-13-6-5-10-8-15-12-4-4-8-8-10-12-3-4-4-8-4-13 0-6 2-11 5-16 4-5 9-10 14-15 6-5 11-10 16-16 6-6 10-13 14-23 4-9 6-20 6-32 0-15-3-29-10-42-6-13-15-24-27-31l33 0 34-19-108 0c-15 0-31 1-46 5-23 5-42 16-58 34-15 19-23 39-23 62 0 24 9 45 26 61 18 16 39 24 63 24 5 0 11-1 17-1 0 1-1 3-1 5-1 2-2 4-2 5-1 1-1 3-2 5 0 2 0 4 0 6 0 11 5 23 16 36-13 1-25 2-37 4-12 2-25 5-38 9-14 4-26 9-36 17-11 8-18 17-24 27-6 12-9 23-9 33 0 11 3 21 8 30 4 9 11 17 19 22 7 6 16 11 26 15 10 3 20 6 30 8 10 1 20 2 30 2 44 0 78-10 103-32 23-20 35-43 35-69 0-10-2-18-5-27-2-8-6-15-10-21z m-95-89c-8 0-16-2-24-6-7-5-14-10-19-17-5-7-10-14-14-23-4-9-7-17-9-26-2-8-2-16-2-24 0-16 4-29 12-41 8-11 20-17 36-17 10 0 20 4 29 11 9 6 16 15 21 25 5 10 9 21 11 32 3 11 4 22 4 32 0 16-3 29-10 39-8 10-19 15-35 15z m68 185c-4 8-11 14-18 18-8 4-16 8-25 10-9 2-18 3-28 3-10 0-21-2-31-4-10-3-20-6-30-11-9-5-17-12-23-21-5-9-8-19-8-30 0-10 2-18 6-26 5-8 10-14 17-19 7-4 15-8 24-11 10-3 19-5 27-6 9-1 17-2 26-2 6 0 10 0 12 1 1 0 4 2 8 5 4 3 7 4 8 5 1 1 4 3 8 6 3 3 6 5 8 6 1 2 3 4 6 7 3 2 6 5 7 7 1 2 3 4 5 7 2 3 4 6 4 9 1 3 2 6 3 9 0 3 1 6 1 10 0 10-2 19-7 27z m138-293l0-63-32 0 0 63-63 0 0 31 63 0 0 63 32 0 0-63 63 0 0-31z"></path>
+                                  </svg>
+                                  <img class="icon-google-plus-1 icon-fallback" alt="Follow us on Google Plus" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-google-plus-1.png">
+                                  <span class="sr-only">Follow us on Google Plus</span>
+                                  <a id="navInstagram" href="https://instagram.com/alaskaair" data-omniture-tag="footer:instagram">
+                                    <svg class="icon-instagram" focusable="false" viewBox="0 0 512 512">
+                                    <path d="m445 77c-10-10-22-16-37-16l-304 0c-15 0-27 6-37 16-11 10-16 23-16 37l0 304c0 15 5 27 16 38 10 10 22 15 37 15l304 0c15 0 27-5 37-15 11-11 16-23 16-37l0-305c0-14-5-27-16-37z m-247 132c16-16 36-23 58-23 23 0 42 7 59 23 16 16 24 34 24 56 0 22-8 41-24 57-17 15-36 23-59 23-22 0-42-8-58-23-16-16-24-34-24-56 0-23 8-41 24-57z m216 199c0 4-1 8-4 11-4 3-7 5-12 5l-285 0c-5 0-8-2-12-5-3-3-4-7-4-11l0-173 37 0c-3 11-5 23-5 35 0 34 13 63 37 87 25 24 55 36 90 36 23 0 45-5 64-16 20-11 35-26 47-45 11-19 17-40 17-62 0-12-2-24-6-35l36 0 0 173z m0-239c0 6-1 10-5 13-3 4-8 6-13 6l-46 0c-6 0-10-2-13-5-4-4-6-8-6-14l0-43c0-5 2-10 6-13 3-4 7-6 13-6l46 0c5 0 10 2 13 6 4 3 5 7 5 12l0 44z"></path>
+                                    </svg>
+                                    <img class="icon-instagram icon-fallback" alt="Follow us on Instagram" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-instagram.png">
+                                    <span class="sr-only">Follow us on Instagram</span>
+                                    <a id="navYoutube" href="https://www.youtube.com/user/AlaskaAirVids/?lid=footer:youtube">
+                                      <svg class="icon-youtube" focusable="false" viewBox="0 0 512 512">
+                                      <path d="m452 264c-2-11-7-20-15-27-9-7-18-12-29-13-33-4-84-5-152-5-68 0-119 1-152 5-11 1-20 6-28 13-8 7-14 16-16 27-5 21-8 54-8 96 0 44 3 76 8 96 2 11 7 20 15 28 9 7 18 11 29 12 33 4 84 6 152 6 68 0 119-2 152-6 11-1 20-5 28-12 8-8 14-17 16-28 5-21 8-53 8-96 0-43-3-75-8-96z m-283 28l-30 0 0 156-27 0 0-156-29 0 0-26 86 0c0 0 0 26 0 26z m74 156l-25 0 0-15c-10 12-19 17-28 17-8 0-13-3-16-10-1-4-2-11-2-20l0-107 25 0 0 100c0 5 0 9 0 9 0 4 2 6 6 6 5 0 10-4 15-12l0-103 25 0 0 135z m93-40c0 13-1 22-2 27-3 10-10 15-20 15-9 0-17-5-25-15l0 13-25 0 0-182 25 0 0 60c8-10 16-15 25-15 10 0 17 5 20 15 1 5 2 14 2 28z m93-23l-49 0 0 24c0 13 4 19 13 19 6 0 9-3 10-10 1-2 1-7 1-17l25 0 0 4c0 9 0 14-1 16 0 5-2 10-5 15-7 9-17 14-30 14-13 0-22-4-30-14-5-7-8-17-8-32l0-47c0-15 3-25 8-32 7-9 17-14 30-14 12 0 21 5 29 14 5 7 7 17 7 32 0 0 0 28 0 28z m-128-52c-4 0-8 2-12 6l0 83c4 4 8 6 12 6 7 0 11-6 11-18l0-58c0-13-4-19-11-19z m91 0c-8 0-12 6-12 19l0 12 25 0 0-12c0-13-5-19-13-19z m-239-213l0 74 27 0 0-74 33-110-28 0-18 72-20-72-29 0c5 15 11 32 18 51 9 26 14 45 17 59z m97 76c13 0 23-5 29-14 5-7 8-18 8-33l0-48c0-14-3-25-8-32-6-9-16-14-29-14-12 0-22 5-29 14-5 7-7 18-7 32l0 48c0 15 2 26 7 33 7 9 17 14 29 14z m-12-100c0-12 4-19 12-19 8 0 12 7 12 19l0 58c0 13-4 19-12 19-8 0-12-6-12-19z m88 100c9 0 18-6 28-17l0 15 25 0 0-137-25 0 0 105c-5 7-11 11-16 11-3 0-5-2-5-6-1 0-1-3-1-9l0-101-25 0 0 108c0 9 1 16 3 21 2 6 7 10 16 10z"></path>
+                                      </svg>
+                                      <img class="icon-youtube icon-fallback" alt="Follow us on YouTube" src="//www.alaskaair.com/stylesheets/asicons/icons-min.svg.icon-youtube.png">
+                                      <span class="sr-only">Follow us on YouTube</span>
+                                    </div>
+                                    <a id="navBlog" class="navBlog" href="http://blog.alaskaair.com/?lid=footer:blog"><span>Visit Our Blog</span></a>
+                                  </div>
+                                </div>
+                                <div class="pure-g copyright">
+                                  <div class="pure-u-1">
+                                    <span class="fine-print">© 1995 - 2015 Alaska Air Group, Inc. All Rights Reserved</span>
+                                  </div>
+                                </div>
+                                <div class="pure-g as-footer-adchoices">
+                                  <div class="pure-u-1">
+                                    <a id="_bapw-link" href="http://info.evidon.com/pub_info/358?v=1&amp;
+                                      nt=0&amp;
+                                      nw=true" target="_blank" style="text-decoration: none !important">
+                                      <img id="_bapw-icon" alt="" src="https://c.betrad.com/pub/icon1.png" style="border:0 !important;
+                                      display: inline !important;
+                                      vertical-align: middle !important;
+                                      padding-right: 5px !important;
+                                      ">
+                                      <span style="vertical-align:middle !important">AdChoices</span>
+                                    </div>
+                                  </div>
+                                </footer>
+                              </div>
+                              <!-- Bootstrap core JavaScript
+                              ================================================== -->
+                              <!-- Placed at the end of the document so the pages load faster -->
+                              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                              <script src="../js/bootstrap.min.js"></script>
+                              <!--<script src="js/docs.min.js"></script>
+                              IE10 viewport hack for Surface/desktop Windows 8 bug
+                              <script src="js/ie10-viewport-bug-workaround.js"></script>-->
+                              <script type="text/javascript">
+                              $('body').scrollspy( {
+                              target: ".voice-menu"
+                              }
+                              );
+                              $(function () {
+                              $('[data-toggle="tooltip"]').tooltip()
+                              }
+                              );
+                              //Start animate advisory slideup when dismissed script
+                              $(".advisory").click(function (e) {
+                              $(this).slideUp('slow');
+                              }
+                              );
+                              //smooth scrolling
+                              //        $('a[href*=#]:not([href=#])').click(function() {
+                              //    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                              //        || location.hostname == this.hostname) {
+                              //
+                              //       var target = $(this.hash);
+                              //       target = target.length ? target: $('[name=' + this.hash.slice(1) +']');
+                              //          if (target.length) {
+                              //            $('html, body').animate( {
+                              //               scrollTop: target.offset().top
+                              //
+                              }
+                              , 1000);
+                              //           return false;
+                              //
+                              }
+                              //
+                              }
+                              //
+                              }
+                              );
+                              //end smooth scrolling
+                              </script>
+                            </body>
+                          </html>
