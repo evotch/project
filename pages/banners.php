@@ -77,7 +77,7 @@
       <div id="display-code4banner1" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <textarea class="form-control" rows="5" id="banner-code-1">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-1">
             <div id="banner-1" class="container container-banner">
               <a href="#">
                 <div class="row row-banner">
@@ -135,7 +135,7 @@
       <div id="display-code4banner2" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <textarea class="form-control" rows="5" id="banner-code-1">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-2">
             <div class="container container-banner">
               <a href="#">
                 <div class="row row-banner">
@@ -191,7 +191,7 @@
       <div id="display-code4banner3" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <textarea class="form-control" rows="5" id="banner-code-3">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-3">
             <div class="container container-banner">
               <a href="#">
                 <div class="row row-banner">
@@ -253,7 +253,7 @@
       <div id="display-code4xsell" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <textarea class="form-control" rows="5" id="banner-code-3">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-4">
             <div class="container-banner">
                   <a href="#">
                     <div class="row row-banner">
