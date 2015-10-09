@@ -66,7 +66,7 @@
                   <span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
                   <div class="sub-text">How about leaving today?</div>
                 </div>
-                <div id="cc-descritpion" class="panel-footer">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs" contenteditable="true">Apply Now</button>
+                <div id="cc-descritpion1" class="panel-footer">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs" contenteditable="true">Apply Now</button>
                 <button type="button" class="btn btn-ghost-blue visible-xs" contenteditable="true">Apply Now</button></div>
               </div>
             </div>
@@ -90,7 +90,7 @@
                         <span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
                         <div class="sub-text">How about leaving today?</div>
                       </div>
-                      <div id="cc-descritpion" class="panel-footer">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs" contenteditable="true">Apply Now</button>
+                      <div id="cc-descritpion1" class="panel-footer">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs" contenteditable="true">Apply Now</button>
                       <button type="button" class="btn btn-ghost-blue visible-xs">Apply Now</button></div>
                     </div>
                   </div>
@@ -124,7 +124,7 @@
                 <span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
                 <div class="banner-text">How about leaving today?</div>
               </div>
-              <div id="cc-descritpion" class="panel-footer panel-navy">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
+              <div id="cc-descritpion2" class="panel-footer panel-navy">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
                 <button type="button" class="btn btn-white visible-xs">Apply Now</button>
               </div>
             </div>
@@ -147,7 +147,7 @@
                       <span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
                       <div class="banner-text">How about leaving today?</div>
                     </div>
-                    <div id="cc-descritpion" class="panel-footer panel-navy">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
+                    <div id="cc-descritpion2" class="panel-footer panel-navy">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
                       <button type="button" class="btn btn-white visible-xs">Apply Now</button>
                     </div>
                   </div>
@@ -238,7 +238,7 @@
                           <span class="h2 banner-text">Go more place with 25,000 Miles and your first checked bag free.</span>
                           <div class="banner-text">Sign up now for &nbsp;the Alaska Airlines&nbsp;Visa Signature Consumer Card.</div>
                         </div>
-                        <div id="cc-descritpion" class="panel-footer panel-navy">&nbsp;Offer ends soon!<button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
+                        <div id="cc-descritpion3" class="panel-footer panel-navy">&nbsp;Offer ends soon!<button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
                           <button type="button" class="btn btn-white visible-xs">Apply Now</button>
                         </div>
                       </div>
@@ -262,7 +262,7 @@
                           <span class="h2 banner-text">Go more place with 25,000 Miles and your first checked bag free.</span>
                           <div class="banner-text">Sign up now for &nbsp;the Alaska Airlines&nbsp;Visa Signature Consumer Card.</div>
                         </div>
-                        <div id="cc-descritpion" class="panel-footer panel-navy">&nbsp;Offer ends soon!<button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
+                        <div id="cc-descritpion3" class="panel-footer panel-navy">&nbsp;Offer ends soon!<button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
                           <button type="button" class="btn btn-white visible-xs">Apply Now</button>
                         </div>
                       </div>
