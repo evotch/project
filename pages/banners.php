@@ -90,7 +90,7 @@
                         <span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
                         <div class="sub-text">How about leaving today?</div>
                       </div>
-                      <div id="cc-descritpion1" class="panel-footer">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs" contenteditable="true">Apply Now</button>
+                      <div id="cc-descritpion1" class="panel-footer">Sign up for the Alaska Airlines Visa Signature® Consumer Card <button type="button" class="btn btn-sm btn-ghost-blue pull-right hidden-xs">Apply Now</button>
                       <button type="button" class="btn btn-ghost-blue visible-xs">Apply Now</button></div>
                     </div>
                   </div>
@@ -142,7 +142,7 @@
                   <div aria-label="Image of couple sitting on a moped" class="col-sm-push-9 col-sm-3 col-md-push-7 col-md-5 feature-moped panel-image">
                     
                   </div>
-                  <div class="col-sm-pull-3 col-sm-9 col-md-pull-5 col-md-7 xsell-panel panel-navy" contenteditable="true">
+                  <div class="col-sm-pull-3 col-sm-9 col-md-pull-5 col-md-7 xsell-panel panel-navy">
                     <div class="panel-body">
                       <span class="h3 banner-text">Go more place with 25,000 bonus miles and your first checked bag free.</span>
                       <div class="banner-text">How about leaving today?</div>
@@ -198,11 +198,11 @@
                   <div aria-label="Image of Alaska" class="col-sm-4 col-md-6 temp-1 panel-image">
                     
                   </div>
-                  <div class="col-sm-8 col-md-6 xsell-panel panel-navy" contenteditable="true">
+                  <div class="col-sm-8 col-md-6 xsell-panel panel-navy">
                     <div class="panel-body panel-body-1color">
                       <div class="h3 banner-text">Alaska Airlines and Acme Air partner.  It's time to go.  Beep. Beep.</div>
                       
-                    <button contenteditable="true" type="button" class="btn btn-white">Learn More</button></div>
+                    <button type="button" class="btn btn-white">Learn More</button></div>
                     
                   </div>
                   
@@ -257,7 +257,7 @@
             <div class="container-banner">
                   <a href="#">
                     <div class="row row-banner">
-                      <div class="col-sm-12 xsell-panel panel-navy" contenteditable="true">
+                      <div class="col-sm-12 xsell-panel panel-navy">
                         <div class="panel-body">
                           <span class="h2 banner-text">Go more place with 25,000 Miles and your first checked bag free.</span>
                           <div class="banner-text">Sign up now for &nbsp;the Alaska Airlines&nbsp;Visa Signature Consumer Card.</div>
