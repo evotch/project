@@ -15,14 +15,19 @@
   .pure-menu, .pure-g, .pure-g [class*="pure-u"] {
   font-family: Circular;
   }
-  pre.form-control {
-  margin-bottom: 24px;
-  font-size: 11px;
-  line-height: 1;
-  color: #666666;
-  background-color: #FBFBFB;
-  border: 1px solid #ddd;
-  }
+  textarea.form-control {
+    display: block;
+    padding: 11.5px;
+    margin: 0 0 24px;
+    font-size: 12px;
+    line-height: 1.2;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
   .hf.hf-f {
   margin-top: 48px
   }
@@ -77,7 +82,7 @@
       <div id="display-code4banner1" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <pre aria-label="place where the code is" id="banner-code-1">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-1">
             <div id="banner-1" class="container container-banner">
               <a href="#">
                 <div class="row row-banner">
@@ -97,7 +102,7 @@
                 </div>
               </a>
             </div>
-            </pre>
+            </textarea>
             <!-- <h5>Notes</h5>
             <p>Include classes like <code>show-if-US</code> <code>show-if-ca</code> <code>show-if-bofa</code> <code>hide-if-bofa</code>when you need to create multinational ads and need to restrict an offer to certain groups</p> -->
           </div>
@@ -135,7 +140,7 @@
       <div id="display-code4banner2" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <pre aria-label="place where the code is" id="banner-code-2">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-2">
             <div class="container container-banner">
               <a href="#">
                 <div class="row row-banner">
@@ -155,7 +160,7 @@
                 </div>
               </a>
             </div>
-            </pre>
+            </textarea>
             <!-- <h5>Optional Classes</h5>
             <p>Include classes like <code>show-if-US</code> <code>show-if-ca</code> <code>show-if-bofa</code> <code>hide-if-bofa</code>when you need to create multinational ads and need to restrict an offer to certain groups</p> -->
           </div>
@@ -191,7 +196,7 @@
       <div id="display-code4banner3" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <pre aria-label="place where the code is" id="banner-code-3">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-3">
             <div class="container container-banner">
               <a href="#">
                 <div class="row row-banner">
@@ -209,7 +214,7 @@
                 </div>
               </a>
             </div>
-            </pre>
+            </textarea>
             <!-- <h5>Optional Classes</h5>
             <p>Include classes like <code>show-if-US</code> <code>show-if-ca</code> <code>show-if-bofa</code> <code>hide-if-bofa</code>when you need to create multinational ads and need to restrict an offer to certain groups</p> -->
           </div>
@@ -253,7 +258,7 @@
       <div id="display-code4xsell" class="container">
         <div class="row">
           <div class="col-sm-12">
-            <pre aria-label="place where the code is" id="banner-code-4">
+            <textarea aria-label="place where the code is" class="form-control" rows="5" id="banner-code-4">
             <div class="container-banner">
                   <a href="#">
                     <div class="row row-banner">
@@ -271,7 +276,7 @@
                   </a>
                 </div>
               </div>
-            </pre>
+            </textarea>
             <!-- <h5>Optional Classes</h5>
             <p>Include classes like <code>show-if-US</code> <code>show-if-ca</code> <code>show-if-bofa</code> <code>hide-if-bofa</code>when you need to create multinational ads and need to restrict an offer to certain groups</p>
           </div> -->
