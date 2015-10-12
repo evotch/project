@@ -189,7 +189,7 @@ $(document).ready(function()
 
           <form action="verify.php" method="post">
             Access Code<br>
-            <input type="text" value="asdsg" name="username">
+            <input type="text" value="2016asdsg" name="username">
             
             <input style="visibility:hidden" type="password" value="password" name="password"><br><br>
             <input type="submit" name="submit" value="Login">
