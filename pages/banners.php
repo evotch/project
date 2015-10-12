@@ -263,8 +263,8 @@
                   <a href="#">
                     <div class="row row-banner">
                       <div class="col-sm-12 xsell-panel panel-navy">
-                        <div class="panel-body">
-                          <span class="h2 banner-text">Go more place with 25,000 Miles and your first checked bag free.</span>
+                        <div class="panel-body panel-body-vertical">
+                          <span class="h3 banner-text">Go more place with 25,000 Miles and your first checked bag free.</span>
                           <div class="banner-text">Sign up now for &nbsp;the Alaska Airlines&nbsp;Visa Signature Consumer Card.</div>
                         </div>
                         <div id="cc-descritpion3" class="panel-footer panel-navy">&nbsp;Offer ends soon!<button type="button" class="btn btn-sm btn-white pull-right hidden-xs">Apply Now</button>
@@ -274,9 +274,9 @@
                       
                     </div>
                   </a>
-                </div>
-              </div>
+                </div> 
             </textarea>
+            </div>
             <!-- <h5>Optional Classes</h5>
             <p>Include classes like <code>show-if-US</code> <code>show-if-ca</code> <code>show-if-bofa</code> <code>hide-if-bofa</code>when you need to create multinational ads and need to restrict an offer to certain groups</p>
           </div> -->
