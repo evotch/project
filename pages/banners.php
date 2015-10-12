@@ -60,7 +60,7 @@
       </div>
       
       <div id="banner-1" class="container container-banner">
-        <a href="#">
+        
           <div class="row row-banner">
             <div aria-label="Image of Puertovallarta" class="col-sm-3 col-md-5 destination-puertovallarta2 panel-image">
               
@@ -76,7 +76,7 @@
               </div>
             </div>
           </div>
-        </a>
+        
       </div>
       
       <div id="display-code4banner1" class="container">
@@ -119,7 +119,7 @@
       </div>
       
       <div id="banner-2" class="container container-banner">
-        <a href="#">
+        
           <div class="row row-banner">
             <div aria-label="Image of couple sitting on a moped" class="col-sm-push-9 col-sm-3 col-md-push-7 col-md-5 feature-moped panel-image">
               
@@ -135,7 +135,7 @@
             </div>
             
           </div>
-        </a>
+        
       </div>
       <div id="display-code4banner2" class="container">
         <div class="row">
@@ -177,7 +177,7 @@
       </div>
       
       <div id="banner-3" class="container container-banner">
-        <a href="#">
+
           <div class="row row-banner">
             <div aria-label="Image of Alaska" class="col-sm-4 col-md-6 temp-1 panel-image">
               
@@ -191,7 +191,7 @@
             </div>
             
           </div>
-        </a>
+
       </div>
       <div id="display-code4banner3" class="container">
         <div class="row">
@@ -236,7 +236,7 @@
               
               <div class="col-sm-8">
                 <div class="container-banner">
-                  <a href="#">
+                  
                     <div class="row row-banner">
                       <div class="col-sm-12 xsell-panel panel-navy" contenteditable="true">
                         <div class="panel-body">
@@ -249,7 +249,7 @@
                       </div>
                       
                     </div>
-                  </a>
+                  
                 </div>
               </div>
             </div>
