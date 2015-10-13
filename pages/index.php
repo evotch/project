@@ -48,7 +48,7 @@ $img = getRandomFromArray($imgList);
   <link rel="icon" href="../../favicon.ico">
   <title>Alaska Airlines Style Guide</title>
   <!-- Bootstrap core CSS -->
-  
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   <link href="../css/styles.css" rel="stylesheet">
   <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
     <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">
