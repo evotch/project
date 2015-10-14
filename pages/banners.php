@@ -62,7 +62,7 @@
       <div id="banner-1" class="container container-banner">
         
           <div class="row row-banner">
-            <div aria-label="Image of Puertovallarta" class="col-sm-3 col-md-5 destination-puertovallarta2 panel-image">
+            <div aria-label="Image of Puertovallarta" class="col-sm-3 col-md-5 feature-have-card panel-image">
               
             </div>
             <div class="col-sm-9 col-md-7" contenteditable="true">
@@ -179,7 +179,7 @@
       <div id="banner-3" class="container container-banner">
 
           <div class="row row-banner">
-            <div aria-label="Image of Alaska" class="col-sm-4 col-md-6 temp-1 panel-image">
+            <div aria-label="Image of Alaska" class="col-sm-4 col-md-6 destination-costarica panel-image">
               
             </div>
             <div class="col-sm-8 col-md-6 xsell-panel panel-navy" contenteditable="true">
