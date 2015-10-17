@@ -1,0 +1,19 @@
+.show-if-signed-in-true, .show-if-signed-in-false {
+	display: none;
+}
+
+.signed-in-true .show-if-signed-in-true {
+	display: block;
+}
+
+.signed-in-false .show-if-signed-in-false {
+	display: block;
+}
+
+.signed-in-true .show-if-signed-in-true-inline {
+	display: inline-block;
+}
+
+.signed-in-false .show-if-signed-in-false-inline {
+	display: inline-block;
+}

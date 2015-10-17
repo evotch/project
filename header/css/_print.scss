@@ -1,0 +1,36 @@
+﻿@media print {
+    #hf-h {
+        border-bottom: none;
+    }
+
+    #hf-top {
+        display: none;
+    }
+
+    #hf-nav {
+        .nav-right, .pure-menu-has-children {
+            display: none;
+        }
+    }
+
+    #navMobileCart {
+        display: none;
+    }
+
+    .hf-products {
+        display: none;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    footer {
+        .pure-g { 
+            display: none;
+        }
+        .copyright {
+            display: block;
+        }
+    }
+}

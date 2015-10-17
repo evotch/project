@@ -1,0 +1,1220 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"gray",
+				"gray-darkest"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-bottom: "
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"ou",
+				"outline-offset"
+			],
+			[
+				"bord",
+				"border-color: "
+			],
+			[
+				"margin",
+				"margin-left: "
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"bo",
+				"border-bottom: "
+			],
+			[
+				"op",
+				"opacity: "
+			],
+			[
+				"top",
+				"top: "
+			],
+			[
+				"out",
+				"outline-offset"
+			],
+			[
+				"t",
+				"tabindex	Attr"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"tex",
+				"text-decoration: "
+			],
+			[
+				"backg",
+				"background-color: "
+			],
+			[
+				"back",
+				"background-color: "
+			],
+			[
+				"tra",
+				"transition: "
+			],
+			[
+				"padding",
+				"padding: "
+			],
+			[
+				"fl",
+				"float: "
+			],
+			[
+				"bor",
+				"border-color: "
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"wi",
+				"width: "
+			],
+			[
+				"p",
+				"padding: "
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"co",
+				"color: "
+			],
+			[
+				"border-r",
+				"border-right: "
+			],
+			[
+				"pos",
+				"position: "
+			],
+			[
+				"m",
+				"min-height"
+			],
+			[
+				"po",
+				"position: "
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"trade",
+				"trademark"
+			],
+			[
+				"system",
+				"Systemwide"
+			],
+			[
+				"car",
+				"carry-on"
+			],
+			[
+				"b",
+				"background-image: "
+			],
+			[
+				"a",
+				"action	Attr"
+			],
+			[
+				"font-",
+				"font-size: "
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"booking",
+				"bookingForms"
+			],
+			[
+				"callout-dan",
+				"callout-danger"
+			],
+			[
+				"border-l",
+				"border-left-color: "
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"background-re",
+				"background-repeat"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"border-",
+				"border-collapse"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 1323,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 4648,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_responsiveToggle.scss",
+			"settings":
+			{
+				"buffer_size": 2516,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.html",
+			"settings":
+			{
+				"buffer_size": 64038,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.1 Release Notes\n  \n  Package Control continues its focus on polish and fixing edge-case bugs. Some\n  of the changes in this version include:\n  \n   - quick panel for Install Package now stays open on Windows with recent\n     versions of ST3, even when focus is lost\n   - new \"downloader_precedence\" setting to allow users to use specific HTTP\n     backend due to network proxy or SSL issues\n   - added Install Local Dependency command for package developers to more\n     easily deal with dependencies during development\n   - improved handling of git/hg package upgrade errors\n   - better handling of locked .sublime-package files on Windows\n   - performance improvements for users with a large number of open windows\n  \n  For package developers, the list of available dependencies has been growing:\n  https://github.com/wbond/package_control_channel/blob/master/repository/dependencies.json\n  \n  Enjoy!\n  \n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 3361,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "footer.html",
+			"settings":
+			{
+				"buffer_size": 23525,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "output/header.html",
+			"settings":
+			{
+				"buffer_size": 80600,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 3751,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ".hf-top {\n    position: relative;\n    margin: 0 auto;\n    max-width: $fullpageWidth;\n    width: 100%;\n    font-size: 14px;\n    height: 65px;\n    padding: 5px 15px 15px 15px;\n\n    .arrow-up {\n        position: absolute;\n        left: 139px;\n        top: -10px;\n        border-bottom: 10px solid $white;\n        border-left: 10px solid transparent;\n        border-right: 10px solid transparent;\n    }\n\n    .arrow-up-border {\n        position: absolute;\n        left: 138px;\n        top: -11px;\n        border-bottom: 11px solid $white;\n        border-left: 11px solid transparent;\n        border-right: 11px solid transparent;\n    }\n\n    > ul {\n        float: right;\n\n        > li {\n            vertical-align: top;\n\n            > a {\n                padding: 13px 15px;\n                color: $white;\n                text-transform: uppercase;\n            }\n        }\n    }\n\n    .pure-menu-link {\n        background-color: transparent;\n    }\n\n    .arrow-down {\n        border-top: 7px solid $white;\n        border-left: 5px solid transparent;\n        border-right: 5px solid transparent;\n        top: 12px;\n        margin-left: 5px;\n        position: relative;\n    }\n\n    .pers-menu {\n        list-style-type: none;\n        padding: 0;\n\n        a {\n            display: block;\n            font-size: 1.1em;\n            margin-bottom: 2px;\n            margin-top: 1px;\n            padding: 6px 0;\n            width: 100%;\n        }\n    }\n\n    .navbar-greeting-popup {\n        background-color: $gray-lighter;\n        padding: 20px;\n        border: 1px solid $gray;\n        color: $gray-darkest;\n        width: 300px;\n        line-height: 22px;\n        font-size: 14px;\n        left: -150px;\n        margin-left: 50%;\n\n        a {\n            color: $blue;\n            text-decoration: underline;\n        }\n    }\n}\n\n\n\n#skip-to-main-content {\n    position: absolute;\n    text-align: center;\n    width: 100%;\n}",
+			"file": "css/_topHeader.scss",
+			"file_size": 1989,
+			"file_write_time": 130894894167122219,
+			"settings":
+			{
+				"buffer_size": 1905,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n.hf-f {\n	background-color: $navy;\n	color: $white;\n\n    .icon-fallback {\n	    display: none;\n    }\n\n    footer {\n	    padding: 20px 0;\n    }\n    .fine-print {\n    	color:$white;\n    }\n\n	.pure-g {\n		max-width: 970px;\n		margin: 0px auto;\n		padding: 0 15px;\n	}\n\n	a {\n		color: $white;\n		font-size: 12px;\n		line-height: 2.5em;\n	}\n\n	h5, h5 a, .navBlog {\n		color: $white;\n		font-size: 14px;\n		line-height: 15px;\n	}\n\n	h5 {\n		margin: 12px 0;\n	}\n\n    .social-icons {\n        margin-top: 17px;\n    }\n\n	.copyright {\n		font-size: 11px;\n		margin-top: 20px;\n	}\n\n	.footerLists {\n		list-style: none;\n		padding-left: 0px;\n		margin-left: 0px;\n	}\n\n	[class^=icon-], [class*=icon-] {\n		width: 24px;\n		height: 24px;\n		fill: $white;\n	}\n\n	.footer-headlines a {\n		cursor: default;\n		position: relative;\n\n		&:hover {\n			text-decoration: none;\n		}\n\n		svg {\n			display: none;\n			position: absolute;\n			right: 0px;\n			top: 6px;\n		}\n	}\n\n	.hf-products {\n		margin-top: 24px;\n		padding-top: 48px;\n		background-color:$gray-lightest;\n		color: $gray-dark;\n\n\n		.text-center {\n			text-align: center;\n		}\n\n		[class^=icon-], [class*=icon-] {\n			fill: $gray-dark;\n			width: 64px;\n			height: 64px;\n		}\n		a {\n			color:$gray-dark;\n		}\n		a:hover {\n			text-decoration: none;\n\n			[class^=icon-], [class*=icon-] {\n				fill: $gray-dark;\n			}\n		}\n\n		h4 {\n			font-size: 18px;\n			font-weight: bold;\n			color: $gray-darkest;\n			margin: 0px;\n		}\n\n		.btn-link {\n			color: $gray-dark;\n			font-size: 14px;\n			font-weight: bold;\n		}\n\n		.btn-link:hover {\n			text-decoration: underline;\n		}\n\n		p {\n			font-size: 14px;\n			padding:0 24px;\n			line-height: 24px;\n			margin: 4px auto;\n		}\n\n		.pure-g {\n			padding: 0 15px;\n\n			> div {\n				padding-bottom: 24px;\n				border-bottom: 0px solid $hairline;\n			}\n		}\n\n\n	}\n}\n\n@media (max-width: $footerBreakpoint) {\n.hf-f {\n	.hf-products {\n		p {\n			width: auto;\n			padding: 0 12px;\n		}\n\n		.hf-secondrow {\n			margin-top: 80px;\n		}\n\n		.pure-g {\n			padding-bottom: 24px;\n\n			> div {\n				padding-bottom: 0px;\n				border-bottom: none;\n			}\n		}\n	}\n\n	.footer-headlines {\n		a {\n			cursor: pointer;\n			display: block;\n			border-bottom: 1px solid $hairline;\n			padding: 10px 15px 10px 0;\n		}\n\n		.expanded-hide {\n			display: none;\n		}\n\n		&.collapsed {\n			.expanded-show {\n				display: none;\n			}\n			.expanded-hide {\n				display: inline-block;\n			}\n		}\n\n		a svg {\n			display: block;\n		}\n	}\n\n	.panel-collapsable.collapse {\n		display: none;\n	}\n}\n}",
+			"file": "css/_footer.scss",
+			"file_size": 2596,
+			"file_write_time": 130894894166498227,
+			"settings":
+			{
+				"buffer_size": 2408,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_pure.scss",
+			"settings":
+			{
+				"buffer_size": 3847,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control:",
+				"Package Control: Discover Packages"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet: lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"“Package Control: Install Package”",
+			"Package Control: Install Package",
+			"emmet",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/as.com_code/as.com-git/Source/AlaskaAir/Web/UI/ASWebHeaderFooterLib/v3",
+		"/C/as.com_code/as.com-git/Source/AlaskaAir/Web/UI/ASWebHeaderFooterLib/v3/css",
+		"/C/as.com_code/as.com-git/Source/AlaskaAir/Web/UI/ASWebHeaderFooterLib/v3/output"
+	],
+	"file_history":
+	[
+		"/C/as.com_code/as.com-git/Source/AlaskaAir/Web/UI/ASWebHeaderFooterLib/v3/css/headerfooter.css",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/merchandising/_ads.scss",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_destinations.scss",
+		"/C/Users/bshields/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/bshields/AppData/Roaming/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
+		"/C/Users/bshields/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/bshields/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Users/bshields/Documents/GitHub/project/pages/demo.html",
+		"/C/Users/bshields/Documents/GitHub/bootstrap-sass/templates/project/sections/header.php",
+		"/C/Users/bshields/Documents/GitHub/bootstrap-sass/templates/project/pages/panels.php",
+		"/C/Users/bshields/Documents/GitHub/bootstrap-sass/templates/project/pages/index.php",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_variables.scss",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_features.scss",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_flight-deals.scss",
+		"/C/Users/bshields/AppData/Local/Temp/ASMPPromoRegList.xml",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_widths.scss",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_mobilenav-style.scss",
+		"/C/as.com_code/content/deals/flight-deals-728.xml",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_destinations-tiles.scss",
+		"/C/Users/bshields/Desktop/flight-deals-layouts",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_panels.scss",
+		"/C/as.com_code/as.com-git/Source/Sites/homepage/index.html",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/css-lib/Bootstrap/3.3.1/assets/stylesheets/bootstrap/_tables.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_scaffolding.scss",
+		"/C/as.com_code/content/travel-info/before-your-trip/travel-tips/travel-advisories/travel-advisories-template.html",
+		"/C/Users/bshields/Downloads/FlightDealsSublayout.ascx",
+		"/C/as.com_code/as.com-git/Source/SitesMaster/!nant.build",
+		"/C/as.com_code/as.com-git/Source/Sites/alaska/stylesheets/custom-bootstrap/_advisories.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/Areas/Shopping/Controllers/FlightsController.cs",
+		"/C/as.com_code/shop/css/shop.scss",
+		"/C/as.com_code/shop/css/legend.scss",
+		"/C/as.com_code/shop/css/matrix.css.map",
+		"/C/as.com_code/shop/FlightsController.cs",
+		"/C/as.com_code/shop/css/custom-bootstrap/_variables.scss",
+		"/C/as.com_code/shop/css/brand.scss",
+		"/C/as.com_code/shop/shop.html",
+		"/C/repository/sections/header.php",
+		"/C/as.com_code/shop/css/_variables.scss",
+		"/C/as.com_code/shop/css/_animation.scss",
+		"/C/Users/bshields/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/QBF1N6BP/icons-min[1].svg",
+		"/C/as.com_code/shop/css/_shoulder-dates",
+		"/C/as.com_code/shop/js/filters/seatsRemainingNumber.ts",
+		"/C/as.com_code/shop/css/matrix.css",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/gulpfile.js",
+		"/C/as.com_code/asdsg/gulpfile.js",
+		"/C/as.com_code/shop/css/shop.css",
+		"/C/Users/bshields/Documents/mfladdons/gator/black_red/black-red.css",
+		"/C/Users/bshields/Documents/mfladdons/gator/black_red/black_red.scss",
+		"/C/Users/bshields/Desktop/black-red.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_variables.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/Views/Widget/PlanBook/PBShoppingWidgetBR.ascx",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/homepage/index.html",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/homepage/js/src/directives/asDatepicker.js",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_navbar-main.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/css-lib/Bootstrap/3.3.1/assets/stylesheets/bootstrap/_variables.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/css-lib/Bootstrap/3.3.1/assets/stylesheets/bootstrap/_navbar.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_navbar.scss",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/AlaskaAir/Web/UI/ASWebHeaderFooterLib/v2/src/header.html",
+		"/C/as.com_code/as.com.DEV.Int/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_homelet.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/header.html",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_homelet.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_ads.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_sitecore-partials.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_umnr-modal.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_mobilenav-style.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_buttons.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_hero.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/mixins/_buttons.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_navbar-main.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/ie8.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/js-lib/jasny/jasny-bootstrap.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/homepage/js/src/controller.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/gulpfile.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_variables.scss",
+		"/C/Users/bshields/Documents/GitHub/bootstrap-sass/templates/project/css/bootstrap/_scaffolding.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/css-lib/Bootstrap/3.3.1/assets/stylesheets/bootstrap/_variables.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_variables.css.map",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_features.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_scaffolding.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_flight-deals.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_animation.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_navs.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/css-lib/Bootstrap/3.3.1/assets/stylesheets/bootstrap/_navs.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/asicons/icons.html",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/homepage/js/src/svg-local-storage.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/footer.html",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/homepage/index.html",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/mixins/_tab-focus.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/gulpfile.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_hero-saleprice.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/homepage/js/output/controller.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/homepage/js/output/services.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_icons-svg.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/brand.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_datepicker.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/homepage/js/src/directives.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/asicons/icons.svg",
+		"/C/Users/bshields/Downloads/brand-refresh (11)/icons.svg",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_text-color.scss",
+		"/C/Users/bshields/Downloads/brand-refresh (4)/icons.svg",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/asicons/sprite/icons.svg",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_icons.scss",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/containerx.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/asicons/asicons.eot",
+		"/C/Users/bshields/Desktop/flight-deals-4.xml",
+		"/C/Users/bshields/Desktop/flight-deals-2.xml",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_destinations.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/Screen.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_jumbotron.scss",
+		"/C/Users/bshields/Desktop/old-homepage.html",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/js/src/svg4everybody.min.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_icons-font.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_destinations-overlays.scss",
+		"/C/Users/bshields/Desktop/home-1.css",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/_atlas.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/js/src/icons.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/js/src/svg.js",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/icons/svgs/icons.svg",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/custom-bootstrap/_icons-svg.css",
+		"/C/Users/bshields/Desktop/font-origin.html",
+		"/C/Users/bshields/Desktop/font-cdn.html",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/homepage/js/src/services.js",
+		"/C/Users/bshields/AppData/Local/Temp/home-2.css",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/alaska/stylesheets/HomeWidgets.scss",
+		"/C/Users/bshields/Documents/GitHub/bootstrap-sass/templates/project/css/bootstrap/_flight-deals.scss",
+		"/C/as.com_code/as.com.DEV.Integration.laptop/as.com/_SCM/Source/Sites/headerfooter/css/custom-bootstrap/_hero-saleprice.scss",
+		"/C/Users/bshields/Documents/GitHub/bootstrap-sass/templates/project/pages/components.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>",
+			"C:\\as.com_code\\as.com-git\\Source\\Sites\\alaska\\stylesheets\\custom-bootstrap",
+			"",
+			"C:\\as.com_code\\as.com.DEV.Int\\as.com\\_SCM\\Source\\,*.scss",
+			"C:\\as.com_code\\as.com.DEV.Int\\as.com\\_SCM\\Source\\",
+			"C:\\as.com_code\\as.com.DEV.Int\\as.com\\_SCM\\Source\\Sites\\",
+			"C:\\as.com_code\\as.com.DEV.Int\\as.com\\_SCM\\Source\\Sites\\alaska\\javascripts\\",
+			"C:\\as.com_code\\as.com.DEV.Int\\as.com\\_SCM\\Source\\Sites\\alaska\\javascripts\\*.js",
+			"C:\\as.com_code\\as.com.DEV.Int\\as.com\\_SCM\\Source\\Sites\\*.js",
+			"C:\\as.com_code\\as.com.DEV.Int\\as.com\\_SCM\\Source\\Sites",
+			"*.scss",
+			"",
+			"*.SCSS",
+			"",
+			"*.scss",
+			"",
+			"*.scss",
+			"",
+			"C:\\as.com_code\\as.com.DEV.Integration.laptop\\as.com\\_SCM\\Source,*.*",
+			"C:\\as.com_code\\as.com.DEV.Integration.laptop\\as.com\\_SCM\\Source,*.scss",
+			"C:\\as.com_code\\as.com.DEV.Integration.laptop\\as.com\\_SCM\\Source",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\,*.scss",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\,*.scss",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\stylesheets\\",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\stylesheets\\,*.scss",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\stylesheets\\",
+			"C:\\Notam-bshields\\as.com\\_SCM\\Source\\Sites\\alaska\\stylesheets\\custom-bootstrap",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"vw",
+			"class=\"secondary\" ",
+			"secondary",
+			"blue",
+			"hf-top",
+			"width=\"100px\" height=\"40px\"",
+			"FUck",
+			"pure-menu-list",
+			".pure-menu-link",
+			"8px solid",
+			"top-border",
+			"border",
+			"$green",
+			"cream",
+			"#hf-h",
+			"hairlin",
+			"hover",
+			"$navy",
+			".hf",
+			"$navy",
+			"01426a",
+			"01426A",
+			"orange",
+			"header-logo",
+			"969",
+			"children",
+			"padding",
+			"width",
+			"{\n",
+			"url(//",
+			"page-header",
+			"Home",
+			"destinations",
+			"lifestyle-images",
+			"#lifestyle-images",
+			"http://res.asvacations.com/HotelInformation/HotelInformation.aspx?VendorCode=AST&DestinationCode=OGG&RemoteSourceCode=HbsHotel&HotelId=37905?INT=HotelDeals_||20150819_Orbitz||-prodID:Orbitz",
+			"fall",
+			"buttons-SEO",
+			"#buttons-VoiceGuidlines",
+			"buttons-CodeExample",
+			"Primary",
+			"campaign-",
+			"gn-0",
+			"beach2",
+			"        </a>",
+			"        <a tabindex=\"-1\" href=\"#\">",
+			"xsell",
+			"ad-panel",
+			"xsell",
+			"ad-panel",
+			"col-md-6",
+			"<h3>Optional Classes</h3>",
+			"font-f",
+			"atlas",
+			"  display",
+			"ashx.ashx",
+			"background-size: 100%;",
+			"page-header",
+			"<a role=\"button\"",
+			"btn btn-teal",
+			" data-holder-rendered=\"true\"",
+			"<h2>",
+			"btn btn-blue",
+			"class=\"buttonPrimarySmall\"",
+			"style",
+			"style=\"margin-left:15px;\"",
+			" style=\"margin-left:15px;\"",
+			"style",
+			" style=\"margin-top:20px;\"",
+			"http://www.itunes.com/alaskaairlineshorizonair",
+			" ss:Type=\"Number\"",
+			" ss:Type=\"String\"",
+			"src=\"/~/media/",
+			"ut",
+			"//www.alaskaair.com/content/deals/mileage-plan/double-miles.aspx",
+			" ss:Type=\"Number\"",
+			" ss:Type=\"String\"",
+			"July 23",
+			"2015-07-21T00:00:01",
+			" ss:Type=\"Number\"",
+			" ss:Type=\"String\"",
+			"<img title=\"",
+			"btn btn-ghost-teal",
+			"h3>",
+			"<img title=\"",
+			"</center>",
+			"<center>",
+			"new",
+			"pencil",
+			"svg",
+			"leaf",
+			"@((?!media|include|charset|document|font-face|import|keyframes|page|supports)[a-zA-Z_]+)",
+			"@",
+			"@((?!media|include|charset|document|font-face|import|keyframes|page|supports)[a-zA-Z_]+)",
+			"header",
+			"<span class=\"svgtext\">",
+			"table-striped",
+			"main#content",
+			"mainContent",
+			"Entertainment",
+			"Only available on certain routes. Pleas",
+			"6 - $",
+			"<h4>",
+			"h5>",
+			"Mileage P",
+			"<br><br>",
+			"<h4>",
+			"Liberia, Costa Rica (LIR)",
+			"San Jose, Costa Rica (SJO)",
+			"Email",
+			"email",
+			"alert",
+			"&mh222",
+			"Frozen",
+			"The Second Best Exotic Marigold Hotel",
+			"Cinderella",
+			"Unfinished Business",
+			"Chappie",
+			"Gogo",
+			"View",
+			"INT-_",
+			"hidden",
+			"Mileage",
+			"Save up to 20%",
+			"Save",
+			"save up to ",
+			"strong",
+			"20%"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"page-header",
+			"section-header",
+			"$\\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4188,
+								4195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_responsiveToggle.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3361,
+								3361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21475,
+								21475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 616.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "output/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4794.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/_navigation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3483,
+								3483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/_topHeader.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1505,
+								1505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1344,
+								1344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 199.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "css/_pure.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3098,
+								3098
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarioRicalde-SCSS.tmbundle-58d60a4/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2313.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 201.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "CSSify Me",
+	"project": "HeaderFooterV3.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pretty",
+				"node_modules\\gulp\\node_modules\\pretty-hrtime\\package.json"
+			],
+			[
+				"container",
+				"stylesheets\\_containerx.scss"
+			],
+			[
+				"destinations.scss",
+				"stylesheets\\custom-bootstrap\\_destinations.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

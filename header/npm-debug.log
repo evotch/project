@@ -1,0 +1,552 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-postcss' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json sass@0.5.0 No repository field.
+6 silly cache add args [ 'gulp-postcss', null ]
+7 verbose cache add spec gulp-postcss
+8 silly cache add parsed spec { raw: 'gulp-postcss',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'gulp-postcss',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 verbose addNamed gulp-postcss@*
+10 silly addNamed semver.valid null
+11 silly addNamed semver.validRange *
+12 silly addNameRange { name: 'gulp-postcss', range: '*', hasData: false }
+13 silly mapToRegistry name gulp-postcss
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/gulp-postcss
+17 verbose addNameRange registry:https://registry.npmjs.org/gulp-postcss not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/gulp-postcss
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 3:34:03 PM
+21 verbose request id a356a01b1411f455
+22 http request GET https://registry.npmjs.org/gulp-postcss
+23 http 200 https://registry.npmjs.org/gulp-postcss
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"3KMQT3JA5H50TWNA88NZTEYYP"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     'content-length': '36641',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Sat, 17 Oct 2015 22:34:03 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-sjc3130-SJC',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1445121243.836480,VS0,VE85',
+24 silly get     vary: 'Accept' } ]
+25 verbose get saving gulp-postcss to C:\Users\bshields\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-postcss\.cache.json
+26 silly addNameRange number 2 { name: 'gulp-postcss', range: '*', hasData: true }
+27 silly addNameRange versions [ 'gulp-postcss',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '2.0.0',
+27 silly addNameRange     '2.0.1',
+27 silly addNameRange     '3.0.0',
+27 silly addNameRange     '4.0.0',
+27 silly addNameRange     '4.0.1',
+27 silly addNameRange     '4.0.2',
+27 silly addNameRange     '4.0.3',
+27 silly addNameRange     '5.0.0',
+27 silly addNameRange     '5.0.1',
+27 silly addNameRange     '5.1.0',
+27 silly addNameRange     '5.1.1',
+27 silly addNameRange     '5.1.2',
+27 silly addNameRange     '5.1.3',
+27 silly addNameRange     '5.1.4',
+27 silly addNameRange     '5.1.5',
+27 silly addNameRange     '5.1.6',
+27 silly addNameRange     '5.1.7',
+27 silly addNameRange     '5.1.8',
+27 silly addNameRange     '5.1.9',
+27 silly addNameRange     '5.1.10',
+27 silly addNameRange     '6.0.0',
+27 silly addNameRange     '6.0.1' ] ]
+28 verbose addNamed gulp-postcss@6.0.1
+29 silly addNamed semver.valid 6.0.1
+30 silly addNamed semver.validRange 6.0.1
+31 silly mapToRegistry name gulp-postcss
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/gulp-postcss
+35 verbose addRemoteTarball https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.0.1.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.0.1.tgz',
+36 verbose addRemoteTarball   'df305ee2ee09d63e181621cfaf9713c902fa6767' ]
+37 info retry fetch attempt 1 at 3:34:04 PM
+38 info attempt registry request try #1 at 3:34:04 PM
+39 http fetch GET https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.0.1.tgz
+40 http fetch 200 https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.0.1.tgz
+41 silly fetchAndShaCheck shasum df305ee2ee09d63e181621cfaf9713c902fa6767
+42 verbose addTmpTarball C:\Users\bshields\AppData\Local\Temp\npm-3492-a5e16a64\registry.npmjs.org\gulp-postcss\-\gulp-postcss-6.0.1.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for gulp-postcss@6.0.1
+44 silly cache afterAdd gulp-postcss@6.0.1
+45 verbose afterAdd C:\Users\bshields\AppData\Roaming\npm-cache\gulp-postcss\6.0.1\package\package.json not in flight; writing
+46 verbose afterAdd C:\Users\bshields\AppData\Roaming\npm-cache\gulp-postcss\6.0.1\package\package.json written
+47 silly install resolved [ { name: 'gulp-postcss',
+47 silly install resolved     version: '6.0.1',
+47 silly install resolved     description: 'PostCSS gulp plugin',
+47 silly install resolved     main: 'index.js',
+47 silly install resolved     scripts: { test: 'mocha test.js' },
+47 silly install resolved     repository:
+47 silly install resolved      { type: 'git',
+47 silly install resolved        url: 'git+https://github.com/postcss/gulp-postcss.git' },
+47 silly install resolved     keywords: [ 'gulpplugin', 'postcss', 'postcss-runner', 'css' ],
+47 silly install resolved     author: { name: 'Andrey Kuzmin', email: 'unsoundscapes@gmail.com' },
+47 silly install resolved     license: 'MIT',
+47 silly install resolved     bugs: { url: 'https://github.com/postcss/gulp-postcss/issues' },
+47 silly install resolved     homepage: 'https://github.com/postcss/gulp-postcss',
+47 silly install resolved     dependencies:
+47 silly install resolved      { 'gulp-util': '^3.0.4',
+47 silly install resolved        postcss: '^5.0.0',
+47 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+47 silly install resolved     devDependencies:
+47 silly install resolved      { 'es6-promise': '^2.0.1',
+47 silly install resolved        'gulp-sourcemaps': '^1.5.1',
+47 silly install resolved        mocha: '^2.2.5',
+47 silly install resolved        proxyquire: '^1.5.0',
+47 silly install resolved        sinon: '^1.14.1' },
+47 silly install resolved     gitHead: 'bbf0ef552a618db3d064b3c154c431c1cff458d5',
+47 silly install resolved     _id: 'gulp-postcss@6.0.1',
+47 silly install resolved     _shasum: 'df305ee2ee09d63e181621cfaf9713c902fa6767',
+47 silly install resolved     _from: 'gulp-postcss@*',
+47 silly install resolved     _npmVersion: '2.10.1',
+47 silly install resolved     _nodeVersion: '0.12.2',
+47 silly install resolved     _npmUser: { name: 'unsoundscapes', email: 'unsoundscapes@gmail.com' },
+47 silly install resolved     maintainers: [ [Object] ],
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: 'df305ee2ee09d63e181621cfaf9713c902fa6767',
+47 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.0.1.tgz' },
+47 silly install resolved     directories: {},
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.0.1.tgz' } ]
+48 info install gulp-postcss@6.0.1 into C:\as.com_code\as.com-git
+49 info installOne gulp-postcss@6.0.1
+50 verbose installOne of gulp-postcss to C:\as.com_code\as.com-git not in flight; installing
+51 verbose lock using C:\Users\bshields\AppData\Roaming\npm-cache\_locks\gulp-postcss-9e1bfb8dde05b4f6.lock for C:\as.com_code\as.com-git\node_modules\gulp-postcss
+52 silly install write writing gulp-postcss 6.0.1 to C:\as.com_code\as.com-git\node_modules\gulp-postcss
+53 silly cache addNamed cb gulp-postcss@6.0.1
+54 verbose unbuild node_modules\gulp-postcss
+55 silly gentlyRm C:\as.com_code\as.com-git\node_modules\gulp-postcss is being purged from base C:\as.com_code\as.com-git
+56 verbose gentlyRm don't care about contents; nuking C:\as.com_code\as.com-git\node_modules\gulp-postcss
+57 verbose tar unpack C:\Users\bshields\AppData\Roaming\npm-cache\gulp-postcss\6.0.1\package.tgz
+58 verbose tar unpacking to C:\as.com_code\as.com-git\node_modules\gulp-postcss
+59 silly gentlyRm C:\as.com_code\as.com-git\node_modules\gulp-postcss is being purged
+60 verbose gentlyRm don't care about contents; nuking C:\as.com_code\as.com-git\node_modules\gulp-postcss
+61 silly gunzTarPerm modes [ '777', '666' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+68 silly gunzTarPerm extractEntry LICENSE
+69 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+70 silly gunzTarPerm extractEntry index.js
+71 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry test.js
+73 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry .travis.yml
+75 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+76 silly gunzTarPerm extractEntry .jshintrc
+77 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+78 info preinstall gulp-postcss@6.0.1
+79 silly prepareForInstallMany adding vinyl-sourcemaps-apply@^0.2.0 from gulp-postcss dependencies
+80 silly cache add args [ 'vinyl-sourcemaps-apply@^0.2.0', null ]
+81 verbose cache add spec vinyl-sourcemaps-apply@^0.2.0
+82 silly cache add parsed spec { raw: 'vinyl-sourcemaps-apply@^0.2.0',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'vinyl-sourcemaps-apply',
+82 silly cache add   rawSpec: '^0.2.0',
+82 silly cache add   spec: '>=0.2.0 <0.3.0',
+82 silly cache add   type: 'range' }
+83 verbose addNamed vinyl-sourcemaps-apply@>=0.2.0 <0.3.0
+84 silly addNamed semver.valid null
+85 silly addNamed semver.validRange >=0.2.0 <0.3.0
+86 silly addNameRange { name: 'vinyl-sourcemaps-apply',
+86 silly addNameRange   range: '>=0.2.0 <0.3.0',
+86 silly addNameRange   hasData: false }
+87 silly mapToRegistry name vinyl-sourcemaps-apply
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/vinyl-sourcemaps-apply
+91 verbose addNameRange registry:https://registry.npmjs.org/vinyl-sourcemaps-apply not in flight; fetching
+92 verbose request uri https://registry.npmjs.org/vinyl-sourcemaps-apply
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 3:34:04 PM
+95 verbose etag "5X4J1NU3C03WVQ353SIUCFT90"
+96 http request GET https://registry.npmjs.org/vinyl-sourcemaps-apply
+97 http 200 https://registry.npmjs.org/vinyl-sourcemaps-apply
+98 silly get cb [ 200,
+98 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+98 silly get     etag: '"DABKVQWYHW55HBINHQA9FJAC5"',
+98 silly get     'content-type': 'application/json',
+98 silly get     'cache-control': 'max-age=60',
+98 silly get     'content-length': '8578',
+98 silly get     'accept-ranges': 'bytes',
+98 silly get     date: 'Sat, 17 Oct 2015 22:34:04 GMT',
+98 silly get     via: '1.1 varnish',
+98 silly get     age: '18',
+98 silly get     connection: 'keep-alive',
+98 silly get     'x-served-by': 'cache-sjc3127-SJC',
+98 silly get     'x-cache': 'HIT',
+98 silly get     'x-cache-hits': '2',
+98 silly get     'x-timer': 'S1445121244.919101,VS0,VE0',
+98 silly get     vary: 'Accept' } ]
+99 verbose get saving vinyl-sourcemaps-apply to C:\Users\bshields\AppData\Roaming\npm-cache\registry.npmjs.org\vinyl-sourcemaps-apply\.cache.json
+100 silly addNameRange number 2 { name: 'vinyl-sourcemaps-apply',
+100 silly addNameRange   range: '>=0.2.0 <0.3.0',
+100 silly addNameRange   hasData: true }
+101 silly addNameRange versions [ 'vinyl-sourcemaps-apply',
+101 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.2.0' ] ]
+102 verbose addNamed vinyl-sourcemaps-apply@0.2.0
+103 silly addNamed semver.valid 0.2.0
+104 silly addNamed semver.validRange 0.2.0
+105 silly mapToRegistry name vinyl-sourcemaps-apply
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/vinyl-sourcemaps-apply
+109 verbose addRemoteTarball https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.0.tgz not in flight; adding
+110 verbose addRemoteTarball [ 'https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.0.tgz',
+110 verbose addRemoteTarball   '146cb1a9f17e9ae9a54740f476ee575dd2a52294' ]
+111 info retry fetch attempt 1 at 3:34:04 PM
+112 info attempt registry request try #1 at 3:34:04 PM
+113 http fetch GET https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.0.tgz
+114 http fetch 200 https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.0.tgz
+115 silly fetchAndShaCheck shasum 146cb1a9f17e9ae9a54740f476ee575dd2a52294
+116 verbose addTmpTarball C:\Users\bshields\AppData\Local\Temp\npm-3492-a5e16a64\registry.npmjs.org\vinyl-sourcemaps-apply\-\vinyl-sourcemaps-apply-0.2.0.tgz not in flight; adding
+117 verbose addTmpTarball already have metadata; skipping unpack for vinyl-sourcemaps-apply@0.2.0
+118 silly cache afterAdd vinyl-sourcemaps-apply@0.2.0
+119 verbose afterAdd C:\Users\bshields\AppData\Roaming\npm-cache\vinyl-sourcemaps-apply\0.2.0\package\package.json not in flight; writing
+120 verbose afterAdd C:\Users\bshields\AppData\Roaming\npm-cache\vinyl-sourcemaps-apply\0.2.0\package\package.json written
+121 silly install resolved [ { name: 'vinyl-sourcemaps-apply',
+121 silly install resolved     version: '0.2.0',
+121 silly install resolved     description: 'Apply a source map to a vinyl file, merging it with preexisting source maps',
+121 silly install resolved     homepage: 'http://github.com/floridoo/vinyl-sourcemaps-apply',
+121 silly install resolved     repository:
+121 silly install resolved      { type: 'git',
+121 silly install resolved        url: 'git://github.com/floridoo/vinyl-sourcemaps-apply.git' },
+121 silly install resolved     main: 'index.js',
+121 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+121 silly install resolved     keywords: [ 'vinyl', 'sourcemaps', 'source maps', 'gulp' ],
+121 silly install resolved     author: { name: 'Florian Reiterer', email: 'me@florianreiterer.com' },
+121 silly install resolved     license: 'ISC',
+121 silly install resolved     dependencies: { 'source-map': '^0.5.1' },
+121 silly install resolved     gitHead: '9fa6fc9fd5e710dea840f7f3eca3ae21c0678ecd',
+121 silly install resolved     bugs: { url: 'https://github.com/floridoo/vinyl-sourcemaps-apply/issues' },
+121 silly install resolved     _id: 'vinyl-sourcemaps-apply@0.2.0',
+121 silly install resolved     _shasum: '146cb1a9f17e9ae9a54740f476ee575dd2a52294',
+121 silly install resolved     _from: 'vinyl-sourcemaps-apply@>=0.2.0 <0.3.0',
+121 silly install resolved     _npmVersion: '3.3.4',
+121 silly install resolved     _nodeVersion: '4.1.1',
+121 silly install resolved     _npmUser: { name: 'floridoo', email: 'florian.reiterer@gmail.com' },
+121 silly install resolved     maintainers: [ [Object] ],
+121 silly install resolved     dist:
+121 silly install resolved      { shasum: '146cb1a9f17e9ae9a54740f476ee575dd2a52294',
+121 silly install resolved        tarball: 'http://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.0.tgz' },
+121 silly install resolved     directories: {},
+121 silly install resolved     _resolved: 'https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.0.tgz' } ]
+122 info install vinyl-sourcemaps-apply@0.2.0 into C:\as.com_code\as.com-git\node_modules\gulp-postcss
+123 info installOne vinyl-sourcemaps-apply@0.2.0
+124 verbose installOne of vinyl-sourcemaps-apply to C:\as.com_code\as.com-git\node_modules\gulp-postcss not in flight; installing
+125 verbose lock using C:\Users\bshields\AppData\Roaming\npm-cache\_locks\vinyl-sourcemaps-apply-33435fd84846b30f.lock for C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+126 silly install write writing vinyl-sourcemaps-apply 0.2.0 to C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+127 silly cache addNamed cb vinyl-sourcemaps-apply@0.2.0
+128 verbose unbuild node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+129 silly gentlyRm C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply is being purged from base C:\as.com_code\as.com-git
+130 verbose gentlyRm don't care about contents; nuking C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+131 verbose tar unpack C:\Users\bshields\AppData\Roaming\npm-cache\vinyl-sourcemaps-apply\0.2.0\package.tgz
+132 verbose tar unpacking to C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+133 silly gentlyRm C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply is being purged
+134 verbose gentlyRm don't care about contents; nuking C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+135 silly gunzTarPerm modes [ '777', '666' ]
+136 silly gunzTarPerm extractEntry package.json
+137 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+138 silly gunzTarPerm extractEntry .npmignore
+139 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+140 silly gunzTarPerm extractEntry README.md
+141 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+142 silly gunzTarPerm extractEntry index.js
+143 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry .jshintrc
+145 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+146 info preinstall vinyl-sourcemaps-apply@0.2.0
+147 silly prepareForInstallMany adding source-map@^0.5.1 from vinyl-sourcemaps-apply dependencies
+148 silly cache add args [ 'source-map@^0.5.1', null ]
+149 verbose cache add spec source-map@^0.5.1
+150 silly cache add parsed spec { raw: 'source-map@^0.5.1',
+150 silly cache add   scope: null,
+150 silly cache add   name: 'source-map',
+150 silly cache add   rawSpec: '^0.5.1',
+150 silly cache add   spec: '>=0.5.1 <0.6.0',
+150 silly cache add   type: 'range' }
+151 verbose addNamed source-map@>=0.5.1 <0.6.0
+152 silly addNamed semver.valid null
+153 silly addNamed semver.validRange >=0.5.1 <0.6.0
+154 silly addNameRange { name: 'source-map', range: '>=0.5.1 <0.6.0', hasData: false }
+155 silly mapToRegistry name source-map
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry uri https://registry.npmjs.org/source-map
+159 verbose addNameRange registry:https://registry.npmjs.org/source-map not in flight; fetching
+160 verbose request uri https://registry.npmjs.org/source-map
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 3:34:05 PM
+163 verbose etag "42K53LDDF1ONWC2DR3KJYJZ8J"
+164 http request GET https://registry.npmjs.org/source-map
+165 http 304 https://registry.npmjs.org/source-map
+166 silly get cb [ 304,
+166 silly get   { date: 'Sat, 17 Oct 2015 22:34:05 GMT',
+166 silly get     via: '1.1 varnish',
+166 silly get     'cache-control': 'max-age=60',
+166 silly get     etag: '"42K53LDDF1ONWC2DR3KJYJZ8J"',
+166 silly get     age: '46',
+166 silly get     connection: 'keep-alive',
+166 silly get     'x-served-by': 'cache-sjc3130-SJC',
+166 silly get     'x-cache': 'HIT',
+166 silly get     'x-cache-hits': '2',
+166 silly get     'x-timer': 'S1445121245.450791,VS0,VE0',
+166 silly get     vary: 'Accept' } ]
+167 verbose etag https://registry.npmjs.org/source-map from cache
+168 verbose get saving source-map to C:\Users\bshields\AppData\Roaming\npm-cache\registry.npmjs.org\source-map\.cache.json
+169 silly addNameRange number 2 { name: 'source-map', range: '>=0.5.1 <0.6.0', hasData: true }
+170 silly addNameRange versions [ 'source-map',
+170 silly addNameRange   [ '0.0.0',
+170 silly addNameRange     '0.1.0',
+170 silly addNameRange     '0.1.1',
+170 silly addNameRange     '0.1.2',
+170 silly addNameRange     '0.1.3',
+170 silly addNameRange     '0.1.4',
+170 silly addNameRange     '0.1.5',
+170 silly addNameRange     '0.1.6',
+170 silly addNameRange     '0.1.7',
+170 silly addNameRange     '0.1.8',
+170 silly addNameRange     '0.1.9',
+170 silly addNameRange     '0.1.10',
+170 silly addNameRange     '0.1.11',
+170 silly addNameRange     '0.1.12',
+170 silly addNameRange     '0.1.13',
+170 silly addNameRange     '0.1.14',
+170 silly addNameRange     '0.1.15',
+170 silly addNameRange     '0.1.16',
+170 silly addNameRange     '0.1.17',
+170 silly addNameRange     '0.1.18',
+170 silly addNameRange     '0.1.19',
+170 silly addNameRange     '0.1.20',
+170 silly addNameRange     '0.1.21',
+170 silly addNameRange     '0.1.22',
+170 silly addNameRange     '0.1.23',
+170 silly addNameRange     '0.1.24',
+170 silly addNameRange     '0.1.25',
+170 silly addNameRange     '0.1.26',
+170 silly addNameRange     '0.1.27',
+170 silly addNameRange     '0.1.28',
+170 silly addNameRange     '0.1.29',
+170 silly addNameRange     '0.1.30',
+170 silly addNameRange     '0.1.31',
+170 silly addNameRange     '0.1.32',
+170 silly addNameRange     '0.1.33',
+170 silly addNameRange     '0.1.34',
+170 silly addNameRange     '0.1.35',
+170 silly addNameRange     '0.1.36',
+170 silly addNameRange     '0.1.37',
+170 silly addNameRange     '0.1.38',
+170 silly addNameRange     '0.1.39',
+170 silly addNameRange     '0.1.40',
+170 silly addNameRange     '0.1.41',
+170 silly addNameRange     '0.1.42',
+170 silly addNameRange     '0.1.43',
+170 silly addNameRange     '0.2.0',
+170 silly addNameRange     '0.3.0',
+170 silly addNameRange     '0.4.0',
+170 silly addNameRange     '0.4.1',
+170 silly addNameRange     '0.4.2',
+170 silly addNameRange     '0.4.3',
+170 silly addNameRange     '0.4.4',
+170 silly addNameRange     '0.5.0',
+170 silly addNameRange     '0.5.1' ] ]
+171 verbose addNamed source-map@0.5.1
+172 silly addNamed semver.valid 0.5.1
+173 silly addNamed semver.validRange 0.5.1
+174 silly cache afterAdd source-map@0.5.1
+175 verbose afterAdd C:\Users\bshields\AppData\Roaming\npm-cache\source-map\0.5.1\package\package.json not in flight; writing
+176 verbose afterAdd C:\Users\bshields\AppData\Roaming\npm-cache\source-map\0.5.1\package\package.json written
+177 silly install resolved [ { name: 'source-map',
+177 silly install resolved     description: 'Generates and consumes source maps',
+177 silly install resolved     version: '0.5.1',
+177 silly install resolved     homepage: 'https://github.com/mozilla/source-map',
+177 silly install resolved     author: { name: 'Nick Fitzgerald', email: 'nfitzgerald@mozilla.com' },
+177 silly install resolved     contributors:
+177 silly install resolved      [ [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object] ],
+177 silly install resolved     repository: { type: 'git', url: 'http://github.com/mozilla/source-map.git' },
+177 silly install resolved     main: './source-map.js',
+177 silly install resolved     files: [ 'source-map.js', 'lib/' ],
+177 silly install resolved     engines: { node: '>=0.10.0' },
+177 silly install resolved     license: 'BSD-3-Clause',
+177 silly install resolved     scripts:
+177 silly install resolved      { test: 'node test/run-tests.js',
+177 silly install resolved        build: 'webpack --color',
+177 silly install resolved        toc: 'doctoc --title \'## Table of Contents\' README.md && doctoc --title \'## Table of Contents\' CONTRIBUTING.md' },
+177 silly install resolved     devDependencies: { doctoc: '^0.15.0', webpack: '^1.12.0' },
+177 silly install resolved     bugs: { url: 'https://github.com/mozilla/source-map/issues' },
+177 silly install resolved     _id: 'source-map@0.5.1',
+177 silly install resolved     _shasum: '5fbd40a1cde485feab4d36460b8f496edb362ecf',
+177 silly install resolved     _from: 'source-map@>=0.5.1 <0.6.0',
+177 silly install resolved     _npmVersion: '1.4.9',
+177 silly install resolved     _npmUser: { name: 'nickfitzgerald', email: 'fitzgen@gmail.com' },
+177 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+177 silly install resolved     dist:
+177 silly install resolved      { shasum: '5fbd40a1cde485feab4d36460b8f496edb362ecf',
+177 silly install resolved        tarball: 'http://registry.npmjs.org/source-map/-/source-map-0.5.1.tgz' },
+177 silly install resolved     directories: {},
+177 silly install resolved     _resolved: 'https://registry.npmjs.org/source-map/-/source-map-0.5.1.tgz',
+177 silly install resolved     readme: 'ERROR: No README data found!' } ]
+178 info install source-map@0.5.1 into C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+179 info installOne source-map@0.5.1
+180 verbose installOne of source-map to C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply not in flight; installing
+181 verbose lock using C:\Users\bshields\AppData\Roaming\npm-cache\_locks\source-map-0b4907680243b398.lock for C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+182 silly install write writing source-map 0.5.1 to C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+183 silly cache addNamed cb source-map@0.5.1
+184 verbose unbuild node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+185 silly gentlyRm C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map is being purged from base C:\as.com_code\as.com-git
+186 verbose gentlyRm don't care about contents; nuking C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+187 verbose tar unpack C:\Users\bshields\AppData\Roaming\npm-cache\source-map\0.5.1\package.tgz
+188 verbose tar unpacking to C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+189 silly gentlyRm C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map is being purged
+190 verbose gentlyRm don't care about contents; nuking C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+191 silly gunzTarPerm modes [ '777', '666' ]
+192 silly gunzTarPerm extractEntry package.json
+193 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+194 silly gunzTarPerm extractEntry README.md
+195 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+196 silly gunzTarPerm extractEntry source-map.js
+197 silly gunzTarPerm modified mode [ 'source-map.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry lib/array-set.js
+199 silly gunzTarPerm modified mode [ 'lib/array-set.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry lib/base64-vlq.js
+201 silly gunzTarPerm modified mode [ 'lib/base64-vlq.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry lib/base64.js
+203 silly gunzTarPerm modified mode [ 'lib/base64.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry lib/binary-search.js
+205 silly gunzTarPerm modified mode [ 'lib/binary-search.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry lib/mapping-list.js
+207 silly gunzTarPerm modified mode [ 'lib/mapping-list.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry lib/quick-sort.js
+209 silly gunzTarPerm modified mode [ 'lib/quick-sort.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry lib/source-map-consumer.js
+211 silly gunzTarPerm modified mode [ 'lib/source-map-consumer.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry lib/source-map-generator.js
+213 silly gunzTarPerm modified mode [ 'lib/source-map-generator.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry lib/source-node.js
+215 silly gunzTarPerm modified mode [ 'lib/source-node.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry lib/util.js
+217 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+218 info preinstall source-map@0.5.1
+219 silly install resolved []
+220 verbose about to build C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+221 info build C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+222 verbose linkStuff [ false,
+222 verbose linkStuff   false,
+222 verbose linkStuff   false,
+222 verbose linkStuff   'C:\\as.com_code\\as.com-git\\node_modules\\gulp-postcss\\node_modules\\vinyl-sourcemaps-apply\\node_modules' ]
+223 info linkStuff source-map@0.5.1
+224 verbose linkBins source-map@0.5.1
+225 verbose linkMans source-map@0.5.1
+226 verbose rebuildBundles source-map@0.5.1
+227 info install source-map@0.5.1
+228 info postinstall source-map@0.5.1
+229 verbose unlock done using C:\Users\bshields\AppData\Roaming\npm-cache\_locks\source-map-0b4907680243b398.lock for C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply\node_modules\source-map
+230 verbose about to build C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+231 info build C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+232 verbose linkStuff [ false,
+232 verbose linkStuff   false,
+232 verbose linkStuff   false,
+232 verbose linkStuff   'C:\\as.com_code\\as.com-git\\node_modules\\gulp-postcss\\node_modules' ]
+233 info linkStuff vinyl-sourcemaps-apply@0.2.0
+234 verbose linkBins vinyl-sourcemaps-apply@0.2.0
+235 verbose linkMans vinyl-sourcemaps-apply@0.2.0
+236 verbose rebuildBundles vinyl-sourcemaps-apply@0.2.0
+237 verbose rebuildBundles [ 'source-map' ]
+238 info install vinyl-sourcemaps-apply@0.2.0
+239 info postinstall vinyl-sourcemaps-apply@0.2.0
+240 verbose unlock done using C:\Users\bshields\AppData\Roaming\npm-cache\_locks\vinyl-sourcemaps-apply-33435fd84846b30f.lock for C:\as.com_code\as.com-git\node_modules\gulp-postcss\node_modules\vinyl-sourcemaps-apply
+241 verbose about to build C:\as.com_code\as.com-git\node_modules\gulp-postcss
+242 info build C:\as.com_code\as.com-git\node_modules\gulp-postcss
+243 verbose linkStuff [ false,
+243 verbose linkStuff   false,
+243 verbose linkStuff   false,
+243 verbose linkStuff   'C:\\as.com_code\\as.com-git\\node_modules' ]
+244 info linkStuff gulp-postcss@6.0.1
+245 verbose linkBins gulp-postcss@6.0.1
+246 verbose linkMans gulp-postcss@6.0.1
+247 verbose rebuildBundles gulp-postcss@6.0.1
+248 verbose rebuildBundles [ 'vinyl-sourcemaps-apply' ]
+249 info install gulp-postcss@6.0.1
+250 info postinstall gulp-postcss@6.0.1
+251 verbose unlock done using C:\Users\bshields\AppData\Roaming\npm-cache\_locks\gulp-postcss-9e1bfb8dde05b4f6.lock for C:\as.com_code\as.com-git\node_modules\gulp-postcss
+252 verbose stack Error: read ECONNRESET
+252 verbose stack     at exports._errnoException (util.js:746:11)
+252 verbose stack     at TCP.onread (net.js:559:26)
+253 verbose cwd C:\as.com_code\as.com-git\Source\AlaskaAir\Web\UI\ASWebHeaderFooterLib\v3
+254 error Windows_NT 6.1.7601
+255 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-postcss"
+256 error node v0.12.2
+257 error npm  v2.7.4
+258 error code ECONNRESET
+259 error errno ECONNRESET
+260 error syscall read
+261 error network read ECONNRESET
+261 error network This is most likely not a problem with npm itself
+261 error network and is related to network connectivity.
+261 error network In most cases you are behind a proxy or have bad network settings.
+261 error network
+261 error network If you are behind a proxy, please make sure that the
+261 error network 'proxy' config is set properly.  See: 'npm help config'
+262 verbose exit [ 1, true ]

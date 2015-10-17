@@ -1,0 +1,192 @@
+
+.hf-f {
+	background-color: $navy;
+	color: $white;
+
+    .icon-fallback {
+	    display: none;
+    }
+
+    footer {
+	    padding: 20px 0;
+    }
+    .fine-print {
+    	color:$white;
+    }
+
+	.pure-g {
+		max-width: 970px;
+		margin: 0px auto;
+		padding: 0 15px;
+	}
+
+	a {
+		color: $white;
+		font-size: 12px;
+		line-height: 2.5em;
+	}
+
+	h5, h5 a, .navBlog {
+		color: $white;
+		font-size: 14px;
+		line-height: 15px;
+	}
+
+	h5 {
+		margin: 12px 0;
+	}
+
+    .social-icons {
+        margin-top: 17px;
+    }
+
+	.copyright {
+		font-size: 11px;
+		margin-top: 20px;
+	}
+
+	.footerLists {
+		list-style: none;
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+
+	[class^=icon-], [class*=icon-] {
+		width: 24px;
+		height: 24px;
+		fill: $white;
+	}
+
+	.footer-headlines a {
+		cursor: default;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		svg {
+			display: none;
+			position: absolute;
+			right: 0px;
+			top: 6px;
+		}
+	}
+
+	.hf-products {
+		margin-top: 24px;
+		padding-top: 48px;
+		background-color:$gray-lightest;
+		color: $gray-dark;
+
+
+		.text-center {
+			text-align: center;
+		}
+
+		[class^=icon-], [class*=icon-] {
+			fill: $gray-dark;
+			width: 64px;
+			height: 64px;
+		}
+		a {
+			color:$gray-dark;
+		}
+		a:hover {
+			text-decoration: none;
+
+			[class^=icon-], [class*=icon-] {
+				fill: $gray-dark;
+			}
+		}
+
+		h4 {
+			font-size: 18px;
+			font-weight: bold;
+			color: $gray-dark;
+			margin: 0px;
+		}
+
+		.btn-link {
+			color: $gray-dark;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.btn-link:hover {
+			text-decoration: underline;
+		}
+
+		p {
+			font-size: 14px;
+			padding:0 24px;
+			line-height: 24px;
+			margin: 4px auto;
+		}
+
+		.pure-g {
+			padding: 0 15px;
+
+			> div {
+				padding-bottom: 24px;
+				border-bottom: 0px solid $hairline;
+			}
+		}
+
+
+	}
+}
+
+@media (max-width: $footerBreakpoint) {
+.hf-f {
+	.hf-products {
+		p {
+			width: auto;
+			padding: 0 12px;
+		}
+
+		.hf-secondrow {
+			margin-top: 80px;
+		}
+
+		.pure-g {
+			padding-bottom: 24px;
+
+			> div {
+				padding-bottom: 0px;
+				border-bottom: none;
+			}
+		}
+	}
+
+	.footer-headlines {
+		a {
+			cursor: pointer;
+			display: block;
+			border-bottom: 1px solid $hairline;
+			padding: 10px 15px 10px 0;
+		}
+
+		.expanded-hide {
+			display: none;
+		}
+
+		&.collapsed {
+			.expanded-show {
+				display: none;
+			}
+			.expanded-hide {
+				display: inline-block;
+			}
+		}
+
+		a svg {
+			display: block;
+		}
+	}
+
+	.panel-collapsable.collapse {
+		display: none;
+	}
+}
+}

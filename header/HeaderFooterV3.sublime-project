@@ -1,0 +1,51 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"gulp",
+				"default"
+			],
+			"name": "Outputify Me",
+			"shell": "true",
+			"working_dir": "$project_path"
+		},
+		{
+			"cmd":
+			[
+				"gulp",
+				"scss"
+			],
+			"name": "CSSify Me",
+			"shell": "true",
+			"working_dir": "$project_path"
+		},
+		{
+			"cmd":
+			[
+				"gulp",
+				"test"
+			],
+			"name": "Testacular",
+			"shell": "true",
+			"working_dir": "$project_path"
+		},
+		{
+			"cmd":
+			[
+				"gulp",
+				"devHtml"
+			],
+			"name": "I just added/removed a JS file!",
+			"shell": "true",
+			"working_dir": "$project_path"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}

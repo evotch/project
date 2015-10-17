@@ -1,0 +1,7 @@
+﻿.show-if-super-user {
+    display: none !important;
+}
+
+.super-user .show-if-super-user {
+    display: inline-block !important;
+}

@@ -1,0 +1,60 @@
+﻿.hf,
+.hf * {
+    box-sizing: border-box;
+}
+
+.pure-menu, .pure-g, .pure-g [class *="pure-u"] {
+    font-family: $font-family-sans-serif;
+}
+
+.hf {
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .no-hover-underline:hover,
+    .no-hover-underline:focus {
+        border: none !important;
+    }
+
+    .last {
+        padding-right: 0 !important;
+    }
+
+    .pure-menu-horizontal .pure-menu-has-children > .pure-menu-link:after {
+        content: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .pure-menu-has-children > .pure-menu-link:after {
+        content: none;
+    }
+
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    .sr-only-focusable:active, .sr-only-focusable:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+    }
+}
