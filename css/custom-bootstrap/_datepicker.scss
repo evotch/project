@@ -1,0 +1,146 @@
+$color: $navy;
+$bg: $white;
+$headerColor: $navy;
+$disabledColor: $hairline;
+$disabledBg: $white;
+$hoverBg: $ocean;
+$hoverColor: $white;
+$otherMonth: $gray-light;
+$arrowColor: #767676;
+$calendarTop: 8px;
+// Math time!
+$cellWidth: 30px;
+$weekWidth: $cellWidth * 7;
+$arrowWidth: 10px;
+$sidePadding: 30px;
+.containerx .datepicker,
+.datepicker {
+    background-color: $bg;
+    box-shadow: 3px 3px 10px rgba($black, 0.2);
+    color: $color;
+    font-family: Atlas,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    padding: 15px $sidePadding;
+    position: absolute;
+    z-index: 1;
+    &[aria-hidden="true"], & [aria-hidden="true"] {
+        display: none;
+    }
+    abbr[title] {
+        border-bottom: none;
+    }
+}
+.containerx .month-wrap,
+.month-wrap {
+    height: 30px;
+}
+.containerx .btn-prev, .btn-prev,
+.containerx .btn-next, .btn-next {
+    color: $arrowColor;
+    cursor: pointer;
+    float: left;
+    font-size: 30px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 25px;
+    width: $arrowWidth;
+}
+.containerx .month,
+.month {
+    color: $headerColor;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: $weekWidth - 2 * $arrowWidth;
+    select {
+        font-weight: bold;
+        border: none;
+    }
+}
+
+.containerx .calender * {
+    box-sizing: border-box;
+}
+.containerx .calendar,
+.calendar {
+    box-sizing: border-box;
+    font-size: 13px;
+    outline: none;
+    text-align: center;
+    width: $weekWidth;
+    th, td {
+        height: $cellWidth;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        width: $cellWidth;
+        vertical-align: middle;
+    }
+    th {
+        color: $headerColor;
+    }
+    td {
+        cursor: pointer;
+        font-weight: normal;
+    }
+    td:hover, td.focus, td.selected {
+        background-color: $hoverBg;
+        color: $hoverColor;
+    }
+    td.empty:hover {
+        background-color: $bg;
+        cursor: default;
+    }
+    .disabled {
+        background-color: $disabledBg;
+        color: $disabledColor;
+        cursor: default;
+    }
+    .disabled:hover {
+        background: $disabledBg;
+        color: $disabledColor;
+    }
+}
+input.as-datepicker {
+    padding-right: $icon-size-xs + $padding-small-horizontal;
+}
+
+.as-datepicker-wrapper {
+
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+
+    .left-sm .icon-calendar {
+        right: 10px;
+    }
+
+    .icon-calendar {
+        right: 5px;
+        height: $icon-size-sm;
+        width: $icon-size-sm;
+        position: absolute;
+        top: $calendarTop;
+        fill: $gray-lightish !important;
+        cursor: pointer;
+        @include form-control-focus;
+        &:focus {
+            border-radius: 2px 0 0 2px;
+            height: $icon-size-sm + 2px;
+            width: $icon-size-sm + 2px;
+            top: $calendarTop - 1px;
+            right: 4px;
+        }
+    }
+
+ }
+
+@media (max-width:$screen-xs - 1px) {
+    input.as-datepicker {
+        padding-right: $icon-size-xs + $padding-small-horizontal - 10px;
+    }
+}

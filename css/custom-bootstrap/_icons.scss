@@ -1,0 +1,17 @@
+﻿@import './sprite';
+
+$ieSprite: '.lt-ie9' !default;
+$sprite: map-get($icons, sprite) !default;
+$baseFontSize: 8px !default;
+$mq-base-font-size: $baseFontSize;
+
+@import './mixins/sprite';
+
+/*.android {
+	&:before {
+		@include sprite(android4);
+		content: '';
+		float: left;
+		margin-right: 0.5em;
+	}
+}*/

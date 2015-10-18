@@ -1,0 +1,2 @@
+//adds animation to all columns when resizing browser
+[class*="col-"] {transition: all 0.25s ease}

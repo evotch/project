@@ -1,0 +1,36 @@
+/*voice-menu*/
+
+
+	@media (min-width: 992px) {
+
+	/*Makes the side nav fixed*/
+	    .voice-menu.affix {
+	    position: fixed;
+	    top: 50px;
+	    }
+
+.voice-menu.affix {
+position: fixed;
+top: -1px;
+z-index: 99999;
+margin-left: 100px;
+}
+.affix-top .is-affixed {display: none}
+.voice-menu.affix .navbar-default {border-right-color: transparent;}
+
+	}
+	.voice-menu li .nav {
+	display: none;
+	}		
+	.voice-menu li.active .nav {
+	display: block;
+	}
+	.voice-menu .active .nav>li>a {
+	padding: 3px 0 3px 20px;
+	color: $gray;
+	}
+
+	    .voice-menu .navbar-nav>li>a {
+padding: 13px 13px;
+}
+    .voice-menu .navbar {min-height: 0; border-radius:0px;}

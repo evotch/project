@@ -1,0 +1,153 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+.placeholder {
+  color: $input-color-placeholder !important;
+}
+.containerx .form-control {
+  box-sizing: border-box;
+  padding-left: 10px !important;
+  font-family: $font-family-sans-serif;
+}
+.containerx .form-control-label {
+  line-height: 40px;
+  font-size: 14px;
+  font-family: $font-family-sans-serif;
+  padding-right: 5px;
+}
+.form-control {
+  padding: $padding-base-vertical $padding-small-horizontal;
+}
+// Checkboxes and radios
+//
+// Indent the labels to position radios/checkboxes as hanging controls.
+
+.radio, .checkbox {
+  min-height: $line-height-computed;
+  // clear the floating input if there is no label text
+}
+// Form control sizing
+//
+// Build on `.form-control` with modifier classes to decrease or increase the
+// height and font-size of form controls.
+
+@include input-size('.input-sm', $input-height-small, $padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small, $border-radius-small);
+@include input-size('.input-lg', $input-height-large, $padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $border-radius-large);
+// Feedback icon (requires .glyphicon classes)
+.form-control-feedback {
+  top: ($line-height-computed + 5);
+  // Height of the `label` and its margin
+}
+// Reposition feedback icon if label is hidden with "screenreader only" state
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+// Horizontal forms
+//
+// Horizontal forms are built on grid classes and allow you to create forms with
+// labels on the left and inputs on the right.
+
+.form-horizontal {
+  // Validation states
+  //
+  // Reposition the icon because it's now within a grid column and columns have
+  // position: relative;
+  // on them. Also accounts for the grid gutter padding.
+  .has-feedback .form-control-feedback {
+    top: 0;
+  }
+  // Form group sizes
+  //
+  // Quick utility class for applying `.input-lg` and `.input-sm` styles to the
+  // inputs and labels within a `.form-group`.
+  .form-group-lg {
+    .form-control {
+      @extend .input-lg;
+    }
+  }
+  .form-group-sm {
+    .form-control {
+      @extend .input-sm;
+    }
+  }
+}
+.left-xs {
+  padding-right: 0;
+    input[type="text"], select {
+      border-radius: 2px 0 0 2px;
+    }
+}
+.center-xs {
+  padding-left: 0;
+  padding-right: 0;
+}
+.right-xs {
+  padding-left: 0;
+      input[type="text"], select {
+      border-left: 0;
+      border-radius: 0 2px 2px 0;
+    }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+
+  .left-sm {
+    padding-right: 0;
+    input[type="text"], select {
+      border-radius: 2px 0 0 2px;
+    }
+  }
+  .right-sm {
+    padding-left: 0;
+    input[type="text"], select {
+      border-left: 0;
+      border-radius: 0 2px 2px 0;
+    }
+  }
+  .center-sm {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+
+  .left-md {
+    padding-right: 0;
+    input[type="text"], select {
+      border-radius: 2px 0 0 2px;
+    }
+  }
+  .right-md {
+    padding-left: 0;
+    input[type="text"], select {
+      border-left: 0;
+      border-radius: 0 2px 2px 0;
+    }
+  }
+  .center-md {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: $screen-lg-min){
+  .left-lg {
+    padding-right: 0;
+    input[type="text"], select {
+      border-radius: 2px 0 0 2px;
+    }
+  }
+  .right-lg {
+    padding-left: 0;
+    input[type="text"], select {
+      border-left: 0;
+      border-radius: 0 2px 2px 0;
+    }
+  }
+  .center-lg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+

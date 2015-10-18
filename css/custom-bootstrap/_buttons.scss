@@ -1,0 +1,159 @@
+//
+// Buttons
+// --------------------------------------------------
+
+
+// Base styles
+// --------------------------------------------------
+
+.btn {
+  border: 2px solid transparent;
+  text-transform: uppercase;
+}
+// Alternate buttons
+// --------------------------------------------------
+
+
+//////////////////////////////////////// Primary Buttons////////////////////////////
+// Green Primary Button
+.btn-primary, .btn-green, .btn-success {
+  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+   &:focus {   
+	outline: thin dotted !important;
+    outline-offset: -2px;
+  }  
+}
+
+// Green Primary Ghost Btn
+.btn-ghost-green {
+  @include button-variant($green, $btn-ghost-bg, $green);
+  &:focus {   
+	outline: thin dotted !important;
+    outline-offset: 0px !important;
+  }  
+}
+// White Primary Ghost Btn
+
+.btn-ghost-white {
+  @include button-variant($white, $btn-ghost-bg, $white);
+}
+// White Ghost Btn
+.btn-ghost-white:hover {
+  @include button-variant($white, $btn-ghost-bg-hover, $white);
+}
+// White Btn
+.btn-white {
+  @include button-variant($navy, $white, $white);
+  &:focus {
+    box-shadow: 0 0 0 2px $navy;
+    outline: thin dotted;
+    outline-offset: -2px;
+  }
+}
+
+//////////////////////////////////////// Secondary Buttons /////////////////////////
+
+// Blue Secondary Button
+.btn-blue {
+  @include button-variant($white, $blue, $blue);
+  &:focus {   
+	outline: thin dotted !important;
+    outline-offset: -2px;
+  }  
+}
+
+// Blue Secondary Ghost Btn
+.btn-ghost-blue {
+  @include button-variant($blue, $btn-ghost-bg, $blue);
+}
+
+// Teal Secondary Button
+.btn-teal, .btn-marine {
+  @include button-variant($white, $teal, $teal);
+}
+
+// Teal Ghost Btn
+.btn-ghost-teal, .btn-ghost-marine {
+  @include button-variant($teal, $btn-ghost-bg, $teal);
+}
+// light gray Secondary Button
+.btn-lightgray, .btn-default {
+  @include button-variant($navy, darken($gray-lightest, 4%), darken($gray-lightest, 4%));
+}
+
+//////////////////////////////////////// Utilitarian Buttons ////////////////////////
+
+// Gray Btn
+.btn-gray {
+  @include button-variant($white, $gray-light, $gray-light);
+}
+// Gray Ghost Btn
+.btn-ghost-gray {
+  @include button-variant($gray-light, $btn-ghost-bg, $gray-light);
+}
+//////////////////////////////////////// Accent Buttons ////////////////////////////
+
+// Accent Orange Btn
+.btn-warning, .btn-orange {
+  @include button-variant($white, $orange, $orange);
+}
+// Orange Accent Ghost Button
+.btn-ghost-orange {
+  @include button-variant($orange, $btn-ghost-bg, $orange);
+}
+//////////////////////////////////////// Alternate Accent Buttons //////////////////
+
+// Accent Pink Btn
+.btn-danger, .btn-berry, .btn-pink {
+  @include button-variant($white, $berry, $berry);
+}
+// Accent Pink Ghost Button
+.btn-ghost-berry, .btn-ghost-pink {
+  @include button-variant($berry, $btn-ghost-bg, $berry);
+}
+// Plum Ghost Btn
+.btn-plum {
+  @include button-variant($white, $plum, $plum);
+}
+// Accent Plum Ghost Btn
+.btn-ghost-plum {
+  @include button-variant($plum, $btn-ghost-bg, $plum);
+}
+// Brown Ghost Btn
+.btn-brown {
+  @include button-variant($white, $brown, $brown);
+}
+// Brown Ghost Btn
+.btn-ghost-brown {
+  @include button-variant($brown, $btn-ghost-bg, $brown);
+}
+.btn-disabled {
+  background-color: $gray-lightest;
+  color: $gray-lighter;
+}
+.btn-disabled:hover, .btn-disabled:focus {
+  @extend .btn-disabled;
+  cursor: not-allowed;
+}
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.btn-link {
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-xs {
+  border: 0px;
+}
+.btn-block {
+  padding-left: 0;
+  padding-right: 0;
+}
+// Button margins
+// --------------------------
+
+// Some common button margins
+.margLeft10 {
+    margin-left:10px
+}

@@ -1,0 +1,74 @@
+
+
+.destination-tiles {
+
+//these allow us to have background images and text ads that are easily readable
+a:hover,a:focus {text-decoration: none}
+.tint {
+  display: block;
+  height: 100%;
+  text-align: center;
+    span {
+    position: relative;
+    top: 44%;
+    font-size: 2em;
+    color: $white;
+    text-shadow: 1px 1px 1px rgba($black, .25);
+  }
+  a:focus .bluetint {
+     background-color: rgba($blue, .8);
+  }
+  a:focus {
+    outline:none;
+  }
+}
+
+.navytint {
+  @extend .tint;
+  background-color: rgba($navy, .25);
+}
+
+.orangetint {
+  @extend .tint;
+  background-color: rgba($orange, .25);
+}
+.bluetint {
+  @extend .tint;
+  background-color: rgba($blue, .25);
+}
+.pinktint {
+  @extend .tint;
+  background-color: rgba($pink, .25);
+}
+.plumtint {
+  @extend .tint;
+  background-color: rgba($plum, .25);
+}
+.tealtint {
+  @extend .tint;
+  background-color: rgba($teal, .25);
+}
+.browntint {
+  @extend .tint;
+  background-color: rgba($brown, .25);
+}
+.goldtint {
+  @extend .tint;
+  background-color: rgba($gold, .25);
+}
+.aquatint {
+  @extend .tint;
+  background-color: rgba($aqua, .25);
+}
+
+
+//this adds a random background image when needed from unsplash.com via unsplash.it
+.random-image {
+  background-image: url(https://unsplash.it/200/300/?random);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 20.95em;
+}
+
+}

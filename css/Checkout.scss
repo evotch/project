@@ -1,0 +1,546 @@
+﻿.containerx {
+    /* ========================= Plan and Book - Checkout pages styles ============================ */
+    .checkoutContent { padding-left: 40px; }
+    .checkoutTipHeader { background: url(../images/bg-tip-header.gif); background-repeat: no-repeat; height: 30px; width: 292px; }
+    .checkoutTipHeaderText { position: relative; padding: 7px 0 0 25px; color: #fff; font-size: 15px; font-weight: bold; }
+    .checkoutTipContent { padding: 15px 20px 0 20px; }
+    .checkoutContentHeader { margin: 0px 5px 0px 25px; float: left; }
+    .checkoutContent .rightBorder { border-right: 1px solid #cacaca; min-height: 250px; }
+    .checkoutContent .rightBorder p { margin-right: 20px; }
+    .checkoutContent .short hr, .cartContent .short hr { margin: 15px 0 10px 0; width: 650px; height:1px; }
+    .checkoutContent hr, .cartContent hr { margin: 15px 0 10px 0; height:1px; }
+    .acctFieldHeader { float: left; width: 150px; }
+    .acctForgot { float: right; margin-right: 40px; }
+    input[name=EmailAddr], input[name=Password] { width: 250px; }
+    input[name=Password].myAccountInput { width: 200px; }
+    .requiredField { color: red; }
+    .bottomButtons { width: 300px; padding-top:10px; }
+    #checkoutForm .travelerHeader { margin-bottom: 20px; margin-top: 10px; }
+    #checkoutForm .traveler { font-weight: bold; font-size: 13px; margin-right: 20px; }
+    #checkoutForm .travelerDropDown { width: 190px; }
+    #checkoutForm .fullName, #checkoutForm .dob, #checkoutForm .redressNum, #checkoutForm .destPhoneNum, #checkoutForm .reqDisability { margin: -5px 0 15px 0; }
+    #checkoutForm .fullName label { float: left; width: 180px; margin-right: 10px; }
+    #checkoutForm .fullName input { width: 180px; margin: 5px 5px 5px 0; float: left; }
+    #checkoutForm .dob select { margin-top: 5px; margin-bottom: 5px; }
+    #checkoutForm .dobMonthDropDown { width: 125px; margin-right: 5px; }
+    #checkoutForm .dobDayDropDown { width: 60px; margin-right: 5px; }
+    #checkoutForm #dobYear { width: 75px; }
+    #checkoutForm .genderDropDown { margin-left: 30px; }
+    #checkoutForm .genderDropDown select { width: 130px; }
+    #checkoutForm .mileageProgram { width: 310px; margin-bottom: 20px; }
+    #checkoutForm .mileageProgram select { width: 140px; margin: 5px 0 5px 0; }
+    #checkoutForm .mileageProgram input { width: 120px; margin: 5px 0 5px 0; }
+    #checkoutForm .destPhoneNum input, .destPhoneNum input { margin: 5px 0 5px 5px; width: 170px; }
+    #checkoutForm .destPhoneNum input[name=extension], .destPhoneNum input[name=extension] { margin: 5px 0 5px 5px; width: 70px; }
+    #checkoutForm .destPhoneNum select, .destPhoneNum select { margin: 5px 5px 5px 0; width: 200px; }
+    #checkoutForm #countryCodeFootnote, #countryCodeFootnote { width: 215px; float: left; }
+    #checkoutForm #phoneFootnote, #phoneFootnote { width: 180px; float: left; }
+    #checkoutForm #extFootnote, #extFootnote { width: 140px; float: left; }
+    #checkoutForm .arrangerFullName { width: 330px; margin-bottom: 20px; }
+    #checkoutForm .arrangerFullName input { margin: 5px 0 5px 0; }
+    #checkoutForm .purchaserCountry { margin-bottom: 20px; }
+    #checkoutForm .purchaserCountry select { width: 150px; margin: 5px 0 5px 0; }
+    #checkoutForm .hotelNum { margin-bottom: 20px; }
+    #checkoutForm .primaryDriverHeading { font-weight: bold; font-size: 14px; margin-bottom: 15px; }
+    #checkoutForm .carNum { margin-bottom: 5px; }
+    #checkoutForm .carNum input[type=text] { margin: 0 0 5px 0; width: 180px; float: left; }
+    #checkoutForm .carNum input[type=checkbox] { width: 20px; margin-left: 30px; vertical-align: middle; }
+    .summaryHeader { font-weight: bold; font-size: 14px; color: #424242; }
+    .continueButton { float: left; margin-right: 20px; }
+    .skipButton { float: left; }
+    .checkoutCol1 { float: left; width: 200px; }
+    .checkoutCol2 { float: left; width: 200px; }
+    .checkoutCol3 { float: left; width: 250px; margin-bottom: 20px; }
+    .noBold { font-weight: normal; }
+    .thirds { float: left; width: 33%; }
+    .half { float: left; width: 50%; }
+    .halfRight { float: right; width: 50%; }
+    .certs input[type=checkbox] { margin-bottom: 10px; }
+    .cardInfo select, .cardInfo input, .cardVerifyInfo select, .cardOwnerName input, .billAddr input[name=billAddr2], .billAddrMore input { margin: 0 10px 20px 0; float: left; width: 170px; }
+    .billAddr input[name=billAddr1] { width: 170px; }
+    .cardInfo select, #billAddrState, #billCountry { width: 170px; float: left; margin-right: 10px; }
+
+    .checkoutInfoRow { width:340; margin-bottom:20px; }
+    .checkoutInfoCol1 { float: left; width: 170px; margin: 0 10px 0 0; }
+    .checkoutInfoCol1 input { width: 160px; }
+    .nolabel { margin-top:5px; }
+    .checkoutInfoCol2 { float: left; width: 170px; }
+    .checkoutInfoCardType { width:170px; }
+    .checkoutInfoCardMonth { width:100px; margin-right:5px; }
+    .checkoutInfoCardYear { width:60px; }
+    .checkoutInfoState { width:170px; }
+    .checkoutInfoCountry { width:170px; }
+
+    .billAddrMore label { width: 170px; margin-right: 15px; float: left; }
+    .cardInfo label, .cardVerifyInfo label { float: left; width: 170px; margin-right: 10px; }
+    #cardExpireMonth { width: 100px; margin-right: 5px; }
+    #cardExpireYear { width: 65px; }
+    .billAddr input[name=billAddr1] { margin-bottom: 5px; }
+    .emailAddrInput { margin: 3px 0 15px 0; }
+    .makeBold { font-weight: bold; }
+
+    .cartPricingInfoFlights { margin-top: 40px; }
+    .cartPricingInfoCar { margin-top: 40px; }
+    .cartGrandTotalSection { margin-left: 55px; }
+    .checkoutGrandTotal { margin-left: 55px; }
+    .orbitzImage { margin: 30px 0 10px 0; padding:0 0 0 3px; }
+    .checkoutQuestionIcon { position:relative; right:45px; }
+    .checkoutMilePlan { line-height:25px; }
+    /* =================== Checkout Page Lightbox Styles ========================================= */
+    #additionalServices { padding: 20px; }
+    .outerList { list-style: none; line-height: 22px; }
+
+    /* =================== Begin Reservation Page Styles ========================================= */
+
+    table.feeSummary th {text-align:right; padding:0 0 10px 10px; font-size:inherit;}
+    table.feeSummary td {text-align:right; padding:2px 0 2px 10px; border-bottom:1px solid #a4aaaf;}
+    table.feeSummary th:first-child {text-align:left;padding-right:20px;padding-left:0;}
+    table.feeSummary td:first-child {text-align:left;padding-right:20px;padding-left:0;}
+    table.feeSummary th:first-child + th {text-align:left;padding-right:30px;padding-left:0;}
+    table.feeSummary td:first-child + td {text-align:left;padding-right:30px;padding-left:0;}
+    table.feeSummary th:first-child + th + th {text-align:left; padding-left:0;}
+    table.feeSummary td:first-child + td + td {text-align:left; padding-left:0;}
+    table.feeSummary td.feeSummaryAmount {font-weight:bold; border-bottom:none; padding:3px 0 11px 0;}
+    table.feeSummary tr.claimTicket td {border-bottom:none;}
+    .bagCol1 {width:220px;}
+    .bagCol2 {width:170px;}
+    .bagCol3 {width:85px;padding-right:40px;}
+    .bagCol4 {width:138px;}
+
+    .printable
+    {
+    }
+
+    .sliderOpen
+    {
+        padding: 10px 6px 0 7px;
+        background: url(https://www.alaskaair.com/content/~/media/images/onSite/buttons/BlueTriangleDown.ashx) no-repeat;
+        float: left;
+        margin: 8px 0 0 5px;
+    }
+
+    .sliderClosed
+    {
+        padding: 10px 6px 0 7px;
+        background: url(https://www.alaskaair.com/content/~/media/images/onSite/buttons/BlueTriangleRight.ashx) no-repeat;
+        float: left;
+        margin: 8px 0 0 5px;
+    }
+
+    .sliderHeading
+    {
+        width: 972px;
+        height: 23px;
+        margin-left: -20px;
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
+        background: url(https://www.alaskaair.com/content/~/media/Images/onSite/backgrounds/green-gradient.ashx) repeat-x;
+        cursor: pointer;
+    }
+
+    .sliderHeading a, .sliderHeading a:hover, .sliderHeading a:focus, .sliderHeading a:visited {
+        color: #00245A;
+        text-decoration: none;
+    }
+
+    .purchaseMilesReceiptColumn
+    {
+        text-align: right;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .upsell
+    {
+        width:934px;
+    }
+
+    #upsellTabs
+    {
+        float: left;
+        list-style: none;
+        height: 50px;
+        line-height: 50px;
+        background: url(https://www.alaskaair.com/content/~/media/Images/onSite/backgrounds/tab_bg_short_border.ashx);
+        background-repeat: repeat-x;
+        background-position: bottom;
+        padding-left: 50px;
+        width: 900px;
+        margin: 23px 0 0 0;
+        padding: 0;
+        vertical-align: bottom;
+        text-align: center;
+        position: relative;
+    }
+
+    #upsellTabs li
+    {
+        overflow: hidden;
+        float: left;
+        width: 125px;
+        margin: 0;
+        cursor: pointer;
+        height: 35px;
+        line-height: 35px;
+        position: relative;
+        bottom: 0;
+        top: 15px;
+        border-right:1px solid #DCDCDC;
+    }
+
+    #upsellTabs li.active
+    {
+        -moz-border-radius:5px 5px 0 0;
+        -webkit-border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0;
+        border:1px solid #DCDCDC;
+        border-bottom:0;
+        height: 49px;
+        line-height: 49px;
+        background: #fff;
+        position: static;
+    }
+
+    #upsellTabs li a
+    {
+        text-decoration: none;
+        display: block;
+        padding: 0px;
+        font-size: 1.17em;
+        font-weight: bold;
+        color: #424242;
+    }
+
+    .upsellTabEndOuter
+    {
+        float: left;
+        height: 50px;
+        background: url(https://www.alaskaair.com/content/~/media/Images/onSite/backgrounds/tab_bg_short.ashx);
+        background-repeat: repeat-x;
+        background-position: bottom;
+        margin: 23px 0 0 0;
+        padding: 0;
+        vertical-align: bottom;
+        position: relative;
+        width: 16px;
+    }
+
+    .upsellTabEndRight
+    {
+        border-top-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        -webkit-border-top-right-radius: 5px;
+        overflow: hidden;
+        float: left;
+        margin: 0;
+        border-top: solid 1px #DCDCDC;
+        border-right: solid 1px #DCDCDC;
+        border-left: 0;
+        cursor: pointer;
+        height: 35px;
+        line-height: 35px;
+        position: relative;
+        bottom: 0;
+        top: 14px;
+        width: 100%;
+    }
+
+    .upsellTabEndLeft
+    {
+        border-top-left-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -webkit-border-top-left-radius: 5px;
+        overflow: hidden;
+        float: left;
+        margin: 0;
+        border-top: solid 1px #DCDCDC;
+        border-left: solid 1px #DCDCDC;
+        border-right: 0;
+        cursor: pointer;
+        height: 35px;
+        line-height: 35px;
+        position: relative;
+        bottom: 0;
+        top: 14px;
+        width: 100%;
+    }
+
+    .upsellTabContentContainer
+    {
+        border: 1px solid #DCDCDC;
+        border-top: none;
+        overflow: hidden;
+        clear: both;
+        float: left;
+        width: 931px;
+        background: #fff;
+        height: 300px;
+    }
+    .upsellTabContentContainer-big
+    {
+        border: 1px solid #DCDCDC;
+        border-top: none;
+        overflow: hidden;
+        clear: both;
+        float: left;
+        width: 911px;
+        background: #fff;
+        height: 510px;
+    }
+    .upsellTabContent
+    {
+        display:none;
+        padding: 20px;
+        background-color:#fff;
+    }
+
+    .hotelCarUpsellRow {
+      overflow:hidden;
+      width:100%;
+    }
+
+    .hotelCarUpsellHead {
+      overflow:hidden;
+      padding-top:15px;
+      padding-bottom:25px;
+    }
+
+    .hotelCarUpsellBox {
+      border-left:1px solid #DCDCDC;
+      float:left;
+      padding: 0 0 0 18px;
+      margin: 14px 6px 15px 15px;
+      width: 192px;
+    }
+
+    .hotelCarUpsellRow .firstBox {
+      margin-left: 0px !important;
+      border: medium none;
+      padding-left: 4px !important;
+    }
+
+    .hotelCarUpsellRow .firstBox2 {
+      margin-left: 0px !important;
+      border: medium none;
+    }
+
+    .hotelCarUpsellBox .name {
+        height:44px;
+        margin-bottom:2px;
+        overflow:hidden;
+    }
+
+    .hotelCarUpsellBox .clickableHeader {
+      text-decoration:none;
+      color:#00245A;
+    }
+
+    .hotelCarUpsellBox .clickableHeader:hover {
+      text-decoration:underline;
+      cursor:pointer;
+    }
+
+    .hotelCarUpsellBox .thumb {
+      float: left;
+      height: 60px;
+      overflow: hidden;
+      width: 80px;
+      margin:0 6px 4px 0;
+    }
+
+    .hotelCarUpsellBox .details {
+      float: left;
+      text-align:left;
+    }
+
+    .hotelCarUpsellBox .price {
+      background-color: inherit;
+      color: #00245a;
+      font-size: 1.667em;
+      font-weight: bold;
+      padding-top:5px;
+    }
+
+    .hotelCarUpsellBox .moreDetailsButton
+    {
+      float: right;
+      text-align: right;
+      padding-top:5px;
+      padding-right: 8px;
+    }
+
+    .hotelCarUpsellBox .hotelMoreDetailsButton {
+      font-size: 0.9em !important;
+      width:110px !important;
+    }
+
+    .hotelCarUpsellBox img.logo {height:31px; width:44px;}
+
+    .hotelCarUpsellBox .mileagePlan {
+        padding-top:8px;
+    }
+
+    .hotelCarUpsellBox p {
+      padding: 4px 0 0 0;
+      margin:0;
+    }
+
+    .hotel-strikethrough
+    {
+      color: #707070;
+        text-decoration: line-through;
+    }
+    .hotel-special
+    {
+      color: #D40083;
+    }
+
+    .hotelCarUpsellRow .head { padding: 0 10px; border-top:1px solid #DCDCDC; }
+    .hotelCarUpsellRow .head.hotel { background:#EAE3D3; }
+    .hotelCarUpsellRow .head.car { background:#E2EEFF; }
+
+    .flightOnly .hotel { border-right:1px solid #DCDCDC; width:50%; }
+    .hotelOnly, .carOnly { margin-bottom: 1.5em; }
+
+    #xsellVerticalView,
+    .redesignExp #xsellHorizontalView,
+    .redesignExp #tblTravelerDetails tr th.last-child,
+    .redesignExp #tblTravelerDetails tr td.last-child,
+    .redesignExp .flightstable.noReceiptPrint,
+    .redesignExp #cartData .totalPriceDiv,
+    .redesignExp .cartItemTotal { display:none; }
+
+    .redesignExp #travelersInfo { margin:1.5em 0; }
+    .redesignExp #xsellVerticalView .buttonPrimaryMedium { width:70px; }
+    .redesignExp #xsellVerticalView .hotelCarUpsellBox { border:none; padding:15px 0 15px 12px; margin: 0 6px; width:204px; border-top:1px solid #DCDCDC; }
+    .redesignExp #xsellVerticalView .hotelCarUpsellRow .firstBox2 { border:none; margin-left: 6px !important; }
+    .redesignExp #xsellVerticalView .thumb { width:auto; height:auto; }
+    .redesignExp #xsellVerticalView .moreDetailsButton { padding:0; padding-top: 5px; }
+    .redesignExp #xsellVerticalView .hotelCarUpsellRow .head { border:none; }
+    .redesignExp #xsellVerticalView .xsellHotelTable { margin-bottom:20px; }
+    .redesignExp #xsellVerticalView .xsellCell { border-left:1px solid #DCDCDC; border-right:1px solid #DCDCDC; }
+    .redesignExp #xsellVerticalView .xsellHotelTable, .redesignExp #xsellVerticalView .xsellCarTable { border-bottom:1px solid #DCDCDC; }
+
+    .redesignExp .upsell, .redesignExp .upsellTabContentContainer { width: 681px; }
+    .redesignExp #upsellTabs { width: 649px; }
+    .redesignExp .column1 { float: left; margin-right: 20px; width: 681px; border-right:1px solid #DCDCDC; }
+    .redesignExp .column2 { float: left; width: 230px; }
+    .redesignExp .confirmCodeWrapCarHotel { margin-right: 20px; }
+    .redesignExp .sliderHeading { width: 701px; display: block; }
+    .redesignExp .sliderHeadingContainer { display:block; }
+    .redesignExp .sliderContent { padding-right:20px; }
+    .redesignExp .baggageRules { width:auto; }
+
+    .redesignExp .grandTotalSectionContainer { display:block; }
+    .redesignExp .grandTotalSection { width: 681px; display: block; }
+
+    .redesignExp .boafcconfirmation .fcRow1 { padding: 85px 360px 0 566px }
+    .redesignExp .boafcconfirmation .fcRow2 { padding: 5px 360px 0 566px }
+    .redesignExp .boafcconfirmation .fcRow3 { padding: 7px 360px 0 566px }
+
+    #manageReservationOptions #manageReservationLinks div.manageReservationLink
+    {
+      margin-bottom: 10px;
+    }
+    /* =================== End Reservation Page Styles ========================================= */
+
+    /* =================== Forced Choice Trip Protection A/B Test Styles ======================= */
+    .maxymiserCampaignId53852 .tripinsurance .imagediv {
+      display: block;
+      width: 220px;
+    }
+    .maxymiserCampaignId53852 #TripInsurance_Intro { font-weight: bold; }
+    .maxymiserCampaignId53852 .tripinsurance ul {
+      display: inline-block;
+      width: 600px;
+    }
+    .maxymiserCampaignId53852 #TripInsurance .radiolist {
+      font-size: 14px;
+      padding: 15px 15px 5px;
+      margin: 0 0 15px;
+      background-color: #bfd8fe;
+      position: relative;
+    }
+    /* Gray BG */
+    .maxymiserCampaignId53852 .trip-insurance-gray {
+      background-color: #efefef;
+      padding: 20px;
+    }
+    .maxymiserCampaignId53852 .trip-insurance-gray ul {
+      width: 580px;
+    }
+
+    /* Hide the line! */
+    .maxymiserCampaignId53852 .trip-insurance-gray hr { display: none; }
+
+
+    /* Proactive */
+    .maxymiserCampaignId53852 #proactive-button {
+      background: #bfd8fe;
+      cursor: pointer;
+      float: right;
+      font-size: 12px;
+      line-height: 34px;
+      margin-bottom: 5px;
+      padding: 5px 8px;
+    }
+    .maxymiserCampaignId53852 #proactive-button .icon-info {
+      background: url('/content/~/media/Images/logos/info_icon.ashx') 0 0 no-repeat;
+      float: left;
+      height: 34px;
+      margin-right: 8px;
+      width: 34px;
+    }
+    .maxymiserCampaignId53852 #proactive-button a {
+      color: #424242;
+      text-decoration: none;
+    }
+    .maxymiserCampaignId53852 #SUBMITBUTTON .left { clear: both; }
+
+
+    /* Reactive */
+    .maxymiserCampaignId53852 #reactive-button {
+      background: #bfd8fe;
+      border-radius: 15px;
+      cursor: pointer;
+      float: right;
+      font-size: 14px;
+      margin-bottom: 5px;
+      padding: 10px 15px;
+      position: relative;
+      text-align: center;
+      top: -5px;
+      width: 130px;
+    }
+    .maxymiserCampaignId53852 #reactive-button:before {
+      content: '';
+      border-left: 20px solid transparent;
+      border-top: 15px solid #bfd8fe;
+      right: 20px;
+      position: absolute;
+      bottom: -14px;
+    }
+    .maxymiserCampaignId53852 .trip-insurance-arrow .reactive-arrow:before {
+      content: '';
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+      border-left: 20px solid #a00;
+      left: -20px;
+      position: absolute;
+      top: 6px;
+    }
+
+    /* Side placement */
+    .maxymiserCampaignId53852-side .tripinsurance ul {
+      margin: 0 0 18px;
+      width: 235px;
+    }
+    .maxymiserCampaignId53852-side .trip-insurance-gray ul { width: 195px; }
+    .maxymiserCampaignId53852-side .tripinsurance hr { display: none !important; }
+    .maxymiserCampaignId53852-side .tripinsurance {
+      float: left;
+      width: 500px;
+    }
+    /* =================== End Forced Choice Trip Protection A/B Test Styles =================== */
+
+}

@@ -1,0 +1,36 @@
+.quick-link {
+	padding: 1em 2em;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+	min-height: 24em;
+	background-color: white;
+}
+.quick-link a {
+	text-decoration: underline;
+}
+.quick-link ul {
+	padding-left: .5em;
+}
+.quick-link li {
+	list-style: none;
+	line-height: 2.5em;
+}
+//For the sitemap
+
+.link-list {
+	h4, .h4 {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 10px;
+	}
+}
+
+//Adds bottom margin to our Old Splash Headers
+.content-hero {
+	margin-bottom: 24px;
+}
+
+//Removes top margin on all headers on content pages only
+#content {
+	h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6, {
+		margin-top: 0px;
+	}
+}

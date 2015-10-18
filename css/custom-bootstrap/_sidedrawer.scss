@@ -1,0 +1,122 @@
+﻿$closeIconTop: 24px;
+$mobileHeaderHeight: 55px;
+$mobileHeaderTwoLineHeight: 100px;
+
+@-webkit-keyframes rightSideDrawerBackground {
+    0% { opacity: 0; }
+    100% { opacity: 0.65; }
+}
+@-moz-keyframes rightSideDrawerBackground {
+    0% { opacity: 0; }
+    100% { opacity: 0.65; }
+}
+@keyframes rightSideDrawerBackground {
+    0% { opacity: 0; }
+    100% { opacity: 0.65; }
+}
+@-webkit-keyframes rightSideDrawer {
+    0% { right: -800px; }
+    100% { right: 0; }
+}
+@-moz-keyframes rightSideDrawer {
+    0% { right: -800px; }
+    100% { right: 0; }
+}
+@keyframes rightSideDrawer {
+    0% { right: -800px; }
+    100% { right: 0; }
+}
+
+@-webkit-keyframes closeRightSideDrawer {
+    0% { right: 0; }
+    100% { right: -800px; }
+}
+@-moz-keyframes closeRightSideDrawer {
+    0% { right: 0; }
+    100% { right: -800px; }
+}
+@keyframes closeRightSideDrawer {
+    0% { right: 0; }
+    100% { right: -800px; }
+}
+
+
+
+.rightSideDrawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .slider-title {
+        margin: 0;
+        padding: 24px 0 12px;
+    }
+    
+    .drawerClose {
+        position: fixed;
+        right: 36px;
+        top: $closeIconTop;
+    }
+
+    .drawerBackground {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #fff;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+        opacity: 0.65;
+        -webkit-animation: rightSideDrawerBackground 1s;
+        -moz-animation: rightSideDrawerBackground 1s;
+        animation: rightSideDrawerBackground 1s;
+    }
+
+    .drawerContent {
+        background-color: #fff;
+        box-shadow: -30px 15px 30px -30px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        width: 800px;
+        padding: 0 24px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        overflow-y: scroll;
+        -webkit-animation: rightSideDrawer 1s;
+        -moz-animation: rightSideDrawer 1s;
+        animation: rightSideDrawer 1s;
+    }
+}
+
+.closeRightSideDrawer .drawerContent {
+    right: -800px;
+    -webkit-animation: closeRightSideDrawer 0.3s;
+    -moz-animation: closeRightSideDrawer 0.3s;
+    animation: closeRightSideDrawer 0.3s;
+}
+
+
+@media (max-width: 767px) {
+    .rightSideDrawer {
+        .drawerClose{
+            top: $mobileHeaderHeight + $closeIconTop;
+        }
+        .drawerContent {
+            margin-top: $mobileHeaderHeight;
+        }
+    }
+}
+
+@media (max-width: 319px) {
+    .rightSideDrawer {
+        .drawerClose{
+            top: $mobileHeaderTwoLineHeight + $closeIconTop;
+        }
+        .drawerContent {
+            margin-top: $mobileHeaderTwoLineHeight;
+        }
+    }
+}

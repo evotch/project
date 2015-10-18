@@ -1,0 +1,25 @@
+@import '../out/icons/sprite';
+
+$ieSprite: '.lt-ie9' !default;
+$sprite: map-get($icons, sprite) !default;
+$baseFontSize: 16px !default;
+
+@import 'mixins';
+
+.asicon-search {
+	&:before {
+		@include sprite(search);
+		content: '';
+		float: left;
+		margin-right: 0.5em;
+	}
+}
+
+.asicon-creditcard {
+	&:before {
+		@include sprite(credit_card);
+		content: '';
+		float: left;
+		margin-right: 0.5em;
+	}
+}

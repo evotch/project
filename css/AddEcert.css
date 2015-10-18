@@ -1,0 +1,31 @@
+﻿.containerx .DiscountCodeLabel
+{
+    width: 71px;
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.containerx .DiscountCodeField
+{
+    display: inline-block;
+    font-weight: normal;
+}
+        
+.containerx .DiscountCodeElement
+{
+    margin: 8px;
+}
+        
+.containerx #SubmitDiscountCode
+{   	
+	float: none;    	
+}
+    
+.containerx #DiscountCodeFooter
+{    	
+    text-align: center;
+}

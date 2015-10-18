@@ -1,0 +1,21 @@
+.merch93 {
+	.fine-print {
+		padding-top: 20px
+	}
+	.price-guarantee {
+		svg {
+			height: 128px;
+			width: 128px;
+			fill: #4d803b
+		}
+		h1, h2, h3, h4, h5, h6, .h1, .module-fd--price, .h2, .h3, .h4, .h5, .h6 {
+			margin-bottom: 0px;
+		}
+	}
+	svg.icon-price-guarantee {
+		margin-bottom: -15px;
+	}
+	.panel-image {
+		min-height: 250px
+	}
+}

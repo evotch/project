@@ -1,0 +1,643 @@
+﻿.containerx {
+    .catering {
+	    color: #424242;
+	    font-family: open-sans, sans-serif;
+	    font-size: 14px;
+    }
+    .catering-hero {
+	    background: transparent url(http://resource.alaskaair.net/~/media/Images/splashHeaders/Splash972_20141202_preorder.ashx) 0 0 no-repeat;
+	    box-sizing: border-box;
+	    padding: 76px 54px;
+	    height: 425px;
+	    width: 100%;
+    }
+    .catering h1 {
+	    color: #fff;
+	    font-size: 30px;
+	    font-weight: normal;
+	    margin-right: 25px;
+	    position: relative;
+	    width: 400px;
+    }
+	    .catering h1 .text {
+		    position: absolute;
+		    width: 330px;
+		    z-index: 1;
+	    }
+	    .catering h1 .shadow {
+		    background: rgba(0, 0, 0, 0.1);
+		    height: 36px;
+		    -webkit-filter: blur(5px);
+		    -moz-filter: blur(5px);
+		    -ms-filter: blur(5px);
+		    filter: blur(5px);
+		    position: absolute;
+		    width: 100%;
+	    }
+    .catering h3 {
+	    color: #12202b;
+	    font-size: 16px;
+    }
+    .catering h4 {
+	    color: #424242;
+    }
+	    .catering h4 span {
+		    font-weight: normal;
+	    }
+    .catering a {
+	    cursor: pointer;
+    }
+
+    .catering-form {
+	    background-color: #fff;
+	    background-color: rgba(255, 255, 255, 0.65);
+	    padding: 50px 60px;
+	    overflow: hidden;
+	    position: relative;
+	    width: 280px;
+    }
+    .catering-form input[type=text],
+    .catering button {
+	    background-color: #f2f2f2;
+	    border: 1px solid #c4c4c4;
+	    box-sizing: border-box;
+	    font-size: 14px;
+	    height: 38px;
+	    line-height: 20px;
+	    margin-bottom: 30px;
+	    padding: 10px;
+	    width: 282px;
+    }
+    .catering-form input[type=text]:hover,
+    .catering-form input[type=text]:focus,
+    .catering-form input[type=text].has-content {
+	    background-color: #fff;
+	    border-color: #6b6b6b;
+	    color: #4f4f4f;
+    }
+
+    .placeholder { color: #6b6b6b; }
+    input:-moz-placeholder { color: #6b6b6b; }
+    input::-moz-placeholder { color: #6b6b6b; }
+    input:-ms-input-placeholder { color: #6b6b6b; }
+    input::-webkit-input-placeholder { color: #6b6b6b; }
+
+    .ng-dirty.ng-invalid.placeholder { color: #732e4b; }
+    .ng-dirty.ng-invalid:-moz-placeholder { color: #732e4b; }
+    .ng-dirty.ng-invalid::-moz-placeholder { color: #732e4b; }
+    .ng-dirty.ng-invalid:-ms-input-placeholder { color: #732e4b; }
+    .ng-dirty.ng-invalid::-webkit-input-placeholder { color: #732e4b; }
+
+    .catering button {
+	    background-color: #12202b;
+	    color: #fff;
+	    cursor: pointer;
+	    font-size: 14px;
+	    letter-spacing: 0.5px;
+	    margin-bottom: 0;
+	    overflow: visible;
+	    position: relative;
+    }
+    .catering button[disabled] {
+	    background-color: #ebeae9;
+	    color: #ada898;
+	    cursor: default;
+	    opacity: 0.8;
+    }
+	    .please-wait {
+		    color: #12202b;
+		    position: absolute;
+		    height: 38px;
+		    line-height: 38px;
+		    font-size: 34px;
+		    top: -35px;
+		    left: -87px;
+		    -webkit-animation: flyRight 5s infinite linear;
+		    -moz-animation: flyRight 5s infinite linear;
+		    animation: flyRight 5s infinite linear;
+		    transition: 5s left linear;
+	    }
+	    @-webkit-keyframes flyRight {
+		    0% { left: -87px; }
+		    100% { left: 339px; }
+	    }
+	    @-moz-keyframes flyRight {
+		    0% { left: -87px; }
+		    100% { left: 339px; }
+	    }
+	    @keyframes flyRight {
+		    0% { left: -87px; }
+		    100% { left: 339px; }
+	    }
+
+    /* error states */
+    .catering-menu-container .catering-error {
+	    height: 409px;
+	    width: 874px;
+    }
+    .catering-error {
+	    color: #732e4b;
+    }
+    .catering-fail {
+	    margin-top: 40px;
+    }
+    .catering-form-error {
+	    margin: -40px 0 10px -50px;
+	    min-height: 30px;
+	    width: 380px;
+    }
+    .catering-form-error .icon-error {
+	    border-bottom: 30px solid;
+	    border-left: 15px solid transparent;
+	    border-right: 15px solid transparent;
+	    float: left;
+	    margin-right: 10px;
+	    position: relative;
+    }
+	    .catering-form-error .icon-error:before {
+		    color: #fff;
+		    content: '!';
+		    font-family: sans-serif;
+		    font-size: 23px;
+		    font-weight: bold;
+		    left: -14px;
+		    position: absolute;
+		    text-align: center;
+		    top: 11px;
+		    width: 29px;
+	    }
+    .catering-form-error div {
+	    display: inline-block;
+	    width: 340px;
+    }
+    .catering-multi-error {
+	    margin-bottom: 10px;
+    }
+
+    .invalid .ng-invalid,
+    .ng-invalid.ng-dirty,
+    .catering-form .error {
+	    border-color: #732e4b !important;
+	    color: #732e4b !important;
+    }
+    .catering-itinerary-message {
+	    overflow: hidden;
+	    padding: 0 0 20px 0;
+    }
+	    .catering-message {
+		    font-size: 16px;
+		    line-height: 22px;
+		    margin-left: 10px;
+		    width: 884px;
+	    }
+	    .icon-info {
+		    background: url('/content/~/media/Images/logos/info_icon.ashx') 0 0 no-repeat;
+		    display: inline-block;
+		    height: 40px;
+		    width: 40px;
+	    }
+
+
+    .catering .contentWrap {
+	    display: inline-block;
+	    padding-top: 50px;
+	    width: 934px;
+    }
+
+    .catering-info {
+	    margin-right: 115px;
+	    width: 425px;
+    }
+    .catering-steps {
+	    width: 350px;
+    }
+
+
+    /* details view */
+    /* trip section */
+    .catering-trip {
+	    margin: 0 0 60px;
+    }
+    .catering-trip h2 {
+	    color: #12202b;
+	    font-size: 26px;
+	    font-weight: normal;
+	    margin: 0 0 20px;
+	    padding: 0;
+    }
+
+    /* Tabs */
+    .nav-tab {
+	    list-style: none;
+	    margin: 0;
+	    padding: 0;
+    }
+    .nav-tab li {
+	    box-sizing: border-box;
+	    float: left;
+    }
+    .nav-tab li.full-width {
+	    width: 100%;
+    }
+    .nav-tab-gray li {
+	    background-color: #fff;
+	    border: 1px solid #e7e7e7;
+	    border-bottom: 0;
+	    color: #bfbfbf;
+    }
+    .nav-tab-gray a {
+	    color: #bfbfbf;
+	    font-size: 18px;
+	    font-weight: normal;
+	    height: 50px;
+	    line-height: 50px;
+	    padding: 0 15px 0 25px;
+	    text-decoration: none;
+    }
+    /*.nav-tab-gray li.right-ear {
+	    background-image: linear-gradient(225deg, #fff 14px, transparent 14px);
+    }
+    .nav-tab-gray li.left-ear {
+	    background-image: linear-gradient(135deg, #fff 14px, transparent 14px);
+    }
+    .nav-tab-gray li.both-ears {
+	    background-image: linear-gradient(225deg, #fff 14px, transparent 14px), linear-gradient(135deg, #fff 14px, transparent 14px);
+    }
+    */.nav-tab-gray li:first-child a {
+	    padding-left: 15px;
+    }
+    .nav-tab-gray li.active {
+	    background-color: #e7e7e7;
+	    color: #055884;
+    }
+    .nav-tab-gray .active a {
+	    color: #055884;
+	    font-size: 26px;
+    }
+
+    .catering-passenger-select {
+	    margin: -10px 0 25px;
+    }
+    .catering-passenger-select select {
+	    font-size: 16px;
+	    height: 34px;
+	    padding-left: 10px;
+	    width: 390px;
+    }
+
+    /* food section */
+    .catering-food {
+	    background-color: #e7e7e7;
+	    box-sizing: border-box;
+	    color: #424242;
+	    display: inline-block;
+	    padding: 17px 30px 25px;
+	    width: 100%;
+    }
+    .catering-flight-details {
+	    border-bottom: 1px solid #cdcdcd;
+	    margin-bottom: 25px;
+	    padding-bottom: 17px;
+    }
+    .catering-separator {
+	    display: inline-block;
+	    padding: 0 10px;
+    }
+    .no-margin {
+	    margin: 0;
+    }
+    .catering-food-info {
+	    color: #055884;
+	    font-size: 16px;
+	    height: 40px;
+	    line-height: 35px;
+	    margin-top: 5px;
+    }
+
+    /* carousel */
+    carousel {
+	    clear: both;
+	    display: block;
+	    margin-left: -25px;
+	    overflow: hidden;
+	    padding: 0 25px;
+	    position: relative;
+	    width: 874px;
+    }
+    .slide-container {
+	    transition: 0.8s margin;
+	    width: 4830px;
+    }
+    .scroll-0 { margin-left: 0; }
+    .scroll-1 { margin-left: -483px; }
+    .scroll-2 { margin-left: -966px; }
+    .scroll-3 { margin-left: -1449px; }
+    .scroll-4 { margin-left: -1932px; }
+    .scroll-5 { margin-left: -2415px; }
+    .scroll-6 { margin-left: -2898px; }
+    .scroll-7 { margin-left: -3381px; }
+    .scroll-8 { margin-left: -3864px; }
+    .slide-prev, .slide-next {
+	    height: 157px;
+	    padding-top: 113px;
+	    position: absolute;
+	    top: 0;
+	    z-index: 1;
+    }
+    .slide-prev { left: 0; }
+    .slide-next { right: 0; }
+    carousel .disabled, carousel .disabled:hover {
+	    display: none;
+    }
+
+	    .catering-menu-item {
+		    float: left;
+		    margin: 0 92px 15px 0;
+		    width: 391px;
+	    }
+	    .catering-image {
+		    display: inline-block;
+		    height: 270px;
+		    line-height: 270px;
+		    position: relative;
+		    text-align: center;
+		    width: 390px;
+	    }
+	    .catering-check {
+		    background-color: #6c747d;
+		    background-color: rgba(108, 116, 125, 0.5);
+		    height: 25px;
+		    padding: 10px;
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    width: 25px;
+	    }
+	    .catering-check input {
+		    height: 25px;
+		    vertical-align: top;
+		    width: 25px;
+	    }
+	    .catering-price {
+		    background-color: #fff;
+		    background-color: rgba(255, 255, 255, 0.7);
+		    box-sizing: border-box;
+		    color: #055884;
+		    font-size: 26px;
+		    left: 10px;
+		    line-height: 30px;
+		    height: 86px;
+		    padding-top: 15px;
+		    position: absolute;
+		    text-align: center;
+		    top: 10px;
+		    width: 86px;
+	    }
+	    .catering-price strong {
+		    font-size: 30px;
+	    }
+	    .catering-food h3 {
+		    color: #424242;
+		    margin: 10px 0;
+	    }
+
+    /* summary */
+    .catering-summary {
+	    border-top: 1px solid #dadada;
+	    font-size: 16px;
+    }
+    .catering-summary h4 {
+	    height: 51px;
+	    line-height: 51px;
+	    margin: 0;
+	    padding-left: 30px;
+    }
+    .catering-summary-multi {
+	    box-sizing: border-box;
+	    padding: 25px 60px 25px 100px;
+	    width: 100%;
+    }
+    .catering-summary-info {
+	    padding: 8px 0;
+    }
+	    .catering-summary-info span {
+		    margin-left: 10px;
+	    }
+    .catering-summary-line {
+	    overflow: hidden;
+	    padding-bottom: 10px;
+    }
+	    .catering-summary-line span {
+		    float: left;
+	    }
+	    .catering-item-name {
+		    margin-right: 40px;
+		    width: 370px;
+	    }
+	    .catering-item-total {
+		    width: 94px;
+	    }
+	    .catering-summary-actions {
+		    margin-left: 110px;
+		    width: 160px;
+	    }
+	    .catering-summary-actions a {
+		    color: #00567e;
+		    float: left;
+		    text-align: right;
+		    text-decoration: none;
+		    width: 80px;
+	    }
+	    .catering-summary-actions a:hover {
+		    text-decoration: underline;
+	    }
+	    .catering-summary-actions a:first-child {
+		    border-right: 1px solid #dadada;
+		    text-align: left;
+		    width: 79px;
+	    }
+
+    .catering-passenger {
+	    font-size: 18px;
+	    height: 51px;
+	    line-height: 51px;
+    }
+    .catering-blue-bar {
+	    background-color: #e2f1ef;
+	    font-size: 20px;
+	    height: 55px;
+	    line-height: 55px;
+	    padding: 0 60px 0 30px;
+    }
+    .catering-blue-text {
+	    color: #055884;
+    }
+	    .catering-blue-bar .catering-arrow {
+		    margin: 17px 20px 0 0;
+	    }
+	    .catering-arrow, .catering .arrow {
+		    border: 22px solid transparent;
+		    cursor: pointer;
+		    display: block;
+		    position: relative;
+	    }
+	    .catering .arrow:before, .catering-arrow:before {
+		    border: 12px solid transparent;
+		    content: '';
+		    position: absolute;
+	    }
+	    .catering .arrow-up {
+		    border-bottom-color: #3b5c75;
+		    border-top: 0;
+	    }
+	    .catering .arrow-up:before {
+		    bottom: -22px;
+		    border-bottom-color: #e2f1ef;
+		    border-top: 0;
+		    left: -12px;
+	    }
+	    .catering .arrow-down {
+		    border-top-color: #3b5c75;
+		    border-bottom: 0;
+	    }
+	    .catering .arrow-down:before {
+		    border-top-color: #e2f1ef;
+		    border-bottom: 0;
+		    left: -12px;
+		    top: -22px;
+	    }
+	    .catering .arrow-left {
+		    border-right-color: #3b5c75;
+		    border-left: 0;
+	    }
+	    .catering .arrow-left:before {
+		    right: -22px;
+		    border-right-color: #e2f1ef;
+		    border-left: 0;
+		    bottom: -12px;
+	    }
+	    .catering .arrow-right {
+		    border-left-color: #3b5c75;
+		    border-right: 0;
+	    }
+	    .catering .arrow-right:before {
+		    left: -22px;
+		    border-left-color: #e2f1ef;
+		    border-right: 0;
+		    bottom: -12px;
+	    }
+
+
+	    .catering .arrow-up.arrow-large {
+		    border-bottom-width: 35px;
+		    border-left-width: 37px;
+		    border-right-width: 37px;
+	    }
+	    .catering .arrow-down.arrow-large {
+		    border-top-width: 35px;
+		    border-left-width: 37px;
+		    border-right-width: 37px;
+	    }
+	    .catering .arrow-up.arrow-large:before {
+		    border-bottom-width: 22px;
+		    border-left-width: 23px;
+		    border-right-width: 23px;
+		    bottom: -35px;
+		    left: -23px;
+	    }
+	    .catering .arrow-down.arrow-large:before {
+		    border-top-width: 22px;
+		    border-left-width: 23px;
+		    border-right-width: 23px;
+		    top: -35px;
+		    left: -23px;
+	    }
+
+	    .catering .arrow-up.arrow-dark { border-bottom-color: #12202b; }
+	    .catering .arrow-down.arrow-dark { border-top-color: #12202b; }
+	    .catering .arrow-up.arrow-dark:before { border-bottom-color: #a0d0cb; }
+	    .catering .arrow-down.arrow-dark:before { border-top-color: #a0d0cb; }
+
+	    .catering-food .arrow-right { border-left-color: #055884; }
+	    .catering-food .arrow-left { border-right-color: #055884; }
+	    .catering-food .slide-next:hover .arrow-right { border-left-color: #12202b; }
+	    .catering-food .slide-prev:hover .arrow-left { border-right-color: #12202b; }
+	    .catering-food .arrow-right:before { border-left-color: #e7e7e7; }
+	    .catering-food .arrow-left:before { border-right-color: #e7e7e7; }
+
+    .catering-total {
+	    background-color: #a0d0cb;
+	    box-sizing: border-box;
+	    color: #12202b;
+	    font-size: 20px;
+	    height: 81px;
+	    padding: 12px 60px 12px 30px;
+	    width: 100%;
+    }
+	    .catering-total-meal {
+		    font-weight: bold;
+		    padding-top: 10px;
+		    width: 440px;
+	    }
+	    .catering-total .catering-arrow {
+		    color: #12202b;
+	    }
+	    .catering-total-amount {
+		    margin-left: 40px;
+		    padding-top: 10px;
+		    width: 204px;
+	    }
+		    .catering-total-amount strong {
+			    font-size: 26px;
+		    }
+		    .catering-total-amount span {
+			    color: #30412f;
+			    float: left;
+			    font-size: 16px;
+			    padding-top: 10px;
+			    width: 100%;
+		    }
+	    .catering-total button {
+		    font-size: 24px;
+		    height: 57px;
+		    width: 160px;
+	    }
+
+    /* generic */
+    .uppercase {
+	    text-transform: uppercase;
+    }
+    .list-numbers {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+    }
+    .list-numbers li {
+	    line-height: 45px;
+	    min-height: 45px;
+	    margin: 0;
+	    padding: 0 0 15px;
+    }
+    .list-numbers li.multiline {
+	    line-height: 20px;
+    }
+    .list-numbers li:before {
+	    background-color: #055884;
+	    border-radius: 22px;
+	    color: #fff;
+	    content: '';
+	    float: left;
+	    font-family: open-sans, sans-serif;
+	    font-size: 28px;
+	    font-weight: bold;
+	    height: 45px;
+	    line-height: 45px;
+	    margin-right: 15px;
+	    text-align: center;
+	    width: 45px;
+    }
+    .list-numbers .list-1:before { content: '1'; }
+    .list-numbers .list-2:before { content: '2'; }
+    .list-numbers .list-3:before { content: '3'; }
+    .list-numbers .list-4:before { content: '4'; }
+}

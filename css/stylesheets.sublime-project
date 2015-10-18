@@ -1,0 +1,55 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"gulp",
+				"scss"
+			],
+			"name": "Sass Bootstrap",
+			"shell": "true",
+			"working_dir": "$project_path"
+		},
+		{
+			"cmd":
+			[
+				"sass",
+				"brand.scss",
+				"--style",
+				"compressed",
+				">",
+				"brand.css"
+			],
+			"name": "Debug Sass Bootstrap",
+			"shell": "true",
+			"working_dir": "$project_path"
+		},
+		{
+			"cmd":
+			[
+				"sass",
+				"Screen.scss:Screen.css",
+				"--sourcemap"
+			],
+			"name": "Debug Sass Bootstrap (sourcemap)",
+			"shell": "true",
+			"working_dir": "$project_path"
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-project"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+}

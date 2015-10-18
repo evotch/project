@@ -1,0 +1,792 @@
+.mtrx_title
+{    
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;	
+    color:#000066;   
+    background:#c0d1e8;
+    border-top:2px solid #01194c;
+}
+.mtrx_date
+{
+	font:12px Verdana, Arial, Helvetica, sans-serif;	
+    background:#d8e6f1;
+    border-top:2px solid #01194c;
+}
+.mtrx_cityname
+{
+    font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#01194c;
+}
+.mtrx_price
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;   
+    color:#000066;
+}
+.mtrx_tab_bottom
+{
+	border-bottom:2px solid #01194c;
+}
+.mtrx_sort
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#e6ecf8;
+	padding:4px 0 4px 0;
+    border-bottom:1px solid #82a3d1;
+}
+.mtrx_sort_left
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#e6ecf8;
+    border-left:2px solid #01194c;
+    border-bottom:1px solid #82a3d1;
+    padding:4px 0 0 4px;
+}
+.mtrx_sort_right
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#e6ecf8;
+    border-right:2px solid #01194c;
+    border-bottom:1px solid #82a3d1;
+    padding:4px 4px 0 0;
+}
+.mtrx_sort_border
+{
+    border-right:2px solid #01194c;
+    border-left:2px solid #01194c; 
+}
+.mtrx_col
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;	
+    background:#f4f1e9;
+	padding:4px 2px 4px 2px;    
+    border-bottom:1px solid #82a3d1;
+}
+.mtrx_col_left
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#f4f1e9;
+	padding:4px 2px 4px 0;    
+    border-bottom: 1px solid #82a3d1;
+    border-left: 1px solid #82a3d1;
+}
+.mtrx_col_brdr
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#f4f1e9;
+	padding:4px 2px 2px 2px;    
+    border-bottom:1px solid #82a3d1;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_col_brdr2
+{
+    min-width:62px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#f4f1e9;
+    border-left:0;
+    border-bottom:1px solid #82a3d1;
+    border-right:1px solid #82a3d1;
+	padding:4px 2px 4px 0;
+}
+.mtrx_col_brdr3
+{
+    min-width:70px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#f4f1e9;
+    border-left:0;
+    border-bottom:1px solid #82a3d1;
+    border-right:1px solid #82a3d1;
+	padding:4px 0 4px 0;
+}
+.mtrx_col_opt
+{
+    width:76px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:#f4f1e9;
+    border-left:0;
+    border-bottom:1px solid #82a3d1;
+    border-right:1px solid #82a3d1;
+	padding:4px 0 4px 0;
+}
+.mtrx_flifo
+{
+   	font:11px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:black;
+	padding:2px;
+}
+.mtrx_flifo_sel
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:black;
+	background:#c0d1e8;
+	padding:2px;
+}
+.mtrx_dayChng
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+    color:red;
+	padding:2px;
+	text-decoration:underline;
+}
+.mtrx_dayChng:visited
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:red;
+	padding:2px;
+   	text-decoration:underline;
+}
+.mtrx_dayChng:hover
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:red;
+	padding:2px;
+   	text-decoration:underline;
+}
+.mtrx_stops
+{
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:black;
+	padding:2px 5px 2px 12px;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_chngPlanes
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:#5c5c5c;
+	padding:2px 5px 2px 5px;
+    border-right:1px solid #82a3d1;    
+}
+.mtrx_dur
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	color:#5c5c5c;
+    padding:2px 5px 2px 5px;
+	border-bottom:2px solid #01194c;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_price
+{
+    min-width:60px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:#000066;	
+    border-left:0;
+    border-bottom:2px solid #01194c;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_price_sort
+{
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:#000066;
+	background:#c0d1e8;
+}
+.mtrx_price_dis
+{
+    min-width:60px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+	background:#e9e9e9;
+    border-left:0;
+    border-bottom:2px solid #01194c;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_price_na
+{
+    min-width:60px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+    color:gray;
+	background:white;
+    border-left:0;
+    border-bottom:2px solid #01194c;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_price_sel
+{
+    min-width:60px;
+	font:10px Verdana, Arial, Helvetica, sans-serif;
+    color:#000066;
+	background:#cce8e6;
+    border-left:0;
+    border-bottom:2px solid #01194c;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_no_sel
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+    color:#cc6600;
+	padding:10px 0 10px 0;	
+    border-left:1px solid #82a3d1;
+    border-bottom:1px solid #82a3d1;
+    border-right:1px solid #82a3d1;
+}
+.mtrx_lowfare
+{
+    font:bold 17px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+}
+.mtrx_label
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+    color:#000066;
+}
+.mtrx_label_dis
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;	
+    color:gray;
+}
+.mtrx_cc_row
+{	
+    border-top:2px solid #01194c;	
+    padding-bottom:2px;
+}
+
+.mtrx_cc_row_top
+{	
+    background: url(/images/Matrix_Top_BG.ashx) repeat-x;
+    border-top:2px solid #01194c;
+    border-right:2px solid #01194c;
+    border-left:2px solid #01194c;
+}
+.mtrx_tt_title
+{
+    height:25px;
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+    cursor:default;
+    color:#01194c;    
+    background:#c0d1e8;
+    text-decoration:none;
+    text-align:center;    
+}
+.mtrx_tt_content
+{
+    font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	cursor:default;
+    color:black;   
+    background:white;
+    text-decoration:none;
+}
+.farebox_row_sel
+{    
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+    color:black;
+    background:white;
+    text-decoration:none;
+    text-align:right;
+}
+.farebox_row_sel_small
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+    background:white;
+    text-decoration:none;
+    text-align:right;
+}
+.farebox_row_tax
+{    
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+    color:black;
+    background:white;
+    text-decoration:none;
+    text-align:left;
+    padding-left:5px;
+}
+.farebox_sel_title
+{
+    font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+   	background:white;
+    text-decoration:none;
+    text-align:left;
+	padding:5px;
+}
+.farebox_sel_spacer
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+   	background:white;
+    text-decoration:none;
+    text-align:right;
+}
+.farebox_sel_tot
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+   	background:white;
+    text-decoration:none;
+    text-align:Right;
+    border-top:2px solid #75c5c0;
+	padding:3px 0 2px 0;    
+}
+.farebox_template
+{
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;	
+    text-decoration:none;
+}
+.farebox_sel_hglt
+{
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+	background:#cfd7b4;
+	text-align:center;
+	padding:1px 5px 3px 5px;
+}
+.farebox_image
+{	
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+    color:black;
+	text-decoration: none;
+	padding:3px 0 0 0;
+}
+.farebox_sel_grnd
+{
+    font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;   
+    text-decoration: none;
+    text-align:right;
+	padding:8px 0 2px 0;
+}
+.mtrx_farebox
+{
+    font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:black;	
+    background:white;
+    text-decoration:none;
+	border:2px solid #9fb069;
+    left:804px;
+    top:124px;
+    position:absolute;
+    width:165px;
+}
+.mtrx_city
+{
+   	font:bold 11px Verdana, Arial, Helvetica, sans-serif;    
+	color:#cc6600;
+}
+.mtrx_city_head
+{
+    font:10px Verdana, Arial, Helvetica, sans-serif;
+	line-height:16px;
+	padding:12px 5px 2px 5px;	
+    border-bottom: 2px solid #01194c;    
+}
+.mtrx_waitbox
+{
+	background:white;
+	border:2px solid #7fc5c0;
+}
+.select_flights
+{
+    font:13px Verdana, Arial, Helvetica, sans-serif;	
+    color:black;
+}
+a.mtrx_link_button_small
+{
+    font:10px Verdana, Arial, Geneva, sans-serif;
+	color:#000066;
+    text-decoration:underline;
+}
+a.mtrx_link_button_small:visited
+{
+    font:10px Verdana, Arial, Geneva, sans-serif;
+	color:#000066;
+    text-decoration:underline;
+}
+a.mtrx_link_button_small:hover
+{
+    font:10px Verdana, Arial, Geneva, sans-serif;
+	color:#510000;
+    text-decoration:underline;
+}
+a.mtrx_link_button
+{
+    font:11px Verdana, Arial, Geneva, sans-serif;
+	color:#000066;
+	text-decoration:underline;
+}
+a.mtrx_link_button:visited
+{
+    font:11px Verdana, Arial, Geneva, sans-serif;
+	color:#000066;
+    text-decoration:underline;
+}
+a.mtrx_link_button:hover
+{
+    font:11px Verdana, Arial, Geneva, sans-serif;	
+    color:#510000;
+    text-decoration:underline;
+}
+.mtrx_button
+{
+	font:11px Verdana, Arial, Geneva, sans-serif;
+	color:#000066;
+	background:white;
+	padding:0;	
+	text-decoration:none;
+	text-align:center;
+}
+
+.mtrx_button_small
+{
+	font:10px Verdana, Arial, Geneva, sans-serif;
+	color:#000066;
+	background:white;
+	padding:0;
+	text-decoration:none;	
+	text-align:center;
+}
+.SeatsRemain
+{
+	height:30px; width:115px;
+	padding:2px 0 2px 0; margin:0;
+	font:9px Verdana, Arial, Helvetica, sans-serif;
+	background:url(/images/GreenArrow_L.ashx) no-repeat;
+}
+.SeatsRemainNbr
+{
+	font:bold 20px Verdana; padding:0 0 0 12px; margin:0;
+}
+.SeatsRemainPrice
+{
+	float:right; padding:0 6px 0 0; margin:0;
+}
+
+.FareDescriptionPopupPointer
+{ 
+	width: 32px; 
+	height:19px; 
+	background:url("/images/FareFamilyMatrix/chart_pointer_up.ashx");
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index:121;
+}
+
+.FareDescriptionPopup 
+{ 
+	width: 800px;
+	position:absolute;
+	z-index:120;
+}
+
+.FareDescriptionPopup .tlCorner 
+{ 
+	width: 14px; 
+	height:14px; 
+	background:url("/images/FareFamilyMatrix/chart_popup_topleft.ashx");
+	background-repeat: no-repeat;
+}
+
+.FareDescriptionPopup .tMiddle 
+{ 
+	width: 775px; 
+	height:14px; 
+	background:url("/images/FareFamilyMatrix/chart_popup_top.ashx");
+	background-repeat: repeat-x;
+}
+
+.FareDescriptionPopup .trCorner 
+{ 
+	width: 14px; 
+	height:14px; 
+	background:url("/images/FareFamilyMatrix/chart_popup_topright.ashx");
+	background-repeat: no-repeat;
+}
+
+.FareDescriptionPopup .lSide 
+{ 
+	width: 14px; 
+	background:url("/images/FareFamilyMatrix/chart_popup_left.ashx"); 
+	background-repeat:repeat-y;
+}
+	
+.FareDescriptionPopup .rSide 
+{ 
+	width: 14px; 
+	background:url("/images/FareFamilyMatrix/chart_popup_right.ashx"); 
+	background-repeat:repeat-y;
+}
+
+.FareDescriptionPopup .blCorner 
+{ 
+	width: 14px; 
+	height: 14px;
+	background: url("/images/FareFamilyMatrix/chart_popup_bottomleft.ashx");
+	background-repeat: no-repeat;
+}
+
+.FareDescriptionPopup .bMiddle 
+{ 
+	width: 775px; 
+	height:14px;
+	background:url("/images/FareFamilyMatrix/chart_popup_bottom.ashx"); 
+	background-repeat: repeat-x;
+}
+
+.FareDescriptionPopup .brCorner 
+{ 
+	width: 14px; 
+	height:14px;
+	background:url("/images/FareFamilyMatrix/chart_popup_bottomright.ashx"); 
+	background-repeat: no-repeat;
+}
+
+.FareDescriptionPopup .Content 
+{ 
+	width: 740px; 
+	padding: 15px 15px 15px 15px;
+}
+
+.FareDescriptionPopup table 
+{ 
+	border-collapse: collapse;
+	border-style: none;
+	border-width:0px;
+	border-spacing:0px;
+	background: #ffffff;
+}
+
+.FareDescriptionPopup td th
+{ 
+	background: #ffffff;
+	border-style: none;
+	border-collapse: collapse;
+	border-width:0px;
+	border-spacing:0px;
+	padding: 0 0 0 0;
+}
+
+.FareDescriptionPopup .Content table
+{ 
+	border-collapse: collapse;
+	border: solid 1px #6390bb;
+	background-color: #ffffff;
+	width: 740px; 
+}
+
+.FareDescriptionPopup .Content TH
+{ 
+	background:url("/content/~/media/images/onsite/backgrounds/farematrix_hdr_bg.ashx"); 
+	background-repeat: repeat-x;
+	color: #ffffff; 
+	font: bold 12px Verdana;
+	min-height: 30px;
+	height: 30px;
+	padding: 5px 13px 5px 13px;
+	width:150px;
+	border: solid 1px #6390bb;
+	text-align: center;
+}
+
+.FareDescriptionPopup .Content TD
+{ 
+	min-height: 30px;
+	line-height: 30px;
+	height: 30px;
+	padding: 5px 15px 5px 15px;
+	width:148px;
+	font: 10px Verdana;
+	color: #000000; 
+	border: solid 1px #6390bb;
+	text-align: center;
+}
+
+.FareDescriptionPopup .Content .FirstColumn 
+{
+	font: bold 10px Verdana;
+	color: #333333;
+	text-align:left;
+}
+
+.FareDescriptionPopup .Content .altRow TD 
+{ 
+	background-color: #e6e7e1;
+}
+
+.FareDescriptionPopup .Content TH.Selected 
+{ 
+	background:url("/images/FareFamilyMatrix/farematrix_hdr_bg_selected.ashx"); 
+	background-repeat: repeat-x;
+	color: #ffffff;
+}
+
+.FareDescriptionPopup .Content TD.Selected 
+{ 
+	background-color: #d5dee8;
+}
+
+.FareDescriptionPopup .Content .altRow TD.Selected  
+{ 
+	background-color: #c0c9cd;
+}
+
+.FareDescriptionPopup .Notations
+{
+	font: 10px Verdana;
+	color: #333333; 
+	line-height: 14px;
+}
+
+.FareDescriptionPopup .Header
+{
+	font: bold 16px Verdana;
+	color: #000066; 
+	line-height: 18px;
+	margin: 0 0 10px 0;
+}
+
+
+.FareUpgradeInsertPointer
+{ 
+	width: 32px; 
+	height:19px; 
+	background:url("/images/FareFamilyMatrix/fare_pointer_up.ashx");
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index:121;
+}
+
+.FareUpgradeInsert 
+{ 
+	width: 750px;
+
+}
+
+.FareUpgradeInsert .tlCorner 
+{ 
+	width: 14px; 
+	height:14px; 
+	background:url("/images/FareFamilyMatrix/fare_popup_topleft.ashx");
+	background-repeat: no-repeat;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.FareUpgradeInsert .tMiddle 
+{ 
+	width: 725px; 
+	height:14px; 
+	background:url("/images/FareFamilyMatrix/fare_popup_top.ashx");
+	background-repeat: repeat-x;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.FareUpgradeInsert .trCorner 
+{ 
+	width: 14px; 
+	height:14px; 
+	background:url("/images/FareFamilyMatrix/fare_popup_topright.ashx");
+	background-repeat: no-repeat;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.FareUpgradeInsert .lSide 
+{ 
+	width: 14px; 
+	background:url("/images/FareFamilyMatrix/fare_popup_left.ashx"); 
+	background-repeat:repeat-y;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+	
+.FareUpgradeInsert .rSide 
+{ 
+	width: 14px; 
+	background:url("/images/FareFamilyMatrix/fare_popup_right.ashx"); 
+	background-repeat:repeat-y;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.FareUpgradeInsert .blCorner 
+{ 
+	width: 14px; 
+	height: 14px;
+	background: url("/images/FareFamilyMatrix/fare_popup_bottomleft.ashx");
+	background-repeat: no-repeat;
+}
+
+.FareUpgradeInsert .bMiddle 
+{ 
+	width: 725px; 
+	height:14px;
+	background:url("/images/FareFamilyMatrix/fare_popup_bottom.ashx"); 
+	background-repeat: repeat-x;
+}
+
+.FareUpgradeInsert .brCorner 
+{ 
+	width: 14px; 
+	height:14px;
+	background:url("/images/FareFamilyMatrix/fare_popup_bottomright.ashx"); 
+	background-repeat: no-repeat;
+}
+
+.FareUpgradeInsert .Content 
+{ 
+	width: 710px; 
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.FareUpgradeInsert table 
+{ 
+	border-collapse: collapse;
+	border-style: none;
+	border-width:0px;
+	border-spacing:0px;
+	background: #ffffff;
+	margin: 4px 0 4px 0; 
+}
+
+.FareUpgradeInsert td th
+{ 
+	background: #ffffff;
+	border-style: none;
+	border-collapse: collapse;
+	border-width:0px;
+	border-spacing:0px;
+	padding: 0 0 0 0; 
+	vertical-align:middle;
+}
+
+.FareUpgradeInsert .Header
+{
+	font: bold 14px Verdana;
+	color: #000066; 
+	line-height: 16px;
+	margin: 0 0 8px 0;
+}
+
+.FareUpgradeInsert .DotLine
+{ 
+	margin: 5px 0 5px 0;
+	text-align: center;
+	background:url("/images/FareFamilyMatrix/popup_dotted.gif"); 
+	background-repeat:repeat-x;
+	width: 715px;
+}
+
+.FareUpgradeInsertText
+{
+	font-weight:bold;
+	font-size:9px;
+	text-align:left;	
+	padding-right:6px;
+	vertical-align:middle;
+}

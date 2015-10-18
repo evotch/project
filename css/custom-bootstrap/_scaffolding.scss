@@ -1,0 +1,44 @@
+//
+// Scaffolding
+// --------------------------------------------------
+body {
+  position: relative;//this is supposed to make the scroll spy work
+  height: 100%;
+}
+
+// Links
+
+a {
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    @include tab-focus();
+  }
+}
+
+input[type='submit'], input[type='button'], input[type='image'] {
+	&:focus {
+		@include tab-focus();
+	}
+}
+
+
+// Responsive images (ensure images don't scale beyond their parents)
+.img-responsive {
+  @include img-responsive();
+}
+.section-block {
+  display: block;
+  width: 100%;
+}
+
+[ng-cloak] { display: none; }
+
+//removes focus outline on sitecore pages
+main#content {
+  outline: none;
+}

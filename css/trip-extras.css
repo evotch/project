@@ -1,0 +1,68 @@
+.trip-extra {
+	border: 1px solid #dcdcdc;
+	float: left;
+	height: 269px;
+	margin: 0 25px 20px 0;
+	position: relative;
+	transition-property: border-color, opacity;
+	transition-duration: 0.8s;
+	width: 292px;
+}
+.trip-extra-3 { margin-right: 0; }
+
+.trip-extra:hover {
+	border-color: #999;
+	transition: border-color 2s;
+}
+.trip-extra-fade {
+	opacity: 0.9;
+	transition: opacity 2s;
+}
+
+.trip-extra-header {
+	background-color: darkblue;
+	color: #fff;
+	font-size: 22px;
+	height: 22px;
+	line-height: 22px;
+	padding: 72px 0 8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.trip-extra-options {
+	height: 139px;
+	padding: 20px 10px 10px;
+}
+.trip-extra-more-info {
+	bottom: 10px;
+	cursor: pointer;
+	position: absolute;
+}
+.trip-extra-more-info .icon-blue-arrow {
+	margin: 5px 5px 0 0;
+}
+.trip-extra-button {
+	bottom: 10px;
+	position: absolute;
+	right: 10px;
+}
+.trip-extra-button:hover {
+	text-decoration: none;
+}
+
+
+.icon-blue-arrow {
+	float: left;
+	height: 9px;
+	width: 9px;
+}
+.icon-blue-arrow-right {
+	background-image: url('/content/~/media/images/onSite/buttons/BlueTriangleRight');
+}
+.icon-blue-arrow-down {
+	background-image: url('/content/~/media/images/onSite/buttons/BlueTriangleDown');
+}
+
+#AdditionalMileage {
+	clear: both;
+}

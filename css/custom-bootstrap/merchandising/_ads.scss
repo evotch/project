@@ -1,0 +1,211 @@
+/* Removes Negative Margin so ad border aligns with the rest of content */
+
+.ads {
+	a:hover {
+		text-decoration: none;
+	}
+	a:focus {
+		outline: 2px solid $blue;
+		outline-offset: 0px;
+	}
+}
+.panel-advertisments {
+	margin-left: 0;
+	margin-right: 0;
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+		margin-top: 0;
+	}
+}
+.advertisments-text {
+	padding: 30px;
+}
+.boa-card {
+	position: relative;
+	top: -40px;
+	left: 15px;
+	margin-bottom: -40px;
+}
+.boacard div {
+	position: initial;
+	margin: 3em;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.boacard h2 {
+	margin: 0 0;
+	color: white;
+}
+a .boacard {
+	color: white;
+	display: block;
+}
+@media all and (min-width:$screen-sm) {
+	.boa-card {
+		position: relative;
+		top: 20px;
+		left: 17px
+	}
+}
+@media all and (min-width:$screen-md) {
+	.boa-card {
+		position: relative;
+		top: 35px;
+		left: 20px
+	}
+}
+//Adjust ad padding on small to medium size screens
+@media (min-width:$screen-sm) and (max-width:$screen-md) {
+	.advertisments-text {
+		padding: 20px 15px 20px 40px;
+	}
+}
+//Adjust ad padding on medium to large size screens
+@media (min-width:$screen-md) {
+	.advertisments-text {
+		padding: 30px 15px 30px 15px;
+	}
+}
+.card-surfer {
+	background-image: url('//resource.alaskaair.net/content/~/media/613A4708A5E44948A3FEE6156567DCCA.ashx');
+	background-position: top center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+@media all and (min-width:$screen-sm) {
+	.card-surfer {
+		background-size: 100%;
+	}
+}
+@media all and (min-width:$screen-md) {
+	.card-surfer {
+		background-size: 100%;
+	}
+}
+@media all and (min-width:$screen-lg) {
+	.card-surfer {
+		background-size: 100%;
+	}
+}
+//// Banner-ad1 is the css for the html banner ad designed for the homepage
+.banner-ad1 {
+	position: relative;
+	//turn off text decoration for links inside banner
+	a:hover {
+		text-decoration: none;
+	}
+	.panel-advertisments {
+		border: 1px solid
+	}
+	//Give ad copy some padding
+	.ad-copy {
+		padding: 30px 45px;
+		min-height: $minbannerheight;
+		h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+			@extend .white;
+		}
+	}
+}
+//// diagonal shapes to be used with Banners
+.ad-diagonal {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0; /* make diaganol shape */
+}
+.ad-diagonal-marine, .ad-diagonal-teal {
+	@extend .ad-diagonal;
+	border-bottom: 180px solid $marine;
+	border-right: 194px solid transparent;
+}
+.ad-diagonal-blue {
+	@extend .ad-diagonal;
+	border-bottom: 180px solid $blue;
+	border-right: 194px solid transparent;
+}
+.ad-diagonal-green {
+	@extend .ad-diagonal;
+	border-bottom: 180px solid $green;
+	border-right: 194px solid transparent;
+}
+.ad-diagonal-sand {
+	@extend .ad-diagonal;
+	border-bottom: 180px solid $sand;
+	border-right: 194px solid transparent;
+}
+@media all and (min-width:$screen-md) {
+	.ads .panel-advertisments {
+		max-height: 182px;
+	}
+	.advertisments-text {
+		padding: 10px 15px;
+	}
+}
+// New Brand style banner
+
+.bank-picture {
+	overflow: hidden;
+	background-image: url('//resource.alaskaair.net/content/~/media/613A4708A5E44948A3FEE6156567DCCA.ashx');
+	background-size: cover;
+	background-position: top left;
+}
+.container-banner {
+	margin-bottom:24px;
+	a:hover {
+		text-decoration: none;
+	}
+}
+.row-banner {
+	border: 1px solid #eee;
+	margin: 0;
+}
+.h3.banner-text {
+	margin-top: 0;
+	@media all and (min-width:$screen-md) {
+		min-height: 77px;
+	}
+}
+
+//make sure to never use any variation of the word "advertisemtent" or "ad"
+.container-xsell {
+	margin-bottom:24px;
+	.panel-body {
+		height: auto;
+	}
+}
+.xsell-panel {
+	.panel-body {
+		@media all and (min-width:$screen-sm) {
+		height: 119px;
+	}
+	}
+	.panel-body-vertical {
+		@media all and (min-width:$screen-md) {
+		height: auto;
+	}
+	}
+	.panel-body-1color {
+    @media all and (min-width:$screen-sm) {
+		height: 180px;
+	}
+}
+	.panel-footer {
+		margin: 0 -15px;
+		padding: 20px 15px 20px 30px;	
+		font-size: 12px;
+		 @media all and (min-width:$screen-md) {
+		max-height: 61px;
+	}
+		.btn {
+		margin-top: 1em;
+		@media all and (min-width:$screen-sm) {margin-top: -.5em;}
+		&.pull-right {
+			margin-right: 10px
+		}
+		&.pull-left {
+			margin-right: 24px
+		}
+		}
+	}
+	&.panel-navy .panel-footer.panel-navy{
+			border-top: 1px solid lighten($navy, 10);
+		}
+}

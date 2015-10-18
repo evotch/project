@@ -1,0 +1,43 @@
+.nav-marker {
+	      //background-color: $nav-link-hover-bg;
+	display: block;
+	position: absolute;
+	bottom: -33px;
+	left: 0px;
+	right: 0px;
+	height: 8px;
+	background-color: $green;
+}
+
+.nav {
+	// Open dropdowns
+	.open > a {
+		color: $green;
+		background-color: transparent;
+
+		.marker {
+			@extend .nav-marker;
+		}
+
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
+
+	.dropdown > a {
+		&:hover,
+		&:focus {
+			text-decoration: none;
+			transition: all 0.3s ease;
+			.marker {
+		    	@extend .nav-marker; 
+		    	transition: all 0.3s ease;
+		  	}
+		}
+	}
+	>li>a:hover, >li>a:focus {
+		outline: none;
+		
+}
+}
+

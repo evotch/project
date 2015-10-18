@@ -1,0 +1,238 @@
+.UCFareSummary
+{
+	float:left;
+}
+
+.fareInfo_Cell
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+}
+
+.fareInfo_Outlined
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #d8e6f1;
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #81B0D1; 
+    font-weight: bold;
+}
+
+.fareInfo_Wallet_Outlined
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #ecefe1;
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #9fb069; 
+    font-weight: bold;
+}
+
+.fareInfo_LeftTopBottomBorder
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #d8e6f1;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-color: #81B0D1; 
+    border-left-color: #81B0D1;
+    border-bottom-color: #81B0D1; 
+    font-weight: bold;
+}
+
+.fareInfo_TopBottomBorder
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #d8e6f1;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-color: #81B0D1; 
+    border-bottom-color: #81B0D1; 
+    font-weight: bold;
+}
+
+.fareInfo_RightTopBottomBorder
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #d8e6f1;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-top-color: #81B0D1; 
+    border-right-color: #81B0D1; 
+    border-bottom-color: #81B0D1; 
+    font-weight: bold;
+    
+}
+
+.fareInfo_Bold
+{
+	font-weight: bold;
+}
+
+.fareInfo_SignInBox
+{
+    border-style: solid;
+    border-width: 1px; 
+    border-color: #00287a; 
+    BACKGROUND-COLOR: #eff5f9;
+}
+
+.WalletTable
+{
+	text-align: right; 
+	margin-top: 20px;
+	border-collapse:collapse;
+}
+
+.WalletTable th
+{
+	background-color: white;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: solid 1px #999999;
+	padding: 2px 2px 2px 5px;
+}
+
+table.WalletTable tr th.FareTotal 
+{
+    background-color: #d8e6f1;
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #81B0D1; 
+	text-align: left;
+}
+
+.WalletTableCell
+{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: solid 1px #999999;
+	vertical-align:middle;
+	text-align: right; 
+}
+
+.WalletTableDescriptionCell
+{
+	text-align: left;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: solid 1px #999999;
+	vertical-align:middle;
+}
+
+.FareSummary
+{
+	float:left;
+}
+
+.FareSummary th tr td
+{
+	border:none;
+	background-color:White;
+}
+
+.FareSummary .Cell
+{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: solid 1px #999999;
+	background-color:White;
+	text-align:right;
+	padding:  0px 0px 2px 15px; 
+}
+
+.FareSummary .TopCell
+{
+	border-top:solid 1px #999999;
+	border-left:none;
+	border-right:none;
+	border-bottom: solid 1px #999999;
+	background-color:White;
+	text-align:right;
+	padding:  0px 0px 2px 15px; 
+}
+
+.FareSummary .Header
+{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	background-color:White;
+	padding: 2px 0px 10px 15px;
+	text-align:right;
+}
+
+.FareSummary .Footer
+{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	padding: 0px 0px 0px 15px;
+	vertical-align: text-top;
+	text-align:right;
+}
+
+.FareSummary .RightBorder
+{
+	border-right:solid 1px #999999;
+	padding-right:  10px; 
+}
+
+.GrandTotalText
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+    border-style: solid;
+    border-width: 2px; 
+    border-color: White; 
+    font-weight: bold;
+}
+    
+.FareSummary .GrandTotal
+{    
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    PADDING-TOP: 2px;
+    BACKGROUND-COLOR: #ecefe1;
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #9fb069; 
+    font-weight: bold;
+}

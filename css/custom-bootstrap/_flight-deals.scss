@@ -1,0 +1,87 @@
+.flight-deals-content {
+	margin-bottom: 24px;
+	svg {
+		width: 44px;
+		height: 44px;
+		fill: $blue;
+	}
+	svg:hover {
+		fill: darken($blue, 5%);
+	}
+}
+.choosecity {
+	position: relative;
+	top: 0;
+	margin-left: 20px;
+}
+.choosecity select.selectpicker {
+	width: 18px;
+	margin: 0 0 0 10px;
+}
+.choosecity .dropdown-menu {
+	overflow: auto;
+	max-height: 196px;
+}
+.dealsbg {
+	position: relative;
+	z-index: -2;
+	width: 100%;
+	height: 200px;
+	margin: -24px 0 2em;
+	background-color: $green;
+	background-image: url(https://unsplash.imgix.net/photo-1415033523948-6c31d010530d?q=75&fm=jpg&s=559455b1ad675f8dc95a04528044f870);
+	background-position: center 780px;
+	background-size: 100%;
+}
+.module-fd {
+	padding: 1em 0;
+	border-bottom: 1px solid #eee;
+}
+.module-fd--button {
+	position: relative;
+	top: 35px;
+}
+.module-fd--arrivalcity a, .module-fd--arrivalcity a:hover {
+	text-decoration: none !important;
+}
+h4.module-fd--arrivalcity {
+	margin-bottom: 0;
+}
+.module-fd--priceline {
+	margin-top: -5px;
+	margin-bottom: 15px;
+	padding: 0;
+}
+@media (min-width:$screen-lg-min) {
+	.module-fd--priceline {
+		position: relative;
+		top: 5px;
+		left: 295px;
+		display: inline-block;
+	}
+}
+.module-fd--price {
+	line-height: 1;
+	position: relative;
+	top: 15px;
+	padding: 0 5px;
+	@extend .h1;
+	@extend .secondary;
+}
+.module-fd--purchase-by {
+	@extend small;
+}
+@media (min-width:$screen-lg-min) {
+	.module-fd--purchase-by {
+		position: relative;
+		top: -35px;
+		max-width: 240px;
+	}
+}
+.module-fd--restrictions-apply {
+	@extend small;
+}
+.module-fd--restrictions {
+	display: none;
+	@extend small;
+}

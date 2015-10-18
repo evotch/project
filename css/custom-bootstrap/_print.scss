@@ -1,0 +1,95 @@
+﻿@media print {
+    a[href]:after, abbr[title]:after {
+        content: "";
+    }
+
+    .btn {
+        border-color: #000 !important;
+    }
+
+    .navbar-wrapper-brand {
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        border: none;
+    }
+
+    .navbar, #genericFooter .row.as-footer-copyright {
+        display: block;
+    }
+
+    .navbar-wrapper-personalized,
+    .navbar-wrapper-brand .navbar-nav,
+    #mobilenav .navmenu, #mobilenav #navMobileCart,
+    #marketing-footer footer,
+    #genericFooter .row,
+    .server-name,
+    #upsell {
+        display: none;
+    }
+
+    #genericFooter .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #genericFooter .row.as-footer-copyright {
+        padding: 10px 0 10px;
+    }
+
+    /* Mobilenav */
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: relative;
+    }
+
+    .mobilenav .navbar-default {
+        border: none;
+    }
+
+    /* Shoping matrix styles */
+    body .containerx .MatrixTable td {
+        &.FullFlexColumn.Brown, 
+        &.GuestUpgradableColumn, 
+        &.GoldUpgradableColumn, 
+        &.MVPUpgradableColumn, 
+        &.PremiumEconomyColumn, 
+        &.BusinessAwardColumn,
+        &.FirstClassColumn,
+        &.FirstClassDealColumn,
+        &.FirstAwardColumn,
+        &.FirstFullFlexColumn {
+            background-color: #FFF !important;
+        }
+
+        &.ValueColumn.SelectedHighlight, 
+        &.BestDealColumn.SelectedHighlight, 
+        &.FullFlexColumn.SelectedHighlight, 
+        &.CoachAwardColumn.SelectedHighlight, 
+        &.CoachFullFlexColumn.SelectedHighlight,
+        &.FirstClassColumn.SelectedHighlight, 
+        &.FirstClassDealColumn.SelectedHighlight, 
+        &.FirstAwardColumn.SelectedHighlight, 
+        &.FirstFullFlexColumn.SelectedHighlight {
+            background-color: #000 !important;
+        }
+
+        &.ValueColumn,
+        &.BestDealColumn,
+        &.FullFlexColumn,
+        &.CoachAwardColumn,
+        &.CoachFullFlexColumn {
+            background-color: #eee !important;
+        }
+
+        &.ValueColumn.LowestPrice .cellborder, 
+        &.BestDealColumn.LowestPrice .cellborder, 
+        &.FullFlexColumn.LowestPrice .cellborder, 
+        &.CoachAwardColumn.LowestPrice .cellborder, 
+        &.CoachFullFlexColumn.LowestPrice .cellborder,
+        &.FirstClassDealColumn.LowestPrice .cellborder, 
+        &.FirstClassColumn.LowestPrice .cellborder, 
+        &.FirstAwardColumn.LowestPrice .cellborder, 
+        &.FirstFullFlexColumn.LowestPrice .cellborder {
+            border-color:#fff !important;
+        }
+    }
+}

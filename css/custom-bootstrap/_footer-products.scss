@@ -1,0 +1,75 @@
+//
+// Custom partial for the footer
+
+.footer-products {
+	background-color: $lightersand;
+	padding: 40px 0 0;
+	margin-top: 40px;
+	color: $gray; /* floats icons */
+	a:hover {
+		text-decoration: none;
+	}
+	a:focus {
+		text-decoration: none;
+	}
+	@media all and (min-width:$screen-sm) {
+		padding: 40px 0;
+		//targets columns for xs and sm breakpoints
+	}
+	[class*="col-"] {
+		padding: 15px;
+		min-height: 280px;
+	}
+	.icon {
+		font-size: 3em;
+	}
+
+	@media all and (min-width:$screen-sm) {
+		//targets columns for all breakpoints
+		[class*="col-"] {
+			padding: 30px;
+
+		}
+	}
+		@media all and (min-width:$screen-sm) {
+	.container {
+		border-bottom: 1px solid $hairline;
+	}
+}
+
+	/* one rule for svg */
+	svg[class^="icon-"], svg[class*=" icon-"] {
+		fill: $gray-lighter;
+		height: 64px;
+		width: 64px;
+	}
+	a:hover {
+		svg[class^="icon-"], svg[class*=" icon-"] {
+			fill: darken($gray-lighter, 8%);
+		}
+	}
+	p {
+		color: $gray;
+	}
+}
+.footer-products-headlines {
+	color: $navy;
+}
+.footer-products-headlines h1, .footer-products-headlines .h1 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h2, .footer-products-headlines .h2 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h3, .footer-products-headlines .h3 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h4, .footer-products-headlines .h4 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h5, .footer-products-headlines .h5 {
+	@extend .footer-products-headlines;
+}
+.footer-products-headlines h6, .footer-products-headlines .h6 {
+	@extend .footer-products-headlines;
+}

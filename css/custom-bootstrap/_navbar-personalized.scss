@@ -1,0 +1,152 @@
+.navbar-wrapper-personalized {
+	.navbar {
+		position: relative;
+		min-height: 50px;
+		margin-bottom: 10px;
+	}
+
+	.nav > li > a {
+		text-transform: uppercase;
+	}
+	.nav > li > a:hover,
+	.nav > li > a:focus {
+		background-color: transparent;
+		color: $green;
+	}
+	.dropdown-menu {
+		border-radius: 0;
+	}
+	.nav a:hover .focus-underline,
+	.nav a:focus .focus-underline, .nav a:active .focus-underline {
+		border-bottom: 2px solid $green;
+		padding-bottom: 3px;
+	}
+	.nav > li > a:hover .arrow-down {
+		border-top-color: $green;
+	}
+
+	.super-user-search {
+		display: none;
+		line-height: initial;
+		padding: 0;
+		position: absolute;
+		text-align: center;
+		text-transform: none !important;
+		top: 40px;
+		width: 100%;
+	}
+	.badge {
+		position: relative;
+		top:-2px;
+		margin-left: 5px;
+	}
+
+
+		.navbar-greeting-popup {
+			padding: 0;
+		}
+		.list-group {
+			margin-bottom: 0;
+		}
+		.list-group-item:first-child {
+			border-top: 0;
+		}
+		.list-group-item {
+			background-color: $sand;
+			padding: 0;
+			border: 0px;
+			a {
+				color: $blue;
+				padding: 10px 0;
+			}
+		}
+}
+
+.navbar .arrow-down {
+	margin: 7px 0 0 6px;
+	display: inline-block;
+	position: relative;
+	top:-2px;
+}
+.navbar .arrow-up-sand {
+	position: absolute;
+	left: 139px;
+	top: -10px;
+}
+
+.navbar .arrow-up-outer {
+	position: absolute;
+	left: 138px;
+	top: -11px;
+}
+
+
+.navbar-greeting-popup {
+	display: none;
+}
+.navbar-greeting-popup.active {
+	display: inline-block;
+}
+
+
+.navbar-greeting-popup a {
+	float: right;
+	padding: 2px 2px 2px 5px;
+	margin: 1px;
+	text-decoration: underline;
+}
+
+.navbar-right .navbar-greeting-popup {
+	background-color: $sand;
+	border: 1px solid $gray;
+	left: -100px;
+	padding: 20px;
+	position: absolute;
+	width: 300px;
+	z-index: 100;
+
+	a {
+		color: $gray;
+		font-size: .85em;
+		padding-bottom: 2px;
+	}
+
+	div {
+		overflow: hidden;
+		padding-bottom: 5px;
+	}
+	.form-group {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	label {
+		font-weight: normal;
+		line-height: 22px;
+		padding-right: 15px;
+	}
+	button {
+		width: 100%;
+	}
+	div.checkbox, div.radio {
+		padding-left: 1px;
+	}
+	input.checkbox {
+		margin-top: 0;
+	}
+
+	.show-if-signed {
+		width: 100%;
+		a {
+			display: block;
+			font-size: 1.1em;
+			margin-bottom: 2px;
+			margin-top: 1px;
+			padding: 4px 0;
+			width: 100%;
+		}
+		a:hover,
+		a:active {
+			text-decoration: underline;
+		}
+	}
+}

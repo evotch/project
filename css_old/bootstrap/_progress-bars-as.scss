@@ -1,0 +1,68 @@
+//
+// Progress bars
+// --------------------------------------------------
+
+
+
+
+// Variations
+// -------------------------
+
+
+.progress-bar-green {
+  @include progress-bar-variant($green);
+}
+.progress-bar-navy {
+  @include progress-bar-variant($navy);
+}
+.progress-bar-teal {
+  @include progress-bar-variant($teal);
+}
+.progress-bar-blue {
+  @include progress-bar-variant($blue);
+}
+.progress-bar-orange {
+  @include progress-bar-variant($orange);
+}
+.progress-bar-berry,.progress-bar-pink {
+  @include progress-bar-variant($berry);
+}
+.progress-bar-plum {
+  @include progress-bar-variant($plum);
+}
+.progress-bar-gold {
+  @include progress-bar-variant($gold);
+}
+.progress-bar-white {
+  @include progress-bar-variant($white);
+}
+.progress-bar-tan {
+  @include progress-bar-variant($tan);
+}
+.progress-bar-cream {
+  @include progress-bar-variant($cream);
+}
+.progress-bar-brown {
+  @include progress-bar-variant($brown);
+}
+.progress-bar-aqua {
+  @include progress-bar-variant($aqua);
+}
+.progress-bar-gray {
+  @include progress-bar-variant($gray);
+}
+.progress-bar-gray-light {
+  @include progress-bar-variant($gray-light);
+}
+.progress-bar-gray-lighter {
+  @include progress-bar-variant($gray-lighter);
+}
+.progress-bar-gray-lightest {
+  @include progress-bar-variant($gray-lightest);
+}
+
+//.progress-bar-warning {
+//  @include progress-bar-variant($progress-bar-warning-bg);
+//}
+
+

@@ -1,0 +1,31 @@
+﻿.interstitial-modal {
+	background-color: $body-bg;
+
+	.modal-dialog {
+		display: inline-block;
+		position: absolute;
+		margin: 0;
+		top: 50%;
+		left: 50%;
+		width: auto;
+	}
+
+	.modal-content {
+		box-shadow: none;
+		border-radius: 0;
+		display: inline-block;
+		margin: -50% 0 0 -50%;
+		width: 445px;
+		height: 302px;
+	}
+
+	.modal-body {
+		padding: 0;
+		text-align: center;
+		height: 100%;
+				
+		p {
+			padding-top: 140px;
+		}
+	}
+}

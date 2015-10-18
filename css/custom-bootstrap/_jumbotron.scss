@@ -1,0 +1,16 @@
+//
+// Jumbotron Custimizations
+// --------------------------------------------------
+
+
+.jumbotron {
+  padding: 0;
+  background-color: $white; // no background color on mobile
+  margin-top: -24px;
+
+	@media all and (min-width:$screen-md) {
+	  	padding: 0;
+	    background-color: $blue;
+	}
+
+}

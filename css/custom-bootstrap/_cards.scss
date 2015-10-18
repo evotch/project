@@ -1,0 +1,23 @@
+//
+// Cards
+// --------------------------------------------------
+
+
+// Base class
+.card {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: $gray-lightest;
+  border-bottom: 6px solid $blue;
+  border-radius: 0 0 2px 2px;
+
+  blockquote {
+    border-color: #ddd;
+    border-color: rgba(0,0,0,.15);
+  }
+  .panel-image {
+  	margin-bottom: $line-height-computed; //Should be around 24px
+  }
+}
+

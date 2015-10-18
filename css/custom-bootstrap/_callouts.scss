@@ -1,0 +1,44 @@
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the callout.
+
+.callout-navy {
+  border-color: $gray-lighter;
+  border-left-color: $navy;
+}
+.callout-teal {
+  border-color: $gray-lighter;
+  border-left-color: $teal;
+}
+.callout-success, .callout-green {
+  border-color: $gray-lighter;
+  border-left-color: $green;
+}
+.callout-brown {
+  border-color: $gray-lighter;
+  border-left-color: $brown;
+}
+.callout-orange {
+  border-color: $gray-lighter;
+  border-left-color: $orange;
+}
+.callout-gold {
+  border-color: $gray-lighter;
+  border-left-color: $gold;
+}
+.callout-blue {
+  border-color: $gray-lighter;
+  border-left-color: $blue;
+}
+.callout-pink {
+  border-color: $gray-lighter;
+  border-left-color: $pink;
+}
+.callout-plum {
+  border-color: $gray-lighter;
+  border-left-color: $plum;
+}
+.callout-info, .callout-aqua {
+  border-color: $gray-lighter;
+  border-left-color: $aqua;
+}

@@ -1,0 +1,336 @@
+/*Flight Formlet*/
+@import "hero-saleprice";
+
+//Add Geo's Here if we want to show prices with a generic background
+// Remove class from here once we get an image for each city
+$noHeroImageYet: "&.non";
+
+.hero {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: 0 0 $navbar-margin-bottom * 2 0;
+	background-image: none;
+	min-height: 525px;
+	&:focus {
+		outline: none;
+	}
+	[tabindex^="-1"] {
+		outline: none;
+	}
+
+	 @media (min-width: $screen-xs) {
+	//	&.atl {
+	//		background-image: url(//resource.alaskaair.net/content/~/media/D57547CF60B741C9ABA766936951E123.ashx?w=480);
+	//	}
+	//	&.anc {
+	//		background-image: url(//resource.alaskaair.net/content/~/media/A131DFC358B94A7D866C92E4A18B40F2.ashx?w=480);
+
+	// 	&.sea {
+	// 		background-image: url(//resource.alaskaair.net/content/~/media/E896036306D045D6B55DE757B18E9461.ashx?w=480);
+	// 	}
+
+	// 	&.slc {
+	// 		background-image: url(//resource.alaskaair.net/content/~/media/46E1D8D2B3AC4814A0CCF9EF1BF62E18.ashx?w=480);
+	// 	}
+
+	// 	&.pdx {
+	// 		background-image: url(//resource.alaskaair.net/content/~/media/77F386A92E704C3EA9D009D701E50DA7.ashx?w=480);
+	// 	}
+
+	// 	&.lax {
+	// 		background-image: url(//resource.alaskaair.net/content/~/media/4264413046B345B39D8DF7426A74456A.ashx?w=480);
+	// 	}
+
+	// 	&.sfo {
+	// 		background-image: url(//resource.alaskaair.net/content/~/media/9E4C1B1E740D404DA7354D3DB713A3A8.ashx?w=480);
+	// 	}
+
+	// 	&.san {
+	// 		background-image: url(//resource.alaskaair.net/content/~/media/ACC9E601BB3F4E2488DF277A1F93AB84.ashx?w=480);
+	// 	}
+
+	 }
+
+	@media (min-width: $screen-sm) {
+
+		#{$noHeroImageYet}  {
+	 		background-image: url(//resource.alaskaair.net/content/~/media/E896036306D045D6B55DE757B18E9461.ashx?w=768);
+	 	}
+
+	 	&.alw {
+			background-image: url(//resource.alaskaair.net/content/~/media/74A2877B987B4DF3BA29CF58D1858D6A.ashx?w=768);
+		}
+		&.anc {
+			background-image: url(//resource.alaskaair.net/content/~/media/A131DFC358B94A7D866C92E4A18B40F2.ashx?w=768);
+		}
+		&.atl {
+			background-image: url(//resource.alaskaair.net/content/~/media/D57547CF60B741C9ABA766936951E123.ashx?w=768);
+		}
+		&.boi {
+			background-image: url(//resource.alaskaair.net/content/~/media/F476C874E37D4974BD07CB82C04E351A.ashx?w=768);
+		}
+		&.bos {
+			background-image: url(//resource.alaskaair.net/content/~/media/C160C450FE39420998F8E319AEB193E5.ashx?w=768);
+		}
+		&.bur {
+			background-image: url(//resource.alaskaair.net/content/~/media/A14B42F12CCB4082967F6B7E0A964173.ashx?w=768);
+		}
+		&.bwi {
+			background-image: url(//resource.alaskaair.net/content/~/media/55D9126FE4B54FC394DAB3C045030A8A.ashx?w=768);
+		}
+		&.dca {
+			background-image: url(//resource.alaskaair.net/content/~/media/0E6B12B213F24194BDCDAC7A0890C639.ashx?w=768);
+		}
+		&.den {
+			background-image: url(//resource.alaskaair.net/content/~/media/46A558E5B0DF41FB92E6565886DD1BD9.ashx?w=768);
+		}
+		&.dfw {
+			background-image: url(//resource.alaskaair.net/content/~/media/3B5ACCE952E849F09827AEBA4F301D49.ashx?w=768);
+		}
+		&.eat {
+			background-image: url(//resource.alaskaair.net/content/~/media/4A3AAF1BB4AB4EE9B6D350A758707005.ashx?w=768);
+		}
+		&.eug {
+			background-image: url(//resource.alaskaair.net/content/~/media/7587A1BF50CA4D41AD065A5BC09F1035.ashx?w=768);
+		}
+		&.ewr {
+			background-image: url(//resource.alaskaair.net/content/~/media/EAE96441F881422D996AB3C0FD3B5748.ashx?w=768);
+		}
+		&.fai {
+			background-image: url(//resource.alaskaair.net/content/~/media/D5B8A8C9A172462EBCFB571E6C516B76.ashx?w=768);
+		}
+		&.geg {
+			background-image: url(//resource.alaskaair.net/content/~/media/6D304A8CD79E46FBB9D2C8FFA1A37D21.ashx?w=768);
+		}
+		&.hnl {
+			background-image: url(//resource.alaskaair.net/content/~/media/036F8B56BE0E4FAB8589BB7F6B9BEC23.ashx?w=768);
+		}
+		&.hou {
+			background-image: url(//resource.alaskaair.net/content/~/media/A174BD7D319949A691058BBCE2FE3999.ashx?w=768);
+		}
+		&.iad {
+			background-image: url(//resource.alaskaair.net/content/~/media/ACCB2CFC23634CF5A431037E26C2C65A.ashx?w=768);
+		}
+		&.jfk {
+			background-image: url(//resource.alaskaair.net/content/~/media/18E82E7225444101932A734D69E2A125.ashx?w=768);
+		}
+		&.jnu {
+			background-image: url(//resource.alaskaair.net/content/~/media/4A1CEE49C8B94605B09D14B404BFD158.ashx?w=768);
+		}
+		&.lax {
+			background-image: url(//resource.alaskaair.net/content/~/media/4264413046B345B39D8DF7426A74456A.ashx?w=768);
+		}
+		&.lws {
+			background-image: url(//resource.alaskaair.net/content/~/media/8D58ACDB6E4F4004A0E323F742BB5E58.ashx?w=768);
+		}
+		&.oak {
+			background-image: url(//resource.alaskaair.net/content/~/media/74F9763FC0C44F74AE67CB7758AF0C0F.ashx?w=768);
+		}
+		&.ont {
+			background-image: url(//resource.alaskaair.net/content/~/media/A6D78FCDB75D4F1D8CE26BBA08C9770C.ashx?w=768);
+		}
+		&.ord {
+			background-image: url(//resource.alaskaair.net/content/~/media/3C9E0036EE1E4DA8916C92FD3A69A6F9.ashx?w=768);
+		}
+		&.phx {
+			background-image: url(//resource.alaskaair.net/content/~/media/E9D7251A980441C29CC4CE09B592FBC8.ashx?w=768);
+		}
+		&.pdx {
+			background-image: url(//resource.alaskaair.net/content/~/media/77F386A92E704C3EA9D009D701E50DA7.ashx?w=768);
+		}
+		&.psc {
+			background-image: url(//resource.alaskaair.net/content/~/media/C08071911F894801A1413EDADFCAD21E.ashx?w=768);
+		}
+		&.puw {
+			background-image: url(//resource.alaskaair.net/content/~/media/E0B6319FAF314AC6A2971ADC2B4C5011.ashx?w=768);
+		}
+		&.rdm {
+			background-image: url(//resource.alaskaair.net/content/~/media/E5BAFFFEF78C4826BFA2D6430B0BD8B3.ashx?w=768);
+		}
+		&.san {
+			background-image: url(//resource.alaskaair.net/content/~/media/ACC9E601BB3F4E2488DF277A1F93AB84.ashx?w=768);
+		}
+		&.sea {
+			background-image: url(//resource.alaskaair.net/content/~/media/8B5E410B5FAA47789A261681FE72D4DC.ashx?w=768);
+		}
+		&.sfo {
+			background-image: url(//resource.alaskaair.net/content/~/media/9E4C1B1E740D404DA7354D3DB713A3A8.ashx?w=768);
+		}
+		&.sjc {
+			background-image: url(//resource.alaskaair.net/content/~/media/5C01C947C37746D5838197298902DFA3.ashx?w=768);
+		}
+		&.smf {
+			background-image: url(//resource.alaskaair.net/content/~/media/829FE0269AA5497BA71E08F3B5370D8C.ashx?w=768);
+		}
+		&.slc {
+			background-image: url(//resource.alaskaair.net/content/~/media/46E1D8D2B3AC4814A0CCF9EF1BF62E18.ashx?w=768);
+		}
+		&.sna {
+			background-image: url(//resource.alaskaair.net/content/~/media/3077CA87A1E94235B49F866CC9D8F1A1.ashx?w=768);
+		}
+		&.ykm {
+			background-image: url(//resource.alaskaair.net/content/~/media/4329B97D7D6143B382F6A9973E782E16.ashx?w=768);
+		}
+		&.yvr {
+			background-image: url(//resource.alaskaair.net/content/~/media/D56195E96F68463E9517A4DCF2BC1E50.ashx?w=768);
+		}
+	}
+	@media (min-width: $screen-md) {
+
+		#{$noHeroImageYet}  {
+	 		background-image: url(//resource.alaskaair.net/content/~/media/E896036306D045D6B55DE757B18E9461.ashx);
+	 	}
+	 	&.alw {
+			background-image: url(//resource.alaskaair.net/content/~/media/74A2877B987B4DF3BA29CF58D1858D6A.ashx);
+		}
+		&.anc {
+			background-image: url(//resource.alaskaair.net/content/~/media/A131DFC358B94A7D866C92E4A18B40F2.ashx);
+		}
+		&.atl {
+			background-image: url(//resource.alaskaair.net/content/~/media/D57547CF60B741C9ABA766936951E123.ashx);
+		}
+		&.boi {
+			background-image: url(//resource.alaskaair.net/content/~/media/F476C874E37D4974BD07CB82C04E351A.ashx);
+		}
+		&.bos {
+			background-image: url(//resource.alaskaair.net/content/~/media/C160C450FE39420998F8E319AEB193E5.ashx);
+		}
+		&.bur {
+			background-image: url(//resource.alaskaair.net/content/~/media/A14B42F12CCB4082967F6B7E0A964173.ashx);
+		}
+		&.bwi {
+			background-image: url(//resource.alaskaair.net/content/~/media/55D9126FE4B54FC394DAB3C045030A8A.ashx);
+		}
+		&.dca {
+			background-image: url(//resource.alaskaair.net/content/~/media/0E6B12B213F24194BDCDAC7A0890C639.ashx);
+		}
+		&.den {
+			background-image: url(//resource.alaskaair.net/content/~/media/46A558E5B0DF41FB92E6565886DD1BD9.ashx);
+		}
+		&.dfw {
+			background-image: url(//resource.alaskaair.net/content/~/media/3B5ACCE952E849F09827AEBA4F301D49.ashx);
+		}
+		&.eat {
+			background-image: url(//resource.alaskaair.net/content/~/media/4A3AAF1BB4AB4EE9B6D350A758707005.ashx);
+		}
+		&.eug {
+			background-image: url(//resource.alaskaair.net/content/~/media/7587A1BF50CA4D41AD065A5BC09F1035.ashx);
+		}
+		&.ewr {
+			background-image: url(//resource.alaskaair.net/content/~/media/EAE96441F881422D996AB3C0FD3B5748.ashx);
+		}
+		&.fai {
+			background-image: url(//resource.alaskaair.net/content/~/media/D5B8A8C9A172462EBCFB571E6C516B76.ashx);
+		}
+		&.geg {
+			background-image: url(//resource.alaskaair.net/content/~/media/6D304A8CD79E46FBB9D2C8FFA1A37D21.ashx);
+		}
+		&.hnl {
+			background-image: url(//resource.alaskaair.net/content/~/media/036F8B56BE0E4FAB8589BB7F6B9BEC23.ashx);
+		}
+		&.hou {
+			background-image: url(//resource.alaskaair.net/content/~/media/A174BD7D319949A691058BBCE2FE3999.ashx);
+		}
+		&.iad {
+			background-image: url(//resource.alaskaair.net/content/~/media/ACCB2CFC23634CF5A431037E26C2C65A.ashx);
+		}
+		&.jfk {
+			background-image: url(//resource.alaskaair.net/content/~/media/18E82E7225444101932A734D69E2A125.ashx);
+		}
+		&.jnu {
+			background-image: url(//resource.alaskaair.net/content/~/media/4A1CEE49C8B94605B09D14B404BFD158.ashx);
+		}
+		&.lax {
+			background-image: url(//resource.alaskaair.net/content/~/media/4264413046B345B39D8DF7426A74456A.ashx);
+		}
+		&.lws {
+			background-image: url(//resource.alaskaair.net/content/~/media/8D58ACDB6E4F4004A0E323F742BB5E58.ashx);
+		}
+		&.oak {
+			background-image: url(//resource.alaskaair.net/content/~/media/74F9763FC0C44F74AE67CB7758AF0C0F.ashx);
+		}
+		&.ont {
+			background-image: url(//resource.alaskaair.net/content/~/media/A6D78FCDB75D4F1D8CE26BBA08C9770C.ashx);
+		}
+		&.ord {
+			background-image: url(//resource.alaskaair.net/content/~/media/3C9E0036EE1E4DA8916C92FD3A69A6F9.ashx);
+		}
+		&.phx {
+			background-image: url(//resource.alaskaair.net/content/~/media/E9D7251A980441C29CC4CE09B592FBC8.ashx);
+		}
+		&.pdx {
+			background-image: url(//resource.alaskaair.net/content/~/media/77F386A92E704C3EA9D009D701E50DA7.ashx);
+		}
+		&.psc {
+			background-image: url(//resource.alaskaair.net/content/~/media/C08071911F894801A1413EDADFCAD21E.ashx);
+		}
+		&.puw {
+			background-image: url(//resource.alaskaair.net/content/~/media/E0B6319FAF314AC6A2971ADC2B4C5011.ashx);
+		}
+		&.rdm {
+			background-image: url(//resource.alaskaair.net/content/~/media/E5BAFFFEF78C4826BFA2D6430B0BD8B3.ashx);
+		}
+		&.san {
+			background-image: url(//resource.alaskaair.net/content/~/media/ACC9E601BB3F4E2488DF277A1F93AB84.ashx);
+		}
+		&.sea {
+			background-image: url(//resource.alaskaair.net/content/~/media/8B5E410B5FAA47789A261681FE72D4DC.ashx);
+		}
+		&.sfo {
+			background-image: url(//resource.alaskaair.net/content/~/media/9E4C1B1E740D404DA7354D3DB713A3A8.ashx);
+		}
+		&.sjc {
+			background-image: url(//resource.alaskaair.net/content/~/media/5C01C947C37746D5838197298902DFA3.ashx);
+		}
+		&.smf {
+			background-image: url(//resource.alaskaair.net/content/~/media/829FE0269AA5497BA71E08F3B5370D8C.ashx);
+		}
+		&.slc {
+			background-image: url(//resource.alaskaair.net/content/~/media/46E1D8D2B3AC4814A0CCF9EF1BF62E18.ashx);
+		}
+		&.sna {
+			background-image: url(//resource.alaskaair.net/content/~/media/3077CA87A1E94235B49F866CC9D8F1A1.ashx);
+		}
+		&.ykm {
+			background-image: url(//resource.alaskaair.net/content/~/media/4329B97D7D6143B382F6A9973E782E16.ashx);
+		}
+		&.yvr {
+			background-image: url(//resource.alaskaair.net/content/~/media/D56195E96F68463E9517A4DCF2BC1E50.ashx);
+		}
+	}
+	.sales-offer a:hover {
+		text-decoration: none;
+	}
+
+	@media (min-width: $screen-sm) {
+		background-size: 120%;
+
+	}
+	@media (min-width: $screen-md) {
+		background-size: 100%;
+
+	}
+}
+
+.pzm-hero-container {
+	position:relative;
+	.pzm-hero {
+		position: absolute;
+		top:0;
+		left: 0;
+		display:none;
+		width: 100%
+	}
+}
+
+
+
+.hero-home {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right 25%;
+	margin: 0 0 24px;
+	padding: 2em;
+	min-height: 32.4em;
+}

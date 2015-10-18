@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g id="Captions">
+</g>
+<g id="Your_Icon">
+	<path stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M89,28H46H8c-3,0-3,3-3,3v4h87v-4C92,31,92,28,89,28z"/>
+	<rect x="6" y="35" fill="none" width="85" height="8"/>
+	<g>
+		<path stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M5,43v31c0,0,0,3,3,3h81c3,0,3-3,3-3V43H5z M45,64v4H14v-4     M64,64v4H54v-4 M83,64v4H73v-4"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,1 @@
+<%@ Page language="c#" Codebehind="FareInformationStyles.aspx.cs" AutoEventWireup="True" Inherits="AlaskaAir.Web.UI.alaskaair.FareInformationStyles" enableViewState="false" enableSessionState="false" %>

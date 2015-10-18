@@ -1,0 +1,323 @@
+﻿.containerx {
+    /* =================== Seats Styles ========================================= */
+
+    /* Seats map general */
+    .viewSeatMap                    {height: 420px; margin:0px 0px 0px 0px;}
+    /*.viewSeatViewSeats              {height: 420px; margin:-4px 0px 0px 0px;}*/
+    .viewSeatMapOther               {height: 420px; margin:20px; background-color:White;}
+
+    .seatMap                        { padding-top:0px; }
+    .seatMapAdvisoryViewSeats       { width: 590px; }
+    .seatMapAdvisoryImageRes        { width: 730px; }
+    .seatMapAdvisory                { width: 730px; padding-top:46px; }
+    .pageInfo                       { width:680px; padding-bottom:5px;}
+    .segmentSelectPadding           { height:25px; }
+    .cursorPointer                  { cursor:pointer; }
+    .seatSelector 				    { padding-top:55px; _padding-top: 70px;}
+    .seatFlightInfo                 { width: 575px; margin-bottom:20px; font-weight:bold;}
+    .seatFlightInfoVS               { width: 575px; margin-bottom:6px;font-weight:bold; }
+    .equipmentInfo                  { padding-top:1em; text-align:right; margin-right: 20px;margin-bottom:5px; }
+    .seat.selectedSeat				{ background-position: 0 -51px; text-align:center; color:#fff; }
+    .seatSelector .seatColumn		{ margin:0px 0px 0 0px; float:left; background:white; }
+
+    /* This pads for exit row leg room */
+    .seatSelector .seatColumnExitRow  	{ margin:0px 0px 0 0px; padding-left:5px; float:left; }
+    .seatSelector .seatColumnExitRowNoPadding  	{ margin:0px 0px 0 0px; padding-left:0px; float:left; }
+
+    .aisle   						{ background:none; width:17px; height:25px; line-height:25px; margin:0px; text-align:center; }
+    .aisleGalLavCls					{ background:none; width:19px; height:25px; }
+    .aisleGalLavCls4Col				{ background:none; width:19px; height:7px; }
+    .emptyLine1px              	    { background:none; width:25px; height:1px;  margin-right:2px; }
+    .emptyLine2px              	    { background:none; width:25px; height:2px;  margin-right:2px; }
+    .emptyLine3px              	    { background:none; width:25px; height:3px;  margin-right:2px; }
+    .emptyLine4px              	    { background:none; width:25px; height:4px;  margin-right:2px; }
+    .emptyLine5px              	    { background:none; width:25px; height:5px;  margin-right:2px; }
+
+    /* Coach Column Letters */
+    .columnLettersAisle				{width:8px; height:17px; margin:6px 1px 5px 1px; text-align:center; }
+    .columnLettersAisleQX			{width:8px; height:18px; margin:6px 1px 5px 1px; text-align:center; }
+    .columnLetters                  {width:8px; height:16px; margin:2px 1px 1px 5px; }
+
+    /* Seats */
+    .seatEmpty						{clear:both; background:none; width:17px; height:17px; margin:1px 0px 1px 0px; text-align:center; }
+    .seatDiv                        {clear:both; height:17px; width:17px; margin:1px; _margin:0;}
+
+
+    .seatOccupied, .seatAvailable, .seatAvailablePremium,.seatAvailableUmnr,.seatAvailableAccessible,.seatAvailableAccessiblePremium,
+    .seatSelected, .seatSelected1, .seatSelected2, .seatSelected3, .seatSelected4, .seatSelected5, .seatSelected6, .seatSelected7, .seatSelected8
+                                    { }
+
+
+    /* Legend */
+    .seatAccessibleLegend, .seatOccupiedLegend, .seatSelectedLegend, .seatUmnrLegend, .seatAvailablePremiumLegend, .seatAvailablePreferredPlusLegend
+								    {background:no-repeat 0 0;width:17px; height:17px; margin:1px;}
+    .seatAvailableLegend	  	    { background:url(/content/~/media/images/onsite/seats/c-seat_available.ashx) no-repeat 0 0; width:17px; height:17px; margin:1px 1px 1px; }
+    .seatAccessibleLegend           { background:url(/content/~/media/images/onsite/seats/c-accessible_seat_available.ashx); }
+    .seatOccupiedLegend	  	        { background:url(/content/~/media/Images/onSite/seats/c-seat_occupied.aspx); }
+    .seatSelectedLegend	  	        { background:url(/content/~/media/images/onsite/seats/c-selected_0.ashx); }
+    .seatUmnrLegend	                { background:url(/content/~/media/images/onsite/seats/c-child.ashx); }
+    .seatAvailablePremiumLegend	    { background:url(/content/~/media/images/onsite/seats/c-reg_preferred.ashx); }
+	.seatAvailablePreferredPlusLegend	    { background:url(/content/~/media/images/onsite/seats/c-pref_seat_available.ashx); }
+    /*.seatingLegend				    { margin:30px 0px 0px; }*/
+	.legendLabel			        { margin-left:3px; margin-top:4px; margin-right:10px;font-weight:bold;}
+    .legendLabelText	        { margin-left:3px;}
+    .CTAInfo                        { padding-top:4px;}
+    .CTALabel                       { margin-top:5px;}
+	.legendLabelText ul { margin-right:0px;}
+
+
+    /* First Class */
+    .seatDivFirst                   { clear:both; text-align:center; width:22px; height:21px; margin:4px; }
+
+    .seatDivFirst6-9Col             { clear:both; text-align:center; width:22px; height:21px; margin:10px 4px 10px 4px; }
+    .seatDivFirst7-9Col             { clear:both; text-align:center; width:22px; height:24px; margin:4px; }
+    .seatDivFirst8-9Col             { clear:both; text-align:center; width:22px; height:21px; margin:4px 4px 4px 4px; }
+    .seatDivFirst6-11Col            { clear:both; text-align:center; width:22px; height:21px; margin:16px 4px 16px 4px; }
+    .seatDivFirst9-11Col            { clear:both; text-align:center; width:22px; height:21px; margin:5px 4px 5px 4px; }
+
+    .aisleFirst  					{ width:27px; height:31px; line-height:31px; text-align:center; }
+    .aisleFirst9Col					{ width:27px; height:25px; line-height:25px; text-align:center; }
+    .aisleFirst5-6Col				{ width:27px; height:13px; line-height:13px; text-align:center; }
+    .aisleFirst6-9Col				{ width:27px; height:14px; line-height:14px; text-align:center; }
+    .aisleFirst7-9Col				{ width:27px; height:15px; line-height:15px; text-align:center; }
+    .aisleFirst6-11Col				{ width:22px; height:11px; line-height:11px; margin:4px; text-align:center; }
+    .aisleFirst8-9Col				{ width:27px; height:10px; line-height:10px; text-align:center; }
+    .aisleFirst8-10Col				{ width:27px; height:19px; line-height:19px; text-align:center; }
+    .aisleFirst9-11Col				{ width:27px; height:11px; line-height:11px; text-align:center; }
+    .aisleFirst9-12Col				{ width:27px; height:25px; line-height:25px; text-align:center; }
+
+    .aisleFirst6ColGalLav		    { width:27px; height:6px; line-height:6px;  }
+    .aisleFirst8ColGalLav		    { width:27px; height:6.5px; line-height:6.5px;  }
+    .aisleFirst8-9ColGalLav		    { width:27px; height:7px; line-height:6.5px;  }
+    .aisleFirst9ColGalLav		    { width:27px; height:20px; line-height:20px; text-align:center; }
+    .aisleFirst11ColGalLav		    { width:27px; height:36px; line-height:36px;  }
+    .aisleFirst6-11ColGalLav		{ width:27px; height:39px; line-height:39px;  }
+    .aisleFirst1GalLav				{ width:27px; height:24px; margin:0; text-align:center; }
+
+    .seatEmptyFirst					{ width:22px; height:21px; margin:4px;  }
+    .seatEmptyFirst7-9Col			{ width:22px; height:24px; margin:4px;  }
+    .seatEmptyFirst9Col			    { width:22px; height:24px; margin:5px 4px; }
+    .seatEmptyFirst11Col			{ clear:both; text-align:center; width:22px; height:21px; margin:16px 4px 16px 4px; }
+    .seatEmptyFirstGalLav			{ width:22px; height:28px; margin:4px;  }
+
+    .columnLettersAisleFirst		{ clear:both; width:9px; height:31px; margin:4px;  }
+    .columnLettersAisleFirst5-6Col  { clear:both; width:9px; height:13px; margin:4px;  }
+    .columnLettersAisleFirst6-9Col  { clear:both; width:9px; height:13px; margin:4px;  }
+    .columnLettersAisleFirst6-11Col { clear:both; width:9px; height:11px; margin:4px;  }
+    .columnLettersAisleFirst7-9Col	{ clear:both; width:9px; height:12px; margin:4px;  }
+    .columnLettersAisleFirst8-9Col	{ clear:both; width:9px; height:10px; margin:4px;  }
+    .columnLettersAisleFirst8-10Col	{ clear:both; width:9px; height:18px; margin:4px;  }
+    .columnLettersAisleFirst9-11Col	{ clear:both; width:9px; height:11px; margin:4px;  }
+    .columnLettersAisleFirst9-12Col	{ clear:both; width:9px; height:25px; margin:4px;  }
+
+    .columnLettersFirst			    { clear:both; text-align:center; width:9px; height:21px; margin:4px; line-height:21px}
+    .columnLettersFirst6Col			{ clear:both; text-align:center; width:9px; height:21px; margin:4px; line-height:21px}
+    .columnLettersFirst6-11Col		{ clear:both; text-align:center; width:9px; height:21px; margin:16px 4px 16px 4px; line-height:21px}
+    .columnLettersFirst9Col			{ clear:both; text-align:center; width:9px; height:20px; margin:4px; line-height:20px}
+    .columnLettersFirst6-9Col		{ clear:both; text-align:center; width:9px; height:32px; margin:4px; line-height:32px}
+    .columnLettersFirst7-9Col		{ clear:both; text-align:center; width:9px; height:25px; margin:4px; line-height:25px}
+    .columnLettersFirst9-11Col	    { clear:both; text-align:center; width:9px; height:21px; margin:5px 4px 5px 4px; line-height:21px}
+    .columnLettersFirst11Col		{ clear:both; text-align:center; width:9px; height:21px; margin:16px 4px 16px 4px; line-height:21px}
+
+    .seatOccupiedFirst, .seatAvailableFirst,
+    .seatSelectedFirst1, .seatSelectedFirst2, .seatSelectedFirst3, .seatSelectedFirst4, .seatSelectedFirst5, .seatSelectedFirst6, .seatSelectedFirst7, .seatSelectedFirst8
+								    {clear:both; height:21px; width:22px;}
+
+    .planeBorderTopNarrowFirst      { width:17px; }
+    .planeBorderTopNarrowFirst6-11Col   { width:17px; padding:1px 0px 0px 0px; clear:both;}
+    .planeBorderTopFirst		    { margin:0px; width:30px; }
+    .planeBorderTopFirst6-11Col	    { width:30px; padding:1px 0px 0px 0px; }
+    .planeBorderBottomFirst 	    { margin:0px; width:30px; }
+    .planeBorderBottomFirst6-9Col	{ margin:11px 0 0 0; width:30px; }
+    .planeBorderBottomFirst8Col	    { margin:5px 0 0 0; width:30px; }
+    .planeBorderBottomFirst9Col	    { margin:5px 0 0 0; width:30px; }
+    .planeBorderBottomFirstLavGal   { margin:0px 0px 0px 0px; width:30px; }
+    .planeBorderBottomFirstLavGal7Col   { margin:10px 0px 0px 0px; width:30px; }
+    .planeBorderBottomNarrowFirst   { margin:4px 0px 0px 0px; width:17px; }
+    .planeBorderBottomNarrowFirst8Col   { margin:7px 0px 0px 0px; width:17px; }
+    .planeBorderBottomNarrowFirst11Col	{ margin:7px 0 0 0; width:17px; }
+
+
+
+    /*  END First class */
+
+    /* plane border */
+    .planeBorderTopNarrow,.planeBorderTop,.planeBorderTopWide,.planeBorderBottomNarrow,.planeBorderBottom,.planeBorderBottomWide,
+    .planeBorderTopQX,.planeBorderTopWideQX,.planeBorderBottomQX,.planeBorderBottomWideQX,.planeBorderTopFirst,.planeBorderBottomFirst, .planeBorderBottomExitRow,.planeBorderTopWingEnd,
+    .planeBorderTopExitRow, .planeBorderTopExitRowQX, .planeBorderBottomExitRowQX, .planeBorderTopWingEndQX, .planeBorderBottomWingEndQX,
+    .planeBorderBottomFirstLavGal,.planeBorderBottomFirst9Col,.planeBorderBottomNarrow9Col,.planeBorderTopNarrowFirst,.planeBorderBottomNarrowFirst,
+    .planeBorderBottomNarrowFirst11Col, .planeBorderBottomNarrow7Col, .planeBorderTopFirst6-11Col,.planeBorderTopNarrowFirst6-11Col,
+    .planeBorderBottomFirst8Col,.planeBorderBottomNarrowFirst8Col,.planeBorderBottomFirst6-9Col
+                                    { border-top:2px solid #d5d5d5; }
+
+    .planeBorderTopNarrow	        { padding:0px 0px 2px 0px; width:17px; }
+    .planeBorderTop			        { padding:0px 0px 2px 0px; width:24px; clear:both;}
+    .planeBorderTopWide			    { padding:0px 0px 2px 0px; width:27px; }
+
+    .planeBorderBottomNarrow	    { margin:3px 0px 0px 0px; width:17px; }
+    .planeBorderBottomNarrow7Col    { margin:6px 0px 0px 0px; width:17px; }
+    .planeBorderBottomNarrow9Col    { margin:5px 0px 0px 0px; width:17px; }
+    .planeBorderBottom			    { margin:3px 0px 2px 0px; width:24px; }
+    .planeBorderBottomWide		    { margin:3px 0px 0px 0px; width:27px; }
+
+    .planeBorderTopQX			    { margin:0px 0px 5px 0px; width:24px; }
+    .planeBorderTopWideQX           { margin:0px 0px 5px 0px; width:27px; }
+
+    .planeBorderBottomQX            { margin:5px 0px 0px 0px; width:24px; }
+    .planeBorderBottomWideQX        { margin:5px 0px 0px 0px; width:27px; }
+
+    /*  End Horizantal borders */
+
+    .planeBorderVerticalFrontTop    { border-right:2px solid #d5d5d5; height: 58px; float:left; margin:0px -2px 0px 2px;  }
+    .planeBorderVerticalFrontBottom	{ border-right:2px solid #d5d5d5; height: 58px; float:left; margin:85px 0px 0px 0px;  }
+
+    .planeBorderVerticalBackTop,.planeBorderVerticalBackBottom,.planeBorderVerticalBackTop6Col,.planeBorderVerticalBackBottom6Col,
+    .planeBorderVerticalBackTop9Col,.planeBorderVerticalBackMid9Col,.planeBorderVerticalBackBot9Col,
+    .planeBorderVerticalBackTop10Col,.planeBorderVerticalBackMid10Col,.planeBorderVerticalBackBot10Col,
+    .planeBorderVerticalBackTop11Col,.planeBorderVerticalBackMid11Col,.planeBorderVerticalBackBot11Col,
+    .planeBorderVerticalBackTop6-9Col,.planeBorderVerticalBackMid6-9Col,.planeBorderVerticalBackBot6-9Col,
+    .planeBorderVerticalBackTop9-11Col,.planeBorderVerticalBackMid9-11Col,.planeBorderVerticalBackBot9-11Col
+                                        { border-right:2px solid #d5d5d5;}
+
+    .Bulkhead1Col, .Bulkhead2Col,.Bulkhead3Col,.Bulkhead4Col,.Bulkhead5Col
+                                        {  border-left:2px solid #d5d5d5; clear:both;  margin: 1px 1px 1px 8px; }
+
+    .Bulkhead1ColFirst, .Bulkhead2ColFirst,.Bulkhead3ColFirst,.Bulkhead4ColFirst,.Bulkhead5ColFirst
+                                        {  border-left:2px solid #d5d5d5; clear:both;  margin: 4px 4px 4px 13px; }
+
+    .Bulkhead1Col    	                {  height:20px; }
+    .Bulkhead2Col    	                {  height:35px; }
+    .Bulkhead3Col    	                {  height:53px; }
+    .Bulkhead4Col    	                {  height:71px; }
+    .Bulkhead5Col    	                {  height:89px; }
+    .Bulkhead1ColFirst 	                {  height:33px; }
+    .Bulkhead2ColFirst 	                {  height:49px; }
+    .Bulkhead3ColFirst 	                {  height:75px; }
+    .Bulkhead4ColFirst 	                {  height:85px; }
+    .Bulkhead5ColFirst 	                {  height:103px; }
+
+    .planeBorderVerticalBackTop		    {  height: 56px; float:left; margin:0px 0px 0px 0px;  }
+    .planeBorderVerticalBackBottom	    {  height: 56px; float:left; margin:87px 0px 0px -2px;  }
+    .planeBorderVerticalBackTop6Col		{  height: 52px; float:left; margin:0px 0px 0px 0px;  }
+    .planeBorderVerticalBackBottom6Col	{  height: 52px; float:left; margin:73px 0px 0px -2px;  }
+
+    .planeBorderVerticalBackTop6-9Col	{  height: 40px; float:left; }
+    .planeBorderVerticalBackMid6-9Col   {  height: 54px; float:left; margin:66px 0px 0px -2px;  }
+    .planeBorderVerticalBackBot6-9Col   {  height: 40px; float:left; margin:146px 0px 0px -2px;  }
+
+    .planeBorderVerticalBackTop9Col		{  height: 55px; float:left; }
+    .planeBorderVerticalBackMid9Col	    {  height: 74px; float:left; margin:75px 0px 0px -2px;  }
+    .planeBorderVerticalBackBot9Col	    {  height: 55px; float:left; margin:168px 0px 0px -2px;  }
+
+    .planeBorderVerticalBackTop10Col	{  height: 52px; float:left; }
+    .planeBorderVerticalBackMid10Col	{  height: 48px; float:left; margin:78px 0px 0px -2px;  }
+    .planeBorderVerticalBackBot10Col	{  height: 53px; float:left; margin:152px 0px 0px -2px;  }
+
+    .planeBorderVerticalBackTop11Col	{  height: 40px; float:left; }
+    .planeBorderVerticalBackMid11Col    {  height: 90px; float:left; margin:67px 0px 0px -2px;  }
+    .planeBorderVerticalBackBot11Col    {  height: 40px; float:left; margin:183px 0px 0px -2px;  }
+
+    .planeBorderVerticalBackTop9-11Col	{  height: 54px; float:left; }
+    .planeBorderVerticalBackMid9-11Col  {  height: 75px; float:left; margin:74px 0px 0px -2px;  }
+    .planeBorderVerticalBackBot9-11Col  {  height: 54px; float:left; margin:169px 0px 0px -2px;  }
+
+    /* plane front/back */
+    .planeFrontAS                   { margin:0; width:114px; height:143px;  float:left; background:url(/content/~/media/images/onsite/seats/AS_front.ashx) no-repeat 0 0;}
+    .planeFrontQX 		  		    { margin:0; width:115px; height:111px;  float:left; background:url(/content/~/media/images/onsite/seats/QX_nose.ashx) no-repeat 0 0;}
+    .planeBackAS  		  		    { margin:0; width:28px; height:143px;  float:left; background:url(/content/~/media/images/onsite/seats/AS_back.ashx) no-repeat 0 0;}
+    .planeBackQX  		  		    { margin:0; width:29px; height:111px; float:left; background:url(/content/~/media/images/onsite/seats/QX_tail.ashx) no-repeat 0 0; }
+
+    /* Wings Right */
+
+    .planeWingStartRight	  	    { width:22px; height:70px; margin:-70px 0px 0px 2px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_start.ashx) no-repeat 0 0;}
+    .planeWingStartRightFirst  	    { width:30px; height:70px; margin:-70px 0 0 0; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_start_first.ashx) no-repeat 0 0;}
+    .planeWingMidRight              { height:75px; width:24px;  margin:-75px 0px 0px 0px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_mid.ashx) no-repeat 0 0;}
+    .planeWingMidRightSliver         {height:75px; width:2px; margin: -75px -2px 0 0px; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_mid.ashx) no-repeat 0 0; }
+    .planeWingMidRightFirst         { height:75px;  width:30px; background-repeat:repeat-x; margin:-75px 0px 0px 0px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_mid.ashx)}
+    .planeWingMidRightQX			{ width:24px; height:75px;  margin:-75px 0px 0px 0px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_mid.ashx) no-repeat 0 0;}
+    .planeWingEndRight  	  		{ width:24px; height:74px;  margin:-70px 0px 1px 0px; _position:relative; float:left;  background:url(/content/~/media/images/onsite/seats/rightwing_end.ashx) no-repeat 0 0; }
+    .planeWingEndRightQX  	  		{ width:24px; height:74px;  margin:-70px 0px 3px 0px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_end.ashx) no-repeat 0 0;  }
+
+    /* wing exit doors right */
+    .planeWingExitDoorRightQX	    { width:24px; height:76px;   margin:-76px 0px 0px -7px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/exit_overwing_R.ashx) no-repeat 0 0; }
+    .planeWingExitDoorStartRight    { width:24px; height:70px; margin:-68px 0px 3px -2px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_start_exit.ashx) no-repeat 0 0;}
+    .planeWingExitDoorRight		    { width:24px; height:77px;   margin:-74px 0px 2px -7px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/exit_overwing_R.ashx) no-repeat 0 0; }
+    .planeWingMidRightExit	  	    { width:7px; height:75px;  margin:-73px 0px 0px 0px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_mid.ashx) no-repeat 0 0;}
+    .planeWingMidRightExitQX  	    { width:7px; height:75px;  margin:-73px 0px 0px 0px; _position:relative; float:left; background:url(/content/~/media/images/onsite/seats/rightwing_mid.ashx) no-repeat 0 0;}
+
+    /* Wings Left */
+    .planeWingStartLeft  	  		{ width:22px; height:75px;margin:-2px 0px 0px 2px; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_start.ashx) no-repeat 0 0; }
+    .planeWingStartLeftFirst    	{ width:30px; height:75px;margin:-2px 0 0 0; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_start_first.ashx) no-repeat 0 0; }
+    .planeWingMidLeft               {height:75px; width:24px; margin: 2px 0px 0px 0px; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_mid.ashx) no-repeat 0 0; }
+    .planeWingMidLeftSliver         {height:75px; width:2px; margin: 222px 0px 0 -2px; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_mid.ashx) no-repeat 0 0; }
+    .planeWingMidLeftFirst          {height:75px; width:30px; margin: -2px 0px 0px 0px; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_mid.ashx) }
+    .planeWingMidLeftQX				{ margin-top: 4px;}
+    .planeWingEndLeft  	  		    { width:24px; height:75px; margin: 2px 0px 0px 0px; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_end.ashx) no-repeat 0 0;  }
+    .planeWingEndLeftFirst 		    { width:24px; height:75px; margin: -2px 0px 0px 0px; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_end.ashx) no-repeat 0 0;  }
+    .planeWingEndLeftQX	  		    { margin: 4px 0px 0px 0px; }
+
+    /* wing exit doors left */
+    .planeWingExitDoorStartLeft 	{ width:24px; height:70px;margin:2px 0px 0px -2px; float:left; background:url(/content/~/media/images/onsite/seats/leftwing_start_exit.ashx) no-repeat 0 0; }
+    .planeWingExitDoorLeft          { width:24px; height:77px;margin:2px 0px 0px -7px; float:left;  background:url(/content/~/media/images/onsite/seats/exit_overwing_L.ashx) no-repeat 0 0;}
+    .planeWingExitDoorLeftQX        { width:24px; height:77px;margin:6px 0px 0px -7px; float:left;  background:url(/content/~/media/images/onsite/seats/exit_overwing_L.ashx) no-repeat 0 0;}
+    .planeWingMidLeftExit 		    { width:7px; height:79px; margin:2px 0px 0px 0px; float:left;  background:url(/content/~/media/images/onsite/seats/leftwing_mid.ashx) no-repeat 0 0; }
+    .planeWingMidLeftExitQX 		{ width:7px; height:79px; margin:6px 0px 0px 0px; float:left;  background:url(/content/~/media/images/onsite/seats/leftwing_mid.ashx) no-repeat 0 0; }
+
+    /* Exit Doors right-left */
+    .planeExitDoorRight  		  	{ width:21px; height:17px; margin:-17px 0px 0px 0px; float:left; background:url(/content/~/media/images/onsite/seats/exit_door_R.ashx) no-repeat 0 0;  }
+    .planeExitDoorRightQX  		  	{ width:21px; height:17px; margin:-19px 0px 0px 0px; float:left; background:url(/content/~/media/images/onsite/seats/exit_door_R.ashx) no-repeat 0 0; }
+    .planeExitDoorLeft 		  		{ width:21px; height:17px; margin:2px 0px 0px 0; float:left; background:url(/content/~/media/images/onsite/seats/exit_door_L.ashx) no-repeat 0 0; }
+
+    /* Utility areas */
+    .planeGalley2Col	  		    { width:25px; height:35px; margin:1px; background:url(/content/~/media/images/onsite/seats/galley2col.ashx) no-repeat 0 0; }
+    .planeGalley2ColFirst		    { width:25px; height:35px; margin:4px 0 4px 0; background:url(/content/~/media/images/onsite/seats/galley2col.ashx) no-repeat 0 0; }
+    .planeLavatory2Col  	  		{ width:25px; height:35px; margin:1px; background:url(/content/~/media/images/onsite/seats/lavatory2col.ashx) no-repeat 0 0; }
+    .planeLavatory2ColFirst	  		{ width:25px; height:35px; margin:4px 0 4px 0; background:url(/content/~/media/images/onsite/seats/lavatory2col.ashx) no-repeat 0 0; }
+    .planeGalley3Col	  		    { width:25px; height:53px; margin:1px; background:url(/content/~/media/images/onsite/seats/galley3col.ashx) no-repeat 0 0; }
+    .planeGalley3ColFirst  		    { width:25px; height:53px; margin:4px 0 4px 0; background:url(/content/~/media/images/onsite/seats/galley3col.ashx) no-repeat 0 0; }
+    .planeLavatory3Col   		    { width:25px; height:53px; margin:1px; background:url(/content/~/media/images/onsite/seats/lavatory3col.ashx) no-repeat 0 0; }
+    .planeLavatory3ColFirst		    { width:25px; height:53px; margin:4px 0 4px 0; background:url(/content/~/media/images/onsite/seats/lavatory3col.ashx) no-repeat 0 0; }
+
+    /* passenger inputs section */
+    .passengers                     { width: 180px;float: left; margin-right: 20px; margin-top:27px; }
+    .passengerName                  { margin-left: 2px; padding-top:3px; }
+    .passengerInput                 { padding-top:2px; padding-right:5px; }
+    .selectedPassenger              { -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; border: 3px solid #B17735; margin-top: 15px;  height:25px;padding-top:2px; background:#fff url(/content/~/media/Images/onSite/backgrounds/btn-BG-secondary.ashx) bottom left repeat-x; }
+    .notSelectedPassenger           { -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; border: 1px solid #d5d5d5; margin-left:2px; margin-top: 15px;  height:25px; padding-top:2px; background:#fff url(/content/~/media/Images/onSite/backgrounds/btn-BG-secondary.ashx) bottom left repeat-x; }
+    .selectedPassengerLarge         { -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; border: 3px solid #B17735; margin-top: 15px;  height:40px;padding-top:2px; background:#fff url(/content/~/media/Images/onSite/backgrounds/btn-BG-secondary.ashx) bottom left repeat-x; }
+    .notSelectedPassengerLarge      { -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; border: 1px solid #d5d5d5; margin-left:2px; margin-top: 15px;  height:40px; padding-top:2px; background:#fff url(/content/~/media/Images/onSite/backgrounds/btn-BG-secondary.ashx) bottom left repeat-x; }
+    .inputBox                       { text-transform: uppercase; width:25px; height:12px; float:right; text-align:left; line-height:12px; }
+    .passengerList                  { float:left;width: 200px;}
+    .passengerButton                { padding:8px 0px 0px 0px;clear:both;float:left;width: 200px;text-align:left}
+
+    /* Segment Tabs  */
+    .noShow							{display:none;}
+    .seatsShoulder                       { float:left;	width: 140px; 	height:62px; 	background:url(/content/~/media/images/onsite/backgrounds/shoulder_tab_u.ashx);	background-repeat:repeat-x;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	text-align:center;	border-right: solid 1px #DCDCDC;	cursor:pointer;}
+    .seatsShoulderNoFlight1              {	float:left;	width: 140px; 	height:62px; 	background:url(/content/~/media/images/onsite/backgrounds/shoulder_tab_u.ashx);	background-repeat:repeat-x;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;}
+    .seatsShoulderNoFlight2              {	float:left;	width: 260px; 	height:62px; 	background:url(/content/~/media/images/onsite/backgrounds/shoulder_tab_u.ashx);	background-repeat:repeat-x;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;}
+    .seatsShoulderNoFlight3              {	float:left;	width: 420px; 	height:62px; 	background:url(/content/~/media/images/onsite/backgrounds/shoulder_tab_u.ashx);	background-repeat:repeat-x;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;}
+    .seatsShoulderLeft                   {	float:left;	width: 38px; 	height:62px; 	background:url(/content/~/media/images/onsite/backgrounds/shoulder_tab_u.ashx);	background-repeat:repeat-x;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	text-align:center;	border-right: solid 1px #DCDCDC;	border-left: solid 1px #DCDCDC;}
+    .seatsShoulderRight                  {	float:left;	width: 38px; 	height:62px; 	background:url(/content/~/media/images/onsite/backgrounds/shoulder_tab_u.ashx);	background-repeat:repeat-x;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	border-right: solid 1px #DCDCDC;}
+    .seats-tablist .selected             {	float:left;	width: 182px; 	height:85px; 	background:url(/content/~/media/images/onsite/backgrounds/shoulder_selected.ashx);	background-repeat:repeat-x;	background-position:bottom;	margin: 0 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	text-align:center;}
+    .seatsShoulderLeftArrow              {	display:block; float:left;	width: 38px; 	height:62px; 	background:url(/content/~/media/images/onsite/buttons/shoulder_arrow_L.ashx);	background-repeat: no-repeat;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	text-align:center;	border-right: solid 1px #DCDCDC;	cursor:pointer;}
+    .seatsShoulderRightArrow             {	display:block; float:left;	width: 38px; 	height:62px; 	background:url(/content/~/media/images/onsite/buttons/shoulder_arrow_R.ashx);	background-repeat: no-repeat;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	text-align:center;	cursor:pointer;}
+    .seatsShoulderLeftArrowDisabled      {	float:left;	width: 38px; 	height:62px; 	background:url(/content/~/media/images/onsite/buttons/shoulder_arrow_L_U.ashx);	background-repeat: no-repeat;	background-position:bottom;	margin: 23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	text-align:center;	border-right: solid 1px #DCDCDC;	cursor:default;}
+    .seatsShoulderRightArrowDisabled     {	float:left;	width: 38px; 	height:62px; 	background:url(/content/~/media/images/onsite/buttons/shoulder_arrow_R_U.ashx);	background-repeat: no-repeat;	background-position:bottom;	margin:23px 0 0 0;	padding: 0 0 0 0;	vertical-align:bottom;	text-align:center;	cursor:default;}
+    .seatsShoulder .FlightInfo, .seats-tablist .selected .FlightInfo
+    {display:block;width:100%;text-align:center;font-weight:bold;text-decoration:none;}
+    .seatsShoulder .FlightInfo           {  padding-top:15px; font-size: 11px; color:gray; height:45px;}
+    .seats-tablist .selected .FlightInfo {  padding-top:30px; font-size: 13px; color:#01194c; height:58px;}
+
+    /* ----------- Slider ----------- */
+
+
+    #slider							{ height:17px;margin:0 auto;width:210px;}
+    #slider .ui-slider-handle,#slider .ui-slider-handle:hover {text-decoration:none; color:#fff; height:17px; width:81px; margin-top:3px; margin-left:-79px; background:#4770a2;border: 1px solid rgb(0, 36, 90); text-align:center;}
+    #slider .ui-slider-range-min 	{background: #dcdcdc; width:100px;  margin-top:-1px; margin-left:-76px; margin-right:0 auto; border: 1px solid gray;border-radius: 4px ;-moz-border-radius: 4px ;-webkit-border-radius: 4px ;}
+
+    /* viewer height set in seatMapSelect page. */
+    .viewer                         { padding:1px; overflow:hidden; position:relative;}
+    .content-conveyor               { width:710px; height:100px; position:relative; }
+    .item                           { width:1650px; } /* max width for 747-400 */
+    /* --------- END Slider --------- */
+}

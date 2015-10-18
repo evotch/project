@@ -1,0 +1,29 @@
+.calBanner{width:304px; height:40px; background-repeat:no-repeat;}
+.calBannerContents{font-size:12px; color:#01194c; text-align:center; padding-top:6px;}
+.calAlignDepart{}
+.calAlignReturn{margin-left:9px;}
+.calContainer{border:solid 2px #01194c; border-top:solid 0px #01194c; background-color:white; width:295px; table-layout:fixed;}
+.calSpacer{background-color:white;}
+
+.caldayofweek{border:solid 2px white; border-bottom:solid 2px #cccccc; color:#000066; height:19px; width:39px; font-size:11px; vertical-align:bottom; text-align:center; background-color: White; font-weight: normal;}
+.calpastday{background-color:#f2f0e7; border:solid 2px #cccccc; height:33px; vertical-align:top;}
+.calday{padding:2px 0px 0px 2px; background-color:#f2f0e7; border:solid 2px #cccccc; height:31px; vertical-align:top;}
+
+.caldaysale{background-image:URL("/images/calendar_orange_bg.gif"); border:solid 2px #cccccc; height:31px; width:31px;}
+.caldaylowestfare{background-image:URL("/images/calendar_green_bg.gif"); border:solid 2px #cccccc; height:31px; width:31px;}
+.caldaystandardfare{background-color:white; border:solid 2px #cccccc; height:31px; width:31px;}
+
+.caldayDate{float:left; font:#404040; position:relative; width:30px;}
+.caldayPrice{font-family:Tahoma, Geneva; font-size:11px; text-align:center; text-decoration:underline; color:#000099;}
+.caldayPriceSelected{font-family:Arial; font-size:11px; text-align:center; color:black; font-weight:bold;}
+
+.caldaySelected{border:solid 2px #a96221; height:29px; width:34px;}
+.caldayHover{border:solid 2px #a96221; height:29px; width:34px; cursor:pointer; cursor:hand;}
+.caldayStandard{border:solid 2px transparent; height:29px; width:34px; _border-color:#a96221; _filter:chroma(color=a96221);}
+
+.legend-desc {position: relative; float:left; margin-left:5px; height:25px;}
+.legend-selected{background-color:#ffffff; border:solid 2px #a96221; position: relative; float:left; height:17px; width:40px; text-align:center;}
+.legend-sale{background-image:URL("/images/calendar_orange_bg.gif"); border:solid 2px #cccccc; position: relative; float:left; height:17px; width:40px; text-align:center;}
+.legend-notavailable{background-color:#f2f0e7; border:solid 2px #cccccc; position: relative; float:left; height:17px; width:40px; text-align:center;}
+
+.legend-lowestfare{background-image:URL("/images/calendar_green_bg.gif"); border:solid 2px #cccccc; position: relative; float:left; height:17px; width:40px; text-align:center;}

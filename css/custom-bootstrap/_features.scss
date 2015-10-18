@@ -1,0 +1,148 @@
+.features {
+	[class*='col-'] {
+		padding-bottom: 30px;
+	}
+	.header {
+		padding: 10px 0 8px;
+	}
+	//Uncomment this once we have a subheadline on featured deals from the homepage
+	/*.header {
+		&[class*="col-"] {
+			padding-bottom: 10px;
+		}
+	}
+	*/
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+		.panel-image {
+			margin-bottom: 12px;
+		}
+		h4 {
+			margin-top: 0;
+			margin-bottom: 3px;
+			white-space: nowrap;
+		}
+		h4, .h4 {
+			font-size: 14px;
+		}
+		p {
+			text-decoration: none;
+			color: $gray;
+		}
+		@media all and (min-width:$screen-sm) {
+			h4, .h4 {
+				font-size: 17px;
+			}
+		}
+	}
+}
+/// Designers will provide an image that is 500x500 that should be used for large screens.
+/// For all other screens add "?w=360" for a smaller image.
+/// Designers will also provide the background-postion.
+/// To make it simple for dev's never use px's for background-position
+/// instead Designers will provide you with top, center, right, left or bottom.
+/// Why do I need such large images?
+/// This should ensure that this pattern will work if there are 2-4 features
+/// See Luis Perez or Brandon Shields for questions
+
+.feature-moped {
+	background-image: url(//resource.alaskaair.net/content/~/media/419D702710BB43AE884599FCF5C485FB.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/419D702710BB43AE884599FCF5C485FB.ashx);
+	}
+}
+.feature-splashing {
+	background-image: url(//resource.alaskaair.net/content/~/media/592CB10967AA457785AB04B76E550B84.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/592CB10967AA457785AB04B76E550B84.ashx);
+	}
+}
+.feature-family-beach {
+	background-image: url(//resource.alaskaair.net/content/~/media/A29EAA87CC394C739D83F92298D32552.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/A29EAA87CC394C739D83F92298D32552.ashx);
+	}
+}
+.feature-disneyland {
+	background-image: url(//resource.alaskaair.net/content/~/media/CB170923EC914F19A95DFD7B4B61FA90.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/CB170923EC914F19A95DFD7B4B61FA90.ashx);
+	}
+}
+.feature-hotel {
+	background-image: url(//resource.alaskaair.net/content/~/media/52107378223A4BAF8E15350B7AE70001.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/52107378223A4BAF8E15350B7AE70001.ashx);
+	}
+}
+.feature-have-card {
+	background-image: url(//resource.alaskaair.net/content/~/media/3848CBEC0A974CB3B8E4659E8E2A00A3.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/3848CBEC0A974CB3B8E4659E8E2A00A3.ashx);
+	}
+}
+.feature-packing {
+	background-image: url(//resource.alaskaair.net/content/~/media/3848CBEC0A974CB3B8E4659E8E2A00A3.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/3848CBEC0A974CB3B8E4659E8E2A00A3.ashx);
+	}
+}
+.feature-beach2 {
+	background-image: url(//resource.alaskaair.net/content/~/media/FE49B699E5F2440B9A3B6C88DCDEECAE.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/FE49B699E5F2440B9A3B6C88DCDEECAE.ashx);
+	}
+}
+.feature-beach-chair {
+	background-image: url(//resource.alaskaair.net/content/~/media/EA26A835959F48C7A079FA3D69A84867.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/EA26A835959F48C7A079FA3D69A84867.ashx);
+	}
+}
+.feature-selfie {
+	background-image: url(//resource.alaskaair.net/content/~/media/D197D1FD7E9949389BC57F0BDBE0BCEA.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/D197D1FD7E9949389BC57F0BDBE0BCEA.ashx);
+	}
+}
+.feature-globe {
+	background-image: url(//resource.alaskaair.net/content/~/media/E37D1AA57F27471EBE5DF844D70E870B.ashx?w=360);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	@media all and (min-width:$screen-lg) {
+		background-image: url(//resource.alaskaair.net/content/~/media/E37D1AA57F27471EBE5DF844D70E870B.ashx);
+	}
+}

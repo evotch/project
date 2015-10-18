@@ -1,0 +1,113 @@
+// Custom partial for the footer
+.as-footer {
+	background-color: $lightersand;
+	padding: 20px 0;
+	margin-bottom: -20px;
+	color: $gray; /* floats icons */
+	.fa {
+		font-size: 2em;
+		margin-right: 15px;
+		color: $navy;
+	}
+	[class^="icon-"], [class*=" icon-"] {
+		height: 24px;
+		width: 24px;
+	}
+	span[class^="icon-"]:before, span[class*=" icon-"]:before {
+		font-size: 24px;
+	}
+	.icon {
+		margin-right: 4px;
+	}
+	.social-icons {
+		margin-bottom: -.5em;
+		margin-left: -7px;
+	}
+	ul {
+		margin-left: 0;
+		padding-left: 0;
+		list-style: none;
+	}
+	ul a, .social-icons a {
+		font-size: 12px;
+		line-height: 2.5em;
+		color: $gray;
+		text-decoration: none;
+	}
+	ul a:hover, ul a:focus {
+		color: $gray-light;
+		text-decoration: underline;
+	}
+	.social-icons a:hover, .social-icons a:focus {
+		text-decoration: none;
+	}
+	.textBox {
+		line-height: 1.8em;
+	}
+	hr {
+		border-color: $gray-lighter
+	}
+	.as-footer-copyright {
+		padding-top: 20px
+	}
+	@media all and (min-width:$screen-sm) {
+		.as-footer-copyright {
+			padding-top: 70px
+		}
+        .as-footer-adchoices {
+            padding-bottom: 30px
+        }
+		.panel-group {
+			display: inline;
+		}
+	}
+	.footer-headlines .mobile-arrow {
+		float: right;
+		position: relative;
+		top: 10px;
+		.arrow-down {
+			border-top: 7px solid $brand-primary;
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+		}
+	}
+}
+.footer-headlines a {
+	display: block;
+	padding: 10px 0;
+	border-bottom: 1px solid $hairline;
+}
+.footer-headlines a:focus {
+	outline: none;
+	text-decoration: none;
+}
+.footer-headlines a:hover {
+	text-decoration: none;
+}
+@media all and (min-width:$screen-sm) {
+	.collapse {
+		display: block;
+		visibility: visible;
+	}
+	//makes the headline unclickable on desktops
+	h5 a {
+		pointer-events: none;
+	}
+	.footer-headlines a {
+		padding: initial;
+		border-bottom: 0px solid $hairline;
+	}
+	.footer-headlines .mobile-arrow {
+		display: none;
+	}
+}
+.server-name {
+	background-color: $lightersand;
+	margin-top: -20px;
+}
+
+.image-res {
+    .server-name {
+        background-color: transparent;
+    }
+}

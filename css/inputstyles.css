@@ -1,0 +1,122 @@
+.twoColumnLeftInput
+{
+	width:30%;
+	text-align:right;
+	float:left;
+}
+
+.twoColumnLeftInput .padded
+{
+	width:30%;
+	text-align:right;
+	float:left;
+	padding-top:5px;
+}
+
+.paddingTop
+{	
+	padding-top:5px;	
+}
+
+.paddingTop2
+{	
+	padding-top:2px;	
+}
+
+.promoPadding
+{	
+	_margin-left:3px;	
+	width:118px;
+}
+
+.twoColumnLeftInputNotRequiredField
+{
+	width:218px;
+	text-align:right;
+	float:left;
+	padding-top:5px;
+	padding-right:7px;
+}
+.twoColumnLeftInput2
+{
+	width:225px;
+	text-align:right;
+	float:left;
+	padding-top:0px;
+	margin-left:-15px;	
+}
+
+.signInPage .twoColumnLeftInput2
+{
+	width:125px;
+}
+
+.floatEntireRow
+{
+	width:750px;
+	float:left;
+	padding-top:2px;
+}
+
+.pageColumnLeft
+{
+	float:left;
+	width:470px;
+}
+
+.pageColumnLeftWide
+{
+	float:left;
+	width:520px;
+}
+
+.pageColumnRight
+{
+	float:right;
+	width:270px;
+}
+
+.InputGroupingBoxStandard
+{
+	width:550px;
+	margin-top:20px;
+	border-style:solid;
+	border-color:#c0d1e8;
+	border-width:1px 1px 1px 1px;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+}
+
+.InputGroupingBoxWide
+{
+	width:740px;
+	margin-top:20px;
+	border-style:solid;
+	border-color:#c0d1e8;
+	border-width:1px 1px 1px 1px;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+}
+
+.InputGroupingBoxMid
+{
+	width:600px;
+	border-style:solid;
+	border-color:#c0d1e8;
+	border-width:1px 1px 1px 1px;
+	padding-bottom:5px;
+}
+
+.InputGroupingBoxHead
+{
+	background:#e6edf6; 
+	padding-left:7px;
+	padding-bottom:10px;
+}
+
+.WideMarginOffset
+{
+	margin-left:200px;	
+}

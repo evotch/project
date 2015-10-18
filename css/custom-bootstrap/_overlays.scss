@@ -1,0 +1,50 @@
+//We are NOT using this sass partial
+.tint {
+  display: block;
+  height: 100%;
+  text-align: center;
+    span {
+    position: relative;
+    top: 28%;
+    color: $white;
+  }
+}
+
+.navytint {
+  @extend .tint;
+  background-color: rgba($navy, .85);
+}
+
+.orangetint {
+  @extend .tint;
+  background-color: rgba($orange, .85);
+}
+.bluetint {
+  @extend .tint;
+  background-color: rgba($blue, .85);
+}
+.pinktint {
+  @extend .tint;
+  background-color: rgba($pink, .85);
+}
+.plumtint {
+  @extend .tint;
+  background-color: rgba($plum, .85);
+}
+.tealtint {
+  @extend .tint;
+  background-color: rgba($teal, .85);
+}
+.browntint {
+  @extend .tint;
+  background-color: rgba($brown, .85);
+}
+
+//this adds a random background image when needed from unsplash.com via unsplash.it
+.random-image {
+  background-image: url(https://unsplash.it/200/300/?random);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 20.95em;
+}

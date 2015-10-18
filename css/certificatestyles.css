@@ -1,0 +1,1139 @@
+.advisory
+{
+    font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#cc6600;
+}
+
+.InputGroupingBoxStandard
+{
+	width:550px;
+	margin-top:20px;
+	border-style:solid;
+	border-color:#c0d1e8;
+	border-width:1px 1px 1px 1px;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+}
+
+.InputGroupingBoxWide
+{
+	width:740px;
+	margin-top:20px;
+	border-style:solid;
+	border-color:#c0d1e8;
+	border-width:1px 1px 1px 1px;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+}
+
+.FullWidth
+{
+	float:left;
+	width:880px;
+}
+
+.GCText
+{
+	font:bold 8pt Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+}
+
+.GCHeader
+{
+	font:bold 12pt Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+}
+
+.Explanation
+{
+	font-style:italic;
+	font-weight:normal;	
+	color:gray;
+}
+
+.Selected
+{
+	border:3px solid #a96221;
+}
+
+.GiftCertificateSelect
+{
+	width:115px;
+	height:253px;
+	border:1px solid #cccccc;
+	float:left;
+	padding:4px;
+	overflow:auto;
+}
+
+#GiftCertificateSpacer
+{ 
+	width:15px;
+	height:254px;
+	float:left;
+}
+
+.Validator
+{
+	width:700px;
+	height:auto;
+	color:red;
+	display:inline-block;
+}
+
+.GCDesignImageSelected
+{
+	width:89px;
+	border:3px solid #a96221;
+	float:left;
+}
+
+.GCDesignImageNotSelected
+{
+	border:3px solid white;
+	float:left;
+	width:89px;
+}
+
+.CharCounter
+{
+	float:left;
+	color:gray;
+	border:1px solid gray;
+	padding:2px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.ValidationSummary
+{
+	float:left;
+}
+
+.GCDesignControl
+{
+	float:left;	
+	width:750px;
+}
+
+.GCAmountControl
+{
+	float:left;	
+	width:750px;
+}
+
+.GCAmountControl .LabelColumn
+{	
+	float:left;
+	width:140px;
+	text-align:right;
+}
+
+.GCRecipientsControl
+{
+	float:left;	
+	width:750px;
+}
+
+.GCRecipientControl
+{
+	float:left;	
+	width:475px;
+}
+
+.GCMessageControl
+{
+	float:left;	
+	width:750px;
+}
+
+.GCBillingDetails
+{
+	float:left;	
+	width:750px; 
+}
+
+.GCBillingDetails table 
+{
+	padding:0px; 
+	margin:0; 
+	border:none; 
+	border-collapse: collapse;
+	width:400px;
+}
+
+.GCBillingDetails table th 
+{
+	border-bottom:1px solid #cccccc;
+	background-color:transparent;
+	vertical-align:middle;
+	padding:3px 0;
+	text-align:left;
+}
+
+.GCBillingDetails table tfoot 
+{
+	background-color:transparent;
+	vertical-align:middle;
+	padding:3px 0;
+	text-align:left;
+}
+	
+.GCBillingDetails table td 
+{
+	border-bottom:1px solid #cccccc;
+	background-color:transparent;
+	vertical-align:middle;
+	padding:3px 0;
+}
+	
+.GCBillingDetails table th.centered 
+{
+	text-align:center;
+}
+	
+.GCBillingDetails table td.centered 
+{
+	text-align:center;
+}
+
+.GCBillingDetails .GrandTotalText
+{
+	height:15px;
+	text-align:left;
+	vertical-align:middle;
+	padding:4px 4px 0 0;
+	font-weight:bold;
+}
+
+.GCBillingDetails .GrandTotalValue
+{
+	padding:2px;	   
+    background-color:#d8e6f1;
+	border:2px solid #81b0d1;
+   	font-weight: bold;
+    height:15px;
+}
+
+.GCBillingDetails .CurrencyConverter
+{
+	clear:both;
+	float:right;
+	width:150px;
+	text-align:right;
+}
+
+.GCBillingDetails .LineSparator
+{
+	float:left;
+	border-bottom: solid 1px GrayText;
+	height:1px;
+	line-height:1px;
+}
+
+.GCConfirmationDetails
+{
+	float:left;	
+	width:531px;
+	margin-left:20px;
+}
+
+.GCConfirmationDetails .CodeColumn
+{
+	float:left;
+	width:200px;
+	padding:1px 0;
+	height:15px;
+	line-height:15px;
+	vertical-align:middle;
+}
+
+.GCConfirmationDetails .EmailColumn
+{
+	float:left;
+	width:225px;
+	padding:1px 0;
+	height:15px;
+	line-height:15px;
+	vertical-align:middle;
+}
+
+.GCConfirmationDetails .AmountColumn
+{
+	float:right;	
+	width:100px;	
+	text-align:right;
+	padding:1px 0;
+	height:15px;
+	line-height:15px;
+	vertical-align:middle;
+}
+
+.GCConfirmationDetails .GrandTotalLine
+{
+	float:right;	
+	width:506px;	
+	height:25px;
+	vertical-align:middle;
+}
+
+.GCConfirmationDetails .GrandTotalLine .GrandTotalText
+{
+	float:right;
+	height:15px;
+	text-align:left;
+	vertical-align:middle;
+	padding:4px 4px 0 0;
+	font-weight:bold;
+}
+
+.GCConfirmationDetails .GrandTotalLine .GrandTotalValue
+{
+    padding:2px;
+	background-color:#d8e6f1;
+	border:2px solid #81b0d1;
+    font-weight: bold;
+    float:right;
+    height:15px;
+}
+
+.GCConfirmationDetails .CurrencyConverter
+{
+	float:right;	
+	width:150px;
+	text-align:right;
+}
+
+.GCConfirmationDetails .LineSparator
+{
+	float:left;
+	border-bottom:1px solid GrayText;
+	height:1px;
+	line-height:1px;
+}
+
+.DepositConfirmationDetails
+{
+	float:left;	
+	width:431px;
+}
+
+.DepositConfirmationDetails .CodeColumn
+{
+	float:left;
+	width:200px;
+	padding:1px 0;
+	height:15px;
+	line-height:15px;
+	vertical-align:middle;
+}
+
+
+.DepositConfirmationDetails .AmountColumn
+{
+	float:right;	
+	width:100px;	
+	text-align:right;
+	padding:1px 0;
+	height:15px;
+	line-height:15px;
+	vertical-align:middle;
+}
+
+.DepositConfirmationDetails .GrandTotalLine
+{
+	float:right;	
+	width:406px;	
+	height:25px;
+	vertical-align:middle;
+}
+
+.DepositConfirmationDetails .GrandTotalLine .GrandTotalText
+{
+	float:right;
+	height:15px;
+	text-align:left;
+	vertical-align:middle;
+	padding-top:4px;
+	padding-right:4px;
+	font-weight:bold;
+}
+
+.DepositConfirmationDetails .GrandTotalLine .GrandTotalValue
+{
+    padding:2px;
+	background-color:#d8e6f1;
+	border:2px solid #81b0d1;
+   	font-weight: bold;
+    float:right;
+    height:15px;
+}
+
+.DepositConfirmationDetails .CurrencyConverter
+{
+	float:right;	
+	width:150px;
+	text-align:right;
+}
+
+.DepositConfirmationDetails .LineSparator
+{
+	float:left;
+	border-bottom:solid 1px GrayText;
+	height:1px;
+	line-height:1px;
+}
+
+.GCEntrySummaryControl
+{
+	float:left;	
+	width: 506px;
+}
+
+.GCEntrySummaryControl .CodeColumn
+{
+	width:170px;
+	padding-top:1px;	
+	padding-bottom:1px;	
+	height:15px;
+	vertical-align:middle;
+}
+
+
+.GCEntrySummaryControl .AmountColumn
+{
+	width:140px;	
+	text-align:left;
+	padding-top:1px;	
+	padding-bottom:1px;	
+	height:15px;
+	vertical-align:middle;
+}
+
+.GCEntrySummaryControl .CurrencyConverter
+{
+	float:right;	
+	width:150px;
+	text-align:right;
+}
+
+.GCEntrySummaryControl .YourFare
+{
+	height:15px;
+	text-align:center;
+	vertical-align:middle;
+	border-style: none;
+	background-color:White;
+}
+
+.GCEntrySummaryControl .Amount
+{
+	height:15px;
+	text-align:center;
+	vertical-align:middle;
+	border-style: none;
+	background-color:white;
+}
+
+.GCEntrySummaryControl .Minus
+{
+	height:15px;
+	text-align:center;
+	vertical-align:middle;
+	border-style: none;
+	width:10px;
+	padding-left:3px;
+	padding-right:3px;
+	background-color:white;
+}
+
+.GCEntrySummaryControl .Equals
+{
+	height:15px;
+	text-align:center;
+	vertical-align:middle;
+	border-style: none;
+	width:10px;
+	padding-left:3px;
+	padding-right:3px;
+	background-color:white;
+}
+
+.GCEntrySummaryControl .BalanceDueHeader
+{
+	height:15px;
+	text-align:center;
+	vertical-align:middle;
+	border-style: none;
+	background-color:white;
+}
+
+.GCEntrySummaryControl .BalanceDue
+{
+	height:15px;
+	text-align:center;
+	vertical-align:middle;
+	border-style:none;
+	padding:2px;
+	background-color:#d8e6f1;
+	border:2px solid #81b0d1; 
+    font-weight: bold;
+}
+
+.GCEntriesControl
+{
+	float:left;	
+	width: 650px;
+}
+
+.GCEntryControl
+{
+	vertical-align:bottom;
+	width: 300px;
+}
+
+.GCEntryValidator
+{
+	float:left;
+	width:250px;
+}
+
+.GridViewSortableHeader, .GridViewSortableHeader a, .GridViewSortableHeader a:link, 
+.GridViewSortableHeader a:active, .GridViewSortableHeader a:visited, .GridViewSortableHeader a:hover
+{
+    color: Black;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.RightAlignText
+{
+    text-align: right;
+}
+
+.HowToRedeem
+{
+	float:left;
+	display:none;
+	margin-top:25px;
+}
+
+.TermsAndConditions
+{
+	display:none;
+}
+
+.GCPanel
+{
+	overflow:hidden;	
+}
+
+.ButtonPanel
+{
+	float:left;
+	width:585px;
+}
+
+/*******************************  Credit Certificate Styles  *********************************/
+.CreditDisplay
+{
+	float:left;
+	width: 582px;
+	height:261px;
+	border: #cccccc 2px solid;	
+	font-size: 12px; 
+	overflow:hidden;
+}
+
+.CreditImage
+{
+	float:left;
+	width: 581px;
+	height:261px;
+	overflow:hidden;
+}
+
+.CreditBody
+{
+	float:left;
+	width: 406px;
+	height:261px;
+	overflow:hidden;
+}
+
+.CreditBodyText
+{
+	position:relative;
+	width: 406px;
+	height:261px;
+	top:-261px;
+	left:15px;
+	overflow:hidden;
+}
+
+.CreditIssueDateLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:70px;
+	width:91px;
+}
+
+.CreditIssueDate
+{
+	float:left;
+	width:100px;
+	padding-top:70px;
+	text-align:left;
+}
+
+.CreditExpirationDateLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:7px;
+	width:114px;
+}
+
+.CreditExpirationDate
+{
+	float:left;
+	width:125px;
+	padding-top:7px;
+	text-align:left;
+}
+
+.CreditAmountLabel
+{
+	float:right;
+	font-weight:bold;
+	text-align:right;
+	padding-top:70px;
+}
+
+.CreditAmount
+{
+	float:right;
+	padding-right:10px;
+	text-align:right;
+	font-size:13px;
+	font-weight:bold;
+	padding-top:70px;
+}
+
+.CreditCertCodeLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:7px;
+	width:120px;
+}
+
+.CreditCertCode
+{
+	float:left;
+	padding-top:7px;
+	width:180px;
+}
+
+.CreditPINLabel
+{
+	float:right;
+	font-weight:bold;
+	padding-right:5px;
+	text-align:right;
+	padding-top:7px;
+}
+
+.CreditPIN
+{
+	float:right;
+	padding-right:10px;
+	text-align:right;
+	padding-top:7px;
+}
+
+/*******************************  BTC Styles  *********************************/
+.BTCDisplay
+{
+	float:left;
+	width: 582px;
+	height:261px;
+	border: #cccccc 2px solid;	
+	font-size: 12px; 
+	overflow:hidden;
+}
+
+.BTCImage
+{
+	float:left;
+	width: 581px;
+	height:261px;
+	overflow:hidden;
+}
+
+.BTCBody
+{
+	float:left;
+	width: 406px;
+	height:261px;
+	overflow:hidden;
+}
+
+.BTCBodyText
+{
+	position:relative;
+	width: 406px;
+	height:261px;
+	top:-261px;
+	left:15px;
+	overflow:hidden;
+}
+
+.BTCToLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:70px;
+	padding-right:5px;
+}
+
+.BTCTo
+{
+	float:left;
+	width:360px;
+	padding-top:70px;
+	width:350px;
+}
+
+.BTCFlightLabel
+{
+	float:left;
+	font-weight:bold;
+	width:47px;
+	padding-top:7px;
+}
+
+.BTCFlight
+{
+	float:left;
+	width:300px;
+	padding-top:7px;
+}
+
+.BTCIssueDateLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:7px;
+	width:91px;
+}
+
+.BTCIssueDate
+{
+	float:left;
+	width:100px;
+	padding-top:7px;
+	text-align:left;
+}
+
+.BTCExpirationDateLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:7px;
+	width:114px;
+}
+
+.BTCExpirationDate
+{
+	float:left;
+	width:125px;
+	padding-top:7px;
+	text-align:left;
+}
+
+.BTCAmountLabel
+{
+	float:right;
+	font-weight:bold;
+	text-align:right;
+	padding-top:7px;
+}
+
+.BTCAmount
+{
+	float:right;
+	padding-right:10px;
+	text-align:right;
+	font-size:13px;
+	font-weight:bold;
+	padding-top:7px;
+}
+
+.BTCCertCodeLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:7px;
+	width:120px;
+}
+
+.BTCCertCode
+{
+	float:left;
+	padding-top:7px;
+	width:180px;
+}
+
+.BTCPINLabel
+{
+	float:right;
+	font-weight:bold;
+	padding-right:5px;
+	text-align:right;
+	padding-top:7px;
+}
+
+.BTCPIN
+{
+	float:right;
+	padding-right:10px;
+	text-align:right;
+	padding-top:7px;
+}
+
+
+/*******************************  GiftCard Styles  *********************************/
+.GiftCardDisplay
+{
+	float:left;
+	width: 582px;
+	height:261px;
+	border: #cccccc 2px solid;	
+	font-size: 12px; 
+	overflow:hidden;
+}
+
+.GiftCardImage
+{
+	float:left;
+	width: 581px;
+	height:261px;
+	overflow:hidden;
+}
+
+.GiftCardBody
+{
+	float:left;
+	width: 406px;
+	height:261px;
+	overflow:hidden;
+}
+
+.GiftCardBodyText
+{
+	position:relative;
+	width: 406px;
+	height:261px;
+	top:-245px;
+	left:25px;
+	overflow:hidden;
+}
+
+.GiftCardAmountLabel
+{
+	float:Left;
+	font-weight:bold;
+	text-align:left;
+	padding-left:10px;
+	padding-top:17px;
+}
+
+.GiftCardAmount
+{
+	float:Left;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:5px;
+	padding-top:17px;
+}
+
+.GiftCardCodeLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+.GiftCardCode
+{
+	float:left;
+	text-align:left;
+	padding-left:5px;
+	width:180px;
+}
+
+.GiftCardPINLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-left:10px;
+	text-align:left;
+}
+
+.GiftCardPIN
+{
+	float:left;
+	padding-left:5px;
+	text-align:left;
+}
+
+/*******************************  Common GC Styles  *********************************/
+.GC001, .GC002, .GC003, .GC004, .GC005, .GC006, .GC007, .GC008, .GC009, .GC010, .GC011, .GC012
+{
+	width:581px;
+	height:261px;
+	border:1px solid #cccccc;
+	float:left;
+	font-size:10px;
+}
+
+.GC001 .To, .GC002 .To, .GC003 .To, .GC004 .To, .GC005 .To, .GC006 .To, .GC007 .To, .GC008 .To, .GC009 .To, .GC010 .To, .GC011 .To, .GC012 .To
+{
+	float:left;
+	font-weight:bold;
+	padding-top:20px;
+	width:340px;
+}
+
+.GC001 .From, .GC002 .From, .GC003 .From, .GC004 .From, .GC005 .From, .GC006 .From, .GC007 .From, .GC008 .From, .GC009 .From, .GC010 .From, .GC011 .From, .GC012 .From
+{
+	float:left;
+	font-weight:bold;
+	width:340px;
+}
+
+/*.GC001 .GCBody*/
+.GCBody
+{
+	width:406px;
+	height:261px;
+	/*background:url("/content/~/media/Images/photos-infographics/gift-certificates/GC001ViewBackground") no-repeat;*/
+	float:left;
+	font-size:11px;
+}
+
+.GC001 .IssueDate, .GC002 .IssueDate, .GC003 .IssueDate, .GC004 .IssueDate, .GC005 .IssueDate, .GC006 .IssueDate, .GC007 .IssueDate, .GC008 .IssueDate, .GC009 .IssueDate, .GC010 .IssueDate, .GC011 .IssueDate, .GC012 .IssueDate
+{
+	float:left;
+	font-weight:bold;
+	padding-top:8px;
+	width:175px;
+}
+
+.GC001 .Amount, .GC002 .Amount, .GC003 .Amount, .GC004 .Amount, .GC005 .Amount, .GC006 .Amount, .GC007 .Amount, .GC008 .Amount, .GC009 .Amount, .GC010 .Amount, .GC011 .Amount, .GC012 .Amount
+{
+	float:right;
+	font-weight:bold;
+	padding:8px 10px 0 0;
+	width:150px;
+	text-align:right;
+}
+
+.GC001 .Message, .GC002 .Message, .GC003 .Message, .GC004 .Message, .GC005 .Message, .GC006 .Message, .GC007 .Message, .GC008 .Message, .GC009 .Message, .GC010 .Message, .GC011 .Message, .GC012 .Message
+{
+	float:left;
+	font-weight:bold;
+	padding-top:8px;
+	width:340px;
+	height:95px;
+}
+
+.GC001 .CertCode, .GC002 .CertCode, .GC003 .CertCode, .GC004 .CertCode, .GC005 .CertCode, .GC006 .CertCode, .GC007 .CertCode, .GC008 .CertCode, .GC009 .CertCode, .GC010 .CertCode, .GC011 .CertCode, .GC012 .CertCode
+{
+	float:left;
+	font-weight:bold;
+	width:240px;
+	padding-top:8px;
+}
+
+.GC001 .PIN, .GC002 .PIN, .GC003 .PIN, .GC004 .PIN, .GC005 .PIN, .GC006 .PIN, .GC007 .PIN, .GC008 .PIN, .GC009 .PIN, .GC010 .PIN, .GC011 .PIN, .GC012 .PIN
+{
+	float:right;
+	font-weight:bold;
+	padding-right:10px;
+	padding-top:8px;
+	width:85px;
+	text-align:right;
+}
+
+.GC001Display, .GC002Display, .GC003Display, .GC004Display, .GC005Display, .GC006Display, .GC007Display, .GC008Display, .GC009Display, .GC010Display, .GC011Display, .GC012Display
+{
+	float:left;
+	width: 582px;
+	height:261px;
+	border:1px solid #cccccc;	
+	font-size:12px; 
+	overflow:hidden;
+}
+
+.GC001Display .GCImage, .GC002Display .GCImage, .GC003Display .GCImage, .GC004Display .GCImage, .GC005Display .GCImage, .GC006Display .GCImage, .GC007Display .GCImage, .GC008Display .GCImage, .GC009Display .GCImage, .GC010Display .GCImage, .GC011Display .GCImage, .GC012Display .GCImage
+{
+	float:left;
+	width: 175px;
+	height:261px;
+	overflow:hidden;
+}
+
+.GC001Display .GCBody, .GC002Display .GCBody, .GC003Display .GCBody, .GC004Display .GCBody, .GC005Display .GCBody, .GC006Display .GCBody, .GC007Display .GCBody, .GC008Display .GCBody, .GC009Display .GCBody, .GC010Display .GCBody, .GC011Display .GCBody, .GC012Display .GCBody{
+	float:left;
+	width: 406px;
+	height:261px;
+	overflow:hidden;
+}
+
+.GC001Display .GCBodyText, .GC002Display .GCBodyText, .GC003Display .GCBodyText, .GC004Display .GCBodyText, .GC005Display .GCBodyText, .GC006Display .GCBodyText, .GC007Display .GCBodyText, .GC008Display .GCBodyText, .GC009Display .GCBodyText, .GC010Display .GCBodyText, .GC011Display .GCBodyText, .GC012Display .GCBodyText
+{
+	position:relative;
+	width: 406px;
+	height:261px;
+	top:-261px;
+	left:175px;
+	float:left;
+	overflow:hidden;
+}
+.GC001Display .ToLabel, .GC002Display .ToLabel, .GC003Display .ToLabel, .GC004Display .ToLabel, .GC005Display .ToLabel, .GC006Display .ToLabel, .GC007Display .ToLabel, .GC008Display .ToLabel, .GC009Display .ToLabel, .GC010Display .ToLabel, .GC011Display .ToLabel, .GC012Display .ToLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:28px;
+	padding-right:5px;
+}
+
+.GC001Display .To, .GC002Display .To, .GC003Display .To, .GC004Display .To, .GC005Display .To, .GC006Display .To, .GC007Display .To, .GC008Display .To, .GC009Display .To, .GC010Display .To, .GC011Display .To, .GC012Display .To
+{
+	float:left;
+	width:360px;
+	padding-top:28px;
+	width:350px;
+}
+
+.GC001Display .FromLabel, .GC002Display .FromLabel, .GC003Display .FromLabel, .GC004Display .FromLabel, .GC005Display .FromLabel, .GC006Display .FromLabel, .GC007Display .FromLabel, .GC008Display .FromLabel, .GC009Display .FromLabel, .GC010Display .FromLabel, .GC011Display .FromLabel, .GC012Display .FromLabel
+{
+	float:left;
+	font-weight:bold;
+	width:47px;
+	padding-top:1px;
+}
+
+.GC001Display .From, .GC002Display .From, .GC003Display .From, .GC004Display .From, .GC005Display .From, .GC006Display .From, .GC007Display .From, .GC008Display .From, .GC009Display .From, .GC010Display .From, .GC011Display .From, .GC012Display .From
+{
+	float:left;
+	width:300px;
+	padding-top:1px;
+}
+
+.GC001Display .IssueDateLabel, .GC002Display .IssueDateLabel, .GC003Display .IssueDateLabel, .GC004Display .IssueDateLabel, .GC005Display .IssueDateLabel, .GC006Display .IssueDateLabel, .GC007Display .IssueDateLabel, .GC008Display .IssueDateLabel, .GC009Display .IssueDateLabel, .GC010Display .IssueDateLabel, .GC011Display .IssueDateLabel, .GC012Display .IssueDateLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:7px;
+	width:92px;
+}
+
+.GC001Display .IssueDate, .GC002Display .IssueDate, .GC003Display .IssueDate, .GC004Display .IssueDate, .GC005Display .IssueDate, .GC006Display .IssueDate, .GC007Display .IssueDate, .GC008Display .IssueDate, .GC009Display .IssueDate, .GC010Display .IssueDate, .GC011Display .IssueDate, .GC012Display .IssueDate
+{
+	float:left;
+	width:100px;
+	padding-top:7px;
+	text-align:left;
+}
+
+.GC001Display .AmountLabel, .GC002Display .AmountLabel, .GC003Display .AmountLabel, .GC004Display .AmountLabel, .GC005Display .AmountLabel, .GC006Display .AmountLabel, .GC007Display .AmountLabel, .GC008Display .AmountLabel, .GC009Display .AmountLabel, .GC010Display .AmountLabel, .GC011Display .AmountLabel, .GC012Display .AmountLabel
+{
+	float:right;
+	font-weight:bold;
+	text-align:right;
+	padding-top:7px;
+}
+
+.GC001Display .Amount, .GC002Display .Amount, .GC003Display .Amount, .GC004Display .Amount, .GC005Display .Amount, .GC006Display .Amount, .GC007Display .Amount, .GC008Display .Amount, .GC009Display .Amount, .GC010Display .Amount, .GC011Display .Amount, .GC012Display .Amount
+{
+	float:right;
+	padding:7px 10px 0 0;
+	text-align:right;
+	font-size:13px;
+	font-weight:bold;	
+}
+
+.GC001Display .MessageLabel, .GC002Display .MessageLabel, .GC003Display .MessageLabel, .GC004Display .MessageLabel, .GC005Display .MessageLabel, .GC006Display .MessageLabel, .GC007Display .MessageLabel, .GC008Display .MessageLabel, .GC009Display .MessageLabel, .GC010Display .MessageLabel, .GC011Display .MessageLabel, .GC012Display .MessageLabel
+{
+	float:left;
+	font-weight:bold;
+	width:400px;
+	padding-top:7px;
+}
+
+.GC001Display .Message, .GC002Display .Message, .GC003Display .Message, .GC004Display .Message, .GC005Display .Message, .GC006Display .Message, .GC007Display .Message, .GC008Display .Message, .GC009Display .Message, .GC010Display .Message, .GC011Display .Message, .GC012Display .Message
+{
+	float:left;
+	width:400px;
+	height:105px;
+	overflow:hidden;
+	padding-top:7px;
+}
+
+.GC001Display .CertCodeLabel, .GC002Display .CertCodeLabel, .GC003Display .CertCodeLabel, .GC004Display .CertCodeLabel, .GC005Display .CertCodeLabel, .GC006Display .CertCodeLabel, .GC007Display .CertCodeLabel, .GC008Display .CertCodeLabel, .GC009Display .CertCodeLabel, .GC010Display .CertCodeLabel, .GC011Display .CertCodeLabel, .GC012Display .CertCodeLabel
+{
+	float:left;
+	font-weight:bold;
+	padding-top:7px;
+}
+
+.GC001Display .CertCode, .GC002Display .CertCode, .GC003Display .CertCode, .GC004Display .CertCode, .GC005Display .CertCode, .GC006Display .CertCode, .GC007Display .CertCode, .GC008Display .CertCode, .GC009Display .CertCode, .GC010Display .CertCode, .GC011Display .CertCode, .GC012Display .CertCode
+{
+	float:left;
+	padding-top:7px;
+	width:180px;
+}
+
+.GC001Display .PINLabel, .GC002Display .PINLabel, .GC003Display .PINLabel, .GC004Display .PINLabel, .GC005Display .PINLabel, .GC006Display .PINLabel, .GC007Display .PINLabel, .GC008Display .PINLabel, .GC009Display .PINLabel, .GC010Display .PINLabel, .GC011Display .PINLabel, .GC012Display .PINLabel
+{
+	float:right;
+	font-weight:bold;
+	padding:7px 5px 0 0;
+	text-align:right;
+}
+
+.GC001Display .PIN, .GC002Display .PIN, .GC003Display .PIN, .GC004Display .PIN, .GC005Display .PIN, .GC006Display .PIN, .GC007Display .PIN, .GC008Display .PIN, .GC009Display .PIN, .GC010Display .PIN, .GC011Display .PIN, .GC012Display .PIN
+{
+	float:right;
+	padding:7px 10px 0 0;
+	text-align:right;
+}
+
+.GC001 .GCImage, .GC002 .GCImage, .GC003 .GCImage, .GC004 .GCImage, .GC005 .GCImage, .GC006 .GCImage, .GC007 .GCImage, .GC008 .GCImage, .GC009 .GCImage, .GC010 .GCImage, .GC011 .GCImage, .GC012 .GCImage
+{
+	background-repeat: no-repeat;
+	float:left;
+	width:175px;
+	height:261px;
+}
+/*******************************  Specific GC Styles   *********************************/
+.GC001 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC001-2011-RedRibbon.ashx");}
+.GC002 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC002-2011-BlueGift.ashx");}
+.GC003 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC003-2011-PinkGift.ashx");}
+.GC004 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC004-2011-BeachFootprints.ashx");}
+.GC005 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC005-2011-Ski.ashx");}
+.GC006 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC006-2011-BeachHands.ashx");}
+.GC007 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC007-2011-Mexico.ashx");}
+.GC008 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC008-2011-BeachSurfer.ashx");}
+.GC009 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC009-2011-Lake.ashx");}
+.GC010 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC010-2011-Hawaii.ashx");}
+.GC011 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC011-2011-Canyon.ashx");}
+.GC012 .GCImage{background-image:url("/content/~/media/Images/onSite/giftCertificates/GC012-2011-AlaskaTail.ashx");}

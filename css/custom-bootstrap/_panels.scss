@@ -1,0 +1,96 @@
+//
+// Panels
+// --------------------------------------------------
+
+.panel {
+  margin: 12px 0 24px;
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 0 0 12px 0;
+  }
+  //forces the white bg on stripes when used inside a panel.  Default is transparent
+  .table-striped {
+    > tbody > tr:nth-child(even) {
+      background-color: $white;
+    }
+  }
+}
+
+
+//Custom Ones I'm adding to match our brand colors
+
+
+.panel-navy {
+  color:$white;
+  background-color:$navy;
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color:$white;
+  }
+}
+.panel-teal {
+  color:$white;
+  background-color:$teal;
+}
+.panel-grey, .panel-gray{
+  color:$gray;
+  background-color:$gray-lightest;
+}
+.panel-green {
+  color:$white;
+  background-color:$green;
+}
+.panel-brown {
+  color:$white;
+  background-color:$brown;
+}
+.panel-tan {
+  color:$brown;
+  background-color:$tan;
+}
+.panel-cream {
+  color:$brown;
+  background-color:$cream;
+}
+.panel-white {
+  color:$gray-dark;
+  background-color:$white;
+}
+.panel-berry,.panel-pink  {
+  color:$white;
+  background-color:$berry;
+}
+.panel-plum {
+  color:$white;
+  background-color:$plum;
+}
+.panel-orange {
+  color:$white;
+  background-color:$orange;
+}
+.panel-gold {
+  color:$white;
+  background-color:$gold;
+}
+.panel-aqua {
+  color:$navy;
+  background-color:$aqua;
+}
+.panel-blue {
+  color:$white;
+  background-color:$blue;
+}
+.panel-gray-light {
+  color:$navy;
+  background-color:$gray-light;
+}
+
+.panel-image {
+  min-height:  $minbannerheight;
+}
+.panel-image-featured {
+  min-height: 500px;
+  margin-top: -$luis-padding;
+  margin-bottom: -$luis-padding;
+  margin-right:-$luis-padding;
+  margin-left:-$luis-padding;
+}
+

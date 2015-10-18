@@ -1,0 +1,39 @@
+// Tabs
+// -------------------------
+$borderheight: 6px;
+// Give the tabs something to sit on
+.nav-tabs-underline {
+    margin: 0 0 $grid-gutter-width ;
+    border-bottom: 1px solid $nav-tabs-border-color;
+
+    > li {
+        float: left;
+        // Make the list-items overlay the bottom border
+        margin-bottom: 0px;
+        // Actual tabs (as links)
+        > a {
+            margin-right: 2px;
+            line-height: $line-height-base;
+            border:none;
+            border-bottom: $borderheight solid $white;
+            border-radius: 0;
+            font-size: 16px;
+            padding: 10px 30px;
+            &:hover {
+                border-bottom: $borderheight solid lighten($blue, 10);
+            }
+        }
+        // Active state, and its:hover to override normal:hover
+        &.active > a {
+            &, &:hover, &:focus {
+                color: $navy;
+                background-color: $nav-tabs-active-link-hover-bg;
+                border: 0px solid transparent;
+                border-bottom: $borderheight solid $blue;
+                cursor: default;
+                font-weight: bold;
+                padding: 10px 28px;
+            }
+        }
+    }
+}

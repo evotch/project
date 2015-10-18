@@ -1,0 +1,97 @@
+.mobilenav {
+	height:53px;
+    span {
+        position: relative;
+    }
+    .mobile-cart-count {
+        left: -32px;
+        bottom: 8px;
+    }
+	.super-user-search:hover,
+    .mobile-cart:hover {
+		text-decoration:none;
+	}
+    .mobilelogo {
+        height: 30px;
+        margin: $grid-gutter-width / 3 $grid-gutter-width / 2;
+    }
+    svg {
+        height: $icon-size-sm;
+        width: $icon-size-sm;
+        color: $navy;
+        margin-right: 20px;
+        position: relative;
+        top: $grid-gutter-width / 3;
+    }
+    
+    //span[class^="icon-"]:before, span[class*=" icon-"]:before {
+    //    font-size: $icon-size-sm;
+    //    color: $navy;
+    // 	   margin-right: 20px;
+    //    position: relative;
+    //    top: $grid-gutter-width / 3;
+    //}
+    .navmenu-default .navmenu-nav.dropdown-menu, .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu {
+        background-color: $white;
+    }
+    .nav .navmenu-nav {
+        background-color: $white;
+    }
+    li.dropdown, .navmenu-default .navmenu-nav > .open > a, .navmenu-default .navmenu-nav > .open > a:hover {
+        background-color: $cream;
+        border-bottom: 1px solid $hairline;
+    }
+    b {
+        float: right;
+    }
+    .dropdown-menu {
+        padding-bottom: 0;
+        position: relative;
+        top: 1px;
+    }
+    .dropdown-menu > li > a {
+        padding: $grid-gutter-width / 2.1;
+        border-bottom: 1px solid $hairline;
+    }
+    .navmenu.navmenu-default.navmenu-fixed-left.offcanvas-sm.hidden-lg.hidden-md.in.canvas-slid {
+        background-color: $lightersand;
+    }
+    .navbar-toggle {
+        width: 44px;
+        height: 44px;
+        
+        .icon-bar {
+        height: 3px;
+        background-color: $navy;
+        width:28px;
+        }
+    }
+    
+    .navbar-default .navbar-toggle {
+        border-color: $white;
+    }
+    .navbar-default {
+        background-color: $white;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: $white;
+    }
+    .super-user-search {
+        display: none;
+    }
+    .signin-form {
+        padding: $grid-gutter-width / 2.1;
+    }
+    .username-help a {
+        display: block;
+        padding: $grid-gutter-width / 2.1 0 0 0;
+    }
+    .radio label {
+        min-height: 16px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .checkbox {
+        min-height: 16px;
+    }
+}

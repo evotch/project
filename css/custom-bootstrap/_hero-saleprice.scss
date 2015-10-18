@@ -1,0 +1,156 @@
+/* Flight Formlet  This SCSS needs to be rewritten */
+
+.sales-offer {
+	margin-top: $grid-gutter-width;
+	padding-left: $grid-gutter-width/2;
+	padding-right: $grid-gutter-width/2;
+
+	h3, .h3 {
+		margin: 5px 0;
+		color: $navy
+	}
+	.offer {
+		font-size: 36px;
+		font-weight: bold;
+		color: $navy;
+		text-align: right;
+		line-height: 1em;
+		sup {
+			font-weight: normal;
+			font-size: .6em;
+			top: -.4em;
+		}
+		sub {
+			bottom: 0;
+			font-weight: normal;
+			font-size: 14px;
+		}
+	}
+	.from {
+		font-weight: normal;
+	}
+	.oneway {
+		font-weight: normal;
+		display: block;
+		margin-top: 0;
+	}
+	.limited-time {
+		margin-top: -2px
+	}
+	// Mobile Only
+	@media (max-width:$screen-sm-max) {
+		h2, .h2 {
+			margin-bottom: 8px;
+		}
+		.btn {
+			width: 100%;
+		}
+	}
+// Iphone and smaller devices Only
+	@media (max-width:351px) {
+		.col-xs-4 {
+			width: 31.33333%;
+			padding-left: 0px;
+		}
+		.col-xs-8 {
+			width: 68.66667%;
+			padding-right: 0px;
+		}
+	}	
+
+}
+//Tablet
+@media (min-width:$screen-sm) {
+	.sales-offer {
+		padding-top: 0;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.18);
+		.offer {
+			font-size: 70px;
+			font-weight: bold;
+			color: $white;
+			
+			line-height: .95em;
+			text-align: left;
+			margin-top: -40px;
+
+			&.ng-hide:not(.ng-hide-animate) {
+				display:block!important;
+				visibility:hidden!important;
+			}
+			&.ng-show:not(.ng-show-animate) {
+				display:block!important;
+				visibility:visible!important;
+			}
+		}
+		h2, .h2 {
+			font-size: 50px;
+			color: $white;
+			letter-spacing: -3px;
+			margin-bottom: 3px;
+		}
+		span {
+			color: $white;
+		}
+		span.btn-white {
+			color:$navy;
+		}
+		.price span {
+			margin-top: -70px
+		}
+		.oneway {
+			display: inline;
+		}
+
+		.view-offer {
+			margin-top:12px;
+			&:focus{
+				outline: none;
+			}
+		}
+		.btn {
+			text-shadow: none;
+			width: auto;
+		}
+	}
+}
+// Desktop
+@media (min-width:$screen-md) {
+	.sales-offer {
+		padding-top: 0;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.18);
+		.offer {
+			font-size: 70px;
+			font-weight: bold;
+			color: $white;
+			
+			line-height: .95em;
+			text-align: left;
+			margin-top: -45px;
+
+			&.ng-hide:not(.ng-hide-animate) {
+				display:block!important;
+				visibility:hidden!important;
+			}
+			&.ng-show:not(.ng-show-animate) {
+				display:block!important;
+				visibility:visible!important;
+			}
+		}
+		h2, .h2 {
+			font-size: 60px;
+			color: $white;
+			letter-spacing: -3px;
+			margin-bottom: 3px;
+		}
+		.price {
+			margin-top: -9px;
+		}
+		//moving restrictions apply link to bottom of page
+		//span.h6.secondary {
+		//	position: absolute;
+		//	bottom: -245px;
+		//	left: 20px;
+		//	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.18);
+		//}
+	}
+}

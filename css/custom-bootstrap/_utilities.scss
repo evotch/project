@@ -1,0 +1,62 @@
+// For Sign in Functionality
+// -------------------------
+
+// We must hide these initially because 'signed' and 'unsigned'
+// are not present intially.
+
+.show-if-unsigned,
+.show-if-signed {
+    display: none !important;
+}
+
+.signed .show-if-signed,
+.unsigned .show-if-unsigned {
+    display: block !important;
+}
+
+.country-CA .show-if-US,
+.show-if-CA {
+	display: none !important;
+}
+.country-CA .show-if-CA {
+	display: block !important;
+}
+
+.show-if-bofa { // By default don't show "show-if-bofa" class
+    display: none !important;
+}
+.has-bofa-card .show-if-bofa { // Now show bofa if you have bofa
+    display: block !important;
+}
+.has-bofa-card .hide-if-bofa { // And hide stuff that shouldn't be shown to bofa
+    display: none !important;
+}
+
+
+
+// Unbolds text
+// -------------------------
+.secondary {
+    font-weight: normal !important;
+}
+
+.last {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+// Error States
+// -------------------------
+.ng-dirty.ng-invalid,
+.submitted .ng-invalid {
+  border-color: $error;
+}
+// Forces Homelet to have border for error states when input field is on the right
+// -------------------------
+[class*="right-"] {
+	.ng-dirty.ng-invalid,
+	.submitted .ng-invalid {
+	border-left: 1px solid #a00 !important;
+}
+}

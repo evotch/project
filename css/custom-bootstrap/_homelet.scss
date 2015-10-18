@@ -1,0 +1,120 @@
+.homelet {
+    margin-top: $grid-gutter-width;
+    background-color: $sand;
+    color: $text-color;
+    >.tab-content {
+        padding: 15px;
+    }
+    .tab-pane {
+        margin-top: 10px;
+    }
+    .hotel-search, .car-search {
+        padding-top: 15px;
+    }
+    .error-list {
+        position: relative;
+        top: -12px;
+    }
+    .nav-justified {
+        > li {
+            display: table-cell;
+            width: 1%;
+            > a {
+                margin-bottom: 0;
+                padding: 10px 6px;
+                font-size: .9em;
+                @media (min-width:$screen-xs) {
+                    padding: 10px 15px;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    .nav-tabs {
+        background-color: $stone;
+        li {
+            margin: 0;
+            //padding-right: 1px;
+        }
+        li a {
+            background-color: $stone;
+            border: none;
+            border-radius: 0;
+            color: $navy;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        li.active a, li.active a:hover, li a:hover, li a:focus {
+            background-color: $sand;
+            border: none; /* NOTE: there are a ton of borders that we have to override */
+            box-shadow:1px 0px 0px 0 darken($sand, 10%);
+        }
+
+        li.last.active a, li.last:hover a {
+            box-shadow: 0 0 0 0;
+        }
+        li.active a:focus {
+            border: none;
+        }
+        li a:hover, li a:active, li a:focus {
+            color: $navy;
+        }
+    }
+    .flight-search .nav-tabs {
+        background-color: $sand;
+        li a {
+            background-color: $sand;
+            color: #666;
+            font-size: 0.8em;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+        li.active a, li.active a:hover, li a:hover, li a:focus, li.active a:focus {
+            background-color: $tan;
+            color: $navy;
+            font-weight: bold;
+        }
+        li a:focus{
+            // Default
+            outline: thin dotted;
+            // WebKit
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+    }
+    .cityPrefs a {
+        margin-right: 8px;
+        color: $blue;
+        cursor: pointer;
+     }
+    .homelet-advanced {
+        display: inline-block;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    #manage {
+        p{font-size: 14px;
+            font-weight: inherit;
+        }
+        .btn-link {
+            text-align: left;
+        }
+    }
+    .arrow-right {
+        border-left: 5px solid $navy;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        display: inline-block;
+        padding-right: 5px;
+        margin-right: 4px;
+    }
+    .vertical-align {
+        line-height: $input-height-base;
+    }
+    .col-sm-2 select {
+        padding-right: 5px;
+    }
+    > .tab-content > .tab-pane {
+        padding: 0px ($grid-gutter-width / 2);
+    }
+}

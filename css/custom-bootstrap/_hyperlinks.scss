@@ -1,0 +1,19 @@
+p a, .underline, .contentMain a {
+  &,
+  &:hover,
+  &:focus,
+  &:active,
+  &.active, {
+    text-decoration: underline;
+  }
+}
+
+p a.btn {
+  &,
+  &:hover,
+  &:focus,
+  &:active,
+  &.active, {
+    text-decoration: none;
+  }
+}

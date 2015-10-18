@@ -1,0 +1,23 @@
+.skip-to-content {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Make it smaller! */
+.small-header {
+	.navbar {
+		margin-bottom: 5px;
+	}
+	.navbar-wrapper-brand {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.nav-marker, .nav .open>a .marker, .nav .dropdown>a:hover .marker, .nav .dropdown>a:focus .marker {
+		bottom: -19px;
+	}
+	.navbar-main ul.dropdown-menu {
+		margin-top: 11px;
+	}
+}

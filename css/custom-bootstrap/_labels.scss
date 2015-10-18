@@ -1,0 +1,30 @@
+//
+// Labels
+// --------------------------------------------------
+
+// Colors
+// Contextual variations (linked labels get darker on :hover)
+
+.label-default, .label-blue {
+  @include label-variant($label-default-bg);
+}
+
+.label-primary,.label-navy {
+  @include label-variant($label-primary-bg);
+}
+
+.label-success, .label-green {
+  @include label-variant($label-success-bg);
+}
+
+.label-info, .label-aqua {
+  @include label-variant($label-info-bg);
+}
+
+.label-warning, .label-gold {
+  @include label-variant($label-warning-bg);
+}
+
+.label-danger, .label-pink, .label-berry {
+  @include label-variant($label-danger-bg);
+}

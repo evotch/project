@@ -1,0 +1,142 @@
+﻿.hotel-pricepoint-wrap  {
+
+float:left;
+width:250px;
+margin: 10px 15px 0 0;
+
+}
+.hotel-citywrap
+{	
+	border-bottom:1px solid #DCDCDC;
+	float:left;
+	width:515px;
+	margin-bottom:15px;
+	height:1px;
+}
+.hotel-image {
+float:left;
+height:70px;
+padding-bottom:18px;
+width:70px;
+}
+.hotel-info {
+float:left;
+padding:0 0 0 8px;
+width:172px;
+}
+.dealItem {
+margin:20px 0px 20px 20px;
+}
+.hc-col-content {
+margin:0 0 0 10px;
+width:533px;
+}
+.hotel-col-body  {
+background:url("/images/hotelcar/hc-col-bg.jpg") no-repeat scroll right bottom #FFFFFF;
+border-left:1px solid #00539B;
+border-right:1px solid #00539B;
+border-top:1px solid #00539B;
+overflow:hidden;
+width:668px;
+}
+
+
+.hotel-price {
+color:#00245A;
+float:right;
+font-size:27px;
+font-weight:bold;
+line-height:30px;
+margin-top:-15px;
+padding-right:0;
+position:relative;
+}
+.hotel-dollar-sign {
+float:left;
+font-size:14px;
+margin-top:-5px;
+}
+.hotel-details {
+float:left;
+font-weight:bold;
+}
+
+.hotel-stars {
+height:10px;
+margin:4px 0 3px;
+}
+
+
+.hc-wrap {
+overflow:hidden;
+width:883px;
+}
+.hc-left  {
+background:url("/images/hotelcar/hotel-shop.jpg") no-repeat scroll left bottom #4275AC;
+float:left;
+padding-bottom:7px;
+position:relative;
+width:680px;
+}
+.hc-greeter-hd {
+background:url("/images/hotelcar/hc-banner-blue-strip.jpg") no-repeat scroll 0 0 #031B4E;
+height:27px;
+width:680px;
+}
+.hc-greeter-bar {
+background:none repeat scroll 0 0 #9FB069;
+height:5px;
+overflow:hidden;
+width:680px;
+}
+.hotel-shop {
+position:relative;
+width:680px;
+}
+.hotel-deals {
+display:inline;
+float:left;
+margin:5px 5px 0;
+width:670px;
+}
+.hc-col-hd {
+height:26px;
+width:332px;
+}
+.hc-deals-hd-img {
+background:url("/images/hotelcar/hc-deals-hdr670.gif") no-repeat scroll 0 0 transparent;
+height:6px;
+overflow:hidden;
+width:670px;
+}
+.hc-deals-hd-body {
+background:none repeat scroll 0 0 #01194C;
+border-left:1px solid #00539B;
+border-right:1px solid #00539B;
+height:20px;
+width:668px;
+}
+
+.hotel-name {
+float:left;
+width:172px;
+}
+.hotel-terms {
+font-size:10px;
+margin-top:2px;
+}
+
+.hotel-deals-copy {
+clear:both;
+padding:0px 0 0 10px;
+margin-top:-10px;
+}
+.hc-brands-content {
+margin:15px 0 0 10px;
+width:310px;
+}
+.hotel-brands-logos {
+float:left;
+margin:20px 0 0 10px;
+width:140px;
+}

@@ -1,0 +1,30 @@
+#popup-header
+{
+    width:650px;
+	top:0;
+	left:0;
+	margin:0;	
+	padding:0;
+	border: medium none;
+	background-repeat:repeat-x;
+    position:absolute;
+}
+
+#popup-footer
+{
+	width:650px;
+	left:0;
+	bottom:0;
+	padding:0;
+	border:medium none;
+	background-image:url(http://www.alaskaair.com/images/popup_footer.gif);
+	background-repeat:repeat-x;
+	position:absolute;
+}
+
+H1.popup
+{
+    margin:10px 0 10px 0;
+	font:bold 18px Verdana, Arial, Helvetica, sans-serif;
+	color:#01194c;
+}
