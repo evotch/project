@@ -18,6 +18,9 @@
 // Green Primary Button
 .btn-primary, .btn-green, .btn-success {
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  min-width: 200px;
+  max-width: 465px;
+  padding: 11px 40px;
    &:focus {   
 	outline: thin dotted !important;
     outline-offset: -2px;

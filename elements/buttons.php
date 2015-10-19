@@ -53,7 +53,7 @@ to 6px.</p>
 <span class="c">&lt;!-- Primary White button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-white"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
       <p>
-      <h3 class="section-header secondary" id="multiple-actions">Pages with multiple actions. <small>(Ex. Deals pages)</small></h3>
+      <h3 class="section-header secondary" id="multiple-actions">Secondary</h3>
       <p>Secondary CTAs are always shown in Atlas
 Blue with a two pixel border and standard drop shadow . The width of the CTA is determined by 15px of padding on each side of the title . The height of the CTA is 34px . Corners should not be rounded on any CTAs . On touch screens, use the filled in state since there is no hover state .</p>
       <button type="button" class="btn btn-blue">View Deals</button>

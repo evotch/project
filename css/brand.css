@@ -6398,6 +6398,9 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
   color: #fff;
   background-color: #4d803b;
   border-color: #4d803b;
+  min-width: 200px;
+  max-width: 465px;
+  padding: 11px 40px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle, .btn-green:hover, .btn-green:focus, .btn-green.focus, .btn-green:active, .btn-green.active, .open > .btn-green.dropdown-toggle, .btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   color: #fff;
