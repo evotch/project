@@ -5,11 +5,7 @@
   <ul class="nav nav-tabs nav-tabs-underline" role="tablist">
     <li role="presentation" class="active"><a href="#FinePrint-CodeExample" aria-controls="FinePrint-CodeExample" role="tab" data-toggle="tab">Code</a></li>
     <li role="presentation"><a href="#FinePrint-VoiceGuidlines" aria-controls="FinePrint-VoiceGuidlines" role="tab" data-toggle="tab">Voice</a></li>
-    <li role="presentation"><a href="#FinePrint-SEO" aria-controls="FinePrint-SEO" role="tab" data-toggle="tab">SEO</a></li>
-    <li role="presentation"><a href="#FinePrint-Mobile" aria-controls="FinePrint-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
-    <li role="presentation"><a href="#FinePrint-Email" aria-controls="FinePrint-Email" role="tab" data-toggle="tab">Email</a></li>  
-    <li role="presentation"><a href="#FinePrint-Kiost" aria-controls="FinePrint-Kiost" role="tab" data-toggle="tab">Kiosk</a></li>    
-  </ul>
+      </ul>
   <!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FinePrint-CodeExample">
@@ -18,10 +14,6 @@
             <h4>Example</h4>
             <?php include ("../sections/tandc-example.php"); ?>
             </div></div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-VoiceGuidlines">Coming Soon!</div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-SEO">Coming Soon!</div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-Mobile">Coming Soon!</div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-Email">Coming Soon!</div>
-    <div role="tabpanel" class="tab-pane" id="FinePrint-Kiosk">Coming Soon!</div>    
+    <div role="tabpanel" class="tab-pane" id="FinePrint-VoiceGuidlines">Coming Soon!</div>  
   </div>
 </div>

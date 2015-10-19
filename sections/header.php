@@ -40,6 +40,7 @@ if(!$_SESSION['logged']){
   .pure-menu, .pure-g, .pure-g [class*="pure-u"] {
   font-family: Circular;
   }
+  </style>
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">

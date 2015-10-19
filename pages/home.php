@@ -24,12 +24,7 @@
           <div id="typography" class="bs-docs-section">
             <?php include ("../elements/typography.php"); ?>
           </div>
-          <div id="iconography" class="bs-docs-section">
-            <?php include ("../elements/iconography.php"); ?>
-          </div>
-          <div id="photography" class="bs-docs-section">
-            <?php include ("../elements/photography.php"); ?>
-          </div>
+
 
 
 

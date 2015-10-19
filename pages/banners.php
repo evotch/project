@@ -1,5 +1,5 @@
 <?php include ("../sections/header.php"); ?>
- 
+ <style>
   textarea.form-control {
     display: block;
     padding: 11.5px;

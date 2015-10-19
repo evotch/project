@@ -7,10 +7,6 @@
   <ul class="nav nav-tabs nav-tabs-underline" role="tablist">
     <li role="presentation" class="active"><a href="#headings-CodeExample" aria-controls="headings-CodeExample" role="tab" data-toggle="tab">Examples</a></li>
     <li role="presentation"><a href="#headings-VoiceGuidlines" aria-controls="headings-VoiceGuidlines" role="tab" data-toggle="tab">Voice</a></li>
-    <li role="presentation"><a href="#headings-SEO" aria-controls="headings-SEO" role="tab" data-toggle="tab">SEO</a></li>
-    <li role="presentation"><a href="#headings-Mobile" aria-controls="headings-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
-    <li role="presentation"><a href="#headings-Email" aria-controls="headings-Email" role="tab" data-toggle="tab">Email</a></li>  
-    <li role="presentation"><a href="#headings-Kiost" aria-controls="headings-Kiost" role="tab" data-toggle="tab">Kiosk</a></li>    
   </ul>
   <!-- Tab panes -->
   <div class="tab-content">
@@ -42,10 +38,6 @@
         </table>
       </div>
     </div>
-    <div role="tabpanel" class="tab-pane" id="headings-VoiceGuidlines"> <div class="item"><?php include ("../voice/capitalization-headings.php"); ?></div></div>
-    <div role="tabpanel" class="tab-pane" id="headings-SEO">...</div>
-    <div role="tabpanel" class="tab-pane" id="headings-Mobile">...</div>
-    <div role="tabpanel" class="tab-pane" id="headings-Email">...</div>
-    <div role="tabpanel" class="tab-pane" id="headings-Kiosk">...</div>    
+    <div role="tabpanel" class="tab-pane" id="headings-VoiceGuidlines"> <div class="item"><?php include ("../voice/capitalization-headings.php"); ?></div></div>  
   </div>
 </div>
