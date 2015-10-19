@@ -49,7 +49,7 @@ $img = getRandomFromArray($imgList);
   <title>Alaska Airlines Style Guide</title>
   <!-- Bootstrap core CSS -->
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-  <link href="../css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://www.alaskaair.com/stylesheets/brand.css">
   <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'>
     <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">
     <script src="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.js"></script>

@@ -1,10 +1,10 @@
 <h3 id="type-copy" class="page-header">Body Copy</h3>
-<p>To ensure proper spacing and formating wrap text in a <code>&lt;p&gt;</code> tag.  Copy will be 14px on desktop and 16px on mobile.  The color for all body copy text is a medium gray <code>#666</code></p>
+<p>To ensure proper spacing and formating wrap text in a <code>&lt;p&gt;</code> tag.  Copy will be 14px on desktop and 16px on mobile.  The color for all body copy text is a medium gray <code>#63c3b3f</code></p>
 <div role="tabpanel">
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs dsg" role="tablist">
-    <li role="presentation" class="active"><a href="#body-CodeExample" aria-controls="body-CodeExample" role="tab" data-toggle="tab">Code Example</a></li>
-    <li role="presentation"><a href="#body-VoiceGuidlines" aria-controls="body-VoiceGuidlines" role="tab" data-toggle="tab">Voice Guidlines</a></li>
+  <ul class="nav nav-tabs nav-tabs-underline" role="tablist">
+    <li role="presentation" class="active"><a href="#body-CodeExample" aria-controls="body-CodeExample" role="tab" data-toggle="tab">Examples</a></li>
+    <li role="presentation"><a href="#body-VoiceGuidlines" aria-controls="body-VoiceGuidlines" role="tab" data-toggle="tab">Voice</a></li>
     <li role="presentation"><a href="#body-SEO" aria-controls="body-SEO" role="tab" data-toggle="tab">SEO</a></li>
     <li role="presentation"><a href="#body-Mobile" aria-controls="body-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
     <li role="presentation"><a href="#body-Email" aria-controls="body-Email" role="tab" data-toggle="tab">Email</a></li>    

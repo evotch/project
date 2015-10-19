@@ -1,1 +1,0 @@
-<%@ Page language="c#" Codebehind="Screen.aspx.cs" AutoEventWireup="True" Inherits="AlaskaAir.Web.UI.alaskaair.Screen" enableViewState="false" enableSessionState="false" %>

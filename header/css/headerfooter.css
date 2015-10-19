@@ -1,3 +1,5 @@
+@import url(./css-lib/pure-release-0.6.0/pure-min.css);
+@import url(./css-lib/pure-release-0.6.0/grids-responsive.css);
 footer {
   display: block; }
 
@@ -332,11 +334,14 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   line-height: 24px;
   position: relative;
   margin: 0 auto;
-  max-width: 992px;
+  max-width: 768px;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   height: 75px; }
+  @media (min-width: 992px) {
+    #hf-nav {
+      max-width: 992px; } }
   #hf-nav .pure-menu-children.pure-g {
     width: 100%;
     padding: 0px 0 0 30px;
@@ -383,16 +388,16 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (min-width: 768px) {
       #hf-nav a.pure-menu-link {
         font-size: 19px;
-        font-size: 2.3vw;
+        font-size: 2vw;
         padding-right: .445vw;
         padding-left: .445vw; } }
-    @media (min-width: 930px) {
+    @media (min-width: 991px) {
       #hf-nav a.pure-menu-link {
-        font-size: 21px;
-        padding-left: 6px;
-        padding-right: 6px; } }
+        font-size: 20px;
+        padding-left: 18px;
+        padding-right: 18px; } }
     #hf-nav a.pure-menu-link svg {
-      width: 12vw; }
+      width: 10vw; }
   #hf-nav .pure-menu-children {
     position: absolute;
     margin-top: 1px; }
@@ -489,23 +494,13 @@ body.nav-open {
     position: absolute; }
     @media (min-width: 768px) {
       .aura-bg svg#Final_Auras {
-        width: 270px;
-        width: 33vw;
-        margin-left: -3vw; } }
+        width: 8vw; } }
     @media (min-width: 930px) {
       .aura-bg svg#Final_Auras {
-        width: 33vw;
-        margin-left: -4vw; } }
-    @media (min-width: 991px) {
+        width: 10vw; } }
+    @media (min-width: 1500px) {
       .aura-bg svg#Final_Auras {
-        width: 33vw;
-        margin-left: -3vw;
-        margin-top: -.5vw; } }
-    @media (min-width: 1030px) {
-      .aura-bg svg#Final_Auras {
-        width: 33vw;
-        margin-left: -4vw;
-        margin-top: -1vw; } }
+        width: 7vw; } }
 
 .hf-signin-form {
   font-size: 14px; }

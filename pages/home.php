@@ -12,9 +12,9 @@
           <div class="clearfix"></div>
           <!-- TESTING FETAURES OF BOOTSTRAP -->
 
-          <div id="color-porportions" class="bs-docs-section">
+<!--           <div id="color-porportions" class="bs-docs-section">
             <?php include ("../elements/color-proportions.php"); ?>
-          </div>
+          </div> -->
           <div id="buttons" class="bs-docs-section">
             <?php include ("../elements/buttons.php"); ?>
           </div>

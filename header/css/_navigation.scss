@@ -18,7 +18,8 @@
   line-height: 24px;
   position: relative;
   margin: 0 auto;
-  max-width: $fullpageWidth;
+  max-width: $smallestWidth;
+  @media (min-width:$fullpageWidth) {max-width: $fullpageWidth;}
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -97,18 +98,18 @@
     padding-right: .2vw;
     @media (min-width:$smallestWidth) {
       font-size: 19px;
-      font-size: 2.3vw;
+      font-size: 2vw;
       padding-right: .445vw;
       padding-left: .445vw;
     }
-    @media (min-width:930px) {
-      font-size: 21px;
-      padding-left: 6px;
-      padding-right: 6px;
+    @media (min-width:991px) {
+      font-size: 20px;
+      padding-left: 18px;
+      padding-right: 18px;
     }
     //as.com wordmark
     svg {
-      width: 12vw;
+      width: 10vw;
     }
   }
 
@@ -254,29 +255,18 @@ body.nav-open {
   svg#Final_Auras {
     position: absolute;
     @media (min-width:$smallestWidth) {
-        width:270px;
-        width: 33vw;
-        margin-left: -3vw;
+        width: 8vw;
+        
     }
     @media (min-width:930px) {
-        width: 33vw;
-        margin-left: -4vw;
+        width: 10vw
     }
-    @media (min-width:991px) {
-        width: 33vw;
-        margin-left: -3vw;
-        margin-top:-.5vw;
-    }
-    @media (min-width:1030px) {
-        width: 33vw;
-        margin-left: -4vw;
-        margin-top:-1vw;
+    @media (min-width:1500px) {
+        width: 7vw;
+
     }
 
-}  svg#Final_Auras {
-    
-    
-  }
+}  
 
 }
 

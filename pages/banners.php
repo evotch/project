@@ -1,20 +1,5 @@
 <?php include ("../sections/header.php"); ?>
-  <style type="text/css">
-  @font-face {
-  font-family: Circular;
-  src: url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-book.woff2') format('woff2'), url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal
-  }
-  @font-face {
-  font-family: Circular;
-  src: url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-bold.woff2') format('woff2'), url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-bold.woff') format('woff');
-  font-weight: bold;
-  }
-  body {font-family:Circular, Arial !important}
-  .pure-menu, .pure-g, .pure-g [class*="pure-u"] {
-  font-family: Circular;
-  }
+ 
   textarea.form-control {
     display: block;
     padding: 11.5px;

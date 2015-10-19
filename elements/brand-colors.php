@@ -1,130 +1,156 @@
-<div class="page-header">
-  <h1>Brand Colors</h1>
-  <h4 class="secondary">Primary & Secondary Colors</h4>
-</div>
-<div class="col-sm-3 panel-navy well-lg">
-  <!--<strong>PMS:</strong> 295 C<br>
-  <strong>CMYK:</strong> 100, 84, 36, 40<br>
-  <strong>RGB:</strong> 15, 44, 81<br>
-  <strong>Uncoated PMS:</strong> 295 U<br>-->
-  <strong>Navy</strong><br>
-  <strong>HEX:</strong> #0e2b51<br>
+<section id="core-brand-colors">
+  <h2 class="page-header">Colors</h2>
+  <h3 class="page-header">Core brand colors</h3>
+  <div class="row">
+<div class="col-sm-6">
+<div class="panel-navy well-lg" style="height:408px">
+  <strong>Midnight Blue</strong><br>
+  <strong>HEX:</strong> #01426A<br>
   <strong>SASS:</strong> $navy
+  </div>
 </div>
-<div class="col-sm-3 panel-teal well-lg">
-  <!--<strong>PMS:</strong> 7722 C<br>
-  <strong>CMYK:</strong> 96, 50, 59, 35<br>
-  <strong>RGB:</strong> 0, 80, 82<br>
-  <strong>Uncoated PMS:</strong> 323 U<br>-->
-  <strong>Marine</strong><br>
-  <strong>HEX:</strong> #004f51<br>
-  <strong>SASS:</strong> $marine
-</div>
-<div class="col-sm-3 panel-green well-lg">
-  <!--<strong>PMS:</strong> 2278 C<br>
-  <strong>CMYK:</strong> 73, 28, 100, 14<br>
-  <strong>RGB:</strong> 78, 129, 59<br>
-  <strong>Uncoated PMS:</strong> 362 U<br>-->
-  <strong>Leaf</strong><br>
-  <strong>HEX:</strong> #4d803b<br>
-  <strong>SASS:</strong> $green
-</div>
-<div class="col-sm-3 panel-brown well-lg">
-  <!--<strong>PMS:</strong> 2322 C<br>
-  <strong>CMYK:</strong> 49, 66, 78, 56<br>
-  <strong>RGB:</strong> 77, 53, 36<br>
-  <strong>Uncoated PMS:</strong> 4625 U<br>-->
-  <strong>Bark</strong><br>
-  <strong>HEX:</strong> #4d3524<br>
-  <strong>SASS:</strong> $brown
-</div>
-
-<div class="clearfix"></div>
-<div class="page-header">
-  <h4 class="secondary">Neutrals Colors</h4>
-</div>
-<div class="col-sm-4 panel-tan well-lg">
-  <!--<strong>PMS:</strong> 7535 C<br>
-  <strong>CMYK:</strong> 30, 26, 39, 0<br>
-  <strong>RGB:</strong> 184, 176, 156<br>
-  <strong>Uncoated PMS:</strong> 7536 U<br>-->
-  <strong>Stone</strong><br>
-  <strong>HEX:</strong> #b7af9b<br>
-  <strong>SASS:</strong> $stone
-</div>
-<div class="col-sm-4 panel-cream well-lg">
-  <!--<strong>PMS:</strong> 9043 C<br>
-  <strong>CMYK:</strong> 7, 7, 11, 0<br>
-  <strong>RGB:</strong> 234, 229, 221<br>
-  <strong>Uncoated PMS:</strong> 7527 U<br>-->
-  <strong>White Sand</strong><br>
-  <strong>HEX:</strong> #e9e5dd<br>
-  <strong>SASS:</strong> $sand
-</div>
-<div class="col-sm-4 panel-white well-lg">
-  
-  <!--<strong>CMYK:</strong> 0, 0, 0, 0<br>
-  <strong>RGB:</strong> 255, 255, 255<br>-->
-  <strong>Snow</strong><br>
-  <strong>HEX:</strong> #ffffff<br>
-  <strong>SASS:</strong> $white
-</div>
-
-<div class="clearfix"></div>
-<div class="page-header">
-  <h4 class="secondary">Accent Colors</h4>
-</div>
-<div class="col-sm-4 panel-orange well-lg">
-  <!--<strong>PMS:</strong> 7577 C<br>
-  <strong>CMYK:</strong> 8, 60, 88, 0<br>
-  <strong>RGB:</strong> 227, 125, 57<br>
-  <strong>Uncoated PMS:</strong> 152 U<br>-->
-  <strong>Sunset</strong><br>
-  <strong>HEX:</strong> #e17329<!--#e37d38--><br>
-  <strong>SASS:</strong> $orange
-</div>
-<div class="col-sm-4 panel-plum well-lg">
-  <!--<strong>PMS:</strong> 7645 C<br>
-  <strong>CMYK:</strong> 53, 81, 53, 49<br>
-  <strong>RGB:</strong> 83, 43, 58<br>
-  <strong>Uncoated PMS:</strong> 690 U<br>-->
-  <strong>Raisin</strong><br>
-  <strong>HEX:</strong> #522a3a<br>
-  <strong>SASS:</strong> $wine
-</div>
-<div class="col-sm-4 panel-blue well-lg">
-  <!--<strong>PMS:</strong> 2153 C<br>
-  <strong>CMYK:</strong> 97, 65, 30, 11<br>
-  <strong>RGB:</strong> 0, 86, 126<br>
-  <strong>Uncoated PMS:</strong> 301 U<br>-->
-  <strong>Ocean</strong><br>
-  <strong>HEX:</strong> #00567e<br>
+<div class="col-sm-6 section">
+<div class="panel-blue well-lg">
+  <strong>Atlas Blue</strong><br>
+  <strong>HEX:</strong> #2774AE<br>
   <strong>SASS:</strong> $blue
 </div>
-<div class="col-sm-4 panel-gold well-lg">
-  <!--<strong>PMS:</strong> 2007 C<br>
-  <strong>CMYK:</strong> 13, 36, 100, 0<br>
-  <strong>RGB:</strong> 223, 165, 39<br>
-  <strong>Uncoated PMS:</strong> 110 U<br>-->
-  <strong>Wheat</strong><br>
-  <strong>HEX:</strong> #dfa526<br>
-  <strong>SASS:</strong> $gold
 </div>
-<div class="col-sm-4 panel-berry well-lg">
-  <!--<strong>PMS:</strong> 7641 C<br>
-  <strong>CMYK:</strong> 32, 94, 57, 22<br>
-  <strong>RGB:</strong> 146, 43, 73<br>
-  <strong>Uncoated PMS:</strong> 207 U<br>-->
-  <strong>Berries</strong><br>
-  <strong>HEX:</strong> #922a49<br>
-  <strong>SASS:</strong> $berry
+<div class="col-sm-6 section">
+<div class="panel-breeze well-lg">
+  <strong>Breeze Blue</strong><br>
+  <strong>HEX:</strong> #4d803b<br>
+  <strong>SASS:</strong> $breeze
 </div>
-<div class="col-sm-4 panel-aqua well-lg">
-  <!--<strong>PMS:</strong> 7464 C<br>
-  <strong>CMYK:</strong> 38, 3, 23, 0<br>
-  <strong>RGB:</strong> 159, 208, 201<br>
-  <strong>Uncoated PMS:</strong> 7464 U<br>-->
-  <strong>Sea Glass</strong><br>
-  <strong>HEX:</strong> #9ed0c9<br>
-  <strong>SASS:</strong> $aqua
 </div>
+<div class="col-sm-6 section">
+<div class="panel-lightgreen well-lg">
+  <strong>Tropical Green</strong><br>
+  <strong>HEX:</strong> #B3D57D<br>
+  <strong>SASS:</strong> $lightgreen
+</div>
+</div>
+<div class="col-sm-12 section"><p>The core palette is made up of a limited spectrum of blues and one green . The colors have been selected to work together, regard- less of the application . It’s crucial that Mid- night Blue leads as the primary color; Midnight Blue acts as an anchor on which other colors are applied .
+</p><p>For digital applications core colors are used much more sparingly . Be thoughtful about when and why you are using the brand colors .</p>
+</div>
+</div>
+</section>
+
+
+
+
+<section id="neutral-colors">
+  <h3 class="section-header">Neutrals Colors</h3>
+<div class="row">
+<div class="col-sm-6 section">
+<div class="panel-lightgrey well-lg">
+  <strong>Mist Gray</strong><br>
+  <strong>HEX:</strong> #b7af9b<br>
+  <strong>SASS:</strong> $lightgray
+</div>
+</div>
+<div class="col-sm-6 section">
+<div class="panel-lightblue well-lg">
+  <strong>Calm Blue</strong><br>
+  <strong>HEX:</strong> #8BA6C1<br>
+  <strong>SASS:</strong> $lightblue
+</div>
+</div>
+<div class="col-sm-12 section"><p>The neutral palette plays a supporting role to the core palette .</p></div>
+</div>
+
+
+<div class="clearfix"></div>
+  <h3 class="section-header">Digital brand colors</h3>
+<div class="row">
+<div class="col-sm-4 section">
+<div class="panel-grey1 well-lg section">
+  <strong>Grey 1</strong><br>
+  <strong>HEX:</strong> #212223<br>
+  <strong>SASS:</strong> $grey1
+</div>
+<p>Use this for large numbers in cards and titles .</p>
+</div>
+<div class="col-sm-4 section">
+<div class="panel-grey2 well-lg section">
+  <strong>Grey 2</strong><br>
+  <strong>HEX:</strong> #3C3B3F<br>
+  <strong>SASS:</strong> $grey2
+  
+</div><p>Use this for paragraph areas, and other necessary content that is not a title .</p>
+</div>
+<div class="col-sm-4 section">
+<div class="panel-grey3 well-lg section">
+  <strong>Grey 3</strong><br>
+  <strong>HEX:</strong> #656565<br>
+  <strong>SASS:</strong> $grey3
+  
+</div><p>Use this when you want type to fall further back while still active and compliant .</p>
+</div>
+</div>
+
+<div class="clearfix"></div>
+  <h3 class="section-header">Content area colors</h3>
+<div class="row">
+<div class="col-sm-4 section">
+<div class="panel-offwhite1 well-lg section">
+  <strong>Off white 1</strong><br>
+  <strong>HEX:</strong> #f5f5f5<br>
+  <strong>SASS:</strong> $offwhite1
+  
+</div><p>Used for body background and on tabbed</p>
+</div>
+<div class="col-sm-4 section">
+<div class="panel-offwhite2 well-lg section">
+  <strong>Off white 2</strong><br>
+  <strong>HEX:</strong> #eeeeee<br>
+  <strong>SASS:</strong> $offwhite2
+  
+</div><p>Use to create more hierarchy on content areas .</p>
+</div>
+<div class="col-sm-4 section">
+<div class="panel-offwhite3 well-lg section">
+  <strong>Off white 3</strong><br>
+  <strong>HEX:</strong> #e9e9e9<br>
+  <strong>SASS:</strong> $offwhite3
+  
+</div><p>Use to create more hierarchy on content areas .</p>
+</div>
+<div class="col-sm-6 section">
+<div class="panel-white well-lg section" style="box-shadow: 0px 0px 1px #656565;">
+  <strong>White</strong><br>
+  <strong>HEX:</strong> #FFFFFF<br>
+  <strong>SASS:</strong> $white
+</div>
+<p>Used for the bottom part of cards . It often houses CTAs and other poignant information .</p>
+</div>
+</div>
+<h3 class="section-header">Alerts</h3>
+<div class="row">
+
+<div class="col-sm-4 section">
+<div class="panel-green well-lg section">
+  <strong>CTA/Success alert</strong><br>
+  <strong>HEX:</strong> #212223<br>
+  <strong>SASS:</strong> $green
+</div>
+<p>This color is only to be use on the primary CTA and success alerts .</p>
+</div>
+<div class="col-sm-4 section">
+<div class="panel-orange well-lg section">
+  <strong>General alert</strong><br>
+  <strong>HEX:</strong> #3C3B3F<br>
+  <strong>SASS:</strong> $orange
+  
+</div><p>These colors are only to be use on their respective alerts .</p>
+</div>
+<div class="col-sm-4 section">
+<div class="panel-red well-lg section">
+  <strong>Warning alert</strong><br>
+  <strong>HEX:</strong> #cb391f<br>
+  <strong>SASS:</strong> $red
+  
+</div><p>These colors are only to be use on their respective alerts .</p>
+</div>
+</div>
+

@@ -2,9 +2,9 @@
 <p>Use the class <code>.fine-print</code> anytime you need to display terms and conditions, fare rules or any other disclaimer. Fine print is <code>11px</code> and the hex color is <code>#777</code>.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs dsg" role="tablist">
-    <li role="presentation" class="active"><a href="#FinePrint-CodeExample" aria-controls="FinePrint-CodeExample" role="tab" data-toggle="tab">Code Example</a></li>
-    <li role="presentation"><a href="#FinePrint-VoiceGuidlines" aria-controls="FinePrint-VoiceGuidlines" role="tab" data-toggle="tab">Voice Guidlines</a></li>
+  <ul class="nav nav-tabs nav-tabs-underline" role="tablist">
+    <li role="presentation" class="active"><a href="#FinePrint-CodeExample" aria-controls="FinePrint-CodeExample" role="tab" data-toggle="tab">Code</a></li>
+    <li role="presentation"><a href="#FinePrint-VoiceGuidlines" aria-controls="FinePrint-VoiceGuidlines" role="tab" data-toggle="tab">Voice</a></li>
     <li role="presentation"><a href="#FinePrint-SEO" aria-controls="FinePrint-SEO" role="tab" data-toggle="tab">SEO</a></li>
     <li role="presentation"><a href="#FinePrint-Mobile" aria-controls="FinePrint-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
     <li role="presentation"><a href="#FinePrint-Email" aria-controls="FinePrint-Email" role="tab" data-toggle="tab">Email</a></li>  

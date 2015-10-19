@@ -1,10 +1,10 @@
-<h3 id="type-copy" class="page-header">Lead Copy</h3>
+<h2 id="type-copy" class="section-header">Lead Copy</h3>
 <p>Add the class <code>.lead</code> to any <code>span</code> or <code>&lt;p&gt;</code> to emphasize a sentance or short message. Primarily found in marketing messages, blogs, policy pages, or other copy heavy pages&mdash; used to increase scanability of page.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs dsg" role="tablist">
-    <li role="presentation" class="active"><a href="#Lead-CodeExample" aria-controls="Lead-CodeExample" role="tab" data-toggle="tab">Code Example</a></li>
-    <li role="presentation"><a href="#Lead-VoiceGuidlines" aria-controls="Lead-VoiceGuidlines" role="tab" data-toggle="tab">Voice Guidlines</a></li>
+  <ul class="nav nav-tabs nav-tabs-underline" role="tablist">
+    <li role="presentation" class="active"><a href="#Lead-CodeExample" aria-controls="Lead-CodeExample" role="tab" data-toggle="tab">Examples</a></li>
+    <li role="presentation"><a href="#Lead-VoiceGuidlines" aria-controls="Lead-VoiceGuidlines" role="tab" data-toggle="tab">Voice</a></li>
     <li role="presentation"><a href="#Lead-SEO" aria-controls="Lead-SEO" role="tab" data-toggle="tab">SEO</a></li>
     <li role="presentation"><a href="#Lead-Mobile" aria-controls="Lead-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
     <li role="presentation"><a href="#Lead-Email" aria-controls="Lead-Email" role="tab" data-toggle="tab">Email</a></li>    

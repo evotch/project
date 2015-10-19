@@ -1,12 +1,12 @@
-<h3 id="type-headings" class="page-header">Headings</h3>
+<h2 id="type-headings" class="section-header">Headings</h3>
 
 <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. <code>.h1</code> through <code>.h6</code> classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.  When two headings are used the second heading can use the light font by adding the class <code>.secondary</code></p>
 
 <div role="tabpanel">
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs dsg" role="tablist">
-    <li role="presentation" class="active"><a href="#headings-CodeExample" aria-controls="headings-CodeExample" role="tab" data-toggle="tab">Code Example</a></li>
-    <li role="presentation"><a href="#headings-VoiceGuidlines" aria-controls="headings-VoiceGuidlines" role="tab" data-toggle="tab">Voice Guidlines</a></li>
+  <ul class="nav nav-tabs nav-tabs-underline" role="tablist">
+    <li role="presentation" class="active"><a href="#headings-CodeExample" aria-controls="headings-CodeExample" role="tab" data-toggle="tab">Examples</a></li>
+    <li role="presentation"><a href="#headings-VoiceGuidlines" aria-controls="headings-VoiceGuidlines" role="tab" data-toggle="tab">Voice</a></li>
     <li role="presentation"><a href="#headings-SEO" aria-controls="headings-SEO" role="tab" data-toggle="tab">SEO</a></li>
     <li role="presentation"><a href="#headings-Mobile" aria-controls="headings-Mobile" role="tab" data-toggle="tab">Mobile</a></li>
     <li role="presentation"><a href="#headings-Email" aria-controls="headings-Email" role="tab" data-toggle="tab">Email</a></li>  
@@ -21,64 +21,23 @@
           <tr>
             <td style="border:none" width="63%"><h1>Calling All Explorers&trade;</h1></td>
             <td style="border:none" ><code>.h1 or &lt;h1&gt;</code></td>
-            <td style="border:none" class="fine-print">Medium 36px</td>
-          </tr>
-          <tr>
-            <td><h1 class="secondary">Alaska Beyond&trade;</h1></td>
-            <td><code>.h1.secondary or <br>&lt;h1 class="secondary"&gt;</code></td>
-            <td class="fine-print">Light 36px</td>
+            <td style="border:none" class="fine-print">Bold 30px</td>
           </tr>
           <tr>
             <td><h2>Calling All Explorers&trade;</h2></td>
             <td><code>.h2 or &lt;h2&gt;</code></td>
-            <td class="fine-print">Medium 30px</td>
+            <td class="fine-print">Bold 20px</td>
           </tr>
           <tr>
-            <td><h2 class="secondary">Alaska Beyond&trade;</h2></td>
-            <td><code>.h2.secondary or <br>&lt;h2 class="secondary"&gt;</code></td>
-            <td class="fine-print">Light 30px</td>
-          </tr>
-          <tr>
-            <td><h3>Calling All Explorers&trade;</h3></td>
+            <td><h3>Alaska Beyond&trade;</h3></td>
             <td><code>.h3 or &lt;h3&gt;</code></td>
-            <td class="fine-print">Medium 24px</td>
-          </tr>
-          <tr>
-            <td><h3 class="secondary">Alaska Beyond&trade;</h3></td>
-            <td><code>.h3.secondary or <br>&lt;h3 class="secondary"&gt;</code></td>
-            <td class="fine-print">Light 24px</td>
+            <td class="fine-print">Bold 14px</td>
           </tr>
           <tr>
             <td><h4>Calling All Explorers&trade;</h4></td>
             <td><code>.h4 or &lt;h4&gt;</code></td>
-            <td class="fine-print">Medium 18px</td>
+            <td class="fine-print">Bold 12px</td>
           </tr>
-          <tr>
-            <td><h4 class="secondary">Alaska Beyond&trade;</h4></td>
-            <td><code>.h4.secondary or <br>&lt;h4 class="secondary"&gt;</code></td>
-            <td class="fine-print">Light 18px</td>
-          </tr>
-          <tr>
-            <td><h5>Calling All Explorers&trade;</h5></td>
-            <td><code>.h5 or &lt;h5&gt;</code></td>
-            <td class="fine-print">Medium 14px</td>
-          </tr>
-          <tr>
-            <td><h5 class="secondary">Alaska Beyond&trade;</h5></td>
-            <td><code>.h5.secondary or <br>&lt;h5 class="secondary"&gt;</code></td>
-            <td class="fine-print">Light 14px</td>
-          </tr>
-          <tr>
-            <tr>
-              <td><h6>Calling All Explorers&trade;</h6></td>
-              <td><code>.h6 or &lt;h6&gt;</code></td>
-              <td class="fine-print">Medium 12px</td>
-            </tr>
-            <tr>
-              <td><h6 class="secondary">Alaska Beyond&trade;</h6></td>
-              <td><code>.h6.secondary or <br>&lt;h6 class="secondary"&gt;</code></td>
-              <td class="fine-print">Light 12px</td>
-            </tr>
           </tbody>
         </table>
       </div>

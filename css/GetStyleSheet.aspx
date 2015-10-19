@@ -1,1 +1,0 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetStyleSheet.aspx.cs" Inherits="AlaskaAir.Web.UI.alaskaair.GetStyleSheet" %>

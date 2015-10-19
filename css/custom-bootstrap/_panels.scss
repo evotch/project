@@ -16,9 +16,7 @@
 }
 
 
-//Custom Ones I'm adding to match our brand colors
-
-
+//Core Brand Colors
 .panel-navy {
   color:$white;
   background-color:$navy;
@@ -26,61 +24,100 @@
     color:$white;
   }
 }
-.panel-teal {
+.panel-blue {
   color:$white;
-  background-color:$teal;
+  background-color:$blue;
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color:$white;
+  }
 }
-.panel-grey, .panel-gray{
-  color:$gray;
-  background-color:$gray-lightest;
+.panel-breeze {
+  color:$white;
+  background-color:$breeze;
+}
+.panel-lightgreen  {
+  color:$white;
+  background-color:$lightgreen;
+}
+
+//Neutral Palette
+
+.panel-lightgray,.panel-lightgrey {
+  color:$white;
+  background-color:$lightgray;
+}
+.panel-lightblue {
+  color:$white;
+  background-color:$lightblue;
+}
+
+//Content Area Colors
+
+.panel-offwhite1 {
+  color:$gray1;
+  background-color:$offwhite1;
+}
+.panel-offwhite2 {
+  color:$gray1;
+  background-color:$offwhite2;
+}
+.panel-offwhite3 {
+  color:$gray1;
+  background-color:$offwhite3;
+}
+.panel-white {
+  color:$gray1;
+  background-color:$white;
+}
+
+
+.panel-orange {
+  color:$white;
+  background-color:$orange;
+}
+.panel-red {
+  color:$white;
+  background-color:$red;
 }
 .panel-green {
   color:$white;
   background-color:$green;
 }
-.panel-brown {
+
+.panel-grey, .panel-gray, .panel-grey1, .panel-gray1{
   color:$white;
-  background-color:$brown;
+  background-color:$gray1;
 }
-.panel-tan {
-  color:$brown;
-  background-color:$tan;
-}
-.panel-cream {
-  color:$brown;
-  background-color:$cream;
-}
-.panel-white {
-  color:$gray-dark;
-  background-color:$white;
-}
-.panel-berry,.panel-pink  {
+.panel-grey2, .panel-gray2{
   color:$white;
-  background-color:$berry;
+  background-color:$gray2;
 }
+.panel-grey3, .panel-gray3{
+  color:$white;
+  background-color:$gray3;
+}
+
+
+//Old Brand colors classes
 .panel-plum {
   color:$white;
-  background-color:$plum;
-}
-.panel-orange {
-  color:$white;
-  background-color:$orange;
+  background-color:$red;
 }
 .panel-gold {
   color:$white;
-  background-color:$gold;
+  background-color:$orange;
 }
 .panel-aqua {
-  color:$navy;
-  background-color:$aqua;
-}
-.panel-blue {
   color:$white;
-  background-color:$blue;
+  background-color:$breeze;
+}
+.panel-teal {
+  color:$white;
+  background-color:$teal;
 }
 .panel-gray-light {
-  color:$navy;
-  background-color:$gray-light;
+  color:$gray1;
+  background-color:$lightgrey;
 }
 
 .panel-image {

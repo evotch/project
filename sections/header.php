@@ -16,9 +16,31 @@ if(!$_SESSION['logged']){
 <title>Alaska Airlines Style Guide</title>
 <!-- Bootstrap core CSS -->
 
-<!-- <link href="../css/styles.css" rel="stylesheet"> -->
+<!-- <link href="../css/styles.css" rel="stylesheet"> 
 <link href="https://www.alaskaair.com/stylesheets/brand.css" rel="stylesheet">
-<!-- <link href='/fonts/atlas.css' rel='stylesheet' type='text/css'> -->
+<<link href='/fonts/atlas.css' rel='stylesheet' type='text/css'> -->
+
+
+  <link rel="stylesheet" href="http://www.alaskaair.com/stylesheets/brand.css">
+  <link rel="stylesheet" href="../../css/brand.css">
+  <link rel="stylesheet" href="../header/css/headerfooter.css">
+ <style type="text/css">
+  @font-face {
+  font-family: Circular;
+  src: url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-book.woff2') format('woff2'), url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+  }
+  @font-face {
+  font-family: Circular;
+  src: url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-bold.woff2') format('woff2'), url('https://sp-bootstrap.global.ssl.fastly.net/5.2.0/fonts/circular-bold.woff') format('woff');
+  font-weight: bold;
+  }
+  body {font-family:Circular, Arial !important}
+  .pure-menu, .pure-g, .pure-g [class*="pure-u"] {
+  font-family: Circular;
+  }
+
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <link href="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.css" rel="stylesheet">
 <script src="https://fontastic.s3.amazonaws.com/tUrLZaJKE2Y9qso8kdx4yQ/icons.js"></script>
@@ -34,7 +56,5 @@ if(!$_SESSION['logged']){
   </head>
   <!-- NAVBAR
   ================================================== -->
-  <body class="dsg" style="padding-top:30px">
-    <div class="navbar-wrapper" style="margin-bottom: 30px;">
-      <?php include ("../navs/nav-dsg.php"); ?>
-    </div>
+  <body class="dsg">
+<?php include ("../header/output/header.html"); ?>

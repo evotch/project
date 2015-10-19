@@ -1,1 +1,0 @@
-<%@ Page language="c#" Codebehind="UserControlStyles.aspx.cs" AutoEventWireup="True" Inherits="AlaskaAir.Web.UI.alaskaair.UserControlStyles" enableViewState="false" enableSessionState="false" %>
