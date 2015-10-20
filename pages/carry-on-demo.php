@@ -98,7 +98,7 @@
           <div class="col-xs-6 col-sm-4" id="featured-1">
 <div class="p-carryon panel-image"></div><div class="card">
                 
-                <span class="h4">Carry On Baggage</span>
+                <span class="h2">Carry On Baggage</span>
                 
               </div>
             
@@ -108,7 +108,7 @@
           <div class="col-xs-6 col-sm-4" id="featured-1">
 <div class="p-checked-bags panel-image"></div><div class="card">
                 
-                <span class="h4">Checked Baggage</span>
+                <span class="h2">Checked Baggage</span>
                 
               </div>
             
@@ -118,7 +118,7 @@
           <div class="col-xs-6 col-sm-4" id="featured-1">
 <div class="p-carryon panel-image"></div><div class="card">
                 
-                <span class="h4">Baggage Claim</span>
+                <span class="h2">Baggage Claim</span>
                 
               </div>
             
