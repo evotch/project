@@ -1,5 +1,5 @@
 <h3 id="type-copy" class="page-header">Body Copy</h3>
-<p>Paragraph text is always 12pt/18pt and book.</p>
+<p>Paragraph text is always 12px/18px and book.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs nav-tabs-underline" role="tablist">

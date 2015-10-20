@@ -443,7 +443,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: bold;
   line-height: 1.1;
-  color: #01426a;
+  color: #212223;
 }
 h1 small, h1 .module-fd--purchase-by, h1 .module-fd--restrictions-apply, h1 .module-fd--restrictions,
 h1 .small, h2 small, h2 .module-fd--purchase-by, h2 .module-fd--restrictions-apply, h2 .module-fd--restrictions,
@@ -10776,9 +10776,27 @@ section, .section {
   color: #c8c9c7 !important;
 }
 
-h1, .h1, .module-fd--price,
-h2, .h2,
+h1, .h1, .module-fd--price {
+  color: #01426a;
+  line-height: 44px;
+  margin-bottom: 12px;
+}
+
+h2, .h2 {
+  color: #212223;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
 h3, .h3 {
+  color: #3C3B3F;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+
+h4, .h4 {
+  color: #212223;
+  line-height: 18px;
   margin-bottom: 12px;
 }
 

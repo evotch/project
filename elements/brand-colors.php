@@ -31,8 +31,8 @@
   <strong>SASS:</strong> $lightgreen
 </div>
 </div>
-<div class="col-sm-12 section"><p>The core palette is made up of a limited spectrum of blues and one green . The colors have been selected to work together, regard- less of the application . It’s crucial that Mid- night Blue leads as the primary color; Midnight Blue acts as an anchor on which other colors are applied .
-</p><p>For digital applications core colors are used much more sparingly . Be thoughtful about when and why you are using the brand colors .</p>
+<div class="col-sm-12 section"><p>The core palette is made up of a limited spectrum of blues and one green. The colors have been selected to work together, regardless of the application. It’s crucial that Midnight Blue leads as the primary color; Midnight Blue acts as an anchor on which other colors are applied.
+</p><p>For digital applications core colors are used much more sparingly  Be thoughtful about when and why you are using the brand colors .</p>
 </div>
 </div>
 </section>

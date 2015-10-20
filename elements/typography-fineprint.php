@@ -1,4 +1,4 @@
-<h3 id="type-fineprint" class="page-header">Fine Print</h3>
+<h2 id="type-fineprint" class="page-header">Fine Print</h2>
 <p>Use the class <code>.fine-print</code> anytime you need to display terms and conditions, fare rules or any other disclaimer. Fine print is <code>12px</code> and the hex color is <code>#777</code>.</p>
 <div role="tabpanel">
   <!-- Nav tabs -->
