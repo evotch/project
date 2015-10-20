@@ -2,11 +2,9 @@
 
 
 
-    <div class="container-fluid panel-lightgray well-sm" style="
-      margin-top: -24px;
-      ">
+    <div class="container-fluid panel-lightgray" style="margin-top: -24px;">
       <div class="row">
-        <div class="container"> Home &gt; Baggage Information &gt; Carry On Baggage</div>
+        <div class="container" style="padding:9px 15px"> Home &gt; Baggage Information &gt; Carry On Baggage</div>
       </div>
     </div>
         <section>
