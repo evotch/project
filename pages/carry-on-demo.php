@@ -11,7 +11,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-9">
-          <h2>Carry On Baggage</h2>
+          <h1>Carry On Baggage</h1>
           <p class="lead">We're happy to allow you one carry on bag, plus one personal item, such as a purse, briefcase, or laptop computer.</p>
         </div>
       </div>
