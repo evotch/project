@@ -1,49 +1,44 @@
 h1, .h1 {
-	color: $navy;
+	font-size: 31px;
 	line-height: 44px;
 	margin-bottom: ($line-height-computed / 2);
+	color: $navy;
 }
 h2, .h2 {
-	color: $gray1;
+	font-size: 26px;
 	line-height: 32px;
 	margin-bottom: ($line-height-computed / 2);
+	color: $gray1;
 }
 h3, .h3 {
-	color: $gray2;
+	font-size: 24px;
 	line-height: 22px;
 	margin-bottom: ($line-height-computed / 2);
-} 
+	color: $gray2;
+}
 h4, .h4 {
-	color: $gray1;
+	font-size: 18px;
 	line-height: 18px;
 	margin-bottom: ($line-height-computed / 2);
+	color: $gray1;
 }
-
 .lead {
-  font-weight: normal;
+	font-weight: normal;
 }
-
-
 // Undo browser default styling
 cite {
-  font-style: normal;
+	font-style: normal;
 }
-
-
 // Unstyled keeps list items block level, just removes default browser padding and list-style
 .list-unstyled {
-  padding-left: 0;
-  list-style: none;
+	padding-left: 0;
+	list-style: none;
 }
-
 // Inline turns list items into inline-block
 .list-inline {
-  @extend .list-unstyled;
+	@extend .list-unstyled;
 }
-
 // Quotes
-blockquote:before,
-blockquote:after {
-  content: "";
+blockquote:before, blockquote:after {
+	content: '';
 }
-

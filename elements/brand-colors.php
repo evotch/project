@@ -132,7 +132,7 @@
 <div class="col-sm-4 section">
 <div class="panel-green well-lg section">
   <strong>CTA/Success alert</strong><br>
-  <strong>HEX:</strong> #212223<br>
+  <strong>HEX:</strong> #48850b<br>
   <strong>SASS:</strong> $green
 </div>
 <p>This color is only to be use on the primary CTA and success alerts .</p>
@@ -140,7 +140,7 @@
 <div class="col-sm-4 section">
 <div class="panel-orange well-lg section">
   <strong>General alert</strong><br>
-  <strong>HEX:</strong> #3C3B3F<br>
+  <strong>HEX:</strong> #d47f2f<br>
   <strong>SASS:</strong> $orange
   
 </div><p>These colors are only to be use on their respective alerts .</p>
@@ -154,4 +154,14 @@
 </div><p>These colors are only to be use on their respective alerts .</p>
 </div>
 </div>
+<h2 class="section-header">Wayfinding</h2>
+<p>Use Midnight blue to help establish where a user is in their journey . This may be used in situations such as the H1 title (when not white), the currently selected button, the active entry box, or for breadcrumbs .</p>
+
+<h2 class="section-header">Brand colors for content hierarchy</h2>
+<p>We use the primary brand colors as component/card underlines .
+The card underlines have a height of 6px and sit inside and just above the 4px rounded corner . Cards that appear on top of a photo backgrounds do not get a 6px boarder of brand color .
+The decision of what color to use is based upon the hierarchical importance of that card being shown as it relates to the brand aura . Multiple cards may carry the same level of col- or importance . Breeze Blue is used for primary cards . Tropical Green is used for secondary cards . Mist Gray is used for other cards .
+</p>
+
+
 

@@ -10780,24 +10780,28 @@ h1, .h1, .module-fd--price {
   color: #01426a;
   line-height: 44px;
   margin-bottom: 12px;
+  font-size: 31px;
 }
 
 h2, .h2 {
   color: #212223;
   line-height: 32px;
   margin-bottom: 12px;
+  font-size: 26px;
 }
 
 h3, .h3 {
   color: #3C3B3F;
   line-height: 22px;
   margin-bottom: 12px;
+  font-size: 24px;
 }
 
 h4, .h4 {
   color: #212223;
   line-height: 18px;
   margin-bottom: 12px;
+  font-size: 18px;
 }
 
 .lead {

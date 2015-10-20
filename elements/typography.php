@@ -1,5 +1,6 @@
-<h1 class="page-header">Typography</h1>
-<p>Our brand font is called <strong>Circular</strong>. We only use bold and book for all mediums besides e-mail (we use Arial for e-mails to ensure compatibility) . Bold is used in titles and primary information on cards as well as primary and secondary CTAs .</p>
+<h2 class="page-header">Typography</h2>
+<p>Our brand font is called <strong>Circular</strong>. We use sentence case on all type unless inside primary, secondary, and other card based CTAs. Uppercase always uses <code>letter-spacing: 0.02em</code></p>
+<div class="alert alert-warning">For V1 we will only change the font and the color.  We won't change the size of any typograpy including headlines and body copy.</div>
 <!-- Headings -->
 <div role="tabpanel">
   <!-- Nav tabs -->
