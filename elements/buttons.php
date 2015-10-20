@@ -38,7 +38,7 @@ vertical-align: -20px;
 <div class="buttons">
       
       <p>
-      <h3 class="section-header secondary">Primary CTA</h3>
+      <h2 class="section-header secondary">Primary CTA</h2>
       <p>The Primary CTA only appears once on a page . If there are more CTAs use the secondary style . This CTA is always used in the specified primary CTA color . Type should be uppercase and tracked out VA +20 . The width of the Primary CTA can flex dependent upon layout, but should not have a width smaller than 200px or greater than 460px . The height of the CTA is always 50px . Hover state can increase drop
 to 6px.</p>
       <button type="button" class="btn btn-primary">Continue</button>
@@ -47,13 +47,13 @@ to 6px.</p>
 <span class="c">&lt;!-- Primary Green Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-green"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
       <p>
-      <h3 class="section-header secondary">Primary<small> (for use on background images or solid colors)</small></h3>
+      <h2 class="section-header secondary">Primary</h2>
       <div class="panel-navy well-lg"><button type="button" class="btn btn-ghost-white">Primary</button><button type="button" class="btn btn-white">Primary</button></div>
       <pre><code class="html"><span class="c">&lt;!-- Primary White Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-white"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Primary White button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-white"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
       <p>
-      <h3 class="section-header secondary" id="multiple-actions">Secondary</h3>
+      <h2 class="section-header secondary" id="multiple-actions">Secondary</h2>
       <p>Secondary CTAs are always shown in Atlas
 Blue with a two pixel border and standard drop shadow . The width of the CTA is determined by 15px of padding on each side of the title . The height of the CTA is 34px . Corners should not be rounded on any CTAs . On touch screens, use the filled in state since there is no hover state .</p>
       <button type="button" class="btn btn-blue">View Deals</button>
@@ -62,13 +62,13 @@ Blue with a two pixel border and standard drop shadow . The width of the CTA is 
 <span class="c">&lt;!-- Blue Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-blue"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
       </p>
       <p>
-      <!-- <h3 class="section-header secondary">Tertiary</h3>
+      <!-- <h2 class="section-header secondary">Tertiary</h2>
       <a class="btn-link" href="#">Learn More &rsaquo;</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <button type="button" class="btn btn-link">Learn More</button>
       <pre><code class="html"><span class="c">&lt;!-- Lowercase Link button --&gt;</span><span class="nt">&lt;a role="button" class="btn-link" href="#"&gt;Learn More &amp;raquo;&lt;/a&gt;</span>
 <span class="c">&lt;!-- Uppercase Link button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
-      <h3 class="section-header secondary">Utilitarian <small>(support)</small></h3>
+      <h2 class="section-header secondary">Utilitarian <small>(support)</small></h2>
       <p>Use a gray button in cases where the action is an alternative and shouldn't detract from the pages primary action.</p>
       <button type="button" class="btn btn-default">Settings</button>
       
@@ -76,14 +76,14 @@ Blue with a two pixel border and standard drop shadow . The width of the CTA is 
       </p> -->
       <!--
       <p>
-      <h3 class="section-header secondary">Utilitarian</h3>
+      <h2 class="section-header secondary">Utilitarian</h2>
       <button type="button" class="btn btn-gray">Utilitarian</button>
       <button type="button" class="btn btn-ghost-gray">Utilitarian</button>
       <pre><code class="html"><span class="c">&lt;!-- Utilitarian button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-gray"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span>
 <span class="c">&lt;!-- Utilitarian Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-gray"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>-->
       <!-- <p>
-      <h3 class="section-header secondary">Special Case Buttons <small>(Primarily used in Merchandising Ads)</small></h3>
+      <h2 class="section-header secondary">Special Case Buttons <small>(Primarily used in Merchandising Ads)</small></h2>
       <p>Use sparingly and primarily to give more prominence to action in layouts with a lot of varying content or to heighten
       an important message in merchandising.</p>
       <button type="button" class="btn btn-orange">Accent</button>
@@ -97,7 +97,7 @@ Blue with a two pixel border and standard drop shadow . The width of the CTA is 
 <span class="c">&lt;!-- Accent Berry Ghost button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-ghost-berry"</span><span class="nt">&gt;</span>Book Now<span class="nt">&lt;/button&gt;</span></code></pre>      
       </p>
       <p>
-      <h3 class="section-header secondary">Disabled</h3>
+      <h2 class="section-header secondary">Disabled</h2>
       <button type="button" class="btn btn-disabled">Disabled</button>
             <pre><code class="html"><span class="c">&lt;!-- Disabled button --&gt;</span><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-disabled"</span><span class="nt">&gt;</span>Disabled<span class="nt">&lt;/button&gt;</span></code></pre>
       </p>
