@@ -26,11 +26,11 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="page-header">
-              <h2>Welcome to Ad Creator.</h2>
-              <h4 class="gray secondary">Even you can do it.<sup>&trade;</sup></h4>
+              <h1>Welcome to Ad Creator.</h1>
+              <p>Click the text. Write the words.<sup>&trade;</sup></p>
             </div>
             <p>Each ad is designed to meet accesibility guidelines and work on all screen sizes.  Each utilizes Bootstrap's grid system for easy sizing, as well as panel classes to change background colors.  To change the background colors include or change the code to <code>panel-navy</code> <code>panel-white</code></p>
-            <p>A library of background images along with their corresponding css class to customize these banners is also available. <a href="#">Working link to come</a></p>
+            <p>A <a href="/pages/tab-images.php">library of background images</a> along with their corresponding css class to customize these banners is also available.</p>
           </div>
         </div>
       </div>

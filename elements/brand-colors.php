@@ -1,6 +1,7 @@
 <section id="core-brand-colors">
-  <h2 class="page-header">Colors</h2>
-  <h3 class="page-header">Core brand colors</h3>
+  <h1 class="page-header">Core Brand Basics</h2>
+  <p>The core brand guidelines should be reviewed prior to diving into the digital style guide as they include additional high level reasoning for decisions made in the digital guide.</p>
+  <h2 class="page-header">Core brand colors</h2>
   <div class="row">
 <div class="col-sm-6">
 <div class="panel-navy well-lg" style="height:408px">
@@ -40,7 +41,7 @@
 
 
 <section id="neutral-colors">
-  <h3 class="section-header">Neutrals Colors</h3>
+  <h2 class="section-header">Neutrals Colors</h2>
 <div class="row">
 <div class="col-sm-6 section">
 <div class="panel-lightgrey well-lg">
@@ -61,7 +62,7 @@
 
 
 <div class="clearfix"></div>
-  <h3 class="section-header">Digital brand colors</h3>
+  <h2 class="section-header">Digital brand colors</h2>
 <div class="row">
 <div class="col-sm-4 section">
 <div class="panel-grey1 well-lg section">
@@ -90,7 +91,7 @@
 </div>
 
 <div class="clearfix"></div>
-  <h3 class="section-header">Content area colors</h3>
+  <h2 class="section-header">Content area colors</h2>
 <div class="row">
 <div class="col-sm-4 section">
 <div class="panel-offwhite1 well-lg section">
@@ -125,7 +126,7 @@
 <p>Used for the bottom part of cards . It often houses CTAs and other poignant information .</p>
 </div>
 </div>
-<h3 class="section-header">Alerts</h3>
+<h2 class="section-header">Alerts</h2>
 <div class="row">
 
 <div class="col-sm-4 section">

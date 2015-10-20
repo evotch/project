@@ -1,8 +1,24 @@
-h1, .h1,
-h2, .h2,
-h3, .h3 {
-  margin-bottom: ($line-height-computed / 2);// look into why this is half
+h1, .h1 {
+	color: $navy;
+	line-height: 44px;
+	margin-bottom: ($line-height-computed / 2);
 }
+h2, .h2 {
+	color: $gray1;
+	line-height: 32px;
+	margin-bottom: ($line-height-computed / 2);
+}
+h3, .h3 {
+	color: $gray2;
+	line-height: 22px;
+	margin-bottom: ($line-height-computed / 2);
+} 
+h4, .h4 {
+	color: $gray1;
+	line-height: 18px;
+	margin-bottom: ($line-height-computed / 2);
+}
+
 .lead {
   font-weight: normal;
 }
