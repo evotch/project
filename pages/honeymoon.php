@@ -46,7 +46,7 @@
 
 <?php include ("../sections/destinations-hack.php"); ?>
 
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>
 <!--
 registration
 photo

@@ -1,4 +1,4 @@
-  <?php include ("../sections/header.php"); ?>
+  <?php include ("../common/sections/header.php"); ?>
   <div class="container">
     <div class="row">
     <div class="col-sm-8">
@@ -538,4 +538,4 @@
         <div class="col-sm-4">
         </div>
   </div>
-  <?php include ("../sections/footer.php"); ?>
+  <?php include ("../common/sections/footer.php"); ?>

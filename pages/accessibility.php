@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <div class="container">
 <div class="row">
 <div class="col-md-8">
@@ -68,4 +68,4 @@ alt tags should be around 140 characters<br>
 	</div>
 </div></div>
 
-    <?php include ("../sections/footer.php"); ?>
+    <?php include ("../common/sections/footer.php"); ?>

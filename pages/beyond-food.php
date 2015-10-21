@@ -305,4 +305,4 @@
     </div>
   </div>
 </div><!--End Content Main-->
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

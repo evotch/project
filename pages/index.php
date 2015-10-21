@@ -7,7 +7,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 // use if specifying path from root
 //$root = $_SERVER['DOCUMENT_ROOT'];
 
-$path = '/img/stock/';
+$path = '/assets/img/stock/';
 
 // End of user modified section 
 /////////////////////////////////////////////////////////////////////
@@ -74,7 +74,7 @@ $img = getRandomFromArray($imgList);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="../img/logo.png" height="25"></a>
+          <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" height="25"></a>
         </div>
 
 <ul class="nav navbar-nav navbar-right">

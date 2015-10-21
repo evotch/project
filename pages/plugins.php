@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <style>
 pre {
 max-height: 85px;
@@ -36,4 +36,4 @@ max-height: 85px;
         </div><!--end col3-->
       </div><!--end row-->
     </div><!--end container-->
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

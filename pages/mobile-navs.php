@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <style>
 /*remove once site is only using new nav*/
 .containerx .well-lg {padding: 24px;}
@@ -45,4 +45,4 @@
         </div>
     </div>
 </div>
-    <?php include ("../sections/footer.php"); ?>
+    <?php include ("../common/sections/footer.php"); ?>

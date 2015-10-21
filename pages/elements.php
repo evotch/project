@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <div class="container">
 	<div class="col-sm-12">
 		<div class="page-header">
@@ -34,4 +34,4 @@
 <?php include ("../sections/destinations.php"); ?>
 <br>
 <?php include ("../forms/forgot-password.php"); ?>
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

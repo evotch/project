@@ -1,4 +1,4 @@
-  <?php include ("../sections/header.php"); ?>
+  <?php include ("../common/sections/header.php"); ?>
   <style type="text/css">
    .glyphs{margin:0 0 60px 0;padding:30px 0 20px 30px;color:rgba(0,0,0,0.8);border:1px solid #d8e0e5;-webkit-border-radius:3px;border-radius:3px;}
   .glyphs li{margin:0 30px 20px 0;padding:0;display:inline-block;overflow:hidden}
@@ -10396,4 +10396,4 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 }).call(this);
 </script>
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

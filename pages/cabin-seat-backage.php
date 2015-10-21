@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <div class="container">
   <div class="row">
       <!-- edit form column -->
@@ -48,4 +48,4 @@
 
 
 
-    <?php include ("../sections/footer.php"); ?>
+    <?php include ("../common/sections/footer.php"); ?>

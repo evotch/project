@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <div class="container">
     <h1>Edit Profile</h1>
     <hr>
@@ -98,4 +98,4 @@
 
 
 
-    <?php include ("../sections/footer.php"); ?>
+    <?php include ("../common/sections/footer.php"); ?>

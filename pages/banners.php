@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
  <style>
   textarea.form-control {
     display: block;
@@ -270,4 +270,4 @@
     </section>
 
 
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

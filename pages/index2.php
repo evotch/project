@@ -1,4 +1,4 @@
-  <?php include ("../sections/header.php"); ?>
+  <?php include ("../common/sections/header.php"); ?>
    
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -246,4 +246,4 @@
     <!-- /END THE FEATURETTES -->
     </div>
     </div>
-    <?php include ("../sections/footer.php"); ?>
+    <?php include ("../common/sections/footer.php"); ?>

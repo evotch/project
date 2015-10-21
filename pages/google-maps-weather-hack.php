@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 
  <style>
       html, body{
@@ -107,4 +107,4 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </div>
 
  
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

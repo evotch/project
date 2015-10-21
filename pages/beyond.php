@@ -131,4 +131,4 @@ $(function() {
 
 </script>
 
-  <?php include ("../sections/footer.php"); ?>
+  <?php include ("../common/sections/footer.php"); ?>

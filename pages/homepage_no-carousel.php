@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <div class="jumbotron hero" style="margin-top:-30px;">
 
   <div class="container">
@@ -44,4 +44,4 @@
 
 
     <?php include ("../sections/destinations_1x4.php"); ?>
-    <?php include ("../sections/footer.php"); ?>
+    <?php include ("../common/sections/footer.php"); ?>

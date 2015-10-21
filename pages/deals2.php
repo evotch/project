@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 
   <?php include ("../carousels/deals-carousel.php"); ?>
   <br><br>
@@ -27,4 +27,4 @@
     <?php include ("../forms/flight-horizontal.php"); ?>
   </div>
 
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

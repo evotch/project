@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 
 <!--how did this work? https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map -->
     <style>
@@ -93,4 +93,4 @@
 </div>
 
  
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

@@ -1,0 +1,41 @@
+//
+// Badges
+// --------------------------------------------------
+
+
+.badge {
+  // Account for badges in navs
+  a.list-group-item.active > &,
+  .nav-pills > .active > a > & {
+    color: $badge-active-color;
+    background-color: $badge-active-bg;
+  }
+  .nav-pills > li > a > & {
+    margin-left: 3px;
+  }
+}
+
+
+.badge-green {
+	background-color: $green;
+}
+
+.badge-orange {
+  background-color: $orange;
+}
+
+.badge-blue {
+  background-color: $blue;
+}
+
+
+.badge-ai {
+  background-color: $orange;
+}
+.badge-ps {
+  background-color: $navy;
+}
+.badge-code {
+  background-color: black;
+  color: $lightgreen;
+}

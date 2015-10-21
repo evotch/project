@@ -1,7 +1,7 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
   <style>
 
-    .item {margin: 3em 0}
+    .item {margin: 3em 0;}
   </style>
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -326,4 +326,4 @@
         </div><!--end col3-->
       </div><!--end row-->
     </div><!--end container-->
-<?php include ("../sections/footer.php"); ?>
+<?php include ("../common/sections/footer.php"); ?>

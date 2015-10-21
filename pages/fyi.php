@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <!-- Main -->
 <div class="container">
   <div class="row">
@@ -54,4 +54,4 @@
     </div>
   </div>
   <!-- /Main -->
-  <?php include ("../sections/footer.php"); ?>
+  <?php include ("../common/sections/footer.php"); ?>

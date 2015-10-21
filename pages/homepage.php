@@ -1,4 +1,4 @@
-<?php include ("../sections/header.php"); ?>
+<?php include ("../common/sections/header.php"); ?>
 <?php include ("../carousels/carousel.php"); ?>
   <div class="container">
 
